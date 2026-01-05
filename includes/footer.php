@@ -13,7 +13,7 @@
                     </svg>
                     <div class="content">
                         <h6>To More Inquiry</h6>
-                        <span>Don’t hesitate Call  to TurboHills.</span>
+                        <span>Don't hesitate Call  to TurboHills.</span>
                     </div>
                 </div>
                 <ul class="contact-area">
@@ -59,7 +59,7 @@
                             </a>
                             <div class="address-area">
                                 <span>TurboHills Travel Agency</span>
-                                <span>Ashok Nagar, Bagdogra, 734014, West Bengal, INDIA</span>
+                                <span class="footer-address">Ashok Nagar, Bagdogra, 734014, West Bengal, INDIA — Specialist Sikkim tour operator offering Gangtok, Pelling, Lachen, Lachung & North Sikkim packages, trekking, homestays, cultural tours and adventure experiences.</span>
                             </div>
                             <ul class="social-list">
                                 <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bx bxl-facebook"></i></a></li>
@@ -75,17 +75,17 @@
                                 <h5>Top Destination</h5>
                             </div>
                             <ul class="widget-list">
-                                <li><a href="travel-package-01.html">Maldives Tour</a></li>
-                                <li><a href="travel-package-01.html">Bali, Indonesia Tour</a></li>
-                                <li><a href="travel-package-01.html">Thailand Tour</a></li>
-                                <li><a href="travel-package-01.html">Philippines Tour</a></li>
-                                <li><a href="travel-package-01.html">Hawaii, USA Tour</a></li>
-                                <li><a href="travel-package-01.html">Switzerland Tour</a></li>
-                                <li><a href="travel-package-01.html">New Zealand Tour </a></li>
-                                <li><a href="travel-package-01.html">Costa Rica Tour</a></li>
-                                <li><a href="travel-package-01.html">Peru (Machu Picchu)</a></li>
-                                <li><a href="travel-package-01.html">Paris, France Tour</a></li>
-                                <li><a href="travel-package-01.html">Rome, Italy Tour</a></li>
+                                <li><a href="destination-gangtok.php">Gangtok</a></li>
+                                <li><a href="destination-pelling.php">Pelling</a></li>
+                                <li><a href="destination-lachen.php">Lachen</a></li>
+                                <li><a href="destination-lachung.php">Lachung</a></li>
+                                <li><a href="destination-yuksom.php">Yuksom</a></li>
+                                <li><a href="travel-package-01.html">Zuluk</a></li>
+                                <li><a href="travel-package-01.html">Tsomgo (Changu) Lake</a></li>
+                                <li><a href="travel-package-01.html">Nathula Pass</a></li>
+                                <li><a href="travel-package-01.html">Gurudongmar Lake</a></li>
+                                <li><a href="travel-package-01.html">Rumtek Monastery</a></li>
+                                <li><a href="travel-package-01.html">North Sikkim Tours</a></li>
                             </ul>
                         </div>
                     </div>
@@ -95,17 +95,17 @@
                                 <h5>Popular Search</h5>
                             </div>
                             <ul class="widget-list">
-                                <li><a href="travel-package-02.html">Adventure</a></li>
-                                <li><a href="travel-package-02.html">Hiking & Stiking</a></li>
-                                <li><a href="travel-package-02.html">Holiday Packages</a></li>
-                                <li><a href="travel-package-02.html">Flights And Hotels</a></li>
-                                <li><a href="travel-package-02.html">Honeymoon Trip</a></li>
-                                <li><a href="travel-package-02.html">Bali Vacation Package</a></li>
-                                <li><a href="travel-package-02.html">Desert Safari</a></li>
-                                <li><a href="travel-package-02.html">Last-Minute Deals</a></li>
-                                <li><a href="travel-package-02.html">Summer Vacation</a></li>
-                                <li><a href="travel-package-02.html">Wildlife Safari</a></li>
-                                <li><a href="travel-package-02.html"> Dubai Luxury Tours</a></li>
+                                <li><a href="travel-package-02.html">Trekking & Hiking</a></li>
+                                <li><a href="travel-package-02.html">Mountain Viewpoints</a></li>
+                                <li><a href="travel-package-02.html">Monastery Trails</a></li>
+                                <li><a href="travel-package-02.html">Offbeat Villages</a></li>
+                                <li><a href="travel-package-02.html">Homestays & Community Stays</a></li>
+                                <li><a href="travel-package-02.html">Wildlife & National Parks</a></li>
+                                <li><a href="travel-package-02.html">Cultural & Heritage Tours</a></li>
+                                <li><a href="travel-package-02.html">High-altitude Lakes</a></li>
+                                <li><a href="travel-package-02.html">Adventure & River Activities</a></li>
+                                <li><a href="travel-package-02.html">Photography Tours</a></li>
+                                <li><a href="travel-package-02.html">Local Handloom & Crafts</a></li>
                             </ul>
                         </div>
                     </div>
@@ -117,10 +117,8 @@
                             <ul class="widget-list">
                                 <li><a href="about.html">About GoFly</a></li>
                                 <li><a href="#">Health & Safety Measure</a></li>
-                                <li><a href="visa.html">Visa Processing</a></li>
-                                <li><a href="contact.html">Customize Tour</a></li>
-                                <li><a href="travel-inspiration-01.html">Travel Inspirations</a></li>
-                                <li><a href="#">Traveler Reviews</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="#">FAQs</a></li>
                                 <li><a href="#">Terms & Condition</a></li>
                                 <li><a href="https://www.google.com/maps">Sitemap</a></li>
                             </ul>

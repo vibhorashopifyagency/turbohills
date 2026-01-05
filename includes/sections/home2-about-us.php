@@ -1,4 +1,4 @@
-<div class="home2-about-section mb-100">
+<div class="home2-about-section mb-0">
     <div class="container">
         <div class="row mb-60">
             <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">

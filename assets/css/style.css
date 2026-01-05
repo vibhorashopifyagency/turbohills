@@ -35847,4 +35847,8 @@ header.style-3.two .main-menu > ul > li.active > a i {
   color: var(--white-color);
   line-height: 1;
   margin-left: 2px;
-}/*# sourceMappingURL=style.css.map */
+}
+.footer-address {
+  font-weight: 400 !important;
+  line-height: 1.5rem !important;
+}
