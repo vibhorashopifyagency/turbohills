@@ -1897,11 +1897,11 @@ body.tt-magic-cursor #magic-cursor {
 }
 .topbar-area .topbar-wrap .header-logo img {
   min-width: 120px;
-  max-width: 160px;
+  max-width: 180px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .topbar-area .topbar-wrap .header-logo img {
-    max-width: 120px;
+    max-width: 160px;
     min-width: 100px;
   }
 }

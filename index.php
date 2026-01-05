@@ -8,8 +8,19 @@
     include __DIR__ . '/includes/header.php';
 
     // Sections
-    include __DIR__ . '/includes/sections/home-banner.php';
-    include __DIR__ . '/includes/sections/lead-form.php';
+    include __DIR__ . '/includes/sections/home-banner.php'; //Home Banner
+    include __DIR__ . '/includes/sections/lead-form.php'; // Lead Form
+    include __DIR__ . '/includes/sections/home2-package-slider.php'; // Package Slider
+    include __DIR__ . '/includes/sections/home-5/home5-destination-section.php'; // Top Destinations
+    include __DIR__ . '/includes/sections/home-3/home3-about-section.php'; // Left Image with text
+    include __DIR__ . '/includes/sections/home2-parallax-section.php'; // Parallax section
+    include __DIR__ . '/includes/sections/home2-destination-section.php'; // Destination Slider
+    include __DIR__ . '/includes/sections/home2-service-section.php'; // Sevice center banner
+    include __DIR__ . '/includes/sections/home-3/home3-tour-guide.php'; // Tour Guide Slider
+    include __DIR__ . '/includes/sections/home-5/home5-about-section.php'; // Tour Guide Slider
+    include __DIR__ . '/includes/sections/home2-about-us.php'; // Trustpoint section
+    // include __DIR__ . '/includes/sections/home-6/home6-offer-banner.php'; // Left Image with text
+    include __DIR__ . '/includes/sections/home-6/home6-service-section.php'; // Left Image with text
 
     // Footer
     include __DIR__ . '/includes/footer.php';

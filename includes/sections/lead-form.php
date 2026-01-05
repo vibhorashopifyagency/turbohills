@@ -1,4 +1,4 @@
-<div class="filter-wrapper mb-100">
+<div class="filter-wrapper">
     <div class="container">
         <ul class="filter-item-list">
             <li class="single-item active">
@@ -19,7 +19,7 @@
                 </div>
 
                 <div class="single-search-box">
-                    <?php echo $location_svg; ?>
+                    <?php echo $phone_black; ?>
                     <input id="phone" type="tel" name="phone" placeholder="Phone Number" pattern="[0-9+\- ()]{6,}" required>
                 </div>
 

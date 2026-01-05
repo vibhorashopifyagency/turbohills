@@ -129,12 +129,12 @@
     </div>
     <header class="style-1">
         <div class="container d-flex flex-nowrap align-items-center justify-content-between">
-            <a href="index.html" class="header-logo d-lg-none d-block">
+            <a href="/" class="header-logo d-lg-none d-block">
                 <img src="assets/img/Turbo-Hills-Logo.png" alt="">
             </a>
             <div class="main-menu">
                 <div class="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">
-                    <a href="index.html" class="mobile-logo-wrap">
+                    <a href="/" class="mobile-logo-wrap">
                         <img src="assets/img/Turbo-Hills-Logo.png" alt="">
                     </a>
                     <div class="menu-close-btn">
@@ -143,7 +143,7 @@
                 </div>
                 <ul class="menu-list">
                     <li class="menu-item-has-children active">
-                        <a href="index.html" class="drop-down">
+                        <a href="/" class="drop-down">
                             Home
                             <i class="bi bi-caret-down-fill"></i>
                         </a>
