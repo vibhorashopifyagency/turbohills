@@ -118,7 +118,7 @@
                                 <li><a href="about.html">About GoFly</a></li>
                                 <li><a href="#">Health & Safety Measure</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="#">FAQs</a></li>
+                                <li><a href="faq.php">FAQs</a></li>
                                 <li><a href="#">Terms & Condition</a></li>
                                 <li><a href="https://www.google.com/maps">Sitemap</a></li>
                             </ul>

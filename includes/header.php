@@ -58,24 +58,64 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                     "@id": "<?php echo $siteDomain; ?>#org",
                     "name": "Turbo Hills",
                     "url": "<?php echo $siteDomain; ?>",
-                    "logo": "<?php echo $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
-                    "sameAs": []
+                    "logo": "<?php echo $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png"
                 },
                 {
                     "@type": "WebSite",
                     "@id": "<?php echo $siteDomain; ?>#website",
                     "url": "<?php echo $siteDomain; ?>",
-                    "name": "Turbo Hills - Sikkim tours from Bagdogra",
-                    "potentialAction": {
-                        "@type": "SearchAction",
-                        "target": "<?php echo $siteDomain; ?>/?s={search_term_string}",
-                        "query-input": "required name=search_term_string"
-                    }
+                    "name": "Turbo Hills - Sikkim & North Bengal Tours"
+                },
+                {
+                    "@type": "LocalBusiness",
+                    "@id": "<?php echo $siteDomain; ?>#localbusiness",
+                    "name": "Turbo Hills",
+                    "url": "<?php echo $siteDomain; ?>",
+                    "image": "<?php echo $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
+                    "telephone": "<?php echo $phone_number; ?>",
+                    "priceRange": "₹₹",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Bagdogra",
+                        "addressRegion": "West Bengal",
+                        "addressCountry": "IN"
+                    },
+                    "areaServed": [
+                        "Sikkim",
+                        "North Bengal",
+                        "Darjeeling",
+                        "Gangtok",
+                        "Kalimpong"
+                    ]
+                },
+                {
+                    "@type": "Review",
+                    "@id": "<?php echo $siteDomain; ?>#review-policy",
+                    "itemReviewed": {
+                        "@type": "LocalBusiness",
+                        "@id": "<?php echo $siteDomain; ?>#localbusiness"
+                    },
+                    "author": {
+                        "@type": "Organization",
+                        "name": "Turbo Hills"
+                    },
+                    "reviewBody": "Turbo Hills welcomes genuine customer reviews for its Sikkim and North Bengal tour services, including cab rentals, permit assistance, and customized travel packages."
                 }
+
             ]
         }
     </script>
 
+    <?php
+        // Optional page-level structured data (FAQ, etc.)
+        if (!empty($pageSchema)) {
+            echo $pageSchema;
+        }
+        // Additional optional structured data
+        if (!empty($pageSchema2)) {
+            echo $pageSchema2;
+        }
+    ?>
 </head>
 
 <body class="tt-magic-cursor">
@@ -179,7 +219,8 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                             <li><a href="/destinations/north-bengal/dooars-tour-packages/">Dooars Tour</a></li>
                             <li><a href="/destinations/north-bengal/sandakphu-trek/">Sandakphu Trek</a></li>
                             <li><a href="/destinations/north-bengal/mirik-tour/">Mirik Tour</a></li>
-                            <li><a href="/destinations/north-bengal/jaldapara-lataguri-tour/">Jaldapara & Lataguri</a></li>
+                            <li><a href="/destinations/north-bengal/jaldapara-lataguri-tour/">Jaldapara & Lataguri</a>
+                            </li>
                         </ul>
                     </li>
 
@@ -223,10 +264,13 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                         </a>
                         <i class="bi bi-plus dropdown-icon"></i>
                         <ul class="sub-menu">
-                            <li><a href="/destinations/travel-guide/best-time-to-visit-sikkim/">Best Time to Visit Sikkim</a></li>
+                            <li><a href="/destinations/travel-guide/best-time-to-visit-sikkim/">Best Time to Visit
+                                    Sikkim</a></li>
                             <li><a href="/destinations/travel-guide/sikkim-permit-rules/">Sikkim Permit Rules</a></li>
-                            <li><a href="/destinations/travel-guide/north-sikkim-road-conditions/">North Sikkim Road Status</a></li>
-                            <li><a href="/destinations/travel-guide/sikkim-north-bengal-faq/">Sikkim & North Bengal FAQ</a></li>
+                            <li><a href="/destinations/travel-guide/north-sikkim-road-conditions/">North Sikkim Road
+                                    Status</a></li>
+                            <li><a href="/destinations/travel-guide/sikkim-north-bengal-faq/">Sikkim & North Bengal
+                                    FAQ</a></li>
                         </ul>
                     </li>
 
