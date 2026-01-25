@@ -184,7 +184,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                     </li>
 
                     <!-- CAB + PERMIT (HIGH CONVERSION) -->
-                    <li class="menu-item-has-children">
+                    <!-- <li class="menu-item-has-children">
                         <a href="/cab-and-permit-services/" class="drop-down">
                             Cab & Permit Services
                             <i class="bi bi-caret-down-fill"></i>
@@ -197,7 +197,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                             <li><a href="/destinations/permit-services/foreigners-permit-sikkim/">Foreigner Permit (PAP)</a></li>
                             <li><a href="/destinations/cab-services/bagdogra-airport-transfer/">Bagdogra Airport Pickup</a></li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <!-- TOUR TYPES -->
                     <li class="menu-item-has-children">
@@ -232,7 +232,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
 
                     <!-- ABOUT -->
                     <li>
-                        <a href="/about.php">About Turbo Hills</a>
+                        <a href="/about.php">About</a>
                     </li>
 
                     <!-- CONTACT -->
@@ -265,7 +265,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                                 <a href="mailto:<?php echo $emailAddress; ?>"><?php echo $emailAddressLabel; ?></a>
                             </div>
                         </li>
-                        <li class="single-contact">
+                        <!-- <li class="single-contact">
                             <div class="icon">
                                 <img src="assets/img/home1/icon/live-chat.svg" alt="">
                             </div>
@@ -274,7 +274,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                                 <a
                                     href="https://wa.me/<?php echo $whatsAppNumber; ?>"><?php echo $whatsAppNumberLabel; ?></a>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -301,7 +301,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                                 <a href="mailto:<?php echo $emailAddress; ?>"><?php echo $emailAddressLabel; ?></a>
                             </div>
                         </li>
-                        <li class="single-contact">
+                        <!-- <li class="single-contact">
                             <div class="icon">
                                 <img src="assets/img/home1/icon/live-chat.svg" alt="">
                             </div>
@@ -310,7 +310,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                                 <a
                                     href="https://wa.me/<?php echo $whatsAppNumber; ?>"><?php echo $whatsAppNumberLabel; ?></a>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="sidebar-button mobile-menu-btn">
