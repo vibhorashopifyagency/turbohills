@@ -19,7 +19,7 @@
                 <ul class="contact-area">
                     <li class="single-contact">
                         <div class="icon">
-                            <img src="assets/img/home1/icon/whatsapp-icon2.svg" alt="">
+                            <img src="assets/img/home1/icon/whatsapp-icon2.svg" alt="" loading="lazy">
                         </div>
                         <div class="content">
                             <span>WhatsApp</span>
@@ -28,7 +28,7 @@
                     </li>
                     <li class="single-contact">
                         <div class="icon">
-                            <img src="assets/img/home1/icon/mail-icon2.svg" alt="">
+                            <img src="assets/img/home1/icon/mail-icon2.svg" alt="" loading="lazy">
                         </div>
                         <div class="content">
                             <span>Mail Us</span>
@@ -37,7 +37,7 @@
                     </li>
                     <li class="single-contact">
                         <div class="icon">
-                            <img src="assets/img/home1/icon/call-icon.svg" alt="">
+                            <img src="assets/img/home1/icon/call-icon.svg" alt="" loading="lazy">
                         </div>
                         <div class="content">
                             <span>Call Us</span>
@@ -55,7 +55,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="footer-logo-and-addition-info">
                             <a href="/" class="footer-logo">
-                                <img src="assets/img/Turbo-Hills-Logo.png" alt="">
+                                <img src="assets/img/Turbo-Hills-Logo.png" alt="" loading="lazy">
                             </a>
                             <div class="address-area">
                                 <span>TurboHills Travel Agency</span>
@@ -134,10 +134,10 @@
                     <div class="payment-method-area">
                         <span>Accepted Payment Methods :</span>
                         <ul>
-                            <li><img src="assets/img/home1/icon/mastar-card-icon.svg" alt=""></li>
-                            <li><img src="assets/img/home1/icon/visa-icon.svg" alt=""></li>
-                            <!-- <li><img src="assets/img/home1/icon/paypal-icon.svg" alt=""></li> -->
-                            <li><img src="assets/img/home1/icon/gpay-icon.svg" alt=""></li>
+                            <li><img src="assets/img/home1/icon/mastar-card-icon.svg" alt="" loading="lazy"></li>
+                            <li><img src="assets/img/home1/icon/visa-icon.svg" alt="" loading="lazy"></li>
+                            <!-- <li><img src="assets/img/home1/icon/paypal-icon.svg" alt="" loading="lazy"></li> -->
+                            <li><img src="assets/img/home1/icon/gpay-icon.svg" alt="" loading="lazy"></li>
                         </ul>
                     </div>
                 </div>
@@ -146,7 +146,24 @@
     </footer>
     <!-- home1 Footer Section End-->
 
-  
+    <!-- Global Variables for JS -->
+    <script>
+        window.APP_CONFIG = {
+            whatsapp_number: '<?php echo $whatsAppNumber; ?>'
+        };
+    </script>
+    
+    <?php if (basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
+        <script src="assets/js/contact-form.js" defer></script>
+    <?php endif; ?>
+
+    <?php
+        if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
+    ?>
+        <script src="assets/js/lead-form.js" defer></script>
+    <?php endif; ?>
+
+
     <!--  Main jQuery  -->
     <script data-cfasync="false" src="https://demo.egenslab.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>
