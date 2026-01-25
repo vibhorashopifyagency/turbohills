@@ -3,30 +3,33 @@
     if (!headers_sent()) {
         header('Content-Type: text/html; charset=utf-8');
     }
-    if (!isset($pageTitle)) $pageTitle = 'Turbo Hills — Sikkim tours from Bagdogra';
-    if (!isset($metaDescription)) $metaDescription = 'Turbo Hills offers tailored Sikkim tours starting from Bagdogra Airport. Explore Gangtok, Lachung, Yuksom and more — best packages, expert guides, and fast transfers.';
+
+    // Default page title and meta description
+    if (!isset($pageTitle)) $pageTitle = 'Turbo Hills — Sikkim Tours from Bagdogra Airport';
+    if (!isset($metaDescription)) $metaDescription = 'Turbo Hills offers customized Sikkim tour packages from Bagdogra Airport. Visit Gangtok, Lachung, Yumthang & Yuksom with expert drivers, permits, and smooth transfers.';
     
+    // Determine the site domain based on the host
     $allowedDomains = [
         'turbohills.com',
         'www.turbohills.com',
         'turbohills.in',
         'www.turbohills.in'
     ];
-
     $host = $_SERVER['HTTP_HOST'];
-
-    echo $host;
-
     if (in_array($host, $allowedDomains)) {
         $siteDomain = 'https://' . $host;
     } else {
         $siteDomain = 'https://turbohills.com'; // fallback
     }
 
+    // Canical URL
     $canonical = $siteDomain . strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
+    if ($canonical === $siteDomain . '/index.php') {
+        $canonical = $siteDomain . '/';
+    }
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="en-IN">
 
 <head>
     <meta charset="utf-8">
@@ -35,12 +38,20 @@
     <meta name="description" content="<?php echo htmlspecialchars($metaDescription); ?>">
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical); ?>">
     <!-- Open Graph -->
-    <meta property="og:site_name" content="Turbo Hills">
-    <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle); ?>">
-    <meta property="og:description" content="<?php echo htmlspecialchars($metaDescription); ?>">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="<?php echo htmlspecialchars($canonical); ?>">
+    <meta property="og:title" content="<?= htmlspecialchars($pageTitle); ?>">
+    <meta property="og:description" content="<?= htmlspecialchars($metaDescription); ?>">
+    <meta property="og:url" content="<?= $siteDomain . $_SERVER['REQUEST_URI']; ?>">
+    <meta property="og:site_name" content="Turbo Hills">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?= htmlspecialchars($pageTitle); ?>">
+    <meta name="twitter:description" content="<?= htmlspecialchars($metaDescription); ?>">
+
     <meta property="og:image" content="<?php echo $siteDomain; ?>/assets/img/og-cover.jpg">
+    <link rel="preload" as="image" href="<?= $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png">
+    <link rel="alternate" hreflang="en-IN" href="https://turbohills.in<?= strtok($_SERVER['REQUEST_URI'], '?'); ?>">
+    <link rel="alternate" hreflang="en" href="https://turbohills.com<?= strtok($_SERVER['REQUEST_URI'], '?'); ?>">
     <!-- Favicons and touch icons could go here -->
 
     <!-- Bootstrap CSS -->
@@ -69,47 +80,18 @@
 
     <!-- Site-wide JSON-LD: Organization + WebSite -->
     <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@graph": [{
-                    "@type": "Organization",
-                    "@id": "<?php echo $siteDomain; ?>#org",
-                    "name": "Turbo Hills",
-                    "url": "<?php echo $siteDomain; ?>",
-                    "logo": "<?php echo $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
-                    "sameAs": [
-                        "https://www.facebook.com/turbohills",
-                        "https://www.instagram.com/turbohills"
-                    ]
-                },
-                {
-                    "@type": "WebSite",
-                    "@id": "<?php echo $siteDomain; ?>#website",
-                    "url": "<?php echo $siteDomain; ?>",
-                    "name": "Turbo Hills - Sikkim & North Bengal Tours",
-                    "publisher": {
-                        "@id": "<?php echo $siteDomain; ?>#org"
-                    },
-                    "potentialAction": {
-                        "@type": "SearchAction",
-                        "target": "<?php echo $siteDomain; ?>/?s={search_term_string}",
-                        "query-input": "required name=search_term_string"
-                    }
-                }
-            ]
-        }
-    </script>
-    <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "<?php echo $siteDomain; ?>#localbusiness",
+        "@type": ["LocalBusiness", "TravelAgency"],
+        "@id": "<?= $siteDomain; ?>#localbusiness",
         "name": "Turbo Hills",
-        "url": "<?php echo $siteDomain; ?>",
-        "image": "<?php echo $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
+        "url": "<?= $siteDomain; ?>",
+        "logo": "<?= $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
+        "image": "<?= $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
         "description": "Turbo Hills is a trusted travel agency in Bagdogra providing Sikkim and North Bengal tour packages, cab services with permits, and customized itineraries for Indian and international travelers.",
-        "telephone": "<?php echo $phone_number; ?>",
+        "telephone": "<?= $phone_number; ?>",
         "priceRange": "₹₹",
+
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Bagdogra",
@@ -117,11 +99,13 @@
             "postalCode": "734014",
             "addressCountry": "IN"
         },
+
         "geo": {
             "@type": "GeoCoordinates",
             "latitude": 26.6997,
             "longitude": 88.3286
         },
+
         "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": [
@@ -130,6 +114,7 @@
             "opens": "09:00",
             "closes": "21:00"
         },
+
         "areaServed": [
             "Sikkim",
             "North Bengal",
@@ -137,6 +122,13 @@
             "Gangtok",
             "Kalimpong"
         ],
+
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "120"
+        },
+
         "sameAs": [
             "https://www.facebook.com/turbohills",
             "https://www.instagram.com/turbohills",
@@ -145,16 +137,88 @@
     }
     </script>
     <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "AggregateRating",
-            "itemReviewed": {
-                "@type": "LocalBusiness",
-                "@id": "<?php echo $siteDomain; ?>#localbusiness"
-            },
-            "ratingValue": "4.8",
-            "reviewCount": "120"
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "<?= $siteDomain; ?>#website",
+        "url": "<?= $siteDomain; ?>",
+        "name": "Turbo Hills - Sikkim & North Bengal Tours",
+        "publisher": {
+            "@id": "<?= $siteDomain; ?>#localbusiness"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "<?= $siteDomain; ?>/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
         }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "@id": "<?= $siteDomain; ?>#bagdogra-airport-landing",
+        "name": "Bagdogra Airport Tours & Transfers by Turbo Hills",
+        "description": "Turbo Hills provides Sikkim and North Bengal tour packages with airport pickup from Bagdogra Airport (IXB). Expert drivers, permits, and seamless mountain travel.",
+        "url": "<?= $siteDomain; ?>/bagdogra-airport-tours/",
+        "isAccessibleForFree": false,
+
+        "touristType": [
+            "Domestic Tourists",
+            "International Tourists",
+            "Honeymoon Travelers",
+            "Family Travelers"
+        ],
+
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.6812,
+            "longitude": 88.3286
+        },
+
+        "location": {
+            "@type": "Place",
+            "name": "Bagdogra Airport",
+            "sameAs": "https://en.wikipedia.org/wiki/Bagdogra_Airport",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Bagdogra",
+                "addressRegion": "West Bengal",
+                "postalCode": "734014",
+                "addressCountry": "IN"
+            }
+        },
+
+        "provider": {
+            "@type": ["LocalBusiness", "TravelAgency"],
+            "@id": "<?= $siteDomain; ?>#localbusiness"
+        },
+
+        "areaServed": [
+            {
+                "@type": "Place",
+                "name": "Sikkim"
+            },
+            {
+                "@type": "Place",
+                "name": "North Bengal"
+            },
+            {
+                "@type": "Place",
+                "name": "Gangtok"
+            },
+            {
+                "@type": "Place",
+                "name": "Darjeeling"
+            },
+            {
+                "@type": "Place",
+                "name": "Gurudongmar Lake"
+            }
+        ],
+
+        "availableLanguage": ["English", "Hindi", "Bengali"]
+    }
     </script>
 
     <?php
@@ -254,12 +318,12 @@
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="/destinations/sikkim/east-sikkim-tour/">East Sikkim Tour</a></li>
-                                            <li><a href="/destinations/sikkim/west-sikkim-tour/">West Sikkim Tour</a></li>
-                                            <li><a href="/destinations/sikkim/north-sikkim-tour/">North Sikkim Tour</a></li>
-                                            <li><a href="/destinations/sikkim/south-sikkim-tour/">South Sikkim Tour</a></li>
-                                            <li><a href="/destinations/sikkim/gangtok-tour-packages/">Gangtok Tour Packages</a></li>
-                                            <li><a href="/destinations/sikkim/lachung-lachen-tour/">Lachung & Lachen Tour</a></li>
+                                            <li><a href="/destinations/sikkim/east-sikkim-tour.php">East Sikkim Tour</a></li>
+                                            <li><a href="/destinations/sikkim/west-sikkim-tour.php">West Sikkim Tour</a></li>
+                                            <li><a href="/destinations/sikkim/north-sikkim-tour.php">North Sikkim Tour</a></li>
+                                            <li><a href="/destinations/sikkim/south-sikkim-tour.php">South Sikkim Tour</a></li>
+                                            <li><a href="/destinations/sikkim/gangtok-tour-packages.php">Gangtok Tour Packages</a></li>
+                                            <li><a href="/destinations/sikkim/lachung-lachen-tour.php">Lachung & Lachen Tour</a></li>
                                             <li><a href="/sikkim/yumthang-valley-tour/">Yumthang Valley Tour</a></li>
                                         </ul>
                                     </div>
@@ -269,12 +333,12 @@
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="/destinations/north-bengal/darjeeling-tour-packages/">Darjeeling Tour</a></li>
-                                            <li><a href="/destinations/north-bengal/kalimpong-tour-packages/">Kalimpong Tour</a></li>
-                                            <li><a href="/destinations/north-bengal/dooars-tour-packages/">Dooars Tour</a></li>
-                                            <li><a href="/destinations/north-bengal/sandakphu-trek/">Sandakphu Trek</a></li>
-                                            <li><a href="/destinations/north-bengal/mirik-tour/">Mirik Tour</a></li>
-                                            <li><a href="/destinations/north-bengal/jaldapara-lataguri-tour/">Jaldapara & Lataguri</a>
+                                            <li><a href="/destinations/north-bengal/darjeeling-tour-packages.php">Darjeeling Tour</a></li>
+                                            <li><a href="/destinations/north-bengal/kalimpong-tour-packages.php">Kalimpong Tour</a></li>
+                                            <li><a href="/destinations/north-bengal/dooars-tour-packages.php">Dooars Tour</a></li>
+                                            <li><a href="/destinations/north-bengal/sandakphu-trek.php">Sandakphu Trek</a></li>
+                                            <li><a href="/destinations/north-bengal/mirik-tour.php">Mirik Tour</a></li>
+                                            <li><a href="/destinations/north-bengal/jaldapara-lataguri-tour.php">Jaldapara & Lataguri</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -284,11 +348,11 @@
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="/destinations/cab-services/sikkim-tourist-cab/">Sikkim Tourist Cab</a></li>
-                                            <li><a href="/destinations/cab-services/north-sikkim-cab/">North Sikkim Cab</a></li>
-                                            <li><a href="/destinations/permit-services/north-sikkim-permit/">North Sikkim Permit</a></li>
-                                            <li><a href="/destinations/permit-services/foreigners-permit-sikkim/">Foreigner Permit (PAP)</a></li>
-                                            <li><a href="/destinations/cab-services/bagdogra-airport-transfer/">Bagdogra Airport Pickup</a></li>
+                                            <li><a href="/destinations/cab-services/sikkim-tourist-cab.php">Sikkim Tourist Cab</a></li>
+                                            <li><a href="/destinations/cab-services/north-sikkim-cab.php">North Sikkim Cab</a></li>
+                                            <li><a href="/destinations/permit-services/north-sikkim-permit.php">North Sikkim Permit</a></li>
+                                            <li><a href="/destinations/permit-services/foreigners-permit-sikkim.php">Foreigner Permit (PAP)</a></li>
+                                            <li><a href="/destinations/cab-services/bagdogra-airport-transfer.php">Bagdogra Airport Pickup</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -306,48 +370,26 @@
                         </a>
                         <i class="bi bi-plus dropdown-icon"></i>
                         <ul class="sub-menu">
-                            <li><a href="/tour-packages/family-tour-packages/">Family Tours</a></li>
-                            <li><a href="/destinations/tour-packages/honeymoon-packages/">Honeymoon Packages</a></li>
-                            <li><a href="/destinations/tour-packages/budget-tour-packages/">Budget Tours</a></li>
-                            <li><a href="/destinations/tour-packages/luxury-tour-packages/">Luxury Tours</a></li>
-                            <li><a href="/destinations/tour-packages/custom-tour-packages/">Customized Tours</a></li>
+                            <li><a href="/tour-packages/family-tour-packages.php">Family Tours</a></li>
+                            <li><a href="/destinations/tour-packages/honeymoon-packages.php">Honeymoon Packages</a></li>
+                            <li><a href="/destinations/tour-packages/budget-tour-packages.php">Budget Tours</a></li>
+                            <li><a href="/destinations/tour-packages/luxury-tour-packages.php">Luxury Tours</a></li>
+                            <li><a href="/destinations/tour-packages/custom-tour-packages.php">Customized Tours</a></li>
                         </ul>
                     </li>
-
-                    <!-- TRAVEL GUIDE (AEO GOLD) -->
-                    <!-- <li class="menu-item-has-children">
-                        <a href="destnations/travel-guide/" class="drop-down">
-                            Travel Guide
-                            <i class="bi bi-caret-down-fill"></i>
-                        </a>
-                        <i class="bi bi-plus dropdown-icon"></i>
-                        <ul class="sub-menu">
-                            <li><a href="/destinations/travel-guide/best-time-to-visit-sikkim/">Best Time to Visit
-                                    Sikkim</a></li>
-                            <li><a href="/destinations/travel-guide/sikkim-permit-rules/">Sikkim Permit Rules</a></li>
-                            <li><a href="/destinations/travel-guide/north-sikkim-road-conditions/">North Sikkim Road
-                                    Status</a></li>
-                            <li><a href="/destinations/travel-guide/sikkim-north-bengal-faq/">Sikkim & North Bengal
-                                    FAQ</a></li>
-                        </ul>
-                    </li> -->
+                    <!-- FAQ -->
                     <li>
                         <a href="/faq.php">FAQs</a>
                     </li>
-
                     <!-- ABOUT -->
                     <li>
                         <a href="/about.php">About</a>
                     </li>
-
                     <!-- CONTACT -->
                     <li>
                         <a href="/contact.php">Contact</a>
                     </li>
-
                 </ul>
-
-
                 <div class="contact-area d-lg-none d-flex">
                     <div class="single-contact">
                         <div class="icon">
@@ -370,16 +412,6 @@
                                 <a href="mailto:<?php echo $emailAddress; ?>"><?php echo $emailAddressLabel; ?></a>
                             </div>
                         </li>
-                        <!-- <li class="single-contact">
-                            <div class="icon">
-                                <img src="assets/img/home1/icon/live-chat.svg" alt="">
-                            </div>
-                            <div class="content">
-                                <span>More Inquery</span>
-                                <a
-                                    href="https://wa.me/<?php echo $whatsAppNumber; ?>"><?php echo $whatsAppNumberLabel; ?></a>
-                            </div>
-                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -406,16 +438,6 @@
                                 <a href="mailto:<?php echo $emailAddress; ?>"><?php echo $emailAddressLabel; ?></a>
                             </div>
                         </li>
-                        <!-- <li class="single-contact">
-                            <div class="icon">
-                                <img src="assets/img/home1/icon/live-chat.svg" alt="">
-                            </div>
-                            <div class="content">
-                                <span>More Inquery</span>
-                                <a
-                                    href="https://wa.me/<?php echo $whatsAppNumber; ?>"><?php echo $whatsAppNumberLabel; ?></a>
-                            </div>
-                        </li> -->
                     </ul>
                 </div>
                 <div class="sidebar-button mobile-menu-btn">
