@@ -5,7 +5,24 @@
     }
     if (!isset($pageTitle)) $pageTitle = 'Turbo Hills — Sikkim tours from Bagdogra';
     if (!isset($metaDescription)) $metaDescription = 'Turbo Hills offers tailored Sikkim tours starting from Bagdogra Airport. Explore Gangtok, Lachung, Yuksom and more — best packages, expert guides, and fast transfers.';
-    $siteDomain = 'https://turbohills.com';
+    
+    $allowedDomains = [
+        'turbohills.com',
+        'www.turbohills.com',
+        'turbohills.in',
+        'www.turbohills.in'
+    ];
+
+    $host = $_SERVER['HTTP_HOST'];
+
+    echo $host;
+
+    if (in_array($host, $allowedDomains)) {
+        $siteDomain = 'https://' . $host;
+    } else {
+        $siteDomain = 'https://turbohills.com'; // fallback
+    }
+
     $canonical = $siteDomain . strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
 ?>
 <!doctype html>
