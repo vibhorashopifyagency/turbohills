@@ -188,57 +188,64 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                         <a href="/">Home</a>
                     </li>
 
-                    <!-- SIKKIM TOURS -->
-                    <li class="menu-item-has-children">
-                        <a href="/destinations/sikkim-tour-packages/" class="drop-down">
-                            Sikkim Tour Packages
+                    <li class="menu-item-has-children position-inherit">
+                        <a href="destination-01.html" class="drop-down">
+                            Turbo Hills Destinations
                             <i class="bi bi-caret-down-fill"></i>
                         </a>
                         <i class="bi bi-plus dropdown-icon"></i>
-                        <ul class="sub-menu">
-                            <li><a href="/destinations/sikkim/east-sikkim-tour/">East Sikkim Tour</a></li>
-                            <li><a href="/destinations/sikkim/west-sikkim-tour/">West Sikkim Tour</a></li>
-                            <li><a href="/destinations/sikkim/north-sikkim-tour/">North Sikkim Tour</a></li>
-                            <li><a href="/destinations/sikkim/south-sikkim-tour/">South Sikkim Tour</a></li>
-                            <li><a href="/destinations/sikkim/gangtok-tour-packages/">Gangtok Tour Packages</a></li>
-                            <li><a href="/destinations/sikkim/lachung-lachen-tour/">Lachung & Lachen Tour</a></li>
-                            <li><a href="/sikkim/yumthang-valley-tour/">Yumthang Valley Tour</a></li>
-                        </ul>
+                        <div class="mega-menu">
+                            <div class="container">
+                                <div class="menu-row">
+                                    <div class="menu-single-item">
+                                        <div class="menu-title">
+                                            <h5>Sikkim Tour Packages</h5>
+                                        </div>
+                                        <i class="bi bi-plus dropdown-icon"></i>
+                                        <ul>
+                                            <li><a href="/destinations/sikkim/east-sikkim-tour/">East Sikkim Tour</a></li>
+                                            <li><a href="/destinations/sikkim/west-sikkim-tour/">West Sikkim Tour</a></li>
+                                            <li><a href="/destinations/sikkim/north-sikkim-tour/">North Sikkim Tour</a></li>
+                                            <li><a href="/destinations/sikkim/south-sikkim-tour/">South Sikkim Tour</a></li>
+                                            <li><a href="/destinations/sikkim/gangtok-tour-packages/">Gangtok Tour Packages</a></li>
+                                            <li><a href="/destinations/sikkim/lachung-lachen-tour/">Lachung & Lachen Tour</a></li>
+                                            <li><a href="/sikkim/yumthang-valley-tour/">Yumthang Valley Tour</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-single-item">
+                                        <div class="menu-title">
+                                            <h5>North Bengal Tours</h5>
+                                        </div>
+                                        <i class="bi bi-plus dropdown-icon"></i>
+                                        <ul>
+                                            <li><a href="/destinations/north-bengal/darjeeling-tour-packages/">Darjeeling Tour</a></li>
+                                            <li><a href="/destinations/north-bengal/kalimpong-tour-packages/">Kalimpong Tour</a></li>
+                                            <li><a href="/destinations/north-bengal/dooars-tour-packages/">Dooars Tour</a></li>
+                                            <li><a href="/destinations/north-bengal/sandakphu-trek/">Sandakphu Trek</a></li>
+                                            <li><a href="/destinations/north-bengal/mirik-tour/">Mirik Tour</a></li>
+                                            <li><a href="/destinations/north-bengal/jaldapara-lataguri-tour/">Jaldapara & Lataguri</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-single-item">
+                                        <div class="menu-title">
+                                            <h5>Cab & Permit Services</h5>
+                                        </div>
+                                        <i class="bi bi-plus dropdown-icon"></i>
+                                        <ul>
+                                            <li><a href="/destinations/cab-services/sikkim-tourist-cab/">Sikkim Tourist Cab</a></li>
+                                            <li><a href="/destinations/cab-services/north-sikkim-cab/">North Sikkim Cab</a></li>
+                                            <li><a href="/destinations/permit-services/north-sikkim-permit/">North Sikkim Permit</a></li>
+                                            <li><a href="/destinations/permit-services/foreigners-permit-sikkim/">Foreigner Permit (PAP)</a></li>
+                                            <li><a href="/destinations/cab-services/bagdogra-airport-transfer/">Bagdogra Airport Pickup</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home1/mega-menu-vector1.svg" alt="" class="vector1">
+                            <img src="assets/img/home1/mega-menu-vector2.svg" alt="" class="vector2">
+                        </div>
                     </li>
-
-                    <!-- NORTH BENGAL TOURS -->
-                    <li class="menu-item-has-children">
-                        <a href="/north-bengal-tour-packages/" class="drop-down">
-                            North Bengal Tours
-                            <i class="bi bi-caret-down-fill"></i>
-                        </a>
-                        <i class="bi bi-plus dropdown-icon"></i>
-                        <ul class="sub-menu">
-                            <li><a href="/destinations/north-bengal/darjeeling-tour-packages/">Darjeeling Tour</a></li>
-                            <li><a href="/destinations/north-bengal/kalimpong-tour-packages/">Kalimpong Tour</a></li>
-                            <li><a href="/destinations/north-bengal/dooars-tour-packages/">Dooars Tour</a></li>
-                            <li><a href="/destinations/north-bengal/sandakphu-trek/">Sandakphu Trek</a></li>
-                            <li><a href="/destinations/north-bengal/mirik-tour/">Mirik Tour</a></li>
-                            <li><a href="/destinations/north-bengal/jaldapara-lataguri-tour/">Jaldapara & Lataguri</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <!-- CAB + PERMIT (HIGH CONVERSION) -->
-                    <!-- <li class="menu-item-has-children">
-                        <a href="/cab-and-permit-services/" class="drop-down">
-                            Cab & Permit Services
-                            <i class="bi bi-caret-down-fill"></i>
-                        </a>
-                        <i class="bi bi-plus dropdown-icon"></i>
-                        <ul class="sub-menu">
-                            <li><a href="/destinations/cab-services/sikkim-tourist-cab/">Sikkim Tourist Cab</a></li>
-                            <li><a href="/destinations/cab-services/north-sikkim-cab/">North Sikkim Cab</a></li>
-                            <li><a href="/destinations/permit-services/north-sikkim-permit/">North Sikkim Permit</a></li>
-                            <li><a href="/destinations/permit-services/foreigners-permit-sikkim/">Foreigner Permit (PAP)</a></li>
-                            <li><a href="/destinations/cab-services/bagdogra-airport-transfer/">Bagdogra Airport Pickup</a></li>
-                        </ul>
-                    </li> -->
 
                     <!-- TOUR TYPES -->
                     <li class="menu-item-has-children">
@@ -257,7 +264,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                     </li>
 
                     <!-- TRAVEL GUIDE (AEO GOLD) -->
-                    <li class="menu-item-has-children">
+                    <!-- <li class="menu-item-has-children">
                         <a href="destnations/travel-guide/" class="drop-down">
                             Travel Guide
                             <i class="bi bi-caret-down-fill"></i>
@@ -272,6 +279,9 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                             <li><a href="/destinations/travel-guide/sikkim-north-bengal-faq/">Sikkim & North Bengal
                                     FAQ</a></li>
                         </ul>
+                    </li> -->
+                    <li>
+                        <a href="/faq.php">FAQs</a>
                     </li>
 
                     <!-- ABOUT -->

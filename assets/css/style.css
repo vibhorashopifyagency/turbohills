@@ -3154,7 +3154,7 @@ header.style-1 .main-menu > ul > li .mega-menu {
 }
 header.style-1 .main-menu > ul > li .mega-menu .menu-row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 48px;
 }
 @media (max-width: 1399px) {
@@ -3164,7 +3164,7 @@ header.style-1 .main-menu > ul > li .mega-menu .menu-row {
 }
 @media (max-width: 1199px) {
   header.style-1 .main-menu > ul > li .mega-menu .menu-row {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     row-gap: 30px;
   }

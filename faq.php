@@ -11,7 +11,7 @@
             <div class="col-xl-7 col-lg-9">
                 <div class="section-title text-center">
                     <h2>Sikkim & North Bengal Travel FAQs</h2>
-                    <p>Clear answers from <strong>Turbo Hills</strong>, your trusted local tour & cab operator based near :contentReference[oaicite:0]{index=0}.</p>
+                    <p>Clear answers from <strong>Turbo Hills</strong>, your trusted local tour & cab operator based near Bagdogra, Sikkim, Siliguri, and Doars.</p>
                 </div>
             </div>
         </div>
