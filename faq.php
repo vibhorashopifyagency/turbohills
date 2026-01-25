@@ -167,4 +167,71 @@
     </div>
 </div>
 
+<div class="faq-page mb-100">
+    <hr />
+</div>
+
+<!-- Quick Travel Questions -->
+<div class="faq-page mb-100">
+    <div class="container">
+        <div class="row justify-content-center mb-50">
+            <div class="col-xl-7 col-lg-9">
+                <div class="section-title text-center">
+                    <h2>Quick Travel Questions (Voice Search)</h2>
+                    <p>Fast answers for travelers planning Sikkim & North Bengal trips.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-xl-9 col-lg-11">
+                <div class="faq-wrap">
+                    <div class="accordion accordion-flush" id="accordionDocs">
+
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#d1">
+                                    Is Nathula Pass open today?
+                                </button>
+                            </h5>
+                            <div id="d1" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Nathula Pass opening depends on weather and army clearance. Contact Turbo Hills for same-day status updates.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#d2">
+                                    Which is the best month to visit Sikkim?
+                                </button>
+                            </h5>
+                            <div id="d2" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    March–June and September–November are ideal for sightseeing and permits.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#d3">
+                                    How far is Gangtok from Bagdogra Airport?
+                                </button>
+                            </h5>
+                            <div id="d3" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Gangtok is approximately 125 km from Bagdogra Airport and takes 4–5 hours by road.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php include __DIR__ . '/includes/footer.php'; ?>
