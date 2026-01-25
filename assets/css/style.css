@@ -8545,7 +8545,7 @@ header.style-3.two .main-menu > ul > li.active > a i {
   margin: 0;
   list-style: none;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
   margin-bottom: 40px;

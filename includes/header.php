@@ -1,12 +1,12 @@
 <?php
-// Ensure the response is served as UTF-8
-if (!headers_sent()) {
-    header('Content-Type: text/html; charset=utf-8');
-}
-if (!isset($pageTitle)) $pageTitle = 'Turbo Hills — Sikkim tours from Bagdogra';
-if (!isset($metaDescription)) $metaDescription = 'Turbo Hills offers tailored Sikkim tours starting from Bagdogra Airport. Explore Gangtok, Lachung, Yuksom and more — best packages, expert guides, and fast transfers.';
-$siteDomain = 'https://turbohills.com';
-$canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
+    // Ensure the response is served as UTF-8
+    if (!headers_sent()) {
+        header('Content-Type: text/html; charset=utf-8');
+    }
+    if (!isset($pageTitle)) $pageTitle = 'Turbo Hills — Sikkim tours from Bagdogra';
+    if (!isset($metaDescription)) $metaDescription = 'Turbo Hills offers tailored Sikkim tours starting from Bagdogra Airport. Explore Gangtok, Lachung, Yuksom and more — best packages, expert guides, and fast transfers.';
+    $siteDomain = 'https://turbohills.com';
+    $canonical = $siteDomain . strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
 ?>
 <!doctype html>
 <html lang="en">
@@ -23,6 +23,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
     <meta property="og:description" content="<?php echo htmlspecialchars($metaDescription); ?>">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonical); ?>">
+    <meta property="og:image" content="<?php echo $siteDomain; ?>/assets/img/og-cover.jpg">
     <!-- Favicons and touch icons could go here -->
 
     <!-- Bootstrap CSS -->
@@ -58,51 +59,84 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
                     "@id": "<?php echo $siteDomain; ?>#org",
                     "name": "Turbo Hills",
                     "url": "<?php echo $siteDomain; ?>",
-                    "logo": "<?php echo $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png"
+                    "logo": "<?php echo $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
+                    "sameAs": [
+                        "https://www.facebook.com/turbohills",
+                        "https://www.instagram.com/turbohills"
+                    ]
                 },
                 {
                     "@type": "WebSite",
                     "@id": "<?php echo $siteDomain; ?>#website",
                     "url": "<?php echo $siteDomain; ?>",
-                    "name": "Turbo Hills - Sikkim & North Bengal Tours"
-                },
-                {
-                    "@type": "LocalBusiness",
-                    "@id": "<?php echo $siteDomain; ?>#localbusiness",
-                    "name": "Turbo Hills",
-                    "url": "<?php echo $siteDomain; ?>",
-                    "image": "<?php echo $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
-                    "telephone": "<?php echo $phone_number; ?>",
-                    "priceRange": "₹₹",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Bagdogra",
-                        "addressRegion": "West Bengal",
-                        "addressCountry": "IN"
+                    "name": "Turbo Hills - Sikkim & North Bengal Tours",
+                    "publisher": {
+                        "@id": "<?php echo $siteDomain; ?>#org"
                     },
-                    "areaServed": [
-                        "Sikkim",
-                        "North Bengal",
-                        "Darjeeling",
-                        "Gangtok",
-                        "Kalimpong"
-                    ]
-                },
-                {
-                    "@type": "Review",
-                    "@id": "<?php echo $siteDomain; ?>#review-policy",
-                    "itemReviewed": {
-                        "@type": "LocalBusiness",
-                        "@id": "<?php echo $siteDomain; ?>#localbusiness"
-                    },
-                    "author": {
-                        "@type": "Organization",
-                        "name": "Turbo Hills"
-                    },
-                    "reviewBody": "Turbo Hills welcomes genuine customer reviews for its Sikkim and North Bengal tour services, including cab rentals, permit assistance, and customized travel packages."
+                    "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": "<?php echo $siteDomain; ?>/?s={search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    }
                 }
-
             ]
+        }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "<?php echo $siteDomain; ?>#localbusiness",
+        "name": "Turbo Hills",
+        "url": "<?php echo $siteDomain; ?>",
+        "image": "<?php echo $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
+        "description": "Turbo Hills is a trusted travel agency in Bagdogra providing Sikkim and North Bengal tour packages, cab services with permits, and customized itineraries for Indian and international travelers.",
+        "telephone": "<?php echo $phone_number; ?>",
+        "priceRange": "₹₹",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bagdogra",
+            "addressRegion": "West Bengal",
+            "postalCode": "734014",
+            "addressCountry": "IN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.6997,
+            "longitude": 88.3286
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+            "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+            ],
+            "opens": "09:00",
+            "closes": "21:00"
+        },
+        "areaServed": [
+            "Sikkim",
+            "North Bengal",
+            "Darjeeling",
+            "Gangtok",
+            "Kalimpong"
+        ],
+        "sameAs": [
+            "https://www.facebook.com/turbohills",
+            "https://www.instagram.com/turbohills",
+            "https://www.tripadvisor.com/"
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "AggregateRating",
+            "itemReviewed": {
+                "@type": "LocalBusiness",
+                "@id": "<?php echo $siteDomain; ?>#localbusiness"
+            },
+            "ratingValue": "4.8",
+            "reviewCount": "120"
         }
     </script>
 
@@ -146,7 +180,7 @@ $canonical = $siteDomain . ($_SERVER['REQUEST_URI'] ?? '/');
             <div class="topbar-wrap">
                 <div class="logo-and-search-area">
                     <a href="/" class="header-logo">
-                        <img src="assets/img/Turbo-Hills-Logo.png" alt="">
+                        <img src="assets/img/Turbo-Hills-Logo.png" alt="Turbo Hills - Sikkim & North Bengal Travel Agency">
                     </a>
                 </div>
                 <div class="topbar-right">

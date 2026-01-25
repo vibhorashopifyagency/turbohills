@@ -25,7 +25,7 @@ include __DIR__ . '/includes/header_constants.php';
 <div class="contact-page pt-100 mb-100">
     <div class="container">
 
-        <div class="contact-form">
+        <div class="contact-form" id="contact-form--container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-10">
                     <div class="contact-form-wrap">
