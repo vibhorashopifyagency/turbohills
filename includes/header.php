@@ -193,7 +193,31 @@
             "Domestic Tourists",
             "International Tourists",
             "Honeymoon Travelers",
-            "Family Travelers"
+            "Family Travelers",
+            "Adventure Travelers",
+            "Solo Travelers",
+            "Group Travelers",
+            "Senior Citizens",
+            "Backpackers",
+            "Nature Lovers",
+            "Photography Enthusiasts",
+            "Cultural Enthusiasts",
+            "Wildlife Enthusiasts",
+            "Eco-tourists",
+            "Luxury Travelers",
+            "Budget Travelers",
+            "Religious Tourists",
+            "Wellness Tourists",
+            "Food Enthusiasts",
+            "History Buffs",
+            "Trekking Enthusiasts",
+            "Bird Watchers",
+            "Festival Goers",
+            "Road Trippers",
+            "Offbeat Travelers",
+            "Weekend Getaway Travelers",
+            "Corporate Travelers",
+            "Educational Tourists"
         ],
 
         "geo": {
@@ -240,6 +264,58 @@
             {
                 "@type": "Place",
                 "name": "Gurudongmar Lake"
+            },
+            {
+                "@type": "Place",
+                "name": "Yumthang Valley"
+            },
+            {
+                "@type": "Place",
+                "name": "Nathula Pass"
+            },
+            {
+                "@type": "Place",
+                "name": "Lachung"
+            },
+            {
+                "@type": "Place",
+                "name": "Lachen"
+            },
+            {
+                "@type": "Place",
+                "name": "Pelling"
+            },
+            {
+                "@type": "Place",
+                "name": "Yuksom"
+            },
+            {
+                "@type": "Place",
+                "name": "Kalimpong"
+            },
+            {
+                "@type": "Place",
+                "name": "Siliguri"
+            },
+            {
+                "@type": "Place",
+                "name": "Dooars"
+            },
+            {
+                "@type": "Place",
+                "name": "Mirik"
+            },
+            {
+                "@type": "Place",
+                "name": "Sandakphu"
+            },
+            {
+                "@type": "Place",
+                "name": "Jaldapara"
+            },
+            {
+                "@type": "Place",
+                "name": "Lataguri"
             }
         ],
 
