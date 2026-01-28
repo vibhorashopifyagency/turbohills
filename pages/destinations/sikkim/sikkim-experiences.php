@@ -1,6 +1,8 @@
 <?php
     $pageType = 'sikkim-experiences';
-    include __DIR__ . '/essentials/header_constants.php';
+
+    // Header and constants
+    include __DIR__ . '/../../../includes/header_constants.php';
 ?>
 
     <!-- Destination Details Gallery Section Start-->
@@ -545,6 +547,6 @@
     <!-- Destination Details Faq Section End-->
 
 <?php 
-    include __DIR__ . '/essentials/trip-slider.php'; // Trip Slider Section
-    include __DIR__ . '/essentials/footer.php'; // Footer Section
+    include BASE_PATH . '/includes/sections/trip-slider.php'; // Trip Slider Section
+    require_once BASE_PATH . '/includes/footer.php'; // Footer section
 ?>
