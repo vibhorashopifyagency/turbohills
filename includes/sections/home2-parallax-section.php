@@ -1,9 +1,9 @@
 <!-- home2 award banner Section Start-->
-<div class="home2-award-banner-section" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(assets/img/home2/home2-award-banner-bg.jpg);">
+<div class="home2-award-banner-section" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(<?= BASE_URL ?>/assets/img/home2/home2-award-banner-bg.jpg);">
     <div class="container">
         <div class="banner-content">
             <div class="award-rating-area">
-                <img src="assets/img/home2/travel-award.png" alt="">
+                <img src="<?= BASE_URL ?>/assets/img/home2/travel-award.png" alt="">
                 <h4>North Bengal Trusted Travel Award</h4>
                 <div class="rating">
                     <span>(</span>

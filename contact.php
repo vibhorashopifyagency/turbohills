@@ -8,7 +8,7 @@ include __DIR__ . '/includes/header_constants.php';
 
 <!-- Start Breadcrumb section -->
 <div class="breadcrumb-section"
-    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/img/innerpages/breadcrumb-bg2.jpg);">
+    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/assets/img/innerpages/breadcrumb-bg2.jpg);">
     <div class="container">
         <div class="banner-content">
             <h1>Contact Us</h1>
@@ -130,9 +130,9 @@ include __DIR__ . '/includes/header_constants.php';
         </div>
 
     </div>
-    <img src="assets/img/innerpages/vector/contact-page-vector1.svg" alt="" class="vector1" loading="lazy">
-    <img src="assets/img/innerpages/vector/contact-page-vector2.svg" alt="" class="vector2" loading="lazy">
-    <img src="assets/img/innerpages/vector/contact-page-vector3.svg" alt="" class="vector3" loading="lazy">
+    <img src="<?= BASE_URL ?>/assets/img/innerpages/vector/contact-page-vector1.svg" alt="" class="vector1" loading="lazy">
+    <img src="<?= BASE_URL ?>/assets/img/innerpages/vector/contact-page-vector2.svg" alt="" class="vector2" loading="lazy">
+    <img src="<?= BASE_URL ?>/assets/img/innerpages/vector/contact-page-vector3.svg" alt="" class="vector3" loading="lazy">
 </div>
 <!--Contact Page End-->
 

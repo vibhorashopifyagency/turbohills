@@ -40,7 +40,7 @@ $pageSchema = '<script type="application/ld+json">
 include __DIR__ . '/includes/header_constants.php';
 ?>
 <!-- Start Breadcrumb section -->
-<div class="breadcrumb-section" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/img/innerpages/breadcrumb-bg2.jpg);">
+<div class="breadcrumb-section" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/assets/img/innerpages/breadcrumb-bg2.jpg);">
   <div class="container">
     <div class="banner-content">
       <h1>About Turbo Hills</h1>
@@ -77,7 +77,7 @@ include __DIR__ . '/includes/header_constants.php';
               </p>
             </div>
             <div class="founder-area">
-              <img src="assets/img/innerpages/about-page-founder-signature.png" alt="">
+              <img src="<?= BASE_URL ?>/assets/img/innerpages/about-page-founder-signature.png" alt="">
               <div class="founder-info">
                 <h6>Turbo Hills</h6>
                 <span>North Bengal & Sikkim Travel Experts</span>
@@ -87,7 +87,7 @@ include __DIR__ . '/includes/header_constants.php';
         </div>
         <div class="col-lg-5 d-lg-block d-none wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div class="about-img">
-            <img src="assets/img/home3/about-img.png" alt="">
+            <img src="<?= BASE_URL ?>/assets/img/home3/about-img.png" alt="">
           </div>
         </div>
       </div>
@@ -213,7 +213,7 @@ include __DIR__ . '/includes/header_constants.php';
 <div class="about-video-section mb-100">
   <div class="container">
     <div class="video-wrap">
-      <img src="assets/img/innerpages/about-video-img.jpg" alt="Sikkim and North Bengal tour experience with Turbo Hills">
+      <img src="<?= BASE_URL ?>/assets/img/innerpages/about-video-img.jpg" alt="Sikkim and North Bengal tour experience with Turbo Hills">
       <a data-fancybox="video-player" href="https://www.youtube.com/watch?v=u31qwQUeGuM" class="play-btn">
         <i class="bi bi-play-fill"></i>
         <div class="waves-block">
@@ -248,7 +248,7 @@ include __DIR__ . '/includes/header_constants.php';
     <div class="testimonial-card">
       <div class="author-area">
         <div class="author-img">
-          <img src="assets/img/home1/testimonial-author-img1.png" alt="Turbo Hills traveler review">
+          <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img1.png" alt="Turbo Hills traveler review">
         </div>
         <div class="author-info">
           <h5>Ankit Sharma</h5>
@@ -278,7 +278,7 @@ include __DIR__ . '/includes/header_constants.php';
     <div class="testimonial-card two">
       <div class="author-area">
         <div class="author-img">
-          <img src="assets/img/home1/testimonial-author-img2.png" alt="North Bengal tour review">
+          <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img2.png" alt="North Bengal tour review">
         </div>
         <div class="author-info">
           <h5>Neha & Rohit Verma</h5>
@@ -308,7 +308,7 @@ include __DIR__ . '/includes/header_constants.php';
     <div class="testimonial-card">
       <div class="author-area">
         <div class="author-img">
-          <img src="assets/img/home1/testimonial-author-img3.png" alt="Sikkim family tour review">
+          <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img3.png" alt="Sikkim family tour review">
         </div>
         <div class="author-info">
           <h5>Rajiv Mehta</h5>
@@ -339,7 +339,7 @@ include __DIR__ . '/includes/header_constants.php';
     <div class="testimonial-card">
       <div class="author-area">
         <div class="author-img">
-          <img src="assets/img/home1/testimonial-author-img4.png" alt="North Bengal sightseeing review">
+          <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img4.png" alt="North Bengal sightseeing review">
         </div>
         <div class="author-info">
           <h5>Sarah Williams</h5>
@@ -369,7 +369,7 @@ include __DIR__ . '/includes/header_constants.php';
     <div class="testimonial-card two">
       <div class="author-area">
         <div class="author-img">
-          <img src="assets/img/home1/testimonial-author-img5.png" alt="Lachung Lachen tour review">
+          <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img5.png" alt="Lachung Lachen tour review">
         </div>
         <div class="author-info">
           <h5>Vikram Singh</h5>
@@ -402,10 +402,10 @@ include __DIR__ . '/includes/header_constants.php';
     <div class="review-wrap wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
       <div class="tripadvisor-rating-area">
         <a href="https://www.tripadvisor.com/" class="tripadvisor-rating">
-          <img src="assets/img/home1/icon/tripadvisor-logo.svg" alt="">
+          <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-logo.svg" alt="">
           <div class="rating-area">
             <span>Reviews</span>
-            <img src="assets/img/home1/icon/tripadvisor-start.svg" alt="">
+            <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-start.svg" alt="">
           </div>
         </a>
         <svg class="divider" width="6" height="52" viewBox="0 0 6 52" xmlns="http://www.w3.org/2000/svg">
@@ -415,9 +415,9 @@ include __DIR__ . '/includes/header_constants.php';
       <a href="http://trustpilot.com/" class="trustpilot-rating-area">
         <strong>4.5</strong>
         <div class="trustpilot-rating">
-          <img src="assets/img/home1/icon/trustpilot-logo.svg" alt="">
+          <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-logo.svg" alt="">
           <div class="rating-area">
-            <img src="assets/img/home1/icon/trustpilot-star.svg" alt="">
+            <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-star.svg" alt="">
             <span>(2K reviews)</span>
           </div>
         </div>

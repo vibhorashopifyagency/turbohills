@@ -19,7 +19,7 @@
                 <ul class="contact-area">
                     <li class="single-contact">
                         <div class="icon">
-                            <img src="assets/img/home1/icon/whatsapp-icon2.svg" alt="" loading="lazy">
+                            <img src="<?= BASE_URL ?>/assets/img/home1/icon/whatsapp-icon2.svg" alt="" loading="lazy">
                         </div>
                         <div class="content">
                             <span>WhatsApp</span>
@@ -28,7 +28,7 @@
                     </li>
                     <li class="single-contact">
                         <div class="icon">
-                            <img src="assets/img/home1/icon/mail-icon2.svg" alt="" loading="lazy">
+                            <img src="<?= BASE_URL ?>/assets/img/home1/icon/mail-icon2.svg" alt="" loading="lazy">
                         </div>
                         <div class="content">
                             <span>Mail Us</span>
@@ -37,7 +37,7 @@
                     </li>
                     <li class="single-contact">
                         <div class="icon">
-                            <img src="assets/img/home1/icon/call-icon.svg" alt="" loading="lazy">
+                            <img src="<?= BASE_URL ?>/assets/img/home1/icon/call-icon.svg" alt="" loading="lazy">
                         </div>
                         <div class="content">
                             <span>Call Us</span>
@@ -55,7 +55,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="footer-logo-and-addition-info">
                             <a href="/" class="footer-logo">
-                                <img src="assets/img/Turbo-Hills-Logo.png" alt="" loading="lazy">
+                                <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="" loading="lazy">
                             </a>
                             <div class="address-area">
                                 <span>TurboHills Travel Agency</span>
@@ -134,10 +134,10 @@
                     <div class="payment-method-area">
                         <span>Accepted Payment Methods :</span>
                         <ul>
-                            <li><img src="assets/img/home1/icon/mastar-card-icon.svg" alt="" loading="lazy"></li>
-                            <li><img src="assets/img/home1/icon/visa-icon.svg" alt="" loading="lazy"></li>
-                            <!-- <li><img src="assets/img/home1/icon/paypal-icon.svg" alt="" loading="lazy"></li> -->
-                            <li><img src="assets/img/home1/icon/gpay-icon.svg" alt="" loading="lazy"></li>
+                            <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/mastar-card-icon.svg" alt="" loading="lazy"></li>
+                            <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/visa-icon.svg" alt="" loading="lazy"></li>
+                            <!-- <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/paypal-icon.svg" alt="" loading="lazy"></li> -->
+                            <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/gpay-icon.svg" alt="" loading="lazy"></li>
                         </ul>
                     </div>
                 </div>
@@ -154,43 +154,43 @@
     </script>
     
     <?php if (basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
-        <script src="assets/js/contact-form.js" defer></script>
+        <script src="<?= BASE_URL ?>/assets/js/contact-form.js" defer></script>
     <?php endif; ?>
 
     <?php
         if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
     ?>
-        <script src="assets/js/lead-form.js" defer></script>
+        <script src="<?= BASE_URL ?>/assets/js/lead-form.js" defer></script>
     <?php endif; ?>
 
 
     <!--  Main jQuery  -->
-    <script data-cfasync="false" src="https://demo.egenslab.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/moment.min.js"></script>
-    <script src="assets/js/daterangepicker.min.js"></script>
+    <script data-cfasync="false" src="https://demo.egenslab.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="<?= BASE_URL ?>/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/jquery-ui.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/moment.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js"></script>
     
     <!-- Popper and Bootstrap JS -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/popper.min.js"></script>
     <!-- Swiper slider JS -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/slick.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/swiper-bundle.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/slick.js"></script>
     <!-- Waypoints JS -->
-    <script src="assets/js/waypoints.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/waypoints.min.js"></script>
     <!-- Counterup JS -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/jquery.counterup.min.js"></script>
     <!-- Nice Select JS -->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/jquery.nice-select.min.js"></script>
     <!-- Wow JS -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/wow.min.js"></script>
     <!-- Gsap  JS -->
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/gsap.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/ScrollTrigger.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/jquery.fancybox.min.js"></script>
     <!-- Custom JS -->
-    <script src="assets/js/select-dropdown.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/custom.js"></script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"70834e4b23964a2eaf7cf4ec0e5e9a84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 

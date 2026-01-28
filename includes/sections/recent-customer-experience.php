@@ -9,27 +9,27 @@
                 <div class="swiper destionation-dt-customer-gallery-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="assets/img/innerpages/customer-gallery-img1.png" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/innerpages/customer-gallery-img1.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="assets/img/innerpages/customer-gallery-img2.png" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/innerpages/customer-gallery-img2.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="assets/img/innerpages/customer-gallery-img3.png" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/innerpages/customer-gallery-img3.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="assets/img/innerpages/customer-gallery-img4.png" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/innerpages/customer-gallery-img4.png" alt="">
                         </div>
                         <div class="swiper-slide">
                             <div class="video-area">
-                                <video autoplay loop muted playsinline src="assets/video/destination-details-video.mp4"></video>
+                                <video autoplay loop muted playsinline src="<?= BASE_URL ?>/assets/video/destination-details-video.mp4"></video>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="assets/img/innerpages/customer-gallery-img6.png" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/innerpages/customer-gallery-img6.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="assets/img/innerpages/customer-gallery-img7.png" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/innerpages/customer-gallery-img7.png" alt="">
                         </div>
                     </div>
                 </div>

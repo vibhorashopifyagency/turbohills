@@ -26,7 +26,7 @@
                                 <p>Our honeymoon package to the Maldives was beyond amazing! The travel agency took care of every detail.</p>
                                 <div class="author-area">
                                     <div class="author-img">
-                                        <img src="assets/img/home1/testimonial-author-img1.png" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img1.png" alt="">
                                     </div>
                                     <div class="author-info">
                                         <h5>Robert Kcarery </h5>
@@ -48,7 +48,7 @@
                                 <p>The Thailand tour was flawless! Great hotels, smooth transfers — truly a stress-free and enjoyable experience.</p>
                                 <div class="author-area">
                                     <div class="author-img">
-                                        <img src="assets/img/home1/testimonial-author-img3.png" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img3.png" alt="">
                                     </div>
                                     <div class="author-info">
                                         <h5>James Bonde</h5>
@@ -95,7 +95,7 @@
                                 <p>Thanks to their expert planning, our Dubai vacation was seamless. Every detail was handled with care.</p>
                                 <div class="author-area">
                                     <div class="author-img">
-                                        <img src="assets/img/home1/testimonial-author-img2.png" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img2.png" alt="">
                                     </div>
                                     <div class="author-info">
                                         <h5>Selina Henry</h5>
@@ -117,7 +117,7 @@
                                 <p>We had an incredible Europe tour! The itinerary, bookings, and support were all professionally managed.</p>
                                 <div class="author-area">
                                     <div class="author-img">
-                                        <img src="assets/img/home1/testimonial-author-img4.png" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img4.png" alt="">
                                     </div>
                                     <div class="author-info">
                                         <h5>Michael D Linda</h5>
@@ -164,7 +164,7 @@
                                 <p>Our trip to Bali was unforgettable! Everything was perfectly organized by the agency from start to finish.</p>
                                 <div class="author-area">
                                     <div class="author-img">
-                                        <img src="assets/img/home1/testimonial-author-img5.png" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/testimonial-author-img5.png" alt="">
                                     </div>
                                     <div class="author-info">
                                         <h5>Amber Lashley</h5>
@@ -181,9 +181,9 @@
             <a href="https://www.trustpilot.com/" class="single-rating">
                 <strong>4.5</strong>
                 <div class="trustpilot-rating">
-                    <img src="assets/img/home1/icon/trustpilot-logo.svg" alt="">
+                    <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-logo.svg" alt="">
                     <div class="rating-area">
-                        <img src="assets/img/home1/icon/trustpilot-star.svg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-star.svg" alt="">
                         <span>(2K reviews)</span>
                     </div>
                 </div>
@@ -209,10 +209,10 @@
             <a href="https://www.tripadvisor.com/" class="single-rating">
                 <strong>4.5</strong>
                 <div class="tripadvisor-rating">
-                    <img src="assets/img/home1/icon/tripadvisor-logo.svg" alt="">
+                    <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-logo.svg" alt="">
                     <div class="rating-area">
                         <span>Reviews</span>
-                        <img src="assets/img/home1/icon/tripadvisor-start.svg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-start.svg" alt="">
                     </div>
                 </div>
             </a>

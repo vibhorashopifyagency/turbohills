@@ -102,7 +102,7 @@
 <!-- FAQ Page End -->
 
 <!-- FAQ Banner -->
-<div class="faq-page-banner mb-100" style="background-image: url(assets/img/home7/home7-testimonial-bg.jpg);"></div>
+<div class="faq-page-banner mb-100" style="background-image: url(<?= BASE_URL ?>/assets/img/home7/home7-testimonial-bg.jpg);"></div>
 
 <!-- Documentation FAQs -->
 <div class="faq-page mb-100">

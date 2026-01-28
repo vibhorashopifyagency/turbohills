@@ -29,13 +29,13 @@
                     <div class="row g-2">
                         <div class="col-md-7 mt-70">
                             <div class="single-img justify-content-md-end">
-                                <a data-fancybox="gallery-01" href="assets/img/home2/gallery-img1-big.jpg">
-                                    <img src="assets/img/home2/gallery-img1.jpg" alt="">
+                                <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img1-big.jpg">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img1.jpg" alt="">
                                 </a>
                             </div>
                             <div class="single-img justify-content-md-end">
-                                <a data-fancybox="gallery-01" href="assets/img/home2/gallery-img2-big.jpg">
-                                    <img src="assets/img/home2/gallery-img2.jpg" alt="">
+                                <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img2-big.jpg">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="single-img justify-content-md-between">
@@ -54,23 +54,23 @@
                                         <span>Tour Completed</span>
                                     </div>
                                 </div>
-                                <a data-fancybox="gallery-01" href="assets/img/home2/gallery-img3-big.jpg">
-                                    <img src="assets/img/home2/gallery-img3.jpg" alt="">
+                                <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img3-big.jpg">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img3.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-5">
                             <div class="single-img grp-img">
-                                <a data-fancybox="gallery-01" href="assets/img/home2/gallery-img4-big.jpg">
-                                    <img src="assets/img/home2/gallery-img4.jpg" alt="">
+                                <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img4-big.jpg">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img4.jpg" alt="">
                                 </a>
-                                <a data-fancybox="gallery-01" href="assets/img/home2/gallery-img5-big.jpg">
-                                    <img src="assets/img/home2/gallery-img5.jpg" alt="">
+                                <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img5-big.jpg">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img5.jpg" alt="">
                                 </a>
                             </div>
                             <div class="single-img">
-                                <a data-fancybox="gallery-01" href="assets/img/home2/gallery-img6-big.jpg">
-                                    <img src="assets/img/home2/gallery-img6.jpg" alt="">
+                                <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img6-big.jpg">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img6.jpg" alt="">
                                 </a>
                             </div>
                         </div>

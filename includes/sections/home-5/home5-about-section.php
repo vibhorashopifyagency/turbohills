@@ -19,7 +19,7 @@
             </div>
             <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="about-video-area">
-                    <img src="assets/img/home5/about-video-img.jpg" alt="">
+                    <img src="<?= BASE_URL ?>/assets/img/home5/about-video-img.jpg" alt="">
                     <a data-fancybox="video-player" href="https://www.youtube.com/watch?v=u31qwQUeGuM" class="play-btn">
                         <i class="bi bi-play-fill"></i>
                         <div class="waves-block">
@@ -29,7 +29,7 @@
                         </div>
                     </a>
                     <div class="video-vector">
-                        <img src="assets/img/home5/vector/home5-about-video-vector.svg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home5/vector/home5-about-video-vector.svg" alt="">
                     </div>
                 </div>
             </div>

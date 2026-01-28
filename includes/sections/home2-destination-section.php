@@ -15,7 +15,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-feature">
                         <div class="icon">
-                            <img src="assets/img/home3/icon/destination-feature-icon1.svg" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/home3/icon/destination-feature-icon1.svg" alt="">
                         </div>
                         <h5>Customizable Package.</h5>
                     </div>
@@ -23,7 +23,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-feature">
                         <div class="icon">
-                            <img src="assets/img/home3/icon/destination-feature-icon2.svg" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/home3/icon/destination-feature-icon2.svg" alt="">
                         </div>
                         <h5>24/7 Support</h5>
                     </div>
@@ -31,7 +31,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-feature">
                         <div class="icon">
-                            <img src="assets/img/home3/icon/destination-feature-icon3.svg" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/home3/icon/destination-feature-icon3.svg" alt="">
                         </div>
                         <h5>Trusted by Thousands</h5>
                     </div>
@@ -39,17 +39,17 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-feature">
                         <div class="icon">
-                            <img src="assets/img/home3/icon/destination-feature-icon4.svg" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/home3/icon/destination-feature-icon4.svg" alt="">
                         </div>
                         <h5>Local Experties</h5>
                     </div>
                 </div>
             </div>
             <div class="rating-area wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/img/home2/icon/trustpilot-star.svg" alt="">
+                <img src="<?= BASE_URL ?>/assets/img/home2/icon/trustpilot-star.svg" alt="">
                 <div class="text-and-logo">
                     <p>5.0 Rating out of 5.0 based on 24,000 reviews</p>
-                    <a href="http://trustpilot.com/"><img src="assets/img/home2/icon/trustpilot-logo.svg" alt=""></a>
+                    <a href="http://trustpilot.com/"><img src="<?= BASE_URL ?>/assets/img/home2/icon/trustpilot-logo.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                     <div class="swiper-slide">
                         <div class="destination-card2 two">
                             <div class="destination-img">
-                                <img src="assets/img/home3/destination-img1.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img1.jpg" alt="">
                                 <a href="destination-details.html" class="arrow">
                                     <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -76,7 +76,7 @@
                     <div class="swiper-slide">
                         <div class="destination-card2 two">
                             <div class="destination-img">
-                                <img src="assets/img/home3/destination-img2.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img2.jpg" alt="">
                                 <a href="destination-details.html" class="arrow">
                                     <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -93,7 +93,7 @@
                     <div class="swiper-slide">
                         <div class="destination-card2 two">
                             <div class="destination-img">
-                                <img src="assets/img/home3/destination-img3.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img3.jpg" alt="">
                                 <a href="destination-details.html" class="arrow">
                                     <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -110,7 +110,7 @@
                     <div class="swiper-slide">
                         <div class="destination-card2 two">
                             <div class="destination-img">
-                                <img src="assets/img/home3/destination-img4.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img4.jpg" alt="">
                                 <a href="destination-details.html" class="arrow">
                                     <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -127,7 +127,7 @@
                     <div class="swiper-slide">
                         <div class="destination-card2 two">
                             <div class="destination-img">
-                                <img src="assets/img/home3/destination-img5.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img5.jpg" alt="">
                                 <a href="destination-details.html" class="arrow">
                                     <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -144,7 +144,7 @@
                     <div class="swiper-slide">
                         <div class="destination-card2 two">
                             <div class="destination-img">
-                                <img src="assets/img/home3/destination-img6.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img6.jpg" alt="">
                                 <a href="destination-details.html" class="arrow">
                                     <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -161,7 +161,7 @@
                     <div class="swiper-slide">
                         <div class="destination-card2 two">
                             <div class="destination-img">
-                                <img src="assets/img/home3/destination-img7.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img7.jpg" alt="">
                                 <a href="destination-details.html" class="arrow">
                                     <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                         <path

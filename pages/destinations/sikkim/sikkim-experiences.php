@@ -10,7 +10,7 @@
 
                 <!-- HERO IMAGE -->
                 <div class="swiper-slide">
-                    <img src="assets/img/innerpages/sikkim-himalayan-mountains.jpg"
+                    <img src="<?= BASE_URL ?>/assets/img/innerpages/sikkim-himalayan-mountains.jpg"
                         alt="Himalayan mountain landscape in Sikkim, India with snow peaks and valleys"
                         loading="eager"
                         fetchpriority="high"
@@ -19,28 +19,28 @@
 
                 <!-- LAZY IMAGES -->
                 <div class="swiper-slide">
-                    <img src="assets/img/innerpages/sikkim-buddhist-monastery.jpg"
+                    <img src="<?= BASE_URL ?>/assets/img/innerpages/sikkim-buddhist-monastery.jpg"
                         alt="Buddhist monastery in Sikkim surrounded by mountains and prayer flags"
                         loading="lazy"
                         decoding="async">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="assets/img/innerpages/sikkim-scenic-valley.jpg"
+                    <img src="<?= BASE_URL ?>/assets/img/innerpages/sikkim-scenic-valley.jpg"
                         alt="Scenic valley view in Sikkim with forests, hills, and winding roads"
                         loading="lazy"
                         decoding="async">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="assets/img/innerpages/sikkim-snow-road.jpg"
+                    <img src="<?= BASE_URL ?>/assets/img/innerpages/sikkim-snow-road.jpg"
                         alt="Snow-covered mountain road in Sikkim during winter travel season"
                         loading="lazy"
                         decoding="async">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="assets/img/innerpages/sikkim-mountain-village.jpg"
+                    <img src="<?= BASE_URL ?>/assets/img/innerpages/sikkim-mountain-village.jpg"
                         alt="Traditional mountain village in Sikkim with colorful houses and hills"
                         loading="lazy"
                         decoding="async">
@@ -132,7 +132,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="assets/img/innerpages/destination-dt-location-img1.jpg" alt="Gangtok city view with Himalayan mountains in Sikkim" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img1.jpg" alt="Gangtok city view with Himalayan mountains in Sikkim" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Gangtok - Capital of Sikkim</a></h6>
@@ -142,7 +142,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="assets/img/innerpages/destination-dt-location-img2.jpg" alt="Tsomgo Lake near Nathula Pass in East Sikkim" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img2.jpg" alt="Tsomgo Lake near Nathula Pass in East Sikkim" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Tsomgo Lake near Nathula Pass</a></h6>
@@ -152,7 +152,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="assets/img/innerpages/destination-dt-location-img3.jpg" alt="Yumthang Valley covered in flowers during spring" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img3.jpg" alt="Yumthang Valley covered in flowers during spring" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Lachung Village, North Sikkim</a></h6>
@@ -162,7 +162,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="assets/img/innerpages/destination-dt-location-img4.jpg" alt="Snowfall in Lachung village North Sikkim" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img4.jpg" alt="Snowfall in Lachung village North Sikkim" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Yumthang Valley - Valley of Flowers</a></h6>
@@ -172,7 +172,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="assets/img/innerpages/destination-dt-location-img5.jpg" alt="Kanchenjunga mountain view from Pelling in West Sikkim, India" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img5.jpg" alt="Kanchenjunga mountain view from Pelling in West Sikkim, India" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Pelling - Kanchenjunga Viewpoint</a></h6>
@@ -182,7 +182,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="assets/img/innerpages/destination-dt-location-img6.jpg" alt="Buddha Park in Ravangla, South Sikkim with Himalayan mountain backdrop" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img6.jpg" alt="Buddha Park in Ravangla, South Sikkim with Himalayan mountain backdrop" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Ravangla Buddha Park</a></h6>
@@ -192,7 +192,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="assets/img/innerpages/destination-dt-location-img7.jpg" alt="Zuluk village on the historic Silk Route in East Sikkim, India" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img7.jpg" alt="Zuluk village on the historic Silk Route in East Sikkim, India" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Zuluk Silk Route Village</a></h6>
@@ -290,7 +290,7 @@
                     <div class="travel-season-card">
                         <div class="travel-season-top-area">
                             <div class="travel-season-img">
-                                <img src="assets/img/innerpages/travel-season-img1.jpg" alt="" loading="lazy">
+                                <img src="<?= BASE_URL ?>/assets/img/innerpages/travel-season-img1.jpg" alt="" loading="lazy">
                             </div>
                             <div class="travel-season-content">
                                 <h5>Spring (March-May)</h5>
@@ -334,7 +334,7 @@
                     <div class="travel-season-card">
                         <div class="travel-season-top-area">
                             <div class="travel-season-img">
-                                <img src="assets/img/innerpages/travel-season-img2.jpg" alt="" loading="lazy">
+                                <img src="<?= BASE_URL ?>/assets/img/innerpages/travel-season-img2.jpg" alt="" loading="lazy">
                             </div>
                             <div class="travel-season-content">
                                 <h5>Summer (June-August)</h5>
@@ -378,7 +378,7 @@
                     <div class="travel-season-card">
                         <div class="travel-season-top-area">
                             <div class="travel-season-img">
-                                <img src="assets/img/innerpages/travel-season-img3.jpg" alt="" loading="lazy">
+                                <img src="<?= BASE_URL ?>/assets/img/innerpages/travel-season-img3.jpg" alt="" loading="lazy">
                             </div>
                             <div class="travel-season-content">
                                 <h5>Autumn (Sep to Nov)</h5>
@@ -422,7 +422,7 @@
                     <div class="travel-season-card">
                         <div class="travel-season-top-area">
                             <div class="travel-season-img">
-                                <img src="assets/img/innerpages/travel-season-img4.jpg" alt="" loading="lazy">
+                                <img src="<?= BASE_URL ?>/assets/img/innerpages/travel-season-img4.jpg" alt="" loading="lazy">
                             </div>
                             <div class="travel-season-content">
                                 <h5>Winter (Dec to Feb)</h5>

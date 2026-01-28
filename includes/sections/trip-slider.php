@@ -20,17 +20,17 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <a href="travel-package-details.html" class="package-img">
-                                                    <img src="assets/img/home1/tour-package-img2.jpg" alt="">
+                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img2.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
                                                 <a href="travel-package-details.html" class="package-img">
-                                                    <img src="assets/img/home1/tour-package-img10.jpg" alt="">
+                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img10.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
                                                 <a href="travel-package-details.html" class="package-img">
-                                                    <img src="assets/img/home1/tour-package-img11.jpg" alt="">
+                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img11.jpg" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -137,7 +137,7 @@
                             <div class="package-card">
                                 <div class="package-img-wrap">
                                     <a href="travel-package-details.html" class="package-img">
-                                        <img src="assets/img/home1/tour-package-img3.jpg" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img3.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="package-content">
@@ -238,17 +238,17 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <a href="travel-package-details.html" class="package-img">
-                                                    <img src="assets/img/home1/tour-package-img6.jpg" alt="">
+                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img6.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
                                                 <a href="travel-package-details.html" class="package-img">
-                                                    <img src="assets/img/home1/tour-package-img15.jpg" alt="">
+                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img15.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
                                                 <a href="travel-package-details.html" class="package-img">
-                                                    <img src="assets/img/home1/tour-package-img16.jpg" alt="">
+                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img16.jpg" alt="">
                                                 </a>
                                             </div>
                                         </div>

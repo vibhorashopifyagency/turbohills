@@ -27,6 +27,10 @@
     if ($canonical === $siteDomain . '/index.php') {
         $canonical = $siteDomain . '/';
     }
+    
+    if (!isset($schemaType)) {
+        $schemaType = null;
+    }
 ?>
 <!doctype html>
 <html lang="en-IN">
@@ -41,53 +45,53 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="<?= htmlspecialchars($pageTitle); ?>">
     <meta property="og:description" content="<?= htmlspecialchars($metaDescription); ?>">
-    <meta property="og:url" content="<?= $siteDomain . $_SERVER['REQUEST_URI']; ?>">
+    <meta property="og:url" content="<?= htmlspecialchars($canonical); ?>">
     <meta property="og:site_name" content="Turbo Hills">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="<?= htmlspecialchars($pageTitle); ?>">
     <meta name="twitter:description" content="<?= htmlspecialchars($metaDescription); ?>">
 
-    <meta property="og:image" content="<?php echo $siteDomain; ?>/assets/img/og-cover.jpg">
-    <link rel="preload" as="image" href="<?= $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png">
+    <meta property="og:image" content="<?php echo $siteDomain; ?>/<?= BASE_URL ?>/assets/img/og-cover.jpg">
+    <link rel="preload" as="image" href="<?= $siteDomain; ?>/<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png">
     <link rel="alternate" hreflang="en-IN" href="https://turbohills.in<?= strtok($_SERVER['REQUEST_URI'], '?'); ?>">
     <link rel="alternate" hreflang="en" href="https://turbohills.com<?= strtok($_SERVER['REQUEST_URI'], '?'); ?>">
     <!-- Favicons and touch icons could go here -->
 
     <!-- Bootstrap CSS -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>/assets/css/jquery-ui.css" rel="stylesheet">
     <!-- Bootstrap Icon CSS -->
-    <link href="./assets/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>/assets/css/bootstrap-icons.css" rel="stylesheet">
     <!-- CSS -->
-    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>/assets/css/animate.min.css" rel="stylesheet">
     <!-- FancyBox CSS -->
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>/assets/css/jquery.fancybox.min.css" rel="stylesheet">
     <!-- Nice Select CSS -->
-    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>/assets/css/nice-select.css" rel="stylesheet">
     <!-- Swiper slider CSS -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/swiper-bundle.min.css">
     <!-- Slick slider CSS -->
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
-    <link rel="stylesheet" href="assets/css/daterangepicker.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick-theme.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/daterangepicker.css">
     <!-- BoxIcon  CSS -->
-    <link href="assets/css/boxicons.min.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>/assets/css/boxicons.min.css" rel="stylesheet">
     <!--  Style CSS  -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
     <!-- Favicon -->
-    <link rel="icon" href="assets/img/fav-icon.svg" type="image/svg+xml" sizes="20x20">
+    <link rel="icon" href="<?= BASE_URL ?>/assets/img/fav-icon.svg" type="image/svg+xml" sizes="20x20">
 
     <!-- Site-wide JSON-LD: Organization + WebSite -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "TravelAgency"],
+        "@type": "TravelAgency",
         "@id": "<?= $siteDomain; ?>#localbusiness",
         "name": "Turbo Hills",
         "url": "<?= $siteDomain; ?>",
-        "logo": "<?= $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
-        "image": "<?= $siteDomain; ?>/assets/img/Turbo-Hills-Logo.png",
+        "logo": "<?= $siteDomain; ?>/<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png",
+        "image": "<?= $siteDomain; ?>/<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png",
         "description": "Turbo Hills is a trusted travel agency in Bagdogra providing Sikkim and North Bengal tour packages, cab services with permits, and customized itineraries for Indian and international travelers.",
         "telephone": "<?= $phone_number; ?>",
         "priceRange": "₹₹",
@@ -120,14 +124,36 @@
             "North Bengal",
             "Darjeeling",
             "Gangtok",
-            "Kalimpong"
+            "Kalimpong",
+            "Siliguri",
+            "Bagdogra",
+            "Dooars",
+            "Mirik",
+            "Gopaldhara",
+            "Jaldapara",
+            "Lataguri"
+            "Sandakphu",
+            "Yuksom",
+            "Lachung",
+            "Lachen",
+            "Pelling",
+            "Yumthang Valley",
+            "Nathula Pass",
+            "Gurudongmar Lake",
+            "Zero Point",
+            "Nathula Pass",
+            "Mangan",
+            "Ravangla",
+            "Namchi",
+            "Suntalekhola",
+            "Jorepokhri",
+            "Kalijhora",
+            "Sittong",
+            "West Sikkim",
+            "East Sikkim",
+            "North Sikkim",
+            "South Sikkim"
         ],
-
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "120"
-        },
 
         "sameAs": [
             "https://www.facebook.com/turbohills",
@@ -220,6 +246,35 @@
         "availableLanguage": ["English", "Hindi", "Bengali"]
     }
     </script>
+    <?php if (isset($schemaType) && $schemaType === 'terms'): ?>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Terms & Conditions",
+          "url": "<?php echo htmlspecialchars($canonical); ?>",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Turbo Hills",
+            "url": "https://turbohills.com"
+          }
+        }
+        </script>
+    <?php elseif (isset($schemaType) && $schemaType === 'privacy'): ?>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Privacy Policy",
+          "url": "<?php echo htmlspecialchars($canonical); ?>",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Turbo Hills",
+            "url": "https://turbohills.com"
+          }
+        }
+        </script>
+    <?php endif; ?>
 
     <?php
         // Optional page-level structured data (FAQ, etc.)
@@ -261,7 +316,7 @@
             <div class="topbar-wrap">
                 <div class="logo-and-search-area">
                     <a href="/" class="header-logo">
-                        <img src="assets/img/Turbo-Hills-Logo.png" alt="Turbo Hills - Sikkim & North Bengal Travel Agency">
+                        <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="Turbo Hills - Sikkim & North Bengal Travel Agency">
                     </a>
                 </div>
                 <div class="topbar-right">
@@ -285,12 +340,12 @@
     <header class="style-1">
         <div class="container d-flex flex-nowrap align-items-center justify-content-between">
             <a href="/" class="header-logo d-lg-none d-block">
-                <img src="assets/img/Turbo-Hills-Logo.png" alt="">
+                <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="">
             </a>
             <div class="main-menu">
                 <div class="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">
                     <a href="/" class="mobile-logo-wrap">
-                        <img src="assets/img/Turbo-Hills-Logo.png" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="">
                     </a>
                     <div class="menu-close-btn">
                         <i class="bi bi-x"></i>
@@ -357,8 +412,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="assets/img/home1/mega-menu-vector1.svg" alt="" class="vector1">
-                            <img src="assets/img/home1/mega-menu-vector2.svg" alt="" class="vector2">
+                            <img src="<?= BASE_URL ?>/assets/img/home1/mega-menu-vector1.svg" alt="" class="vector1">
+                            <img src="<?= BASE_URL ?>/assets/img/home1/mega-menu-vector2.svg" alt="" class="vector2">
                         </div>
                     </li>
 
@@ -393,7 +448,7 @@
                 <div class="contact-area d-lg-none d-flex">
                     <div class="single-contact">
                         <div class="icon">
-                            <img src="assets/img/home1/icon/whatsapp-icon.svg" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/home1/icon/whatsapp-icon.svg" alt="">
                         </div>
                         <div class="content">
                             <span>WhatsApp</span>
@@ -405,7 +460,7 @@
                     <ul class="contact-list">
                         <li class="single-contact">
                             <div class="icon">
-                                <img src="assets/img/home1/icon/mail-icon.svg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home1/icon/mail-icon.svg" alt="">
                             </div>
                             <div class="content">
                                 <span>Mail Support</span>
@@ -419,7 +474,7 @@
                 <div class="contact-area d-lg-flex d-none">
                     <div class="single-contact">
                         <div class="icon">
-                            <img src="assets/img/home1/icon/whatsapp-icon.svg" alt="">
+                            <img src="<?= BASE_URL ?>/assets/img/home1/icon/whatsapp-icon.svg" alt="">
                         </div>
                         <div class="content">
                             <span>WhatsApp</span>
@@ -431,7 +486,7 @@
                     <ul class="contact-list">
                         <li class="single-contact">
                             <div class="icon">
-                                <img src="assets/img/home1/icon/mail-icon.svg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home1/icon/mail-icon.svg" alt="">
                             </div>
                             <div class="content">
                                 <span>Mail Support</span>

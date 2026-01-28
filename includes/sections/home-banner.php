@@ -4,7 +4,7 @@
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-video-area">
-                        <video autoplay loop muted playsinline src="assets/video/home2-banner-video.mp4"></video>
+                        <video autoplay loop muted playsinline src="<?= BASE_URL ?>/assets/video/home2-banner-video.mp4"></video>
                     </div>
                     <div class="banner-content-wrap">
                         <div class="container">
@@ -19,7 +19,7 @@
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-img-area">
-                        <img src="assets/img/home2/banner-img1.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home2/banner-img1.jpg" alt="">
                     </div>
                     <div class="banner-content-wrap">
                         <div class="container">
@@ -34,7 +34,7 @@
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-img-area">
-                        <img src="assets/img/home2/banner-img2.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home2/banner-img2.jpg" alt="">
                     </div>
                     <div class="banner-content-wrap">
                         <div class="container">

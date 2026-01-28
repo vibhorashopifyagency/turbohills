@@ -16,7 +16,7 @@
                         <div class="tour-guide-card">
                             <div class="guide-img-wrap">
                                 <a href="guider-details.html" class="guide-img">
-                                    <img src="assets/img/home3/tour-guide-img1.png" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img1.png" alt="">
                                 </a>
                                 <ul class="social-list">
                                     <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
@@ -33,7 +33,7 @@
                         <div class="tour-guide-card">
                             <div class="guide-img-wrap">
                                 <a href="guider-details.html" class="guide-img">
-                                    <img src="assets/img/home3/tour-guide-img2.png" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img2.png" alt="">
                                 </a>
                                 <ul class="social-list">
                                     <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
@@ -50,7 +50,7 @@
                         <div class="tour-guide-card">
                             <div class="guide-img-wrap">
                                 <a href="guider-details.html" class="guide-img">
-                                    <img src="assets/img/home3/tour-guide-img3.png" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img3.png" alt="">
                                 </a>
                                 <ul class="social-list">
                                     <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
@@ -67,7 +67,7 @@
                         <div class="tour-guide-card">
                             <div class="guide-img-wrap">
                                 <a href="guider-details.html" class="guide-img">
-                                    <img src="assets/img/home3/tour-guide-img4.png" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img4.png" alt="">
                                 </a>
                                 <ul class="social-list">
                                     <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
@@ -84,7 +84,7 @@
                         <div class="tour-guide-card">
                             <div class="guide-img-wrap">
                                 <a href="guider-details.html" class="guide-img">
-                                    <img src="assets/img/home3/tour-guide-img5.png" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img5.png" alt="">
                                 </a>
                                 <ul class="social-list">
                                     <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
@@ -101,7 +101,7 @@
                         <div class="tour-guide-card">
                             <div class="guide-img-wrap">
                                 <a href="guider-details.html" class="guide-img">
-                                    <img src="assets/img/home3/tour-guide-img6.png" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img6.png" alt="">
                                 </a>
                                 <ul class="social-list">
                                     <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
@@ -118,7 +118,7 @@
                         <div class="tour-guide-card">
                             <div class="guide-img-wrap">
                                 <a href="guider-details.html" class="guide-img">
-                                    <img src="assets/img/home3/tour-guide-img7.png" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img7.png" alt="">
                                 </a>
                                 <ul class="social-list">
                                     <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>

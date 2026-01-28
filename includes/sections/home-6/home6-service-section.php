@@ -62,6 +62,6 @@
             </div>
         </div>
     </div>
-    <img src="assets/img/home6/vector/service-section-vector1.svg" alt="" class="vector1">
-    <img src="assets/img/home6/vector/service-section-vector2.svg" alt="" class="vector2">
+    <img src="<?= BASE_URL ?>/assets/img/home6/vector/service-section-vector1.svg" alt="" class="vector1">
+    <img src="<?= BASE_URL ?>/assets/img/home6/vector/service-section-vector2.svg" alt="" class="vector2">
 </div>

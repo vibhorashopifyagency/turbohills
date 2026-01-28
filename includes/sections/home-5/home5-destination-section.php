@@ -12,7 +12,7 @@
             <div class="col-lg-5 col-md-7 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="destination-card2 four">
                     <div class="destination-img">
-                        <img src="assets/img/home5/destination-img1.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img1.jpg" alt="">
                     </div>
                     <div class="destination-content-wrap">
                         <div class="destination-content">
@@ -25,7 +25,7 @@
             <div class="col-lg-3 col-md-5 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                 <div class="destination-card2 four">
                     <div class="destination-img">
-                        <img src="assets/img/home5/destination-img2.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img2.jpg" alt="">
                     </div>
                     <div class="destination-content-wrap">
                         <div class="destination-content">
@@ -38,7 +38,7 @@
             <div class="col-lg-4 col-md-7 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                 <div class="destination-card2 four">
                     <div class="destination-img">
-                        <img src="assets/img/home5/destination-img3.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img3.jpg" alt="">
                     </div>
                     <div class="destination-content-wrap">
                         <div class="destination-content">
@@ -51,7 +51,7 @@
             <div class="col-lg-4 col-md-5 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                 <div class="destination-card2 four">
                     <div class="destination-img">
-                        <img src="assets/img/home5/destination-img4.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img4.jpg" alt="">
                     </div>
                     <div class="destination-content-wrap">
                         <div class="destination-content">
@@ -64,7 +64,7 @@
             <div class="col-lg-3 col-md-7 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                 <div class="destination-card2 four">
                     <div class="destination-img">
-                        <img src="assets/img/home5/destination-img5.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img5.jpg" alt="">
                     </div>
                     <div class="destination-content-wrap">
                         <div class="destination-content">
@@ -77,7 +77,7 @@
             <div class="col-lg-5 col-md-5 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="destination-card2 four">
                     <div class="destination-img">
-                        <img src="assets/img/home5/destination-img6.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img6.jpg" alt="">
                     </div>
                     <div class="destination-content-wrap">
                         <div class="destination-content">
@@ -89,6 +89,6 @@
             </div>
         </div>
     </div>
-    <img src="assets/img/home3/vector/home3-travel-package-vector1.svg" alt="" class="vector1">
+    <img src="<?= BASE_URL ?>/assets/img/home3/vector/home3-travel-package-vector1.svg" alt="" class="vector1">
 </div>
 <!-- home5 destination Section End-->

@@ -20,19 +20,19 @@
                             <a href="#" class="single-rating">
                                 <strong>4.5</strong>
                                 <div class="tripadvisor-rating">
-                                    <img src="assets/img/home1/icon/tripadvisor-logo.svg" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-logo.svg" alt="">
                                     <div class="rating-area">
                                         <span>Reviews</span>
-                                        <img src="assets/img/home1/icon/tripadvisor-start.svg" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-start.svg" alt="">
                                     </div>
                                 </div>
                             </a>
                             <a href="#" class="single-rating">
                                 <strong>4.5</strong>
                                 <div class="trustpilot-rating">
-                                    <img src="assets/img/home1/icon/trustpilot-logo.svg" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-logo.svg" alt="">
                                     <div class="rating-area">
-                                        <img src="assets/img/home1/icon/trustpilot-star.svg" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-star.svg" alt="">
                                     </div>
                                 </div>
                             </a>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-lg-5 d-lg-block d-none wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="about-img">
-                        <img src="assets/img/home3/about-img.png" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home3/about-img.png" alt="">
                     </div>
                 </div>
             </div>
