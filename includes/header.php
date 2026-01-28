@@ -116,7 +116,7 @@
             "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
             ],
             "opens": "09:00",
-            "closes": "21:00"
+            "closes": "22:00"
         },
 
         "areaServed": [
