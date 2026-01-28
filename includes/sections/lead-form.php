@@ -63,9 +63,17 @@
                     </select>
                 </div>
 
-                <div class="single-search-box date-field">
+                <!-- <div class="single-search-box date-field">
                     <?php echo $calendar_svg; ?>
                     <input id="pickup_date" type="date" name="pickup_date" class="date-picker" placeholder="MM/DD/YYYY" required>
+                </div> -->
+
+                <div class="single-search-box date-field">
+                    <?php echo $calendar_svg; ?>
+                    <div class="custom-select-dropdown">
+                        <input id="pickup_date" type="text" name="inOut" readonly="" value="Sep 12 - Sep 20">
+                        <div class="selected-date"><div class="selected-date"><h6><?php echo date('d F'); ?></h6><span><?php echo date('l Y'); ?></span></div></div>
+                    </div>
                 </div>
 
                 <div class="single-search-box">

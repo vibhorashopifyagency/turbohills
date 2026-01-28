@@ -78,7 +78,7 @@ include __DIR__ . '/includes/header_constants.php';
                                             <label class="form-check-label" for="contactCheck22">
                                                 Other ways to reach us:<br>
                                                 <hr />
-                                                Email: <a href="mailto:info@turbohills.com">info@turbohills.com</a><br>
+                                                Email: <a href="mailto:<?php echo $emailAddress; ?>"><?php echo $emailAddress; ?></a><br>
                                                 Phone: <a
                                                     href="tel:<?php echo $phoneNumber; ?>"><?php echo $phoneNumber; ?></a>
                                             </label>

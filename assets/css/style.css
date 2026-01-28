@@ -1442,6 +1442,7 @@ body.tt-magic-cursor #magic-cursor {
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  border: none;
 }
 .nice-select:hover {
   border-color: var(--borders-color);
@@ -30163,23 +30164,9 @@ header.style-3.two .main-menu > ul > li.active > a i {
   background-image: url(../img/innerpages/destination-dt-faq-bg.png), linear-gradient(180deg, #F2F2FF 0%, #F2F2FF 100%);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 375px 0 100px;
+  padding: 100px 0 100px;
 }
-@media (max-width: 1399px) {
-  .destination-dt-faq-section {
-    padding: 335px 0 100px;
-  }
-}
-@media (max-width: 1199px) {
-  .destination-dt-faq-section {
-    padding: 295px 0 90px;
-  }
-}
-@media (max-width: 767px) {
-  .destination-dt-faq-section {
-    padding: 255px 0 70px;
-  }
-}
+
 .destination-dt-faq-section .faq-wrap .accordion .accordion-item .accordion-header .accordion-button {
   background-color: var(--white-color);
 }

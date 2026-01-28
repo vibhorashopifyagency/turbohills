@@ -55,10 +55,10 @@
     <!-- Favicons and touch icons could go here -->
 
     <!-- Bootstrap CSS -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
     <!-- Bootstrap Icon CSS -->
-    <link href="./assets/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
     <!-- CSS -->
     <link href="assets/css/animate.min.css" rel="stylesheet">
     <!-- FancyBox CSS -->
@@ -221,6 +221,45 @@
     }
     </script>
 
+    <?php if (isset($pageType) && $pageType === 'sikkim-experiences'): ?>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ImageGallery",
+        "name": "Sikkim Travel Experiences Gallery",
+        "description": "Photo gallery showcasing Himalayan landscapes, monasteries, valleys, villages, and scenic roads in Sikkim, India.",
+        "associatedMedia": [
+            {
+                "@type": "ImageObject",
+                "contentUrl": "https://turbohills.com/assets/img/innerpages/sikkim-himalayan-mountains.jpg",
+                "caption": "Himalayan mountain landscape in Sikkim, India",
+                "representativeOfPage": true
+            },
+            {
+                "@type": "ImageObject",
+                "contentUrl": "https://turbohills.com/assets/img/innerpages/sikkim-buddhist-monastery.jpg",
+                "caption": "Buddhist monastery in Sikkim surrounded by mountains"
+            },
+            {
+                "@type": "ImageObject",
+                "contentUrl": "https://turbohills.com/assets/img/innerpages/sikkim-scenic-valley.jpg",
+                "caption": "Scenic valley view in Sikkim with forests and winding roads"
+            },
+            {
+                "@type": "ImageObject",
+                "contentUrl": "https://turbohills.com/assets/img/innerpages/sikkim-snow-road.jpg",
+                "caption": "Snow-covered mountain road in Sikkim during winter"
+            },
+            {
+                "@type": "ImageObject",
+                "contentUrl": "https://turbohills.com/assets/img/innerpages/sikkim-mountain-village.jpg",
+                "caption": "Traditional mountain village in Sikkim, India"
+            }
+        ]
+    }
+    </script>
+    <?php endif; ?>
+    
     <?php
         // Optional page-level structured data (FAQ, etc.)
         if (!empty($pageSchema)) {
