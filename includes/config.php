@@ -50,10 +50,13 @@ if (getenv('APP_URL')) {
     }
 } else {
     // Fallback auto-detection
+    // echo 'isLocal - ' . $isLocal . ' - ';
     if ($isLocal) {
         $baseUrl = "$protocol://$host/$projectFolder";
+        // echo 'baseURL' . $baseUrl . ' ';
     } else {
         $baseUrl = "$protocol://$host";
+        // echo 'baseURL 2' . $baseUrl . ' ';
     }
 }
 
