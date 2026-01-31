@@ -54,7 +54,7 @@
                 <div class="row gy-md-4 gy-5">
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="footer-logo-and-addition-info">
-                            <a href="/" class="footer-logo">
+                            <a href="<?= BASE_URL ?>/" class="footer-logo">
                                 <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="" loading="lazy">
                             </a>
                             <div class="address-area">
@@ -75,12 +75,12 @@
                                 <h5>Top Destination</h5>
                             </div>
                             <ul class="widget-list">
-                                <li><a href="destination-gangtok.php">Gangtok</a></li>
-                                <li><a href="destination-pelling.php">Pelling</a></li>
-                                <li><a href="destination-lachen.php">Lachen</a></li>
-                                <li><a href="destination-lachung.php">Lachung</a></li>
-                                <li><a href="destination-yuksom.php">Yuksom</a></li>
-                                <li><a href="travel-package-01.html">Zuluk</a></li>
+                                <li><a href="<?= BASE_URL ?>/destination-gangtok.php">Gangtok</a></li>
+                                <li><a href="<?= BASE_URL ?>/destination-pelling.php">Pelling</a></li>
+                                <li><a href="<?= BASE_URL ?>/destination-lachen.php">Lachen</a></li>
+                                <li><a href="<?= BASE_URL ?>/destination-lachung.php">Lachung</a></li>
+                                <li><a href="<?= BASE_URL ?>/destination-yuksom.php">Yuksom</a></li>
+                                <li><a href="<?= BASE_URL ?>/travel-package-01.html">Zuluk</a></li>
                                 <li><a href="travel-package-01.html">Tsomgo (Changu) Lake</a></li>
                                 <li><a href="travel-package-01.html">Nathula Pass</a></li>
                                 <li><a href="travel-package-01.html">Gurudongmar Lake</a></li>
@@ -115,11 +115,11 @@
                                 <h5>Resources</h5>
                             </div>
                             <ul class="widget-list">
-                                <li><a href="about.html">About GoFly</a></li>
-                                <li><a href="#">Health & Safety Measure</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="faq.php">FAQs</a></li>
-                                <li><a href="#">Terms & Condition</a></li>
+                                <li><a href="<?= BASE_URL ?>/about.php">About TurboHills</a></li>
+                                <li><a href="<?= BASE_URL ?>/contact.php">Contact Us</a></li>
+                                <li><a href="<?= BASE_URL ?>/faq.php">FAQs</a></li>
+                                <li><a href="<?= BASE_URL ?>/terms-and-conditions.php">Terms & Condition</a></li>
+                                <li><a href="<?= BASE_URL ?>/privacy-policy.php">Privacy Policy</a></li>
                                 <li><a href="https://www.google.com/maps">Sitemap</a></li>
                             </ul>
                         </div>
@@ -130,7 +130,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="copyright-and-payment-method-area">
-                    <p> Copyright <?php echo date('Y'); ?> | All Right Reserved. Designed By: <a href="https://www.vibhora.com/">VIBHORA</a></p>
+                    <p> Copyright <?php echo date('Y'); ?> | All Right Reserved. Designed By: <a href="https://www.vibhora.com/">VIBHORA SHOPIFY AGENCY</a></p>
                     <div class="payment-method-area">
                         <span>Accepted Payment Methods :</span>
                         <ul>
@@ -165,7 +165,8 @@
 
 
     <!--  Main jQuery  -->
-    <script data-cfasync="false" src="https://demo.egenslab.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="<?= BASE_URL ?>/assets/js/jquery-3.7.1.min.js"></script>
+    <script data-cfasync="false" src="https://demo.egenslab.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/jquery-3.7.1.min.js"></script>
     <script src="<?= BASE_URL ?>/assets/js/jquery-ui.js"></script>
     <script src="<?= BASE_URL ?>/assets/js/moment.min.js"></script>
     <script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js"></script>
@@ -189,7 +190,9 @@
     <script src="<?= BASE_URL ?>/assets/js/ScrollTrigger.min.js"></script>
     <script src="<?= BASE_URL ?>/assets/js/jquery.fancybox.min.js"></script>
     <!-- Custom JS -->
-    <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js"></script>
+    <?php if (basename($_SERVER['PHP_SELF']) === '/' || basename($_SERVER['PHP_SELF']) === 'index.php' || basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
+        <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js"></script>
+    <?php endif; ?>
     <script src="<?= BASE_URL ?>/assets/js/custom.js"></script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"70834e4b23964a2eaf7cf4ec0e5e9a84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>

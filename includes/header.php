@@ -124,7 +124,7 @@
         <div class="container">
             <div class="topbar-wrap">
                 <div class="logo-and-search-area">
-                    <a href="/" class="header-logo">
+                    <a href="<?= BASE_URL ?>/" class="header-logo">
                         <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="Turbo Hills - Sikkim & North Bengal Travel Agency">
                     </a>
                 </div>
@@ -148,12 +148,12 @@
     </div>
     <header class="style-1">
         <div class="container d-flex flex-nowrap align-items-center justify-content-between">
-            <a href="/" class="header-logo d-lg-none d-block">
+            <a href="<?= BASE_URL ?>/" class="header-logo d-lg-none d-block">
                 <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="">
             </a>
             <div class="main-menu">
                 <div class="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">
-                    <a href="/" class="mobile-logo-wrap">
+                    <a href="<?= BASE_URL ?>/" class="mobile-logo-wrap">
                         <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="">
                     </a>
                     <div class="menu-close-btn">
@@ -164,11 +164,11 @@
 
                     <!-- HOME -->
                     <li class="active">
-                        <a href="/">Home</a>
+                        <a href="<?= BASE_URL ?>/">Home</a>
                     </li>
 
                     <li class="menu-item-has-children position-inherit">
-                        <a href="destination-01.html" class="drop-down">
+                        <a href="#" class="drop-down">
                             Turbo Hills Destinations
                             <i class="bi bi-caret-down-fill"></i>
                         </a>
@@ -182,13 +182,13 @@
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="/destinations/sikkim/east-sikkim-tour.php">East Sikkim Tour</a></li>
-                                            <li><a href="/destinations/sikkim/west-sikkim-tour.php">West Sikkim Tour</a></li>
-                                            <li><a href="/destinations/sikkim/north-sikkim-tour.php">North Sikkim Tour</a></li>
-                                            <li><a href="/destinations/sikkim/south-sikkim-tour.php">South Sikkim Tour</a></li>
-                                            <li><a href="/destinations/sikkim/gangtok-tour-packages.php">Gangtok Tour Packages</a></li>
-                                            <li><a href="/destinations/sikkim/lachung-lachen-tour.php">Lachung & Lachen Tour</a></li>
-                                            <li><a href="/sikkim/yumthang-valley-tour/">Yumthang Valley Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/east-sikkim-tour.php">East Sikkim Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/west-sikkim-tour.php">West Sikkim Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/north-sikkim-tour.php">North Sikkim Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/south-sikkim-tour.php">South Sikkim Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/gangtok-tour-packages.php">Gangtok Tour Packages</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/lachung-lachen-tour.php">Lachung & Lachen Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/yumthang-valley-tour.php">Yumthang Valley Tour</a></li>
                                         </ul>
                                     </div>
                                     <div class="menu-single-item">
@@ -197,12 +197,12 @@
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="/destinations/north-bengal/darjeeling-tour-packages.php">Darjeeling Tour</a></li>
-                                            <li><a href="/destinations/north-bengal/kalimpong-tour-packages.php">Kalimpong Tour</a></li>
-                                            <li><a href="/destinations/north-bengal/dooars-tour-packages.php">Dooars Tour</a></li>
-                                            <li><a href="/destinations/north-bengal/sandakphu-trek.php">Sandakphu Trek</a></li>
-                                            <li><a href="/destinations/north-bengal/mirik-tour.php">Mirik Tour</a></li>
-                                            <li><a href="/destinations/north-bengal/jaldapara-lataguri-tour.php">Jaldapara & Lataguri</a>
+                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/darjeeling-tour-packages.php">Darjeeling Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/kalimpong-tour-packages.php">Kalimpong Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/dooars-tour-packages.php">Dooars Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/sandakphu-trek.php">Sandakphu Trek</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/mirik-tour.php">Mirik Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/jaldapara-lataguri-tour.php">Jaldapara & Lataguri</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -212,11 +212,11 @@
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="/destinations/cab-services/sikkim-tourist-cab.php">Sikkim Tourist Cab</a></li>
-                                            <li><a href="/destinations/cab-services/north-sikkim-cab.php">North Sikkim Cab</a></li>
-                                            <li><a href="/destinations/permit-services/north-sikkim-permit.php">North Sikkim Permit</a></li>
-                                            <li><a href="/destinations/permit-services/foreigners-permit-sikkim.php">Foreigner Permit (PAP)</a></li>
-                                            <li><a href="/destinations/cab-services/bagdogra-airport-transfer.php">Bagdogra Airport Pickup</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/cab-services/sikkim-tourist-cab.php">Sikkim Tourist Cab</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/cab-services/north-sikkim-cab.php">North Sikkim Cab</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/permit-services/north-sikkim-permit.php">North Sikkim Permit</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/permit-services/foreigners-permit-sikkim.php">Foreigner Permit (PAP)</a></li>
+                                            <li><a href="<?= BASE_URL ?>/destinations/cab-services/bagdogra-airport-transfer.php">Bagdogra Airport Pickup</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -228,30 +228,30 @@
 
                     <!-- TOUR TYPES -->
                     <li class="menu-item-has-children">
-                        <a href="/tour-packages/" class="drop-down">
+                        <a href="#" class="drop-down">
                             Tour Packages
                             <i class="bi bi-caret-down-fill"></i>
                         </a>
                         <i class="bi bi-plus dropdown-icon"></i>
                         <ul class="sub-menu">
-                            <li><a href="/tour-packages/family-tour-packages.php">Family Tours</a></li>
-                            <li><a href="/destinations/tour-packages/honeymoon-packages.php">Honeymoon Packages</a></li>
-                            <li><a href="/destinations/tour-packages/budget-tour-packages.php">Budget Tours</a></li>
-                            <li><a href="/destinations/tour-packages/luxury-tour-packages.php">Luxury Tours</a></li>
-                            <li><a href="/destinations/tour-packages/custom-tour-packages.php">Customized Tours</a></li>
+                            <li><a href="<?= BASE_URL ?>/tour-packages/family-tour-packages.php">Family Tours</a></li>
+                            <li><a href="<?= BASE_URL ?>/destinations/tour-packages/honeymoon-packages.php">Honeymoon Packages</a></li>
+                            <li><a href="<?= BASE_URL ?>/destinations/tour-packages/budget-tour-packages.php">Budget Tours</a></li>
+                            <li><a href="<?= BASE_URL ?>/destinations/tour-packages/luxury-tour-packages.php">Luxury Tours</a></li>
+                            <li><a href="<?= BASE_URL ?>/destinations/tour-packages/custom-tour-packages.php">Customized Tours</a></li>
                         </ul>
                     </li>
                     <!-- FAQ -->
                     <li>
-                        <a href="/faq.php">FAQs</a>
+                        <a href="<?= BASE_URL ?>/faq.php">FAQs</a>
                     </li>
                     <!-- ABOUT -->
                     <li>
-                        <a href="/about.php">About</a>
+                        <a href="<?= BASE_URL ?>/about.php">About</a>
                     </li>
                     <!-- CONTACT -->
                     <li>
-                        <a href="/contact.php">Contact</a>
+                        <a href="<?= BASE_URL ?>/contact.php">Contact</a>
                     </li>
                 </ul>
                 <div class="contact-area d-lg-none d-flex">
