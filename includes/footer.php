@@ -169,8 +169,6 @@
     <script src="<?= BASE_URL ?>/assets/js/jquery-3.7.1.min.js"></script>
     <script src="<?= BASE_URL ?>/assets/js/jquery-ui.js"></script>
     <script src="<?= BASE_URL ?>/assets/js/moment.min.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js"></script>
-    
     <!-- Popper and Bootstrap JS -->
     <script src="<?= BASE_URL ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= BASE_URL ?>/assets/js/popper.min.js"></script>
@@ -181,8 +179,7 @@
     <script src="<?= BASE_URL ?>/assets/js/waypoints.min.js"></script>
     <!-- Counterup JS -->
     <script src="<?= BASE_URL ?>/assets/js/jquery.counterup.min.js"></script>
-    <!-- Nice Select JS -->
-    <script src="<?= BASE_URL ?>/assets/js/jquery.nice-select.min.js"></script>
+    
     <!-- Wow JS -->
     <script src="<?= BASE_URL ?>/assets/js/wow.min.js"></script>
     <!-- Gsap  JS -->
@@ -191,6 +188,9 @@
     <script src="<?= BASE_URL ?>/assets/js/jquery.fancybox.min.js"></script>
     <!-- Custom JS -->
     <?php if (basename($_SERVER['PHP_SELF']) === '/' || basename($_SERVER['PHP_SELF']) === 'index.php' || basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
+        <script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js"></script>
+        <!-- Nice Select JS -->
+        <script src="<?= BASE_URL ?>/assets/js/jquery.nice-select.min.js"></script>
         <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js"></script>
     <?php endif; ?>
     <script src="<?= BASE_URL ?>/assets/js/custom.js"></script>
