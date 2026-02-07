@@ -1119,7 +1119,7 @@
                                         <div class="location-card">
                                             <a href="#" class="location-img" data-bs-toggle="modal"
                                                 data-bs-target="#packageLocationModal">
-                                                <img src="assets/img/innerpages/package-dt-location-img1.jpg" alt="">
+                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/lachung.jpg" alt="">
                                             </a>
                                             <div class="location-content">
                                                 <h6><a href="#" data-bs-toggle="modal"
@@ -1133,7 +1133,7 @@
                                         <div class="location-card">
                                             <a href="#" class="location-img" data-bs-toggle="modal"
                                                 data-bs-target="#packageLocationModal">
-                                                <img src="assets/img/innerpages/package-dt-location-img2.jpg" alt="">
+                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Yumthang-valley-Sikkim.jpg" alt="">
                                             </a>
                                             <div class="location-content">
                                                 <h6><a href="#" data-bs-toggle="modal"
@@ -1147,7 +1147,7 @@
                                         <div class="location-card">
                                             <a href="#" class="location-img" data-bs-toggle="modal"
                                                 data-bs-target="#packageLocationModal">
-                                                <img src="assets/img/innerpages/package-dt-location-img3.jpg" alt="">
+                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Yume-Samdong.jpg" alt="">
                                             </a>
                                             <div class="location-content">
                                                 <h6><a href="#" data-bs-toggle="modal"
@@ -1162,7 +1162,7 @@
                                         <div class="location-card">
                                             <a href="#" class="location-img" data-bs-toggle="modal"
                                                 data-bs-target="#packageLocationModal">
-                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Gurudongmar-Lake-Sikkim-768x512.jpgg" alt="">
+                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Gurudongmar-Lake-Sikkim.jpg" alt="">
                                             </a>
                                             <div class="location-content">
                                                 <h6><a href="#" data-bs-toggle="modal"
