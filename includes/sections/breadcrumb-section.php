@@ -22,10 +22,10 @@
     <div class="banner-content-wrap">
         <div class="container">
             <div class="banner-content">
-                <span>Starting From <strong>$99</strong>/per person</span>
-                <h1>Zip-lining & Canopy</h1>
+                <!-- <span>Starting From <strong>$99</strong>/per person</span> -->
+                <h1><?php echo $slider_heading; ?></h1>
                 <div class="batch">
-                    <span>01 Hour | Himachal Pradesh, India</span>
+                    <span>Trusted & Awarded Tour Operater in North Bengal & Sikkim</span>
                 </div>
             </div>
         </div>
@@ -96,10 +96,9 @@
                         </svg>
                     </div>
                     <ul class="social-list">
-                        <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bx bxl-facebook"></i></a></li>
                         <li><a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a></li>
-                        <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt"></i></a></li>
+                        <li><a href="https://www.instagram.com/turbo_hills"><i class="bx bxl-instagram-alt"></i></a></li>
                     </ul>
                 </div>
             </div>
