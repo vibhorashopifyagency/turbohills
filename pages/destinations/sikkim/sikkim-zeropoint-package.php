@@ -5,19 +5,58 @@
     $metaDescription = 'Contact Turbo Hills for Sikkim tours starting at Bagdogra. Fast quotes, custom itineraries and airport transfers.';
     
     // Breadcrumb variablles
-    $slider_heading = 'Sikkim Zero-Point Package';
-    $slider_images = [
-        'assets/img/innerpages/breadcrumb-bg3.jpg',
-        'assets/img/innerpages/breadcrumb-bg4.jpg',
-        'assets/img/innerpages/experience-breadcrumb-bg.jpg'
+    
+    
+    // All data Group
+    $data = [
+        // Slider Details and images
+        "slider_details" => [
+            "slider_heading" =>  'Sikkim Zero-Point Package',
+            "slider_images" => [
+                "image_1" => 'assets/img/innerpages/breadcrumb-bg3.jpg',
+                "image_2" => 'assets/img/innerpages/breadcrumb-bg4.jpg',
+                "image_3" => 'assets/img/innerpages/experience-breadcrumb-bg.jpg',
+            ]
+        ],
+        // Page Headings and Sub-Headings
+        "headings" => [
+            "heading1" => "This is Heading",
+            "subheading" => "This is Sub-Heading",
+        ],
+        // heading of our tours
+        "tour_headings" => [
+            "activity_content_heading" => 'Ride Safey',
+            "location_slider_wrap" => 'Touring Places',
+            "highlights_tour" => 'Highlights of our Tour',
+            "Additional_Info" => 'Additional Info of our Tour',
+            "package_info_heading" => 'Overview Packages',
+            "package_info_message" => 'Paris, the City of Lights, and the surrounding Île-de-France region offer a perfect blend of history, culture, luxury, and romance. Whether you€re exploring iconic landmarks, indulging in French cuisine, or enjoying the charming countryside, this region has something for every traveler.'
+        ],
+        "package_info_list" => [
+            "rating_stars" => '55 star hotel',
+            "breakfast_and_dinner" => 'Breakfast Lunch Dinner',
+            "transportation" => 'taxi and bus',
+            "group_size" => '20-25',
+            "language" => 'english hindi',
+            "guide" => 'local guide',
+            "age_range" => '18 to 60',
+            "Season" => 'winter summer',
+            "Category" => 'Adventure',
+        ],   
+        "page_details" => [
+            "pageTitle" => 'Contact Turbo Hills — Book Sikkim tours from Bagdogra',
+            "metaDescription" => 'Contact Turbo Hills for Sikkim tours starting at Bagdogra. Fast quotes, custom itineraries and airport transfers.'
+        ]
+      
+      
     ];
-    // heading of our tours
-    $activity_content_heading = ' Ride Safey';
-    $location_slider_wrap = 'Touring Places';
-    $highlights_tour = 'Highlights of our Tour';
-    $Additional_Info = 'Additional Info of our Tour';
-    $package_info_heading = 'Overview Packages';
-    $package_info_message =  'Paris, the City of Lights, and the surrounding Île-de-France region offer a perfect blend of history, culture, luxury, and romance. Whether you’re exploring iconic landmarks, indulging in French cuisine, or enjoying the charming countryside, this region has something for every traveler.';
+
+    // $jsonData = json_encode($data, JSON_PRETTY_PRINT);
+    // echo $jsonData;
+
+    // echo '<pre>';
+    // print_r($data);
+    // echo '</pre>';
 
     
     // Header and constants

@@ -15,7 +15,7 @@
                                         <img src="assets/img/home7/activity-tab-img1.jpg" alt="">
                                     </div>
                                     <div class="activity-content">
-                                        <h4> <?php echo $activity_content_heading; ?> </h4>
+                                        <h4><?php echo $data["tour_headings"]["activity_content_heading"] ?></h4>
                                         <p>Experience the breathtaking beauty of the ocean like never before! With
                                             <span>35% OFF</span> on scuba diving experiences across all destinations</p>
                                         <a href="experience-details.html" class="primary-btn1 two four"
@@ -146,8 +146,8 @@
 
                 <div class="package-details-warpper">
                     <div class="package-info-wrap mb-60"> 
-                        <h2> <?php echo  $package_info_heading; ?></h2>
-                        <p><?php echo $package_info_message; ?></p>
+                        <h2><?php echo $data["tour_headings"]["package_info_heading"]; ?></h2>
+                        <p><?php echo $data["tour_headings"]["package_info_message"]; ?></p>
                         <ul class="package-info-list">
                             <li>
                                 <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
@@ -163,7 +163,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Accomodation</span>
-                                    <strong>5 Star Hotel</strong>
+                                    <strong><?php echo $package_info_list["rating_stars"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -175,7 +175,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Meals</span>
-                                    <strong>Breakfast & Dinner</strong>
+                                    <strong><?php echo $package_info_list["breakfast_and_dinner"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -189,7 +189,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Transportation</span>
-                                    <strong>Taxi,Car</strong>
+                                    <strong><?php echo $package_info_list["transportation"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -205,7 +205,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Group Size</span>
-                                    <strong>10-20</strong>
+                                    <strong><?php echo $package_info_list["group_size"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -223,7 +223,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Language</span>
-                                    <strong>English, hindi</strong>
+                                    <strong><?php echo $package_info_list["Language"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -247,7 +247,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Guide</span>
-                                    <strong>Local Guides</strong>
+                                    <strong><?php echo $package_info_list["guide"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -263,7 +263,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Age Range</span>
-                                    <strong>18-45 (Year)</strong>
+                                    <strong><?php echo $package_info_list["Age range"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -277,7 +277,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Season</span>
-                                    <strong>Winter Season</strong>
+                                    <strong><?php echo $package_info_list["Season"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -289,7 +289,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Category</span>
-                                    <strong>Adventure</strong>
+                                    <strong><?php echo $package_info_list["Category"]; ?></strong>
                                 </div>
                             </li>
                         </ul>

@@ -4,17 +4,17 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="banner-bg"
-                    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/assets/img/innerpages/breadcrumb-bg3.jpg);">
+                    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/<?php echo $data["slider_details"]["slider_images"]["image_1"] ?>);">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="banner-bg"
-                    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/assets/img/innerpages/breadcrumb-bg4.jpg);">
+                    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/<?php echo $data["slider_details"]["slider_images"]["image_2"] ?>);">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="banner-bg"
-                    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/assets/img/innerpages/experience-breadcrumb-bg.jpg);">
+                    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/<?php echo $data["slider_details"]["slider_images"]["image_3"] ?>);">
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
         <div class="container">
             <div class="banner-content">
                 <!-- <span>Starting From <strong>$99</strong>/per person</span> -->
-                <h1><?php echo $slider_heading; ?></h1>
+                <h1><?php echo $data["slider_details"]["slider_heading"] ?></h1>
                 <div class="batch">
                     <span>Trusted & Awarded Tour Operater in North Bengal & Sikkim</span>
                 </div>
