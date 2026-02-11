@@ -40,16 +40,29 @@
             "language" => 'english hindi',
             "guide" => 'local guide',
             "age_range" => '18 to 60',
-            "Season" => 'winter summer',
-            "Category" => 'Adventure',
+            "season" => 'winter summer',
+            "category" => 'Adventure',
         ],   
         "page_details" => [
             "pageTitle" => 'Contact Turbo Hills — Book Sikkim tours from Bagdogra',
-            "metaDescription" => 'Contact Turbo Hills for Sikkim tours starting at Bagdogra. Fast quotes, custom itineraries and airport transfers.'
-        ]
-      
-      
-    ];
+            "metaDescription" => 'Contact Turbo Hills for Sikkim tours starting at Bagdogra. Fast quotes, custom itineraries and airport transfers.',
+        ],
+        "feature_list" =>   [
+            "feature_list_area" => 'package_fiture',
+            "including_features" => 'including_features',
+            "single_feature_list" => 'excucive featuer',
+        ],
+        "location_slider" => [
+            "location_slider" => 'location_slider',
+        ],
+        "additional_info" => [
+            "additional_info_wrap" => 'additional information'
+        ],
+        "single_feature_list" =>[
+            "single_feature" => "single_feature"
+        ] 
+   ];
+    
 
     // $jsonData = json_encode($data, JSON_PRETTY_PRINT);
     // echo $jsonData;

@@ -163,7 +163,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Accomodation</span>
-                                    <strong><?php echo $package_info_list["rating_stars"]; ?></strong>
+                                    <strong><?php echo $data ["package_info_list"]["rating_stars"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -175,7 +175,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Meals</span>
-                                    <strong><?php echo $package_info_list["breakfast_and_dinner"]; ?></strong>
+                                    <strong><?php echo $data ["package_info_list"]["breakfast_and_dinner"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -189,7 +189,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Transportation</span>
-                                    <strong><?php echo $package_info_list["transportation"]; ?></strong>
+                                    <strong><?php echo $data ["package_info_list"]["transportation"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -205,7 +205,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Group Size</span>
-                                    <strong><?php echo $package_info_list["group_size"]; ?></strong>
+                                    <strong><?php echo $data ["package_info_list"]["group_size"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -223,7 +223,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Language</span>
-                                    <strong><?php echo $package_info_list["Language"]; ?></strong>
+                                    <strong><?php echo $data ["package_info_list"]["language"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -247,7 +247,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Guide</span>
-                                    <strong><?php echo $package_info_list["guide"]; ?></strong>
+                                    <strong><?php echo $data["package_info_list"]["guide"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -263,7 +263,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Age Range</span>
-                                    <strong><?php echo $package_info_list["Age range"]; ?></strong>
+                                    <strong><?php echo $data ["package_info_list"]["age_range"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -277,7 +277,7 @@
                                 </svg>
                                 <div class="content">
                                     <span>Season</span>
-                                    <strong><?php echo $package_info_list["Season"]; ?></strong>
+                                    <strong><?php echo $data["package_info_list"]["season"]; ?></strong>
                                 </div>
                             </li>
                             <li>
@@ -289,14 +289,14 @@
                                 </svg>
                                 <div class="content">
                                     <span>Category</span>
-                                    <strong><?php echo $package_info_list["Category"]; ?></strong>
+                                    <strong><?php echo $data["package_info_list"]["category"]; ?></strong>
                                 </div>
                             </li>
                         </ul>
                     </div>
 
                     <div class="location-slider-wrap mb-60">
-                        <h4><?php echo $location_slider_wrap;?></h4>
+                        <h4><?php echo $data ["location_slider"]["location_slider"];?></h4>
                         <div class="location-slider-area">
                             <div
                                 class="swiper package-dt-location-slider swiper-initialized swiper-horizontal swiper-backface-hidden">
@@ -405,7 +405,7 @@
                     </div>
 
                     <div class="highlights-tour-area mb-60">
-                        <h4><?php echo $highlights_tour; ?> </h4>
+                        <h4><?php echo $data ["tour_headings"]["highlights_tour"]; ?></h4> 
                         <div class="highlights-wrap">
                             <ul class="items-list">
                                 <li>
@@ -458,11 +458,11 @@
                         </div>
                     </div>
                     <div class="feature-list-area mb-60">
-                        <h4>Package Features List</h4>
+                        <h4><?php echo $data["feature_list"]["feature_list_area"]; ?></h4>
                         <div class="row gy-md-5 gy-4 justify-content-between">
                             <div class="col-lg-5 col-md-6">
                                 <div class="single-feature-list">
-                                    <h5>Include Features</h5>
+                                    <h5><?php echo $data["feature_list"]["including_features"];?></h5>
                                     <ul class="items-list two">
                                         <li>
                                             <svg width="16" height="16" viewBox="0 0 16 16"
@@ -519,7 +519,7 @@
                             </div>
                             <div class="col-lg-5 col-md-6">
                                 <div class="single-feature-list">
-                                    <h5>Exclude Features</h5>
+                                    <h5><?php echo $data ["single_feature_list"]["single_feature"];?></h5>
                                     <ul class="items-list two">
                                         <li>
                                             <svg class="exclude" width="16" height="16" viewBox="0 0 16 16"
@@ -587,7 +587,7 @@
                         </div>
                     </div>
                     <div class="additional-info mb-60">
-                        <h4><?php echo $Additional_Info; ?></h4>
+                        <h4><?php echo $data ["additional_info"]["additional_info_wrap"]; ?></h4>
                         <ul class="items-list two">
                             <li>
                                 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
