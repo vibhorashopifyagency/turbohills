@@ -16,108 +16,9 @@
                                     </div>
                                     <div class="activity-content">
                                         <h4><?php echo $data["tour_headings"]["activity_content_heading"] ?></h4>
-                                        <p>Experience the breathtaking beauty of the ocean like never before! With
-                                            <span>35% OFF</span> on scuba diving experiences across all destinations</p>
+                                        <p><?php echo $data["tour_headings"]["activity_body_content"] ?></p>
                                         <a href="experience-details.html" class="primary-btn1 two four"
                                             data-bs-toggle="modal" data-bs-target="#enquiryModal">
-                                            <span>
-                                                Book Now
-                                                <svg width="10" height="10" viewBox="0 0 10 10"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                                    </path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                Book Now
-                                                <svg width="10" height="10" viewBox="0 0 10 10"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                                    </path>
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-paragliding" role="tabpanel"
-                                aria-labelledby="pills-paragliding-tab">
-                                <div class="single-activity">
-                                    <div class="activity-img">
-                                        <img src="assets/img/home7/activity-tab-img2.jpg" alt="">
-                                    </div>
-                                    <div class="activity-content">
-                                     
-                                     
-                                        <a href="experience-details.html" class="primary-btn1 two four">
-                                            <span>
-                                                Book Now
-                                                <svg width="10" height="10" viewBox="0 0 10 10"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                                    </path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                Book Now
-                                                <svg width="10" height="10" viewBox="0 0 10 10"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                                    </path>
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-rafting" role="tabpanel"
-                                aria-labelledby="pills-rafting-tab">
-                                <div class="single-activity">
-                                    <div class="activity-img">
-                                        <img src="assets/img/home7/activity-tab-img3.jpg" alt="">
-                                    </div>
-                                    <div class="activity-content">
-                                        <h4>Exciting River Rafting</h4>
-                                        <p>Feel the adrenaline rush as you conquer wild rapids! Get <span>20% OFF</span>
-                                            on rafting experiences across all destinations.</p>
-                                        <a href="experience-details.html" class="primary-btn1 two four">
-                                            <span>
-                                                Book Now
-                                                <svg width="10" height="10" viewBox="0 0 10 10"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                                    </path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                Book Now
-                                                <svg width="10" height="10" viewBox="0 0 10 10"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                                    </path>
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-bungee-jump" role="tabpanel"
-                                aria-labelledby="pills-bungee-jump-tab">
-                                <div class="single-activity">
-                                    <div class="activity-img">
-                                        <img src="assets/img/home7/activity-tab-img4.jpg" alt="">
-                                    </div>
-                                    <div class="activity-content">
-                                        <h4>Extreme Bungee Jumping</h4>
-                                        <p>Take the leap of a lifetime from breathtaking heights! Enjoy <span>35%
-                                                OFF</span> on bungee jump adventures in all locations.</p>
-                                        <a href="experience-details.html" class="primary-btn1 two four">
                                             <span>
                                                 Book Now
                                                 <svg width="10" height="10" viewBox="0 0 10 10"
@@ -145,7 +46,7 @@
                 </div>
 
                 <div class="package-details-warpper">
-                    <div class="package-info-wrap mb-60"> 
+                    <div class="package-info-wrap mb-60">
                         <h2><?php echo $data["tour_headings"]["package_info_heading"]; ?></h2>
                         <p><?php echo $data["tour_headings"]["package_info_message"]; ?></p>
                         <ul class="package-info-list">
@@ -295,594 +196,205 @@
                         </ul>
                     </div>
 
+
                     <div class="location-slider-wrap mb-60">
-                        <h4><?php echo $data ["location_slider"]["location_slider"];?></h4>
+                        <h4><?php echo $data["location_slider"]["heading"]; ?></h4>
+
                         <div class="location-slider-area">
-                            <div
-                                class="swiper package-dt-location-slider swiper-initialized swiper-horizontal swiper-backface-hidden">
-                                <div class="swiper-wrapper" id="swiper-wrapper-4cfa55810e010fcfac" aria-live="off"
-                                    style="transition-duration: 0ms; transform: translate3d(-513.333px, 0px, 0px); transition-delay: 0ms;">
-                                    <div class="swiper-slide" role="group" aria-label="1 / 5"
-                                        style="width: 232.667px; margin-right: 24px;">
-                                        <div class="location-card">
-                                            <a href="#" class="location-img" data-bs-toggle="modal"
-                                                data-bs-target="#packageLocationModal">
-                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/lachung.jpg" alt="">
-                                            </a>
-                                            <div class="location-content">
-                                                <h6><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#packageLocationModal">Lachung</a></h6>
-                                                <span>(02 Days)</span>
+                            <div class="swiper package-dt-location-slider">
+                               
+                                <div class="swiper-wrapper">
+
+                                    <?php foreach ($data['location_slider']['image_and_names'] as $location): ?>
+
+                                        <div class="swiper-slide">
+                                            <div class="location-card">
+                                                
+                                                <a href="#" class="location-img"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#packageLocationModal">
+
+                                                    <img src="<?= BASE_URL . htmlspecialchars($location['image']) ?>"
+                                                        alt="<?= htmlspecialchars($location['name']) ?>">
+                                                </a>
+
+                                                <div class="location-content">
+                                                    <h6>
+                                                        <a href="#"
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#packageLocationModal">
+                                                            <?= htmlspecialchars($location['name']) ?>
+                                                        </a>
+                                                    </h6>
+
+                                                </div>
+
                                             </div>
                                         </div>
+
+                                    <?php endforeach; ?>
+
                                     </div>
-                                    <div class="swiper-slide swiper-slide-prev" role="group" aria-label="2 / 5"
-                                        style="width: 232.667px; margin-right: 24px;">
-                                        <div class="location-card">
-                                            <a href="#" class="location-img" data-bs-toggle="modal"
-                                                data-bs-target="#packageLocationModal">
-                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Yumthang-valley-Sikkim.jpg"
-                                                    alt="">
-                                            </a>
-                                            <div class="location-content">
-                                                <h6><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#packageLocationModal">Yumthang Valley</a></h6>
-                                                <span>(01 Days)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="3 / 5"
-                                        style="width: 232.667px; margin-right: 24px;">
-                                        <div class="location-card">
-                                            <a href="#" class="location-img" data-bs-toggle="modal"
-                                                data-bs-target="#packageLocationModal">
-                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Yume-Samdong.jpg" alt="">
-                                            </a>
-                                            <div class="location-content">
-                                                <h6><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#packageLocationModal">Yume Samdong</a>
-                                                </h6>
-                                                <span>(01 Days)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="4 / 5"
-                                        style="width: 232.667px; margin-right: 24px;">
-                                        <div class="location-card">
-                                            <a href="#" class="location-img" data-bs-toggle="modal"
-                                                data-bs-target="#packageLocationModal">
-                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Gurudongmar-Lake-Sikkim.jpg"
-                                                    alt="">
-                                            </a>
-                                            <div class="location-content">
-                                                <h6><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#packageLocationModal">Gurudongmar Lake</a>
-                                                </h6>
-                                                <span>(03 Days)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="5 / 5"
-                                        style="width: 232.667px; margin-right: 24px;">
-                                        <div class="location-card">
-                                            <a href="#" class="location-img" data-bs-toggle="modal"
-                                                data-bs-target="#packageLocationModal">
-                                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Lachen-Sikkim-768x512.jpg"
-                                                    alt="">
-                                            </a>
-                                            <div class="location-content">
-                                                <h6><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#packageLocationModal">lachen
-                                                    </a></h6>
-                                                <span>(02 Days)</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+
                             </div>
                             <div class="slider-btn-grp two">
-                                <div class="slider-btn location-slider-prev" tabindex="0" role="button"
-                                    aria-label="Previous slide" aria-controls="swiper-wrapper-4cfa55810e010fcfac"
-                                    aria-disabled="false">
-                                    <svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg">
+                                <div class="slider-btn location-slider-prev">
+                                    <svg width="12" height="14" viewBox="0 0 12 14"
+                                        xmlns="http://www.w3.org/2000/svg">
                                         <path
-                                            d="M10.3125 0.704152C10.4758 0.323658 10.9172 0.147472 11.2979 0.310597C11.6784 0.473872 11.8545 0.915329 11.6914 1.29595C10.8482 3.26297 9.18494 4.61712 7.42871 5.59282C6.36908 6.1815 5.24241 6.64833 4.18848 7.03618C5.31592 7.51881 6.52685 8.12012 7.6416 8.79693C8.54322 9.34436 9.39912 9.95095 10.1025 10.5958C10.7986 11.2338 11.3891 11.9489 11.6982 12.7217C11.852 13.1063 11.6648 13.5425 11.2803 13.6963C10.8957 13.85 10.4595 13.6629 10.3057 13.2784C10.1148 12.8013 9.70522 12.2662 9.08887 11.7012C8.47993 11.1431 7.71047 10.5931 6.8623 10.0782C5.16463 9.04752 3.21635 8.19586 1.76465 7.71196L-0.370117 7.00005L1.76465 6.28814C3.27361 5.78515 5.08312 5.18062 6.7002 4.28228C8.31881 3.38305 9.6556 2.23687 10.3125 0.704152Z">
-                                        </path>
+                                            d="M10.3125 0.704152C10.4758 0.323658 10.9172 0.147472 11.2979 0.310597C11.6784 0.473872 11.8545 0.915329 11.6914 1.29595C10.8482 3.26297 9.18494 4.61712 7.42871 5.59282C6.36908 6.1815 5.24241 6.64833 4.18848 7.03618C5.31592 7.51881 6.52685 8.12012 7.6416 8.79693C8.54322 9.34436 9.39912 9.95095 10.1025 10.5958C10.7986 11.2338 11.3891 11.9489 11.6982 12.7217C11.852 13.1063 11.6648 13.5425 11.2803 13.6963C10.8957 13.85 10.4595 13.6629 10.3057 13.2784C10.1148 12.8013 9.70522 12.2662 9.08887 11.7012C8.47993 11.1431 7.71047 10.5931 6.8623 10.0782C5.16463 9.04752 3.21635 8.19586 1.76465 7.71196L-0.370117 7.00005L1.76465 6.28814C3.27361 5.78515 5.08312 5.18062 6.7002 4.28228C8.31881 3.38305 9.6556 2.23687 10.3125 0.704152Z" />
                                     </svg>
                                 </div>
-                                <div class="slider-btn location-slider-next swiper-button-disabled" tabindex="-1"
-                                    role="button" aria-label="Next slide"
-                                    aria-controls="swiper-wrapper-4cfa55810e010fcfac" aria-disabled="true">
-                                    <svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg">
+                                <div class="slider-btn location-slider-next">
+                                    <svg width="12" height="14" viewBox="0 0 12 14"
+                                        xmlns="http://www.w3.org/2000/svg">
                                         <path
-                                            d="M0.719771 13.6962C1.10432 13.85 1.54057 13.6628 1.69438 13.2783C1.88527 12.8012 2.29482 12.2661 2.91118 11.7011C3.52012 11.1429 4.28957 10.593 5.13774 10.0781C6.83541 9.04741 8.78369 8.19576 10.2354 7.71186L12.3702 6.99995L10.2354 6.28803C8.72643 5.78505 6.91691 5.18052 5.29985 4.28218C3.68124 3.38295 2.34442 2.23677 1.68754 0.70405C1.52426 0.323573 1.0828 0.147379 0.702193 0.310495C0.321714 0.473783 0.145522 0.915242 0.308638 1.29585C1.15178 3.26288 2.81511 4.61702 4.57133 5.59272C5.63078 6.1813 6.75681 6.64924 7.81059 7.03706C6.68348 7.5196 5.4728 8.12025 4.35844 8.79682C3.45684 9.34426 2.60092 9.95086 1.89751 10.5957C1.20147 11.2337 0.610934 11.9488 0.301802 12.7216C0.148089 13.1062 0.33524 13.5424 0.719771 13.6962Z">
-                                        </path>
+                                            d="M0.719771 13.6962C1.10432 13.85 1.54057 13.6628 1.69438 13.2783C1.88527 12.8012 2.29482 12.2661 2.91118 11.7011C3.52012 11.1429 4.28957 10.593 5.13774 10.0781C6.83541 9.04741 8.78369 8.19576 10.2354 7.71186L12.3702 6.99995L10.2354 6.28803C8.72643 5.78505 6.91691 5.18052 5.29985 4.28218C3.68124 3.38295 2.34442 2.23677 1.68754 0.70405C1.52426 0.323573 1.0828 0.147379 0.702193 0.310495C0.321714 0.473783 0.145522 0.915242 0.308638 1.29585C1.15178 3.26288 2.81511 4.61702 4.57133 5.59272C5.63078 6.1813 6.75681 6.64924 7.81059 7.03706C6.68348 7.5196 5.4728 8.12025 4.35844 8.79682C3.45684 9.34426 2.60092 9.95086 1.89751 10.5957C1.20147 11.2337 0.610934 11.9488 0.301802 12.7216C0.148089 13.1062 0.33524 13.5424 0.719771 13.6962Z" />
                                     </svg>
                                 </div>
                             </div>
                         </div>
                     </div>
+
 
                     <div class="highlights-tour-area mb-60">
-                        <h4><?php echo $data ["tour_headings"]["highlights_tour"]; ?></h4> 
+                        <h4><?= htmlspecialchars($data["tour_headings"]["highlights_tour"]); ?></h4>
+
                         <div class="highlights-wrap">
                             <ul class="items-list">
+
+                            <?php foreach($data["tour_highlights"]["items"] as $highlight): ?>
+
                                 <li>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                        <path
-                                            d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                    </svg>
-                                    Eiffel Tower – Skip-the-line access & breathtaking views from the summit.
+                                    <?= $highlightIcon; ?>
+                                    <?= htmlspecialchars($highlight); ?>
                                 </li>
-                                <li>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                        <path
-                                            d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                    </svg>
-                                    Louvre Museum – See the Mona Lisa and world-renowned masterpieces.
-                                </li>
-                                <li>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                        <path
-                                            d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                    </svg>
-                                    Opéra Garnier – Visit the stunning opera house that inspired "The Phantom of the
-                                    Opera”.
-                                </li>
-                                <li>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                        <path
-                                            d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                    </svg>
-                                    French Café & Bakery Tour – Savor croissants, macarons & espresso at historic cafés.
-                                </li>
-                                <li>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                        <path
-                                            d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                    </svg>
-                                    Sunset Dinner Cruise on the Seine – Romantic fine dining on the river.
-                                </li>
+
+                            <?php endforeach; ?>
+
                             </ul>
                         </div>
                     </div>
+
                     <div class="feature-list-area mb-60">
-                        <h4><?php echo $data["feature_list"]["feature_list_area"]; ?></h4>
+
+                        <h4><?= htmlspecialchars($data["features"]["title"]); ?></h4>
+
                         <div class="row gy-md-5 gy-4 justify-content-between">
+
+                            <!-- INCLUDED -->
                             <div class="col-lg-5 col-md-6">
                                 <div class="single-feature-list">
-                                    <h5><?php echo $data["feature_list"]["including_features"];?></h5>
+                                    <h5><?= htmlspecialchars($data["features"]["included"]["title"]); ?></h5>
+
                                     <ul class="items-list two">
+                                    <?php foreach($data["features"]["included"]["items"] as $item): ?>
                                         <li>
-                                            <svg width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                                <path
-                                                    d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                            </svg>
-                                            Accommodation (Hotel, Resort, Villa, Camping, etc.)
+                                            <?= $iconTick; ?>
+                                            <?= htmlspecialchars($item); ?>
                                         </li>
-                                        <li>
-                                            <svg width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                                <path
-                                                    d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                            </svg>
-                                            Meals (Breakfast, Lunch, Dinner – specify type)
-                                        </li>
-                                        <li>
-                                            <svg width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                                <path
-                                                    d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                            </svg>
-                                            Guided Tours & Excursions
-                                        </li>
-                                        <li>
-                                            <svg width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                                <path
-                                                    d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                            </svg>
-                                            Entry Tickets to Attractions
-                                        </li>
-                                        <li>
-                                            <svg width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                                <path
-                                                    d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                            </svg>
-                                            Adventure Activities & Travel Insurance.
-                                        </li>
+                                    <?php endforeach; ?>
                                     </ul>
                                 </div>
                             </div>
+
+                            <!-- EXCLUDED -->
                             <div class="col-lg-5 col-md-6">
                                 <div class="single-feature-list">
-                                    <h5><?php echo $data ["single_feature_list"]["single_feature"];?></h5>
+                                    <h5><?= htmlspecialchars($data["features"]["excluded"]["title"]); ?></h5>
+
                                     <ul class="items-list two">
+                                    <?php foreach($data["features"]["excluded"]["items"] as $item): ?>
                                         <li>
-                                            <svg class="exclude" width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <g>
-                                                    <path
-                                                        d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8ZM16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z" />
-                                                    <path
-                                                        d="M6.00165 5.00036C5.8601 5.00368 5.72612 5.05514 5.62413 5.15703L5.1296 5.65267C4.89714 5.88495 4.92646 6.28828 5.19443 6.55662L6.67129 8.03561L5.19443 9.51394C4.92646 9.78219 4.89704 10.1856 5.1296 10.4184L5.62413 10.9136C5.8566 11.1458 6.2592 11.117 6.52753 10.8486L8.0044 9.36982L9.48126 10.8486C9.74978 11.117 10.1527 11.1458 10.3847 10.9136L10.8799 10.4184C11.1119 10.1857 11.0831 9.78228 10.8145 9.51394L9.33769 8.03561L10.8145 6.55662C11.0831 6.28828 11.1119 5.88495 10.8799 5.65267L10.3847 5.15703C10.1527 4.92429 9.74978 4.9537 9.48126 5.22241L8.0044 6.70084L6.52753 5.2225C6.37677 5.07109 6.18321 4.99594 6.00165 5.00036Z" />
-                                                </g>
-                                            </svg>
-                                            Visa Fees & Processing.
+                                            <?= $iconCross; ?>
+                                            <?= htmlspecialchars($item); ?>
                                         </li>
-                                        <li>
-                                            <svg class="exclude" width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <g>
-                                                    <path
-                                                        d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8ZM16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z" />
-                                                    <path
-                                                        d="M6.00165 5.00036C5.8601 5.00368 5.72612 5.05514 5.62413 5.15703L5.1296 5.65267C4.89714 5.88495 4.92646 6.28828 5.19443 6.55662L6.67129 8.03561L5.19443 9.51394C4.92646 9.78219 4.89704 10.1856 5.1296 10.4184L5.62413 10.9136C5.8566 11.1458 6.2592 11.117 6.52753 10.8486L8.0044 9.36982L9.48126 10.8486C9.74978 11.117 10.1527 11.1458 10.3847 10.9136L10.8799 10.4184C11.1119 10.1857 11.0831 9.78228 10.8145 9.51394L9.33769 8.03561L10.8145 6.55662C11.0831 6.28828 11.1119 5.88495 10.8799 5.65267L10.3847 5.15703C10.1527 4.92429 9.74978 4.9537 9.48126 5.22241L8.0044 6.70084L6.52753 5.2225C6.37677 5.07109 6.18321 4.99594 6.00165 5.00036Z" />
-                                                </g>
-                                            </svg>
-                                            Personal Expenses (Shopping, Souvenirs, Tips, etc.)
-                                        </li>
-                                        <li>
-                                            <svg class="exclude" width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <g>
-                                                    <path
-                                                        d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8ZM16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z" />
-                                                    <path
-                                                        d="M6.00165 5.00036C5.8601 5.00368 5.72612 5.05514 5.62413 5.15703L5.1296 5.65267C4.89714 5.88495 4.92646 6.28828 5.19443 6.55662L6.67129 8.03561L5.19443 9.51394C4.92646 9.78219 4.89704 10.1856 5.1296 10.4184L5.62413 10.9136C5.8566 11.1458 6.2592 11.117 6.52753 10.8486L8.0044 9.36982L9.48126 10.8486C9.74978 11.117 10.1527 11.1458 10.3847 10.9136L10.8799 10.4184C11.1119 10.1857 11.0831 9.78228 10.8145 9.51394L9.33769 8.03561L10.8145 6.55662C11.0831 6.28828 11.1119 5.88495 10.8799 5.65267L10.3847 5.15703C10.1527 4.92429 9.74978 4.9537 9.48126 5.22241L8.0044 6.70084L6.52753 5.2225C6.37677 5.07109 6.18321 4.99594 6.00165 5.00036Z" />
-                                                </g>
-                                            </svg>
-                                            Optional Excursions & Activities.
-                                        </li>
-                                        <li>
-                                            <svg class="exclude" width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <g>
-                                                    <path
-                                                        d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8ZM16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z" />
-                                                    <path
-                                                        d="M6.00165 5.00036C5.8601 5.00368 5.72612 5.05514 5.62413 5.15703L5.1296 5.65267C4.89714 5.88495 4.92646 6.28828 5.19443 6.55662L6.67129 8.03561L5.19443 9.51394C4.92646 9.78219 4.89704 10.1856 5.1296 10.4184L5.62413 10.9136C5.8566 11.1458 6.2592 11.117 6.52753 10.8486L8.0044 9.36982L9.48126 10.8486C9.74978 11.117 10.1527 11.1458 10.3847 10.9136L10.8799 10.4184C11.1119 10.1857 11.0831 9.78228 10.8145 9.51394L9.33769 8.03561L10.8145 6.55662C11.0831 6.28828 11.1119 5.88495 10.8799 5.65267L10.3847 5.15703C10.1527 4.92429 9.74978 4.9537 9.48126 5.22241L8.0044 6.70084L6.52753 5.2225C6.37677 5.07109 6.18321 4.99594 6.00165 5.00036Z" />
-                                                </g>
-                                            </svg>
-                                            Meals Not Mentioned in Itinerary.
-                                        </li>
-                                        <!-- <li>
-                                            <svg class="exclude" width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <g>
-                                                    <path
-                                                        d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8ZM16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z" />
-                                                    <path
-                                                        d="M6.00165 5.00036C5.8601 5.00368 5.72612 5.05514 5.62413 5.15703L5.1296 5.65267C4.89714 5.88495 4.92646 6.28828 5.19443 6.55662L6.67129 8.03561L5.19443 9.51394C4.92646 9.78219 4.89704 10.1856 5.1296 10.4184L5.62413 10.9136C5.8566 11.1458 6.2592 11.117 6.52753 10.8486L8.0044 9.36982L9.48126 10.8486C9.74978 11.117 10.1527 11.1458 10.3847 10.9136L10.8799 10.4184C11.1119 10.1857 11.0831 9.78228 10.8145 9.51394L9.33769 8.03561L10.8145 6.55662C11.0831 6.28828 11.1119 5.88495 10.8799 5.65267L10.3847 5.15703C10.1527 4.92429 9.74978 4.9537 9.48126 5.22241L8.0044 6.70084L6.52753 5.2225C6.37677 5.07109 6.18321 4.99594 6.00165 5.00036Z" />
-                                                </g>
-                                            </svg>
-                                            Travel Insurance (if not included).
-                                        </li> -->
+                                    <?php endforeach; ?>
                                     </ul>
                                 </div>
                             </div>
+
                         </div>
+
                     </div>
+
                     <div class="additional-info mb-60">
-                        <h4><?php echo $data ["additional_info"]["additional_info_wrap"]; ?></h4>
+
+                        <h4><?= htmlspecialchars($data["additional_info"]["title"]); ?></h4>
+
                         <ul class="items-list two">
-                            <li>
-                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                    <path
-                                        d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                </svg>
-                                <div class="content">
-                                    <span>Free Cancellation</span> – Some tours offer free cancellation up to a certain
-                                    period (e.g., 24–48 hours before departure).
-                                </div>
-                            </li>
-                            <li>
-                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15V16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16V15C11.866 15 15 11.866 15 8Z" />
-                                    <path
-                                        d="M11.6947 6.45795L7.24644 10.9086C7.17556 10.9771 7.08572 11.0126 6.99596 11.0126C6.9494 11.0127 6.90328 11.0035 6.86027 10.9857C6.81727 10.9678 6.77822 10.9416 6.7454 10.9086L4.3038 8.46699C4.16436 8.32987 4.16436 8.10539 4.3038 7.96595L5.16652 7.10083C5.29892 6.96851 5.53524 6.96851 5.66764 7.10083L6.99596 8.42915L10.3309 5.09179C10.3638 5.05887 10.4028 5.03274 10.4457 5.01489C10.4887 4.99705 10.5347 4.98784 10.5812 4.98779C10.6757 4.98779 10.7656 5.02563 10.8317 5.09179L11.6944 5.95699C11.8341 6.09643 11.8341 6.32091 11.6947 6.45795Z" />
-                                </svg>
-                                <div class="content">
-                                    <span>Health & Safety Guidelines</span> – COVID-19 regulations, vaccinations, or
-                                    travel restrictions.
-                                </div>
-                            </li>
+
+                            <?php foreach($data["additional_info"]["items"] as $item): ?>
+                                <li>
+                                    <?= $iconTick; ?>
+                                    <div class="content">
+                                        <span><?= htmlspecialchars($item["highlight"]); ?></span>
+                                        - <?= htmlspecialchars($item["description"]); ?>
+                                    </div>
+                                </li>
+                            <?php endforeach; ?>
+
                         </ul>
+
                     </div>
+
                     <div class="faq-area mb-60">
-                        <h4>Frequently Asked & Question</h4>
+
+                        <h4><?= htmlspecialchars($data["faq"]["title"]); ?></h4>
+
                         <div class="faq-wrap">
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion accordion-flush" id="tourFAQ">
+
+                                <?php foreach($data["faq"]["items"] as $index => $faq): 
+                                    $id = "faq".$index;
+                                    $show = ($index == 0) ? "show" : "";
+                                    $collapsed = ($index == 0) ? "" : "collapsed";
+                                ?>
+
                                 <div class="accordion-item">
-                                    <h5 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                            aria-controls="flush-collapseOne">What are the must-visit places in
-                                            France?</button>
+
+                                    <h5 class="accordion-header" id="heading<?= $id ?>">
+                                        <button class="accordion-button <?= $collapsed ?>" type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapse<?= $id ?>"
+                                            aria-expanded="<?= $index==0 ? 'true':'false' ?>"
+                                            aria-controls="collapse<?= $id ?>">
+
+                                            <?= htmlspecialchars($faq["question"]); ?>
+
+                                        </button>
                                     </h5>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+
+                                    <div id="collapse<?= $id ?>" class="accordion-collapse collapse <?= $show ?>"
+                                        aria-labelledby="heading<?= $id ?>"
+                                        data-bs-parent="#tourFAQ">
+
                                         <div class="accordion-body">
-                                            Top destinations include Paris (Eiffel Tower, Louvre), Nice (French
-                                            Riviera), Bordeaux (wine tours), Provence (lavender fields), and Normandy
-                                            (Mont Saint-Michel).
+                                            <?= htmlspecialchars($faq["answer"]); ?>
                                         </div>
+
                                     </div>
+
                                 </div>
-                                <div class="accordion-item">
-                                    <h5 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                            aria-expanded="false" aria-controls="flush-collapseTwo">Do tour packages
-                                            include entrance fees?</button>
-                                    </h5>
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            Yes, most of our tour packages include entrance fees to major attractions as
-                                            listed in the itinerary. However, optional activities or personal expenses
-                                            may not be covered. Please check the inclusions section of your selected
-                                            package for full details.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h5 class="accordion-header" id="flush-headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                            aria-expanded="false" aria-controls="flush-collapseThree">What type of
-                                            accommodation is included?</button>
-                                    </h5>
-                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            Our packages typically include stays in 3 to 4-star hotels, offering
-                                            comfortable rooms with essential amenities. Higher or boutique categories
-                                            may be available upon request or in premium packages. Accommodation details
-                                            are provided in each tour itinerary.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h5 class="accordion-header" id="flush-headingFour">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                                            aria-expanded="false" aria-controls="flush-collapseFour">Will I get a full
-                                            refund if I cancel my trip?</button>
-                                    </h5>
-                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            Refund eligibility depends on the cancellation policy of the specific tour
-                                            package. While some packages offer a full refund if canceled within a
-                                            certain time frame, others may involve partial charges. Please refer to the
-                                            cancellation terms provided during booking for full details.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h5 class="accordion-header" id="flush-headingFive">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
-                                            aria-expanded="false" aria-controls="flush-collapseFive">What travel
-                                            documents should I carry?</button>
-                                    </h5>
-                                    <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            You should carry a valid passport, visa (if required), travel insurance,
-                                            flight tickets, hotel booking confirmations, and a government-issued ID.
-                                            It’s also helpful to have copies of important documents and emergency
-                                            contact information.
-                                        </div>
-                                    </div>
-                                </div>
+
+                                <?php endforeach; ?>
+
                             </div>
-                        </div>
-                    </div>
-                    <div class="customer-rating-area">
-                        <h4>Customer Review & Rating</h4>
-                        <div class="rating-wrapper">
-                            <div class="rating-area">
-                                <span>Excellent!</span>
-                                <ul>
-                                    <li><i class="bi bi-star-fill"></i></li>
-                                    <li><i class="bi bi-star-fill"></i></li>
-                                    <li><i class="bi bi-star-fill"></i></li>
-                                    <li><i class="bi bi-star-fill"></i></li>
-                                    <li><i class="bi bi-star-half"></i></li>
-                                </ul>
-                                <p><strong>4.5</strong> based on 3,545 reviews</p>
-                            </div>
-                            <ul class="progress-list">
-                                <li class="single-progress">
-                                    <span>Overall</span>
-                                    <div class="rating-progress-bar-wrap">
-                                        <div class="rating-progress-bar">
-                                            <div class="rating-progress-bar-per" data-per="90"></div>
-                                        </div>
-                                        <span class="data-per">0%</span>
-                                    </div>
-                                </li>
-                                <li class="single-progress">
-                                    <span>Transport</span>
-                                    <div class="rating-progress-bar-wrap">
-                                        <div class="rating-progress-bar">
-                                            <div class="rating-progress-bar-per" data-per="95"></div>
-                                        </div>
-                                        <span class="data-per">0%</span>
-                                    </div>
-                                </li>
-                                <li class="single-progress">
-                                    <span>Food</span>
-                                    <div class="rating-progress-bar-wrap">
-                                        <div class="rating-progress-bar">
-                                            <div class="rating-progress-bar-per" data-per="80"></div>
-                                        </div>
-                                        <span class="data-per">0%</span>
-                                    </div>
-                                </li>
-                                <li class="single-progress">
-                                    <span>Accomodation</span>
-                                    <div class="rating-progress-bar-wrap">
-                                        <div class="rating-progress-bar">
-                                            <div class="rating-progress-bar-per" data-per="98"></div>
-                                        </div>
-                                        <span class="data-per">0%</span>
-                                    </div>
-                                </li>
-                                <li class="single-progress">
-                                    <span>Tour Guide</span>
-                                    <div class="rating-progress-bar-wrap">
-                                        <div class="rating-progress-bar">
-                                            <div class="rating-progress-bar-per" data-per="80"></div>
-                                        </div>
-                                        <span class="data-per">0%</span>
-                                    </div>
-                                </li>
-                            </ul>
                         </div>
 
                     </div>
+
+
+                    <?php include BASE_PATH . '/includes/sections/customer_rating.php'; ?>
                 </div>
             </div>
 
-            <div class="col-lg-4">
-                <div class="package-details-sidebar">
-                    <div class="pricing-and-booking-area mb-40">
-                        <div class="batch">
-                            <span>Exclusive Offer</span>
-                        </div>
-
-                        <ul>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.5" y="0.5" width="13" height="13" rx="6.5" />
-                                    <path
-                                        d="M11.0419 5.31317L6.17665 10.1811C6.09912 10.256 6.00086 10.2948 5.90268 10.2948C5.85176 10.2949 5.80132 10.2849 5.75428 10.2654C5.70724 10.2458 5.66454 10.2172 5.62863 10.1811L2.95813 7.51056C2.80562 7.36059 2.80562 7.11506 2.95813 6.96255L3.90173 6.01632C4.04655 5.8716 4.30502 5.8716 4.44983 6.01632L5.90268 7.46917L9.5503 3.81894C9.58623 3.78292 9.6289 3.75434 9.67587 3.73483C9.72285 3.71531 9.77321 3.70524 9.82408 3.70519C9.92742 3.70519 10.0257 3.74657 10.098 3.81894L11.0416 4.76525C11.1944 4.91776 11.1944 5.16329 11.0419 5.31317Z" />
-                                </svg>
-                                Life Time Guarentee experiences.
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.5" y="0.5" width="13" height="13" rx="6.5" />
-                                    <path
-                                        d="M11.0419 5.31317L6.17665 10.1811C6.09912 10.256 6.00086 10.2948 5.90268 10.2948C5.85176 10.2949 5.80132 10.2849 5.75428 10.2654C5.70724 10.2458 5.66454 10.2172 5.62863 10.1811L2.95813 7.51056C2.80562 7.36059 2.80562 7.11506 2.95813 6.96255L3.90173 6.01632C4.04655 5.8716 4.30502 5.8716 4.44983 6.01632L5.90268 7.46917L9.5503 3.81894C9.58623 3.78292 9.6289 3.75434 9.67587 3.73483C9.72285 3.71531 9.77321 3.70524 9.82408 3.70519C9.92742 3.70519 10.0257 3.74657 10.098 3.81894L11.0416 4.76525C11.1944 4.91776 11.1944 5.16329 11.0419 5.31317Z" />
-                                </svg>
-                                Your Safety is Our Top Priority.
-                            </li>
-                        </ul>
-
-                        </span>
-                        </button>
-                        <button class="primary-btn1 transparent" data-bs-toggle="modal" data-bs-target="#enquiryModal">
-                            <span>
-                                Submit an Enquiry
-                                <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                    </path>
-                                </svg>
-                            </span>
-                            <span>
-                                Submit an Enquiry
-                                <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                    </path>
-                                </svg>
-                            </span>
-                        </button>
-                        <span>
-                            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M7 0C3.13423 0 0 3.13423 0 7C0 10.8662 3.13423 14 7 14C10.8662 14 14 10.8666 14 7C14 3.13423 10.8662 0 7 0ZM7 12.6875C3.85877 12.6875 1.31252 10.1412 1.31252 7C1.31252 3.85877 3.85877 1.31252 7 1.31252C10.1412 1.31252 12.6875 3.85877 12.6875 7C12.6875 10.1412 10.1412 12.6875 7 12.6875ZM7.00044 3.06992C6.49908 3.06992 6.11973 3.33157 6.11973 3.75418V7.63042C6.11973 8.05347 6.49903 8.31423 7.00044 8.31423C7.48956 8.31423 7.88115 8.04256 7.88115 7.63042V3.75418C7.8811 3.3416 7.48956 3.06992 7.00044 3.06992ZM7.00044 9.1875C6.51875 9.1875 6.12673 9.57952 6.12673 10.0616C6.12673 10.5428 6.51875 10.9349 7.00044 10.9349C7.48212 10.9349 7.87371 10.5428 7.87371 10.0616C7.87366 9.57948 7.48212 9.1875 7.00044 9.1875Z" />
-                            </svg>
-                            Bonus Activity Included – Limited Time!
-                        </span>
-                    </div>
-                    <div class="customize-package-banner-wrap">
-                        <h2><span>Customize</span> Travel Package!</h2>
-                        <ul>
-                            <li>
-                                <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="9" cy="9" r="8.5"></circle>
-                                    <path
-                                        d="M13.6193 7.0722L8.05903 12.6355C7.97043 12.7211 7.85813 12.7655 7.74593 12.7655C7.68772 12.7656 7.63008 12.7541 7.57632 12.7318C7.52256 12.7095 7.47376 12.6768 7.43272 12.6355L4.38073 9.5835C4.20642 9.4121 4.20642 9.1315 4.38073 8.9572L5.45912 7.8758C5.62462 7.7104 5.92002 7.7104 6.08552 7.8758L7.74593 9.5362L11.9146 5.3645C11.9557 5.32334 12.0045 5.29068 12.0581 5.26837C12.1118 5.24606 12.1694 5.23455 12.2275 5.2345C12.3456 5.2345 12.4579 5.2818 12.5406 5.3645L13.619 6.446C13.7936 6.6203 13.7936 6.9009 13.6193 7.0722Z">
-                                    </path>
-                                </svg>
-                                Make Your Favourite Package
-                            </li>
-                            <li>
-                                <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="9" cy="9" r="8.5"></circle>
-                                    <path
-                                        d="M13.6193 7.0722L8.05903 12.6355C7.97043 12.7211 7.85813 12.7655 7.74593 12.7655C7.68772 12.7656 7.63008 12.7541 7.57632 12.7318C7.52256 12.7095 7.47376 12.6768 7.43272 12.6355L4.38073 9.5835C4.20642 9.4121 4.20642 9.1315 4.38073 8.9572L5.45912 7.8758C5.62462 7.7104 5.92002 7.7104 6.08552 7.8758L7.74593 9.5362L11.9146 5.3645C11.9557 5.32334 12.0045 5.29068 12.0581 5.26837C12.1118 5.24606 12.1694 5.23455 12.2275 5.2345C12.3456 5.2345 12.4579 5.2818 12.5406 5.3645L13.619 6.446C13.7936 6.6203 13.7936 6.9009 13.6193 7.0722Z">
-                                    </path>
-                                </svg>
-                                Enjoy Your Trip
-                            </li>
-                        </ul>
-                        <div class="counter-area">
-                            <ul class="counter-img-grp">
-                                <li><img src="<?= BASE_URL ?>/assets/img/home3/counter-people-img1.png" alt=""></li>
-                                <li><img src="<?= BASE_URL ?>/assets/img/home3/counter-people-img2.png" alt=""></li>
-                                <li><img src="<?= BASE_URL ?>/assets/img/home3/counter-people-img3.png" alt=""></li>
-                            </ul>
-                            <h6> <strong><span class="counter">13</span>+</strong> Guide Await to Help You</h6>
-                        </div>
-                        <a href="<?= BASE_URL ?>/contact.php" class="primary-btn1 two black-bg">
-                            <span>
-                                Customize Package
-                                <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                    </path>
-                                </svg>
-                            </span>
-                            <span>
-                                Customize Package
-                                <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z">
-                                    </path>
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <?php include BASE_PATH . '/includes/sections/package_details_sidebar.php'; ?>
         </div>
     </div>
 </div>
 
-<div class="counter-section">
+<!-- <div class="counter-section">
     <div class="container">
         <div class="row gy-md-5 gy-4">
             <div class="col-lg-3 col-sm-6 divider">
@@ -978,6 +490,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Package Details Page End-->

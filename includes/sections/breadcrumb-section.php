@@ -2,22 +2,24 @@
 <div class="breadcrumb-section two">
     <div class="swiper home2-banner-slider">
         <div class="swiper-wrapper">
+
+            <?php 
+                $images = $data["slider_details"]["slider_images"];
+                foreach($images as $img): 
+            ?>
+
             <div class="swiper-slide">
                 <div class="banner-bg"
-                    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/<?php echo $data["slider_details"]["slider_images"]["image_1"] ?>);">
+                    style="background-image:
+                    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                    url(<?= BASE_URL . '/' . $img ?>);">
                 </div>
             </div>
-            <div class="swiper-slide">
-                <div class="banner-bg"
-                    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/<?php echo $data["slider_details"]["slider_images"]["image_2"] ?>);">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="banner-bg"
-                    style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?= BASE_URL ?>/<?php echo $data["slider_details"]["slider_images"]["image_3"] ?>);">
-                </div>
-            </div>
+
+            <?php endforeach; ?>
+
         </div>
+
     </div>
     <div class="banner-content-wrap">
         <div class="container">

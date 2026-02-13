@@ -4,18 +4,15 @@
     $pageTitle = 'Contact Turbo Hills — Book Sikkim tours from Bagdogra';
     $metaDescription = 'Contact Turbo Hills for Sikkim tours starting at Bagdogra. Fast quotes, custom itineraries and airport transfers.';
     
-    // Breadcrumb variablles
-    
-    
     // All data Group
     $data = [
         // Slider Details and images
         "slider_details" => [
             "slider_heading" =>  'Sikkim Zero-Point Package',
             "slider_images" => [
-                "image_1" => 'assets/img/innerpages/breadcrumb-bg3.jpg',
-                "image_2" => 'assets/img/innerpages/breadcrumb-bg4.jpg',
-                "image_3" => 'assets/img/innerpages/experience-breadcrumb-bg.jpg',
+                'assets/img/innerpages/breadcrumb-bg3.jpg',
+                'assets/img/innerpages/breadcrumb-bg4.jpg',
+                'assets/img/innerpages/experience-breadcrumb-bg.jpg',
             ]
         ],
         // Page Headings and Sub-Headings
@@ -26,6 +23,7 @@
         // heading of our tours
         "tour_headings" => [
             "activity_content_heading" => 'Ride Safey',
+            "activity_body_content" => 'Experience the breathtaking beauty of the ocean like never before! With <span>35% OFF</span> on scuba diving experiences across all destinations',
             "location_slider_wrap" => 'Touring Places',
             "highlights_tour" => 'Highlights of our Tour',
             "Additional_Info" => 'Additional Info of our Tour',
@@ -42,26 +40,103 @@
             "age_range" => '18 to 60',
             "season" => 'winter summer',
             "category" => 'Adventure',
-        ],   
-        "page_details" => [
-            "pageTitle" => 'Contact Turbo Hills — Book Sikkim tours from Bagdogra',
-            "metaDescription" => 'Contact Turbo Hills for Sikkim tours starting at Bagdogra. Fast quotes, custom itineraries and airport transfers.',
         ],
-        "feature_list" =>   [
-            "feature_list_area" => 'package_fiture',
-            "including_features" => 'including_features',
-            "single_feature_list" => 'excucive featuer',
+        // Features List
+        "features" => [
+            "title" => "What's Included & Excluded",
+
+            "included" => [
+                "title" => "Included in the Package",
+                "items" => [
+                    "Accommodation (Hotel, Resort, Villa, Camping, etc.)",
+                    "Meals (Breakfast, Lunch, Dinner - specify type)",
+                    "Guided Tours & Excursions",
+                    "Entry Tickets to Attractions",
+                    "Adventure Activities & Travel Insurance"
+                ]
+            ],
+            "excluded" => [
+                "title" => "Not Included in the Package",
+                "items" => [
+                    "Visa Fees & Processing",
+                    "Personal Expenses (Shopping, Souvenirs, Tips, etc.)",
+                    "Optional Excursions & Activities",
+                    "Meals Not Mentioned in Itinerary"
+                ]
+            ]
         ],
+        // Tour Highlights
+        "tour_highlights" => [
+            "items" => [
+                "Zero Point - Experience snow covered Himalayan landscape.",
+                "Yumthang Valley - Valley of Flowers of Sikkim.",
+                "Gurudongmar Lake - One of the highest lakes in the world.",
+                "Lachen & Lachung - Traditional mountain villages stay.",
+                "Scenic mountain drive with waterfalls & rivers.",
+                "Local Sikkimese food & culture experience."
+            ]
+        ],
+        // Locations Slider
         "location_slider" => [
-            "location_slider" => 'location_slider',
+            "heading" => 'Location Slider',
+            "image_and_names" => [
+                ['name' => 'Lachung', 'image' => '/assets/img/sikkim/lachung.jpg'],
+                ['name' => 'Yumthang Valley', 'image' => '/assets/img/sikkim/Yumthang-valley-Sikkim.jpg'],
+                ['name' => 'Yume Samdong (Zero Point)', 'image' => '/assets/img/sikkim/Yume-Samdong.jpg'],
+                ['name' => 'Gurudongmar Lake', 'image' => '/assets/img/sikkim/Gurudongmar-Lake-Sikkim.jpg'],
+                ['name' => 'Lachen', 'image' => '/assets/img/sikkim/Lachen-Sikkim-768x512.jpg']
+            ]
         ],
+        // Additional Info
         "additional_info" => [
-            "additional_info_wrap" => 'additional information'
+            "title" => "Additional Information",
+            "items" => [
+                [
+                    "highlight" => "Free Cancellation",
+                    "description" => "Some tours offer free cancellation up to 24-48 hours before departure."
+                ],
+                [
+                    "highlight" => "Health & Travel Requirements",
+                    "description" => "COVID-19 regulations, vaccinations, or travel restrictions may apply."
+                ],
+                [
+                    "highlight" => "Minimum Participants",
+                    "description" => "Tour requires minimum 4 travelers to operate."
+                ]
+            ]
         ],
+        // FAQs
+        "faq" => [
+            "title" => "Frequently Asked Questions",
+            "items" => [
+                [
+                    "question" => "What are the must-visit places in Sikkim?",
+                    "answer" => "Top attractions include Tsomgo Lake, Nathula Pass, Baba Mandir, Yumthang Valley and Gangtok MG Marg."
+                ],
+                [
+                    "question" => "Are entry permits included?",
+                    "answer" => "Yes, all required local permits are arranged by us. Only ID proof is required from traveler."
+                ],
+                [
+                    "question" => "What hotels are provided?",
+                    "answer" => "We provide 3★ / 4★ category hotels depending on package selected."
+                ],
+                [
+                    "question" => "Is the booking refundable?",
+                    "answer" => "Yes, free cancellation available before 7 days of travel date."
+                ],
+                [
+                    "question" => "What documents should I carry?",
+                    "answer" => "Carry original Aadhaar/Passport and 2 passport photos for permits."
+                ]
+            ]
+        ],
+
+        // Single Feature List
         "single_feature_list" =>[
             "single_feature" => "single_feature"
         ] 
-   ];
+    ];
     
 
     // $jsonData = json_encode($data, JSON_PRETTY_PRINT);
