@@ -70,9 +70,11 @@
         // Tour Highlights — answers common search queries
         "tour_highlights" => [
             "items" => [
-                "Sacred lake with turquoise waters.",
-                "Remote mountain vistas and pilgrimage stops.",
-                "Requires acclimatisation and permit arrangements."
+                "Spectacular turquoise waters set against snow-clad peaks — prime photography and spiritual reflection.",
+                "Remote high-altitude vistas with a strong pilgrimage tradition and local legends.",
+                "Requires staged travel and careful acclimatisation; ideal for prepared travellers.",
+                "Close encounters with unique high-altitude flora and migratory birdlife in season.",
+                "Cultural context — local rituals and offerings that reflect Sikkimese reverence for the lake."
             ]
         ],
         // Locations Slider — images and names must remain unchanged
@@ -108,18 +110,38 @@
             "items" => [
                 [
                     "question" => "How difficult is the visit to Gurudongmar?",
-                    "answer" => "Gurudongmar is remote and high-altitude; preparation and acclimatisation are essential."
+                    "answer" => "The visit is challenging due to altitude and remoteness; travellers should be fit, acclimatise properly and expect long driving days."
                 ],
                 [
                     "question" => "What permits are needed?",
-                    "answer" => "Permits are required and handled by tour operators; foreign nationals may have additional requirements."
+                    "answer" => "Inner-line permits and local clearances are required; we handle paperwork and advise on documentation well before departure."
+                ],
+                [
+                    "question" => "When is the best time to visit Gurudongmar?",
+                    "answer" => "Late spring to early autumn (May–October) gives the most reliable access; winter months can be inaccessible due to snow."
+                ],
+                [
+                    "question" => "Are there altitude-related risks?",
+                    "answer" => "Yes — symptoms of altitude sickness are possible; we include acclimatisation and medical guidance in our itineraries."
+                ],
+                [
+                    "question" => "Can Gurudongmar be visited in a day from Gangtok?",
+                    "answer" => "No — a visit typically involves multi-day travel with staged overnight stops to reduce altitude strain."
+                ],
+                [
+                    "question" => "What should I pack for Gurudongmar?",
+                    "answer" => "Warm layers, sun protection, water, basic medicines and sturdy footwear; oxygen or specialised medication if recommended by a physician."
+                ],
+                [
+                    "question" => "Is Gurudongmar suitable for photographers?",
+                    "answer" => "Absolutely — the lake and surrounding peaks offer outstanding photographic frames, particularly in clear weather and at sunrise."
                 ]
             ]
         ],
 
         // Single Feature List
         "single_feature_list" =>[
-            "single_feature" => "Sacred, high-altitude pilgrimage requiring acclimatisation and permits."
+            "single_feature" => "One of the highest lakes in India — Gurudongmar blends sacred pilgrimage, surreal alpine colour and remote high-altitude adventure."
         ] 
     ];
     

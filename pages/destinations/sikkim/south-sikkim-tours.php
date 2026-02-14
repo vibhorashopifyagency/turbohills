@@ -60,9 +60,11 @@
         ],
         "tour_highlights" => [
             "items" => [
-                "Scenic viewpoints at Ravangla.",
-                "Temi Tea Garden walks and tea tastings.",
-                "Cultural visits in Namchi and local markets."
+                "Scenic viewpoints at Ravangla with panoramic Himalayan outlooks.",
+                "Temi Tea Garden walks, tea tastings and plantation-fed vista trails.",
+                "Cultural visits in Namchi, including the famous Char Dham and local markets.",
+                "Short, family-friendly treks and birdwatching opportunities in lower altitudes.",
+                "Community-based homestays and local cuisine sampling for an authentic experience."
             ]
         ],
         "location_slider" => [
@@ -83,11 +85,16 @@
         "faq" => [
             "title" => "Frequently Asked Questions",
             "items" => [
-                ["question" => "Is South Sikkim suitable for families?","answer" => "Yes — gentle walks and lower altitudes make it family-friendly."],
-                ["question" => "Can I combine South and North Sikkim?","answer" => "Yes, but plan for travel time between regions and allow acclimatisation for North Sikkim." ]
+                ["question" => "Is South Sikkim suitable for families?","answer" => "Yes — gentle walks, lower altitudes and shorter drives make it ideal for families and older travellers."],
+                ["question" => "Can I combine South and North Sikkim?","answer" => "Yes — you can combine them, but allow extra days and plan acclimatisation before entering North Sikkim." ],
+                ["question" => "What is special about Temi Tea Garden?","answer" => "Temi is Sikkim's most famous tea estate with scenic plantation walks, a colonial-era factory visit and tastings of locally produced orthodox tea."],
+                ["question" => "Are there easy hikes in South Sikkim?","answer" => "Yes — short, well-marked trails in Ravangla and nearby rhododendron paths suit most fitness levels."],
+                ["question" => "When is the best time to visit South Sikkim?","answer" => "Spring and autumn offer clear skies and pleasant temperatures; monsoon months can be wet but lush."],
+                ["question" => "Do I need permits for South Sikkim?","answer" => "Most South Sikkim attractions do not require inner-line permits, but your operator will advise on any site-specific rules."
+                ]
             ]
         ],
-        "single_feature_list" => ["single_feature" => "Short cultural itineraries around Namchi, Ravangla and Temi." ]
+        "single_feature_list" => ["single_feature" => "South Sikkim combines tea-garden tranquillity, community experiences and easy-access viewpoints — perfect for short cultural retreats and family trips." ]
     ];
 
     include __DIR__ . '/../../../includes/header_constants.php';

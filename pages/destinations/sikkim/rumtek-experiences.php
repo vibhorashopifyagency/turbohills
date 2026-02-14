@@ -70,9 +70,11 @@
         // Tour Highlights — answers common search queries
         "tour_highlights" => [
             "items" => [
-                "Monastery architecture and Buddhist ceremonies.",
-                "Cultural insights and local festivals.",
-                "Easy day trip from Gangtok for cultural immersion."
+                "Monastery architecture and Buddhist ceremonies, including colourful thangkas and ritual schedules.",
+                "In-depth cultural insights into the Karma Kagyu lineage and monastic life.",
+                "Photographic opportunities of murals, prayer wheels and courtyard rituals.",
+                "Short guided meditation sessions and interactions with resident monks (when permitted).",
+                "Easy day trip from Gangtok combined with nearby viewpoints and local handicraft stalls."
             ]
         ],
         // Locations Slider — images and names must remain unchanged
@@ -108,18 +110,38 @@
             "items" => [
                 [
                     "question" => "Can tourists enter Rumtek Monastery?",
-                    "answer" => "Yes, visitors are allowed; follow local rules and temple decorum."
+                    "answer" => "Yes — visitors are welcome during visiting hours; please follow temple decorum and any area-specific restrictions."
                 ],
                 [
                     "question" => "Are there festivals at Rumtek?",
-                    "answer" => "Rumtek hosts Tibetan Buddhist festivals; dates vary by lunar calendar."
+                    "answer" => "Yes — Rumtek hosts several Tibetan Buddhist festivals; dates are set by the lunar calendar and can draw local pilgrims."
+                ],
+                [
+                    "question" => "Is there a dress code for visitors?",
+                    "answer" => "Modest clothing is recommended; shoulders and knees should be covered and shoes removed where requested."
+                ],
+                [
+                    "question" => "Is photography allowed inside the monastery?",
+                    "answer" => "Photography is allowed in many areas but may be restricted during ceremonies; always ask a guide or monk before taking photos."
+                ],
+                [
+                    "question" => "How long does a typical visit take?",
+                    "answer" => "A short guided visit usually takes 1–2 hours, longer if attending a service or exploring nearby markets."
+                ],
+                [
+                    "question" => "Can Rumtek be combined with other Gangtok day trips?",
+                    "answer" => "Yes — Rumtek pairs well with nearby cultural stops, viewpoints and short market visits in a single day."
+                ],
+                [
+                    "question" => "Are donations required?",
+                    "answer" => "Donations are voluntary and appreciated to support monastery upkeep; any contributions are at the visitor's discretion."
                 ]
             ]
         ],
 
         // Single Feature List
         "single_feature_list" =>[
-            "single_feature" => "Guided cultural visits to one of Sikkim’s important monasteries."
+            "single_feature" => "Home to the Karma Kagyu lineage seat — Rumtek offers living Buddhist traditions, rich murals and accessible day-trip cultural immersion from Gangtok."
         ] 
     ];
     
