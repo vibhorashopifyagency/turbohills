@@ -52,14 +52,14 @@
             </svg>
             <div class="footer-menu-wrap">
                 <div class="row gy-md-4 gy-5">
-                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-12 col-sm-6">
                         <div class="footer-logo-and-addition-info">
                             <a href="<?= BASE_URL ?>/" class="footer-logo">
                                 <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="" loading="lazy">
                             </a>
                             <div class="address-area">
                                 <span>TurboHills Travel Agency</span>
-                                <span class="footer-address">Ashok Nagar, Bagdogra, 734014, West Bengal, INDIA — Specialist Sikkim tour operator offering Gangtok, Pelling, Lachen, Lachung & North Sikkim packages, trekking, homestays, cultural tours and adventure experiences.</span>
+                                <span class="footer-address">TurboHills — Bagdogra-based Sikkim specialists crafting bold, tailor-made Himalayan adventures. We handle permits, local guides, comfy transport and authentic homestays across Gangtok, Pelling, Lachen, Lachung and North Sikkim. Photo-ready viewpoints, offbeat villages and tea-garden retreats — book your next Sikkim story with confidence.</span>
                             </div>
                             <ul class="social-list">
                                 <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bx bxl-facebook"></i></a></li>
@@ -69,7 +69,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-md-end">
+                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex justify-content-md-center">
                         <div class="footer-widget">
                             <div class="widget-title">
                                 <h5>Top Destination</h5>
@@ -91,7 +91,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-md-end">
+                    <!-- <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-md-end">
                         <div class="footer-widget">
                             <div class="widget-title">
                                 <h5>Popular Search</h5>
@@ -110,8 +110,8 @@
                                 <li><a href="travel-package-02.html">Local Handloom & Crafts</a></li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 d-flex justify-content-lg-end">
+                    </div> -->
+                    <div class="col-lg-4 col-sm-6 d-flex justify-content-md-center">
                         <div class="footer-widget">
                             <div class="widget-title">
                                 <h5>Resources</h5>

@@ -11,11 +11,12 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <div class="number">
-                                <h2 class="counter">6</h2>
-                                <span>K+</span>
+                            <div class="number" aria-hidden="true">
+                                <h2 class="counter" data-target="6000">6,000</h2>
+                                <span class="counter-suffix">+</span>
                             </div>
-                            <span>Tour Completed</span>
+                            <span>Tours Completed</span>
+                            <span class="visually-hidden">Approximately 6,000 tours completed.</span>
                         </div>
                     </div>
                 </div>
@@ -28,11 +29,12 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <div class="number">
-                                <h2 class="counter">30</h2>
-                                <span>+</span>
+                            <div class="number" aria-hidden="true">
+                                <h2 class="counter" data-target="30">10</h2>
+                                <span class="counter-suffix">+</span>
                             </div>
-                            <span>Travel Experience</span>
+                            <span>Years' Travel Experience</span>
+                            <span class="visually-hidden">Over 10 years of combined travel experience (approx.).</span>
                         </div>
                     </div>
                 </div>
@@ -55,11 +57,12 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <div class="number">
-                                <h2 class="counter">3500</h2>
-                                <span>+</span>
+                            <div class="number" aria-hidden="true">
+                                <h2 class="counter" data-target="3500">3,500</h2>
+                                <span class="counter-suffix">+</span>
                             </div>
-                            <span>Happy Traveler</span>
+                            <span>Happy Travellers</span>
+                            <span class="visually-hidden">Approximately 3,500 happy travellers have booked with us.</span>
                         </div>
                     </div>
                 </div>
@@ -76,11 +79,12 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <div class="number">
-                                <h2 class="counter">98</h2>
-                                <span>%</span>
+                            <div class="number" aria-hidden="true">
+                                <h2 class="counter" data-target="98">98</h2>
+                                <span class="counter-suffix">%</span>
                             </div>
-                            <span>Retention Rate</span>
+                            <span>Customer Retention Rate</span>
+                            <span class="visually-hidden">Approximately ninety eight percent customer retention rate.</span>
                         </div>
                     </div>
                 </div>
