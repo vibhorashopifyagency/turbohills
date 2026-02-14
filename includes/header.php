@@ -4,9 +4,9 @@
         header('Content-Type: text/html; charset=utf-8');
     }
 
-    // Default page title and meta description (SEO-friendly defaults)
-    if (!isset($pageTitle)) $pageTitle = 'Sikkim Tours from Bagdogra Airport | Turbo Hills — Permits, Cabs & Packages';
-    if (!isset($metaDescription)) $metaDescription = 'Book Sikkim tours from Bagdogra with Turbo Hills — private cabs, airport pickup, permit assistance and guided itineraries to Gangtok, Lachung, Yumthang, North Sikkim and Darjeeling.';
+    // Default page title and meta description
+    if (!isset($pageTitle)) $pageTitle = 'Turbo Hills — Sikkim Tours from Bagdogra Airport';
+    if (!isset($metaDescription)) $metaDescription = 'Turbo Hills offers customized Sikkim tour packages from Bagdogra Airport. Visit Gangtok, Lachung, Yumthang & Yuksom with expert drivers, permits, and smooth transfers.';
     
     // Determine the site domain based on the host
     $allowedDomains = [
@@ -41,44 +41,18 @@
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($metaDescription); ?>">
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical); ?>">
-    <!-- Open Graph (prefer page-level variables when available) -->
-    <?php
-        $og_title = isset($ogTitle) && !empty($ogTitle) ? $ogTitle : $pageTitle;
-        $og_description = isset($ogDescription) && !empty($ogDescription) ? $ogDescription : $metaDescription;
-
-        // Default image path built from BASE_URL if available
-        $defaultOgImage = rtrim($siteDomain, '/') . '/' . ltrim((defined('BASE_URL') ? BASE_URL : '') . '/assets/img/og-cover.jpg', '/');
-
-        $og_image_url = $defaultOgImage;
-        if (isset($ogImage) && !empty($ogImage)) {
-            // If absolute URL provided, use as-is
-            if (filter_var($ogImage, FILTER_VALIDATE_URL)) {
-                $og_image_url = $ogImage;
-            } else {
-                // Build absolute from site domain + provided path
-                $og_image_url = rtrim($siteDomain, '/') . '/' . ltrim($ogImage, '/');
-            }
-        }
-    ?>
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="<?= htmlspecialchars($og_title); ?>">
-    <meta property="og:description" content="<?= htmlspecialchars($og_description); ?>">
+    <meta property="og:title" content="<?= htmlspecialchars($pageTitle); ?>">
+    <meta property="og:description" content="<?= htmlspecialchars($metaDescription); ?>">
     <meta property="og:url" content="<?= htmlspecialchars($canonical); ?>">
     <meta property="og:site_name" content="Turbo Hills">
 
-    <meta property="og:locale" content="en_IN">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Turbo Hills">
-    <meta name="image" content="<?= htmlspecialchars($og_image_url); ?>">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta name="theme-color" content="#0d6efd">
+    <meta name="twitter:card" content="Turbo Hills — Best Sikkim Tours from Bagdogra Airport">
+    <meta name="twitter:title" content="<?= htmlspecialchars($pageTitle); ?>">
+    <meta name="twitter:description" content="<?= htmlspecialchars($metaDescription); ?>">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?= htmlspecialchars($og_title); ?>">
-    <meta name="twitter:description" content="<?= htmlspecialchars($og_description); ?>">
-    <meta name="twitter:image" content="<?= htmlspecialchars($og_image_url); ?>">
-
-    <meta property="og:image" content="<?= htmlspecialchars($og_image_url); ?>">
+    <meta property="og:image" content="<?php echo $siteDomain; ?>/<?= BASE_URL ?>/assets/img/og-cover.jpg">
     <link rel="preload" as="image" href="<?= $siteDomain; ?>/<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png">
     <link rel="alternate" hreflang="en-IN" href="https://turbohills.in<?= strtok($_SERVER['REQUEST_URI'], '?'); ?>">
     <link rel="alternate" hreflang="en" href="https://turbohills.com<?= strtok($_SERVER['REQUEST_URI'], '?'); ?>">

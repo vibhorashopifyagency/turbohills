@@ -1,9 +1,6 @@
 <?php
-    $pageTitle = 'Sikkim & North Bengal Tour Packages with Cab, Permits & Guides | Turbo Hills Bagdogra';
-    $metaDescription = 'Explore Sikkim and North Bengal with Turbo Hills — airport pickup from Bagdogra, private cabs, permit assistance, guided tours and tailored itineraries for Indian and international travellers.';
-    $ogTitle = $pageTitle;
-    $ogDescription = $metaDescription;
-    $ogImage = BASE_URL . '/assets/img/home1/home-banner.jpg';
+    $pageTitle = 'Sikkim & North Bengal Tour Packages with Cab & Permits | Turbo Hills Bagdogra';
+    $metaDescription = 'Book Sikkim and North Bengal tour packages with Turbo Hills. We provide cabs, permits, sightseeing tours, airport pickup from Bagdogra, and custom itineraries for Indian & international travelers.';
 
     $pageSchema = '<script type="application/ld+json">
         {
