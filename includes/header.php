@@ -72,8 +72,8 @@
     <!-- Swiper slider CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/swiper-bundle.min.css">
     <!-- Slick slider CSS -->
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick-theme.css">
+    <!-- <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick-theme.css"> -->
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/daterangepicker.css">
     <!-- BoxIcon  CSS -->
     <link href="<?= BASE_URL ?>/assets/css/boxicons.min.css" rel="stylesheet">

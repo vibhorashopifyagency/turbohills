@@ -17,17 +17,17 @@
                     </div>      
                 </div>
             </div>
-            
+
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-img-area">
-                        <img src="<?= BASE_URL ?>/assets/img/sikkim/banner-img1.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/sikkim/Sikkim-Offbeat_low.jpg" alt="" loading="lazy">
                     </div>
                     <div class="banner-content-wrap">
                         <div class="container">
                             <div class="banner-content">
-                                <h2>Plan Your Trip, Your Way.</h2>
-                                <p>Perfect for customized travel experiences — tailored flights, stays, and tours just for you.</p>
+                                <h2>Your Gateway To The World.</h2>
+                                <p>Ideal for explorers seeking seamless booking and expert travel support every step of the way.</p>
                             </div>
                         </div>
                     </div>      
@@ -37,13 +37,13 @@
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-img-area">
-                        <img src="<?= BASE_URL ?>/assets/img/home2/Sikkim-Offbeat.jpg" alt="" loading="lazy">
+                        <img src="<?= BASE_URL ?>/assets/img/sikkim/banner-img1.jpg" alt="" loading="lazy">
                     </div>
                     <div class="banner-content-wrap">
                         <div class="container">
                             <div class="banner-content">
-                                <h2>Your Gateway To The World.</h2>
-                                <p>Ideal for explorers seeking seamless booking and expert travel support every step of the way.</p>
+                                <h2>Plan Your Trip, Your Way.</h2>
+                                <p>Perfect for customized travel experiences — tailored flights, stays, and tours just for you.</p>
                             </div>
                         </div>
                     </div>      
