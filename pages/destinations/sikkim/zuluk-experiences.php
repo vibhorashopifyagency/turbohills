@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = '/assets/img/sikkim/lachung.jpg';
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/lachung.jpg' : '/assets/img/sikkim/lachung.jpg');
     
     // All data Group
     $data = [
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Zuluk Highlights — Scenic Mountain Drives',
-            "activity_body_content" => 'Zuluk on the Old Silk Route offers dramatic switchback roads, sunrise viewpoints and offbeat mountain landscapes — ideal for adventurous road-trippers.',
-            "assistant_snippet" => 'Drive Zuluk on the Old Silk Route — spectacular sunrise viewpoints and historic mountain roads.',
+            "activity_body_content" => 'Zuluk sits on the historic Old Silk Route and is renowned for dramatic serpentine roads, spectacular sunrise viewpoints and offbeat mountain scenery. Trips to Zuluk are driven experiences that emphasise scenic overlooks, photography stops and visits to remote villages. We recommend sturdy vehicles, experienced drivers and a relaxed multi-day pace to enjoy sunrise vistas, local interactions and the unique historic route. Zuluk is best combined with eastern Sikkim loops for maximum value.',
+            "assistant_snippet" => 'Old Silk Route drives in Zuluk — sunrise viewpoints, scenic switchbacks and remote village stops with private transfers.',
             "location_slider_wrap" => 'Top Stops Around Zuluk',
             "highlights_tour" => 'Highlights — Zuluk & Silk Route',
             "Additional_Info" => 'Practical Travel Information',
@@ -112,11 +112,31 @@
             "items" => [
                 [
                     "question" => "Is Zuluk suitable for day trips?",
-                    "answer" => "Zuluk is best experienced as part of a multi-day road trip due to travel times and remote location."
+                    "answer" => "Due to travel times and remote roads, Zuluk is best experienced as part of a multi-day trip rather than a single day excursion."
                 ],
                 [
                     "question" => "When is best to visit Zuluk?",
-                    "answer" => "Spring and autumn months offer the most reliable road conditions and clear vistas."
+                    "answer" => "Spring and autumn provide the most reliable road conditions and clearest vistas; winter can be very cold and some roads may be impassable."
+                ],
+                [
+                    "question" => "What kind of vehicle is recommended for Zuluk?",
+                    "answer" => "A robust SUV with an experienced local driver is recommended to handle steep switchbacks and variable road surfaces."
+                ],
+                [
+                    "question" => "Are there accommodation options in Zuluk?",
+                    "answer" => "Accommodation is basic in the area; many travellers prefer comfortable stays in nearby hubs and day excursions into Zuluk."
+                ],
+                [
+                    "question" => "What should I pack for Zuluk?",
+                    "answer" => "Warm layers, sun protection, a windproof jacket and sturdy shoes are recommended; mornings can be very chilly."
+                ],
+                [
+                    "question" => "Can Zuluk be combined with Gangtok or other Sikkim regions?",
+                    "answer" => "Yes — Zuluk is commonly combined with eastern Sikkim routes including Gangtok, Nathula and other nearby stops. We can design combined itineraries."
+                ],
+                [
+                    "question" => "Is Zuluk safe for senior travellers?",
+                    "answer" => "With private transfers, slower pacing and awareness of road conditions, senior travellers can visit—discuss any health concerns with us first."
                 ]
             ]
         ],

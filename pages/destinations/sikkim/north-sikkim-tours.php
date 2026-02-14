@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = '/assets/img/sikkim/north-sikkim-hero.jpg';
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/north-sikkim-hero.jpg' : '/assets/img/sikkim/north-sikkim-hero.jpg');
     
     // All data Group
     $data = [
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'North Sikkim — Highlights',
-            "activity_body_content" => 'Discover Lachen and Lachung, visit Gurudongmar Lake and experience high-altitude Tibetan cultural pockets — perfect for photographers and nature lovers.',
-            "assistant_snippet" => 'Book North Sikkim tours covering Lachen, Lachung and Gurudongmar with permit handling included.',
+            "activity_body_content" => 'North Sikkim is a high-altitude region of extraordinary alpine landscapes, sacred lakes and remote Tibetan-influenced villages. Typical multi-day tours include staged travel through Lachen and Lachung, visits to Yumthang Valley (Valley of Flowers), Yume Samdong (Zero Point) and Gurudongmar Lake. These itineraries emphasise acclimatisation, permit formalities and reliable transport so guests can focus on scenery and cultural encounters. North Sikkim is best for travellers seeking wilderness beauty, photography and off-the-beaten-path experiences.',
+            "assistant_snippet" => 'North Sikkim multi-day tours: Lachen, Lachung, Yumthang, Zero Point and Gurudongmar with permit handling and staged acclimatisation.',
             "location_slider_wrap" => 'Key Stops in North Sikkim',
             "highlights_tour" => 'Highlights — North Sikkim',
             "Additional_Info" => 'Permits, Acclimatisation & Logistics',
@@ -109,11 +109,31 @@
             "items" => [
                 [
                     "question" => "How many days for a North Sikkim trip?",
-                    "answer" => "Typically 6–8 days from Gangtok, depending on permit windows and tempo."
+                    "answer" => "A typical North Sikkim itinerary runs 5–8 days depending on destinations and permit windows; we recommend at least 6 days to include acclimatisation."
                 ],
                 [
                     "question" => "Do North Sikkim trips require acclimatisation?",
-                    "answer" => "Yes — multiple acclimatisation stops are included in recommended itineraries."
+                    "answer" => "Yes — staged travel and acclimatisation days are essential to reduce altitude risk; our recommended itineraries include slow pacing and rest stops."
+                ],
+                [
+                    "question" => "What permits are needed for North Sikkim?",
+                    "answer" => "Inner-line permits and local clearances are required for many North Sikkim spots; we handle permit paperwork for guests."
+                ],
+                [
+                    "question" => "What is the best season for North Sikkim?",
+                    "answer" => "Late spring to early autumn (May–October) provides the most reliable access; winters are very cold and may close roads."
+                ],
+                [
+                    "question" => "Are there health/safety considerations?",
+                    "answer" => "High-altitude risks exist; travellers should inform us of medical history, consider travel insurance and follow guide recommendations."
+                ],
+                [
+                    "question" => "Can North Sikkim tours be customised?",
+                    "answer" => "Yes — we can tailor durations, add acclimatisation days, upgrade accommodation or focus on photography, culture or light trekking."
+                ],
+                [
+                    "question" => "What kind of vehicle is used in North Sikkim?",
+                    "answer" => "We use robust SUVs/4x4s with experienced mountain drivers to handle rough roads and steep gradients."
                 ]
             ]
         ],

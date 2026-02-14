@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = '/assets/img/sikkim/nathula.jpg';
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/nathula.jpg' : '/assets/img/sikkim/nathula.jpg');
     
     // All data Group
     $data = [
@@ -26,8 +26,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Nathula Pass — What to Expect',
-            "activity_body_content" => 'Nathula Pass is a high-altitude border pass with limited access and significant permit requirements — popular as a guided day trip from Gangtok.',
-            "assistant_snippet" => 'Visit Nathula Pass with required permits and guides for a border pass experience near Gangtok.',
+            "activity_body_content" => 'Nathula Pass lies on the historic Indo-China border and is visited for its striking mountain vistas, historic roads and frontier character. Access to Nathula is heavily regulated and requires permits, often arranged through tour operators; visiting windows and timings can change based on security and diplomatic considerations. We plan Nathula as a guided day trip from Gangtok with permit handling, ID checks and clear timing instructions to ensure a smooth visit.',
+            "assistant_snippet" => 'Nathula Pass day trips with permit handling — guided visits from Gangtok with strict permit procedures.',
             "location_slider_wrap" => 'Nearby Highlights',
             "highlights_tour" => 'Highlights — Nathula Pass',
             "Additional_Info" => 'Permits & Travel Notes',
@@ -108,11 +108,31 @@
             "items" => [
                 [
                     "question" => "How do I get a Nathula permit?",
-                    "answer" => "Permits can be arranged through tour operators; allow time for processing."
+                    "answer" => "Nathula permits are arranged through authorised channels; we handle the paperwork once ID and passport details are provided. Allow time for processing."
                 ],
                 [
                     "question" => "Is Nathula open year-round?",
-                    "answer" => "No, access is seasonal; winter closures are common."
+                    "answer" => "No — Nathula access is seasonal and subject to security and weather conditions. Winter closures are common."
+                ],
+                [
+                    "question" => "What ID is required for Nathula?",
+                    "answer" => "Carry original ID such as passport for foreigners and Aadhaar/Passport for Indian nationals; copies are insufficient for permit checks."
+                ],
+                [
+                    "question" => "Can foreigners visit Nathula?",
+                    "answer" => "Yes, but foreign nationals need additional clearances which may take extra time; plan ahead and book permits early."
+                ],
+                [
+                    "question" => "How long is a Nathula visit?",
+                    "answer" => "Nathula is normally a half-day to full-day trip from Gangtok including travel and permit formalities."
+                ],
+                [
+                    "question" => "Are there health concerns at Nathula?",
+                    "answer" => "Nathula is high-altitude; guests with heart or breathing conditions should consult a physician before travel."
+                ],
+                [
+                    "question" => "Can Nathula be combined with Tsomgo Lake?",
+                    "answer" => "Yes — Nathula is often combined with Tsomgo Lake as a day trip from Gangtok, subject to permit windows."
                 ]
             ]
         ],

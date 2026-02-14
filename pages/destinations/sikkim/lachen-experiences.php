@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = '/assets/img/sikkim/lachung.jpg';
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/lachung.jpg' : '/assets/img/sikkim/lachung.jpg');
     
     // All data Group
     $data = [
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Lachen Highlights — High-Altitude Landscapes',
-            "activity_body_content" => 'Lachen is the practical base for Gurudongmar Lake and higher North Sikkim attractions. Our itineraries prioritise acclimatisation and scenic drives.',
-            "assistant_snippet" => 'Lachen base for Gurudongmar Lake and North Sikkim drives — private transfers and permits included.',
+            "activity_body_content" => 'Lachen serves as the gateway to North Sikkim’s high-altitude lakes and remote villages. From Lachen travellers access Gurudongmar Lake, remote alpine roads and traditional mountain hospitality. Our itineraries prioritise acclimatisation, safe driving practices and permit handling so guests can enjoy scenic drives, homestays and short guided walks while minimising altitude risk. Expect robust vehicles, experienced drivers and local guides who manage logistics for high-altitude visits.',
+            "assistant_snippet" => 'Lachen gateway to Gurudongmar — acclimatisation-focused itineraries, permit handling and robust transfers.',
             "location_slider_wrap" => 'Top Stops Around Lachen',
             "highlights_tour" => 'Highlights — Lachen & Surroundings',
             "Additional_Info" => 'Practical Travel Information',
@@ -114,11 +114,31 @@
             "items" => [
                 [
                     "question" => "How do I reach Lachen?",
-                    "answer" => "Lachen is reached via a scenic drive from Bagdogra with stops at Gangtok/Lachung; private transfers are recommended."
+                    "answer" => "Lachen is reached via a multi-stage drive from Bagdogra/ NJP, usually with overnight stops for acclimatisation. We organise private transfers and breaks."
                 ],
                 [
-                    "question" => "Is Gurudongmar accessible year-round?",
-                    "answer" => "Access depends on road and weather conditions; spring to autumn is best. Permits are required."
+                    "question" => "When is Gurudongmar accessible?",
+                    "answer" => "Gurudongmar access depends on weather and road conditions; spring to early autumn is the most reliable window. Permits are required and arranged by us."
+                ],
+                [
+                    "question" => "Are there altitude concerns for Lachen?",
+                    "answer" => "Yes — Lachen and onward sites are high-altitude. Allow time to acclimatise, avoid strenuous activity on arrival and disclose medical conditions before travel."
+                ],
+                [
+                    "question" => "What should I pack for Lachen and North Sikkim?",
+                    "answer" => "Pack warm layers, sturdy boots, sun protection and any personal medication. Include high-energy snacks and a basic first-aid kit."
+                ],
+                [
+                    "question" => "Can I customise my Lachen itinerary?",
+                    "answer" => "Yes — itineraries are flexible; we can add extra acclimatisation days, higher-standard stays or alternate routes depending on preferences."
+                ],
+                [
+                    "question" => "Is travel to Lachen suitable for families?",
+                    "answer" => "Families can visit with cautious pacing and private transfers; consult us about age or health concerns so we can adjust the plan."
+                ],
+                [
+                    "question" => "How long should I plan for a Lachen–Gurudongmar trip?",
+                    "answer" => "A typical Lachen-based North Sikkim trip ranges 3–5 days depending on destinations and permit windows."
                 ]
             ]
         ],

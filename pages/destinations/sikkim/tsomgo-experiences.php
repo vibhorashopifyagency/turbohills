@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = '/assets/img/sikkim/tsomgo-lake.jpg';
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/tsomgo-lake.jpg' : '/assets/img/sikkim/tsomgo-lake.jpg');
     
     // All data Group
     $data = [
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Tsomgo Lake Highlights',
-            "activity_body_content" => 'Tsomgo lake is a high-altitude glacial lake accessible from Gangtok; short visits include yak rides and panoramic views.',
-            "assistant_snippet" => 'Explore Tsomgo Lake near Gangtok — perfect for day trips and scenic photography.',
+            "activity_body_content" => 'Tsomgo (Changu) Lake is a high-altitude glacial lake close to Gangtok that draws visitors for its reflective waters, yak rides and mountain panoramas. Typical visits feature short walks along the shore, cultural sights like Baba Mandir and optional yak rides. As access can be subject to permits and weather, we recommend planning Tsomgo as a day trip from Gangtok with a local guide. Facilities are basic so bring essentials and dress in layers.',
+            "assistant_snippet" => 'Tsomgo Lake day trips — glacial shores, optional yak rides and short guided walks; permit guidance available.',
             "location_slider_wrap" => 'Nearby Attractions',
             "highlights_tour" => 'Highlights — Tsomgo Lake',
             "Additional_Info" => 'Permit & Travel Notes',
@@ -110,11 +110,31 @@
             "items" => [
                 [
                     "question" => "Do I need a permit to visit Tsomgo?",
-                    "answer" => "Some visitors, especially foreigners, may need permits; we can help arrange these."
+                    "answer" => "Some visitors, especially foreign nationals, may need permits for areas near Tsomgo; we assist with permit arrangements where required."
                 ],
                 [
                     "question" => "Are yak rides safe?",
-                    "answer" => "Yak rides are optional and generally safe; choose reputable operators."
+                    "answer" => "Yak rides are optional; choose reputable operators, follow guides' instructions and avoid rides if you have mobility concerns."
+                ],
+                [
+                    "question" => "How long is a typical Tsomgo visit?",
+                    "answer" => "Most visits are half-day to full-day trips from Gangtok including travel time; plan for a 4–6 hour outing."
+                ],
+                [
+                    "question" => "What should I carry for Tsomgo Lake?",
+                    "answer" => "Carry warm clothing, water, sunscreen and basic snacks. Facilities are limited near the lake."
+                ],
+                [
+                    "question" => "Is Tsomgo suitable for families?",
+                    "answer" => "Yes — short walks and guided visits make Tsomgo appropriate for families, though altitude sensitivity should be considered for young children and seniors."
+                ],
+                [
+                    "question" => "Can Tsomgo be combined with other Gangtok day trips?",
+                    "answer" => "Yes — combine Tsomgo with visits to Baba Mandir, Nathula (permit required) or nearby viewpoints for a full day itinerary."
+                ],
+                [
+                    "question" => "Are there altitude concerns at Tsomgo?",
+                    "answer" => "Tsomgo sits at high elevation; those with breathing or heart conditions should consult a physician before travel."
                 ]
             ]
         ],

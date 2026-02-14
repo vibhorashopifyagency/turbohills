@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = '/assets/img/sikkim/lachung.jpg';
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/lachung.jpg' : '/assets/img/sikkim/lachung.jpg');
     
     // All data Group
     $data = [
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Yuksom Highlights — Trek Starts & Heritage',
-            "activity_body_content" => 'Yuksom is the traditional starting point for treks to Dzongri and Goecha La, and offers cultural sites and scenic walks for short-stay visitors.',
-            "assistant_snippet" => 'Yuksom — trekking gateway to Dzongri; private transfers and local guide support available.',
+            "activity_body_content" => 'Yuksom is an iconic gateway to trekking regions such as Dzongri and Goecha La, with a compact historic town rooted in Sikkimese culture. As a launch point for treks, Yuksom offers homestays, local monasteries and short nature walks, making it ideal for both trekkers and travellers seeking cultural immersion. We arrange transfers, guide support and optional guided day-walks; permit advice is provided when trekking routes require authorization.',
+            "assistant_snippet" => 'Yuksom: gateway to Dzongri treks and cultural homestays; transfers and trekking guidance available.',
             "location_slider_wrap" => 'Top Stops Around Yuksom',
             "highlights_tour" => 'Highlights — Yuksom & Trekking Routes',
             "Additional_Info" => 'Practical Travel Information',
@@ -113,11 +113,31 @@
             "items" => [
                 [
                     "question" => "How do I get to Yuksom?",
-                    "answer" => "Yuksom is accessible by road from Bagdogra with a drive to Pelling and onward; private transfers typically arranged by us."
+                    "answer" => "Yuksom is reached by road from Bagdogra/ NJP via Pelling; we offer private transfers and can recommend overnight stops."
                 ],
                 [
                     "question" => "When is the best time for trekking from Yuksom?",
-                    "answer" => "Spring (Mar–May) and autumn (Sep–Nov) are the best windows for clear weather and trekking."
+                    "answer" => "Spring (Mar–May) and autumn (Sep–Nov) are the best windows for clear weather and trekking; monsoon months can make trails slippery."
+                ],
+                [
+                    "question" => "Do trekking routes from Yuksom need permits?",
+                    "answer" => "Some higher trails require permits; we advise specific route requirements at booking and assist with permit arrangements."
+                ],
+                [
+                    "question" => "Is Yuksom suitable for non-trekkers?",
+                    "answer" => "Yes — Yuksom offers cultural walks, homestay experiences and short nature trails for non-trekkers who want a relaxed mountain stay."
+                ],
+                [
+                    "question" => "What should I pack for treks starting at Yuksom?",
+                    "answer" => "Pack trekking boots, layered clothing, rain protection, sun protection, and any required personal trekking gear; consider hiring local porters if needed."
+                ],
+                [
+                    "question" => "Can I combine Yuksom with Pelling or other regions?",
+                    "answer" => "Yes — Yuksom combines well with Pelling, Pelling-based drives, and longer itineraries across West Sikkim. We can customise multi-region plans."
+                ],
+                [
+                    "question" => "Are there medical/altitude concerns?",
+                    "answer" => "Most treks from Yuksom start at moderate elevation but higher routes need acclimatisation; consult us if you have medical concerns."
                 ]
             ]
         ],

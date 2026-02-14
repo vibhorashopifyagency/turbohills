@@ -278,7 +278,7 @@
 
                     <div class="feature-list-area mb-60">
 
-                        <h4><?= htmlspecialchars($data["features"]["title"]); ?></h4>
+                        <h4><?= htmlspecialchars($data["features"]["included"]["title"]); ?></h4>
 
                         <div class="row gy-md-5 gy-4 justify-content-between">
 

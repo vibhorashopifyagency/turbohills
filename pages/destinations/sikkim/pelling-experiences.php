@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = '/assets/img/sikkim/lachung.jpg';
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/lachung.jpg' : '/assets/img/sikkim/lachung.jpg');
     
     // All data Group
     $data = [
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Pelling Highlights — Kanchenjunga Panorama',
-            "activity_body_content" => 'Enjoy sweeping views of Kanchenjunga, visit Pemayangtse Monastery and explore nearby waterfalls and villages on a relaxed Pelling stay.',
-            "assistant_snippet" => 'Visit Pelling from Bagdogra — Kanchenjunga viewpoints, Pemayangtse Monastery and scenic walks.',
+            "activity_body_content" => 'Pelling is a window onto Kanchenjunga — the world’s third highest peak — and combines dramatic viewpoints with rich local heritage. Visitors typically explore Pemayangtse Monastery, Khecheopalri Lake, waterfalls and village walks. Our Pelling programs balance comfortable stays with easy guided walks to sunrise viewpoints, cultural visits and photo stops. Transfers from Bagdogra/NJP are comfortable and we include local guides to explain heritage and ecology, making Pelling ideal for culture seekers and nature photographers.',
+            "assistant_snippet" => 'Pelling highlights: Kanchenjunga panoramas, Pemayangtse Monastery and heritage walks; private transfers included.',
             "location_slider_wrap" => 'Top Stops Around Pelling',
             "highlights_tour" => 'Highlights — Pelling & Surroundings',
             "Additional_Info" => 'Practical Travel Information',
@@ -116,11 +116,27 @@
             "items" => [
                 [
                     "question" => "How do I reach Pelling from Bagdogra?",
-                    "answer" => "Pelling is typically reached via a 5–7 hour drive from Bagdogra depending on route and stops."
+                    "answer" => "Pelling is typically reached via a 5–7 hour scenic drive from Bagdogra/ Siliguri (NJP). We provide private transfers with driver stops for comfort and photo opportunities."
                 ],
                 [
-                    "question" => "Is Pelling suitable for photography?",
-                    "answer" => "Yes — Pelling offers excellent Kanchenjunga vistas and scenic village landscapes for photographers."
+                    "question" => "What are the best viewpoints in Pelling?",
+                    "answer" => "Top viewpoints include the Pemayangtse viewpoint and dawn spots near the Khecheopalri area for Kanchenjunga panoramas."
+                ],
+                [
+                    "question" => "Do I need permits for Pelling?",
+                    "answer" => "Pelling itself does not need special permits, but some nearby protected areas may have entry rules; we will advise during booking."
+                ],
+                [
+                    "question" => "Is Pelling suitable for families and seniors?",
+                    "answer" => "Yes — moderate walks, comfortable lodges and short drives make Pelling family-friendly; inform us about mobility needs and we will adjust."
+                ],
+                [
+                    "question" => "What should I pack for Pelling?",
+                    "answer" => "Pack layered clothing, a light rain jacket, sunscreen, comfortable walking shoes and a warm layer for early mornings and evenings."
+                ],
+                [
+                    "question" => "Can I customise a Pelling itinerary?",
+                    "answer" => "Yes — itineraries are fully customisable to add cultural stops, longer hikes or higher-standard accommodation on request."
                 ]
             ]
         ],
