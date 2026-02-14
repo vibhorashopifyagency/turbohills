@@ -1,21 +1,7 @@
 <div class="home2-banner-section">
     <div class="swiper home2-banner-slider">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="banner-wrapper">
-                    <div class="banner-video-area">
-                        <video autoplay loop muted playsinline src="<?= BASE_URL ?>/assets/video/home2-banner-video.mp4"></video>
-                    </div>
-                    <div class="banner-content-wrap">
-                        <div class="container">
-                            <div class="banner-content">
-                                <h1>All-in-one Travel Booking.</h1>
-                                <p>Highlights convenience and simplicity, Best for agencies with online & mobile-friendly services.</p>
-                            </div>
-                        </div>
-                    </div>      
-                </div>
-            </div>
+            
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-img-area">
@@ -31,10 +17,27 @@
                     </div>      
                 </div>
             </div>
+
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-img-area">
-                        <img src="<?= BASE_URL ?>/assets/img/home2/banner-img2.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/sikkim/sikkim-hero-banner-1.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="banner-content-wrap">
+                        <div class="container">
+                            <div class="banner-content">
+                                <h1>All-in-one Travel Booking.</h1>
+                                <p>Highlights convenience and simplicity, Best for agencies with online & mobile-friendly services.</p>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="banner-wrapper">
+                    <div class="banner-img-area">
+                        <img src="<?= BASE_URL ?>/assets/img/home2/banner-img2.jpg" alt="" loading="lazy">
                     </div>
                     <div class="banner-content-wrap">
                         <div class="container">
@@ -46,6 +49,7 @@
                     </div>      
                 </div>
             </div>
+
         </div>
     </div>
     <div class="slider-btn-grp">
