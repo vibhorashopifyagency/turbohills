@@ -1,11 +1,27 @@
 <div class="home2-banner-section">
     <div class="swiper home2-banner-slider">
         <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="banner-wrapper">
+                    <div class="banner-img-area">
+                        <img src="<?= BASE_URL ?>/assets/img/sikkim/sikkim-hero-banner-2.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="banner-content-wrap">
+                        <div class="container">
+                            <div class="banner-content">
+                                <h1>All-in-one Travel Booking.</h1>
+                                <p>Highlights convenience and simplicity, Best for agencies with online & mobile-friendly services.</p>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+            </div>
             
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-img-area">
-                        <img src="<?= BASE_URL ?>/assets/img/home2/banner-img1.jpg" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/sikkim/banner-img1.jpg" alt="">
                     </div>
                     <div class="banner-content-wrap">
                         <div class="container">
@@ -21,23 +37,7 @@
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-img-area">
-                        <img src="<?= BASE_URL ?>/assets/img/sikkim/sikkim-hero-banner-1.jpg" alt="" loading="lazy">
-                    </div>
-                    <div class="banner-content-wrap">
-                        <div class="container">
-                            <div class="banner-content">
-                                <h1>All-in-one Travel Booking.</h1>
-                                <p>Highlights convenience and simplicity, Best for agencies with online & mobile-friendly services.</p>
-                            </div>
-                        </div>
-                    </div>      
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="banner-wrapper">
-                    <div class="banner-img-area">
-                        <img src="<?= BASE_URL ?>/assets/img/home2/banner-img2.jpg" alt="" loading="lazy">
+                        <img src="<?= BASE_URL ?>/assets/img/home2/Sikkim-Offbeat.jpg" alt="" loading="lazy">
                     </div>
                     <div class="banner-content-wrap">
                         <div class="container">
