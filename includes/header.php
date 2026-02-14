@@ -4,9 +4,9 @@
         header('Content-Type: text/html; charset=utf-8');
     }
 
-    // Default page title and meta description
-    if (!isset($pageTitle)) $pageTitle = 'Turbo Hills — Sikkim Tours from Bagdogra Airport';
-    if (!isset($metaDescription)) $metaDescription = 'Turbo Hills offers customized Sikkim tour packages from Bagdogra Airport. Visit Gangtok, Lachung, Yumthang & Yuksom with expert drivers, permits, and smooth transfers.';
+    // Default page title and meta description (SEO-friendly defaults)
+    if (!isset($pageTitle)) $pageTitle = 'Sikkim Tours from Bagdogra Airport | Turbo Hills — Permits, Cabs & Packages';
+    if (!isset($metaDescription)) $metaDescription = 'Book Sikkim tours from Bagdogra with Turbo Hills — private cabs, airport pickup, permit assistance and guided itineraries to Gangtok, Lachung, Yumthang, North Sikkim and Darjeeling.';
     
     // Determine the site domain based on the host
     $allowedDomains = [
