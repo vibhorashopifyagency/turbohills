@@ -75,17 +75,19 @@
                                 <h5>Top Destination</h5>
                             </div>
                             <ul class="widget-list">
-                                <li><a href="<?= BASE_URL ?>/destination-gangtok.php">Gangtok</a></li>
-                                <li><a href="<?= BASE_URL ?>/destination-pelling.php">Pelling</a></li>
-                                <li><a href="<?= BASE_URL ?>/destination-lachen.php">Lachen</a></li>
-                                <li><a href="<?= BASE_URL ?>/destination-lachung.php">Lachung</a></li>
-                                <li><a href="<?= BASE_URL ?>/destination-yuksom.php">Yuksom</a></li>
-                                <li><a href="<?= BASE_URL ?>/travel-package-01.html">Zuluk</a></li>
-                                <li><a href="travel-package-01.html">Tsomgo (Changu) Lake</a></li>
-                                <li><a href="travel-package-01.html">Nathula Pass</a></li>
-                                <li><a href="travel-package-01.html">Gurudongmar Lake</a></li>
-                                <li><a href="travel-package-01.html">Rumtek Monastery</a></li>
-                                <li><a href="travel-package-01.html">North Sikkim Tours</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/gangtok-experiences.php">Gangtok</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/pelling-experiences.php">Pelling</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/sikkim-zeropoint-package.php">Sikkim Zero Point</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/lachen-experiences.php">Lachen</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/lachung-experiences.php">Lachung</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/yuksom-experiences.php">Yuksom</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/zuluk-experiences.php">Zuluk</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/tsomgo-experiences.php">Tsomgo (Changu) Lake</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/nathula-experiences.php">Nathula Pass</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/gurudongmar-experiences.php">Gurudongmar Lake</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/rumtek-experiences.php">Rumtek Monastery</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/north-sikkim-tours.php">North Sikkim Tours</a></li>
+                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/south-sikkim-tours.php">South Sikkim Tours</a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,0 +1,190 @@
+<?php
+
+    // Variables
+    $pageTitle = 'Nathula Pass Day Trip — Indo-China Border & Mountain Views';
+    $metaDescription = 'Visit Nathula Pass for high-altitude views, historic border routes and cultural insights. Permit required; day-trips from Gangtok available.';
+    // OpenGraph / Social (header may use these variables)
+    $ogTitle = $pageTitle;
+    $ogDescription = $metaDescription;
+    $ogImage = '/assets/img/sikkim/nathula.jpg';
+    
+    // All data Group
+    $data = [
+        // Slider Details and images
+        "slider_details" => [
+            "slider_heading" =>  'Nathula Pass — Himalayan Border Route',
+            "slider_images" => [
+                'assets/img/innerpages/breadcrumb-bg4.jpg',
+                'assets/img/innerpages/breadcrumb-bg3.jpg'
+            ]
+        ],
+        // Page Headings and Sub-Headings (SEO focused)
+        "headings" => [
+            "heading1" => "Nathula Pass — Border Roads & High Mountain Landscapes",
+            "subheading" => "A permit-based visit to a historic mountain pass on the Indo-China border", 
+        ],
+        // tour headings and on-page SEO copy
+        "tour_headings" => [
+            "activity_content_heading" => 'Nathula Pass — What to Expect',
+            "activity_body_content" => 'Nathula Pass is a high-altitude border pass with limited access and significant permit requirements — popular as a guided day trip from Gangtok.',
+            "assistant_snippet" => 'Visit Nathula Pass with required permits and guides for a border pass experience near Gangtok.',
+            "location_slider_wrap" => 'Nearby Highlights',
+            "highlights_tour" => 'Highlights — Nathula Pass',
+            "Additional_Info" => 'Permits & Travel Notes',
+            "package_info_heading" => 'Quick Facts & Package Snapshot',
+            "package_info_message" => 'Nathula visits require permits; plan ahead and travel with experienced operators.'
+        ],
+        "package_info_list" => [
+            "rating_stars" => 'Guided day trip with permit assistance',
+            "breakfast_and_dinner" => 'Meals as specified',
+            "transportation" => 'Private transfer from Gangtok',
+            "group_size" => 'Small guided groups',
+            "language" => 'English and Hindi guides',
+            "guide" => 'Required guide and permit handler',
+            "age_range" => 'Best for travellers comfortable at altitude',
+            "season" => 'Best: Apr–Jun & Sep–Nov; closed in winter',
+            "category" => 'Day Trip • Culture • History'
+        ],
+        // Features (Inclusions / Exclusions) tailored for search intent
+        "features" => [
+            "title" => "What's Included & Not Included",
+
+            "included" => [
+                "title" => "Included",
+                "items" => [
+                    "Private transfers and permit arrangement",
+                    "Local guide and fees as per permit",
+                    "Short itinerary covering key viewpoints"
+                ]
+            ],
+
+            "excluded" => [
+                "title" => "Not Included",
+                "items" => [
+                    "Personal expenses",
+                    "Passport fees for permit where required",
+                    "Meals not listed"
+                ]
+            ]
+        ],
+        // Tour Highlights — answers common search queries
+        "tour_highlights" => [
+            "items" => [
+                "Historic border road and vista points.",
+                "Permit-based day trips from Gangtok.",
+                "Cultural insights at nearby shrines and checkpoints."
+            ]
+        ],
+        // Locations Slider — images and names must remain unchanged
+        "location_slider" => [
+            "heading" => 'Nearby — Nathula & Surroundings',
+            "image_and_names" => [
+                ['name' => 'Nathula', 'image' => '/assets/img/sikkim/nathula.jpg'],
+                ['name' => 'Tsomgo Lake', 'image' => '/assets/img/sikkim/tsomgo-lake.jpg'],
+                ['name' => 'Gangtok', 'image' => '/assets/img/sikkim/gangtok.jpg']
+            ]
+        ],
+        // Additional Info — answers local-search intent
+        "additional_info" => [
+            "title" => "Important Travel Information",
+            "items" => [
+                [
+                    "highlight" => "Permits",
+                    "description" => "Nathula requires official permits; foreign nationals must allow extra processing time."
+                ],
+                [
+                    "highlight" => "Altitude",
+                    "description" => "High altitude; brief acclimatisation recommended."
+                ],
+                [
+                    "highlight" => "Timing",
+                    "description" => "Permit windows and local closures can affect trip timing."
+                ]
+            ]
+        ],
+        // FAQs (AEO-friendly answers)
+        "faq" => [
+            "title" => "Frequently Asked Questions",
+            "items" => [
+                [
+                    "question" => "How do I get a Nathula permit?",
+                    "answer" => "Permits can be arranged through tour operators; allow time for processing."
+                ],
+                [
+                    "question" => "Is Nathula open year-round?",
+                    "answer" => "No, access is seasonal; winter closures are common."
+                ]
+            ]
+        ],
+
+        // Single Feature List
+        "single_feature_list" =>[
+            "single_feature" => "Permit-assisted day trips from Gangtok with cultural insights."
+        ] 
+    ];
+    
+
+    // Header and constants
+    include __DIR__ . '/../../../includes/header_constants.php';
+
+    // Output structured data (JSON-LD) for AEO: WebPage, FAQPage and TouristTrip
+    $ld_graph = [];
+    $page_url = '';
+    if (isset($_SERVER['HTTP_HOST'])) {
+        $scheme = (!empty($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : 'https');
+        $page_url = $scheme . '://' . $_SERVER['HTTP_HOST'] . ($_SERVER['REQUEST_URI'] ?? '') ;
+    }
+
+    $ld_graph[] = [
+        "@type" => "WebPage",
+        "name" => $pageTitle,
+        "description" => $metaDescription,
+        "url" => $page_url
+    ];
+
+    // FAQ items
+    if (!empty($data['faq']['items']) && is_array($data['faq']['items'])) {
+        $faq_entities = [];
+        foreach ($data['faq']['items'] as $fq) {
+            if (!empty($fq['question']) && !empty($fq['answer'])) {
+                $faq_entities[] = [
+                    "@type" => "Question",
+                    "name" => $fq['question'],
+                    "acceptedAnswer" => [
+                        "@type" => "Answer",
+                        "text" => $fq['answer']
+                    ]
+                ];
+            }
+        }
+        if (!empty($faq_entities)) {
+            $ld_graph[] = [
+                "@type" => "FAQPage",
+                "mainEntity" => $faq_entities
+            ];
+        }
+    }
+
+    // TouristTrip entry
+    $first_image = $data['location_slider']['image_and_names'][0]['image'] ?? $ogImage;
+    $first_image_url = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/' . ltrim($first_image, '/') : $first_image);
+    $ld_graph[] = [
+        "@type" => "TouristTrip",
+        "name" => $pageTitle,
+        "description" => $metaDescription,
+        "image" => $first_image_url
+    ];
+
+    $ld = [
+        "@context" => "https://schema.org",
+        "@graph" => $ld_graph
+    ];
+
+    echo '<script type="application/ld+json">' . json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . '</script>';
+
+    include BASE_PATH . '/includes/sections/breadcrumb-section.php';
+    include BASE_PATH . '/includes/sections/enquiry-modal.php';
+    include BASE_PATH . '/includes/sections/package-details-section.php';
+    require_once BASE_PATH . '/includes/footer.php';
+
+?>
