@@ -1,84 +1,91 @@
 <?php
 
     // Variables
-    $pageTitle = 'Contact Turbo Hills — Book Sikkim tours from Bagdogra';
-    $metaDescription = 'Contact Turbo Hills for Sikkim tours starting at Bagdogra. Fast quotes, custom itineraries and airport transfers.';
+    $pageTitle = 'Lachung Experiences — North Sikkim Tours from Bagdogra';
+    $metaDescription = 'Explore Lachung & Yumthang Valley with guided North Sikkim tours from Bagdogra. Private transfers, permits handled and local guides.';
+    // OpenGraph / Social (header may use these variables)
+    $ogTitle = $pageTitle;
+    $ogDescription = $metaDescription;
+    $ogImage = '/assets/img/sikkim/lachung.jpg';
     
     // All data Group
     $data = [
         // Slider Details and images
         "slider_details" => [
-            "slider_heading" =>  'Sikkim Zero-Point Package',
+            "slider_heading" =>  'Lachung Experiences — Yumthang Valley',
             "slider_images" => [
                 'assets/img/innerpages/breadcrumb-bg3.jpg',
                 'assets/img/innerpages/breadcrumb-bg4.jpg',
                 'assets/img/innerpages/experience-breadcrumb-bg.jpg',
             ]
         ],
-        // Page Headings and Sub-Headings
+        // Page Headings and Sub-Headings (SEO focused)
         "headings" => [
-            "heading1" => "This is Heading",
-            "subheading" => "This is Sub-Heading",
+            "heading1" => "Lachung & Yumthang Valley — North Sikkim Explorer",
+            "subheading" => "Blooming valleys, alpine views and authentic mountain culture", 
         ],
-        // heading of our tours
+        // tour headings and on-page SEO copy
         "tour_headings" => [
-            "activity_content_heading" => 'Ride Safey',
-            "activity_body_content" => 'Experience the breathtaking beauty of the ocean like never before! With <span>35% OFF</span> on scuba diving experiences across all destinations',
-            "location_slider_wrap" => 'Touring Places',
-            "highlights_tour" => 'Highlights of our Tour',
-            "Additional_Info" => 'Additional Info of our Tour',
-            "package_info_heading" => 'Overview Packages',
-            "package_info_message" => 'Paris, the City of Lights, and the surrounding Île-de-France region offer a perfect blend of history, culture, luxury, and romance. Whether you€re exploring iconic landmarks, indulging in French cuisine, or enjoying the charming countryside, this region has something for every traveler.'
+            "activity_content_heading" => 'Lachung Experiences — Valley of Flowers & Mountain Culture',
+            "activity_body_content" => 'Visit Lachung and Yumthang Valley on a carefully curated 2–4 day northern Sikkim escape from Bagdogra. Enjoy seasonal blooms, pristine alpine views and authentic village stays — ideal for nature lovers and photographers.',
+            "assistant_snippet" => 'Visit Lachung & Yumthang Valley from Bagdogra — private transfers, permits handled and guided mountain stays.',
+            "location_slider_wrap" => 'Top Stops Around Lachung',
+            "highlights_tour" => 'Highlights — Lachung & Yumthang',
+            "Additional_Info" => 'Practical Travel Information',
+            "package_info_heading" => 'Quick Facts & Package Snapshot',
+            "package_info_message" => 'This short Lachung experience includes private transfers from Bagdogra/NJP, permit handling, local guides and comfortable mountain stays. Designed for gentle acclimatisation and maximum scenic exposure.'
         ],
         "package_info_list" => [
-            "rating_stars" => '55 star hotel',
-            "breakfast_and_dinner" => 'Breakfast Lunch Dinner',
-            "transportation" => 'taxi and bus',
-            "group_size" => '20-25',
-            "language" => 'english hindi',
-            "guide" => 'local guide',
-            "age_range" => '18 to 60',
-            "season" => 'winter summer',
-            "category" => 'Adventure',
+            "rating_stars" => '3★ / 4★ family-run mountain lodges and homestays',
+            "breakfast_and_dinner" => 'Daily breakfast & dinner included as per itinerary',
+            "transportation" => 'Private SUV transfers with experienced driver (Bagdogra/NJP)',
+            "group_size" => 'Private or small groups (2–12 travellers)',
+            "language" => 'English, Hindi & local Sikkimese guides',
+            "guide" => 'Certified local guide with cultural & permit assistance',
+            "age_range" => 'Suitable for families and seniors (recommended 8–65)',
+            "season" => 'Best: Mar–Jun (blooms) & Oct–Dec (clear skies); winter access may vary',
+            "category" => 'Nature • Culture • Photography',
         ],
-        // Features List
+        // Features (Inclusions / Exclusions) tailored for search intent
         "features" => [
-            "title" => "What's Included & Excluded",
+            "title" => "What's Included & Not Included",
 
             "included" => [
-                "title" => "Included in the Package",
+                "title" => "Included",
                 "items" => [
-                    "Accommodation (Hotel, Resort, Villa, Camping, etc.)",
-                    "Meals (Breakfast, Lunch, Dinner - specify type)",
-                    "Guided Tours & Excursions",
-                    "Entry Tickets to Attractions",
-                    "Adventure Activities & Travel Insurance"
+                    "Private airport/railway pickup & drop (Bagdogra / NJP)",
+                    "All inter-city transfers in a private SUV",
+                    "Mountain accommodation (1–2 nights as per itinerary)",
+                    "Daily breakfast and dinner as listed in itinerary",
+                    "Local certified guide & permit handling",
+                    "Sightseeing in and around Lachung & Yumthang Valley",
+                    "Emergency assistance and local support"
                 ]
             ],
+
             "excluded" => [
-                "title" => "Not Included in the Package",
+                "title" => "Not Included",
                 "items" => [
-                    "Visa Fees & Processing",
-                    "Personal Expenses (Shopping, Souvenirs, Tips, etc.)",
-                    "Optional Excursions & Activities",
-                    "Meals Not Mentioned in Itinerary"
+                    "Flight or train tickets to Bagdogra/NJP",
+                    "Personal travel insurance (recommended)",
+                    "Lunches, tips and personal expenses",
+                    "Optional activities not listed in itinerary"
                 ]
             ]
         ],
-        // Tour Highlights
+        // Tour Highlights — answers common search queries
         "tour_highlights" => [
             "items" => [
-                "Zero Point - Experience snow covered Himalayan landscape.",
-                "Yumthang Valley - Valley of Flowers of Sikkim.",
-                "Gurudongmar Lake - One of the highest lakes in the world.",
-                "Lachen & Lachung - Traditional mountain villages stay.",
-                "Scenic mountain drive with waterfalls & rivers.",
-                "Local Sikkimese food & culture experience."
+                "Yumthang Valley — Seasonal meadows, rhododendrons and alpine scenery.",
+                "Lachung Village — Traditional Sikkimese culture and homestay experiences.",
+                "Scenic mountain drives with photo-ready viewpoints.",
+                "Short nature walks and local cultural interactions.",
+                "Photography opportunities at sunrise/sunset over the Himalaya."
             ]
         ],
-        // Locations Slider
+        // Locations Slider — images and names must remain unchanged
         "location_slider" => [
-            "heading" => 'Location Slider',
+            "heading" => 'Top Stops — Lachung & Yumthang Valley',
             "image_and_names" => [
                 ['name' => 'Lachung', 'image' => '/assets/img/sikkim/lachung.jpg'],
                 ['name' => 'Yumthang Valley', 'image' => '/assets/img/sikkim/Yumthang-valley-Sikkim.jpg'],
@@ -87,54 +94,54 @@
                 ['name' => 'Lachen', 'image' => '/assets/img/sikkim/Lachen-Sikkim-768x512.jpg']
             ]
         ],
-        // Additional Info
+        // Additional Info — answers local-search intent
         "additional_info" => [
-            "title" => "Additional Information",
+            "title" => "Important Travel Information",
             "items" => [
                 [
-                    "highlight" => "Free Cancellation",
-                    "description" => "Some tours offer free cancellation up to 24-48 hours before departure."
+                    "highlight" => "Permits & ID",
+                    "description" => "Inner-line permits for certain North Sikkim areas are arranged by us; carry original photo ID (Aadhaar/Passport)."
                 ],
                 [
-                    "highlight" => "Health & Travel Requirements",
-                    "description" => "COVID-19 regulations, vaccinations, or travel restrictions may apply."
+                    "highlight" => "Altitude & Health",
+                    "description" => "Lachung and surrounding valleys are high-altitude; allow time for acclimatisation and inform us of health concerns in advance."
                 ],
                 [
-                    "highlight" => "Minimum Participants",
-                    "description" => "Tour requires minimum 4 travelers to operate."
+                    "highlight" => "Weather & Packing",
+                    "description" => "Pack warm layers, sturdy footwear, sunscreen and sunglasses. Weather can change quickly in mountain regions."
                 ]
             ]
         ],
-        // FAQs
+        // FAQs (AEO-friendly answers)
         "faq" => [
             "title" => "Frequently Asked Questions",
             "items" => [
                 [
-                    "question" => "What are the must-visit places in Sikkim?",
-                    "answer" => "Top attractions include Tsomgo Lake, Nathula Pass, Baba Mandir, Yumthang Valley and Gangtok MG Marg."
+                    "question" => "How do I reach Lachung from Bagdogra?",
+                    "answer" => "Most travellers fly to Bagdogra (IXB) or arrive at New Jalpaiguri (NJP). We provide private transfers from Bagdogra/NJP to Lachung with overnight stops for acclimatisation."
                 ],
                 [
-                    "question" => "Are entry permits included?",
-                    "answer" => "Yes, all required local permits are arranged by us. Only ID proof is required from traveler."
+                    "question" => "Do I need permits to visit Yumthang Valley?",
+                    "answer" => "Yes, certain North Sikkim locations require inner-line permits. We arrange these permits once ID details are provided."
                 ],
                 [
-                    "question" => "What hotels are provided?",
-                    "answer" => "We provide 3★ / 4★ category hotels depending on package selected."
+                    "question" => "Is Lachung suitable for families?",
+                    "answer" => "Yes — Lachung and Yumthang are suitable for families with reasonable fitness; we recommend private transfers and gentle pacing for children and seniors."
                 ],
                 [
-                    "question" => "Is the booking refundable?",
-                    "answer" => "Yes, free cancellation available before 7 days of travel date."
+                    "question" => "When is the best time to visit Lachung?",
+                    "answer" => "Best months are March–June for blooms and October–December for clear skies. Winter months are colder and may affect road access."
                 ],
                 [
-                    "question" => "What documents should I carry?",
-                    "answer" => "Carry original Aadhaar/Passport and 2 passport photos for permits."
+                    "question" => "Can the Lachung itinerary be customised?",
+                    "answer" => "Yes. We offer bespoke itineraries, accommodation upgrades and private-guide options on request."
                 ]
             ]
         ],
 
         // Single Feature List
         "single_feature_list" =>[
-            "single_feature" => "single_feature"
+            "single_feature" => "Book your Lachung escape now — permits handled, private transfers and local guides included."
         ] 
     ];
     
@@ -149,6 +156,61 @@
     
     // Header and constants
     include __DIR__ . '/../../../includes/header_constants.php';
+
+    // Output structured data (JSON-LD) for AEO: WebPage, FAQPage and TouristTrip
+    $ld_graph = [];
+    $page_url = '';
+    if (isset($_SERVER['HTTP_HOST'])) {
+        $scheme = (!empty($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : 'https');
+        $page_url = $scheme . '://' . $_SERVER['HTTP_HOST'] . ($_SERVER['REQUEST_URI'] ?? '') ;
+    }
+
+    $ld_graph[] = [
+        "@type" => "WebPage",
+        "name" => $pageTitle,
+        "description" => $metaDescription,
+        "url" => $page_url
+    ];
+
+    // FAQ items
+    if (!empty($data['faq']['items']) && is_array($data['faq']['items'])) {
+        $faq_entities = [];
+        foreach ($data['faq']['items'] as $fq) {
+            if (!empty($fq['question']) && !empty($fq['answer'])) {
+                $faq_entities[] = [
+                    "@type" => "Question",
+                    "name" => $fq['question'],
+                    "acceptedAnswer" => [
+                        "@type" => "Answer",
+                        "text" => $fq['answer']
+                    ]
+                ];
+            }
+        }
+        if (!empty($faq_entities)) {
+            $ld_graph[] = [
+                "@type" => "FAQPage",
+                "mainEntity" => $faq_entities
+            ];
+        }
+    }
+
+    // TouristTrip entry
+    $first_image = $data['location_slider']['image_and_names'][0]['image'] ?? $ogImage;
+    $first_image_url = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/' . ltrim($first_image, '/') : $first_image);
+    $ld_graph[] = [
+        "@type" => "TouristTrip",
+        "name" => $pageTitle,
+        "description" => $metaDescription,
+        "image" => $first_image_url
+    ];
+
+    $ld = [
+        "@context" => "https://schema.org",
+        "@graph" => $ld_graph
+    ];
+
+    echo '<script type="application/ld+json">' . json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . '</script>';
 
     // Breadcrumbs
     // echo "Base Path - " . BASE_PATH . "<br />";

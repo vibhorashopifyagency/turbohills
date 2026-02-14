@@ -167,6 +167,61 @@
     // Header and constants
     include __DIR__ . '/../../../includes/header_constants.php';
 
+    // Output structured data (JSON-LD) for AEO: WebPage, FAQPage and TouristTrip
+    $ld_graph = [];
+    $page_url = '';
+    if (isset($_SERVER['HTTP_HOST'])) {
+        $scheme = (!empty($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : 'https');
+        $page_url = $scheme . '://' . $_SERVER['HTTP_HOST'] . ($_SERVER['REQUEST_URI'] ?? '') ;
+    }
+
+    $ld_graph[] = [
+        "@type" => "WebPage",
+        "name" => $pageTitle,
+        "description" => $metaDescription,
+        "url" => $page_url
+    ];
+
+    // FAQ items
+    if (!empty($data['faq']['items']) && is_array($data['faq']['items'])) {
+        $faq_entities = [];
+        foreach ($data['faq']['items'] as $fq) {
+            if (!empty($fq['question']) && !empty($fq['answer'])) {
+                $faq_entities[] = [
+                    "@type" => "Question",
+                    "name" => $fq['question'],
+                    "acceptedAnswer" => [
+                        "@type" => "Answer",
+                        "text" => $fq['answer']
+                    ]
+                ];
+            }
+        }
+        if (!empty($faq_entities)) {
+            $ld_graph[] = [
+                "@type" => "FAQPage",
+                "mainEntity" => $faq_entities
+            ];
+        }
+    }
+
+    // TouristTrip entry
+    $first_image = $data['location_slider']['image_and_names'][0]['image'] ?? $ogImage;
+    $first_image_url = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/' . ltrim($first_image, '/') : $first_image);
+    $ld_graph[] = [
+        "@type" => "TouristTrip",
+        "name" => $pageTitle,
+        "description" => $metaDescription,
+        "image" => $first_image_url
+    ];
+
+    $ld = [
+        "@context" => "https://schema.org",
+        "@graph" => $ld_graph
+    ];
+
+    echo '<script type="application/ld+json">' . json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . '</script>';
+
     // Breadcrumbs
     // echo "Base Path - " . BASE_PATH . "<br />";
     // echo "__DIR__ - " . __DIR__;
