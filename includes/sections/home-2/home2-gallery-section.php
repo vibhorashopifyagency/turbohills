@@ -35,7 +35,7 @@
                             </div>
                             <div class="single-img justify-content-md-end">
                                 <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img2-big.jpg">
-                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img2.jpg" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/Sikkim-Offbeat.jpg" alt="">
                                 </a>
                             </div>
                             <div class="single-img justify-content-md-between">

@@ -3,7 +3,7 @@
     <div class="swiper home6-offer-banner-slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="banner-wrapper" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 74.86%, rgba(0, 0, 0, 0.8) 100%), url(<?= BASE_URL ?>/assets/img/home6/home6-offer-banner-img1.jpg);">
+                <div class="banner-wrapper" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 74.86%, rgba(0, 0, 0, 0.8) 100%), url(<?= BASE_URL ?>/assets/img/sikkim/banner-img1.jpg);">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-6 col-lg-8 col-md-10">

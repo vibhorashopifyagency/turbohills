@@ -53,7 +53,7 @@
     <meta name="twitter:description" content="<?= htmlspecialchars($metaDescription); ?>">
 
     <meta property="og:image" content="<?php echo $siteDomain; ?>/<?= BASE_URL ?>/assets/img/og-cover.jpg">
-    <link rel="preload" as="image" href="<?= $siteDomain; ?>/<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png">
+    <link rel="preload" as="image" href="<?= $siteDomain; ?>/<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png">
     <link rel="alternate" hreflang="en-IN" href="https://turbohills.in<?= strtok($_SERVER['REQUEST_URI'], '?'); ?>">
     <link rel="alternate" hreflang="en" href="https://turbohills.com<?= strtok($_SERVER['REQUEST_URI'], '?'); ?>">
     <!-- Favicons and touch icons could go here -->
@@ -125,7 +125,7 @@
             <div class="topbar-wrap">
                 <div class="logo-and-search-area">
                     <a href="<?= BASE_URL ?>/" class="header-logo">
-                        <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="Turbo Hills - Sikkim & North Bengal Travel Agency">
+                        <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="Turbo Hills - Sikkim & North Bengal Travel Agency">
                     </a>
                 </div>
                 <div class="topbar-right">
@@ -149,12 +149,12 @@
     <header class="style-1">
         <div class="container d-flex flex-nowrap align-items-center justify-content-between">
             <a href="<?= BASE_URL ?>/" class="header-logo d-lg-none d-block">
-                <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="">
+                <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="">
             </a>
             <div class="main-menu">
                 <div class="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">
                     <a href="<?= BASE_URL ?>/" class="mobile-logo-wrap">
-                        <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="">
                     </a>
                     <div class="menu-close-btn">
                         <i class="bi bi-x"></i>

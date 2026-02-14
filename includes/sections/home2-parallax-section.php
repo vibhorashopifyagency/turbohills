@@ -1,5 +1,5 @@
 <!-- home2 award banner Section Start-->
-<div class="home2-award-banner-section" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(<?= BASE_URL ?>/assets/img/home2/home2-award-banner-bg.jpg);">
+<div class="home2-award-banner-section" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(<?= BASE_URL ?>/assets/img/sikkim/banner-img1.jpg);">
     <div class="container">
         <div class="banner-content">
             <div class="award-rating-area">

@@ -5,7 +5,7 @@
             <div class="swiper-slide">
                 <div class="banner-wrapper">
                     <div class="banner-img-area">
-                        <img src="<?= BASE_URL ?>/assets/img/sikkim/sikkim-hero-banner-2_low.jpg" alt="" loading="lazy">
+                        <img src="<?= BASE_URL ?>/assets/img/sikkim/sikkim-hero-banner-2_low.jpg" alt="Best Sikkim Travel Agency in Bagdogra">
                     </div>
                     <div class="banner-content-wrap">
                         <div class="container">

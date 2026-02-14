@@ -55,7 +55,7 @@
                     <div class="col-lg-4 col-sm-12 col-sm-6">
                         <div class="footer-logo-and-addition-info">
                             <a href="<?= BASE_URL ?>/" class="footer-logo">
-                                <img src="<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png" alt="" loading="lazy">
+                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="" loading="lazy">
                             </a>
                             <div class="address-area">
                                 <span>TurboHills Travel Agency</span>
@@ -170,32 +170,32 @@
     <script data-cfasync="false" src="https://demo.egenslab.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="<?= BASE_URL ?>/assets/js/jquery-3.7.1.min.js"></script>
     <script src="<?= BASE_URL ?>/assets/js/jquery-ui.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/moment.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/moment.min.js" defer></script>
     <!-- Popper and Bootstrap JS -->
     <script src="<?= BASE_URL ?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/popper.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/popper.min.js" defer></script>
     <!-- Swiper slider JS -->
     <script src="<?= BASE_URL ?>/assets/js/swiper-bundle.min.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/slick.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/slick.js" defer></script>
     <!-- Waypoints JS -->
-    <script src="<?= BASE_URL ?>/assets/js/waypoints.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/waypoints.min.js" defer></script>
     <!-- Counterup JS -->
-    <script src="<?= BASE_URL ?>/assets/js/jquery.counterup.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/jquery.counterup.min.js" defer></script>
     
     <!-- Wow JS -->
-    <script src="<?= BASE_URL ?>/assets/js/wow.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/wow.min.js" defer></script>
     <!-- Gsap  JS -->
-    <script src="<?= BASE_URL ?>/assets/js/gsap.min.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/ScrollTrigger.min.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/jquery.fancybox.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/gsap.min.js" defer></script>
+    <script src="<?= BASE_URL ?>/assets/js/ScrollTrigger.min.js" defer></script>
+    <script src="<?= BASE_URL ?>/assets/js/jquery.fancybox.min.js" defer></script>
     <!-- Custom JS -->
     <?php if (basename($_SERVER['PHP_SELF']) === '/' || basename($_SERVER['PHP_SELF']) === 'index.php' || basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
-        <script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js"></script>
+        <script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js" defer></script>
         <!-- Nice Select JS -->
-        <script src="<?= BASE_URL ?>/assets/js/jquery.nice-select.min.js"></script>
-        <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js"></script>
+        <script src="<?= BASE_URL ?>/assets/js/jquery.nice-select.min.js" defer></script>
+        <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js" defer></script>
     <?php endif; ?>
-    <script src="<?= BASE_URL ?>/assets/js/custom.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/custom.js" defer></script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"70834e4b23964a2eaf7cf4ec0e5e9a84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 
