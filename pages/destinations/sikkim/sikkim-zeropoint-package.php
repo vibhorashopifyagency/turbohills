@@ -1,8 +1,11 @@
 <?php
 
     // Variables
-    $pageTitle = 'Contact Turbo Hills — Book Sikkim tours from Bagdogra';
-    $metaDescription = 'Contact Turbo Hills for Sikkim tours starting at Bagdogra. Fast quotes, custom itineraries and airport transfers.';
+    $pageTitle = 'Sikkim Zero Point Tour from Bagdogra — Yumthang, Gurudongmar & Yume Samdong';
+    $metaDescription = 'Sikkim Zero Point tour (4-6 days) from Bagdogra: Yumthang Valley, Yume Samdong (Zero Point) and Gurudongmar Lake. Private transfers, permits and guided photography trips.';
+    $ogTitle = $pageTitle;
+    $ogDescription = $metaDescription;
+    $ogImage = BASE_URL . '/assets/img/sikkim/sikkimi-zeropoint.jpg';
     
     // All data Group
     $data = [

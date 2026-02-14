@@ -267,3 +267,20 @@
     }
     </script>
 <?php endif; ?>
+
+<?php if (empty($pageSchema) && empty($pageSchema2)) : ?>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "<?= htmlspecialchars($pageTitle ?? 'Turbo Hills'); ?>",
+        "description": "<?= htmlspecialchars($metaDescription ?? 'Turbo Hills - Sikkim & North Bengal Tours'); ?>",
+        "url": "<?= htmlspecialchars($canonical ?? $siteDomain); ?>",
+        "image": "<?= htmlspecialchars($og_image_url ?? (rtrim($siteDomain, '/') . '/' . ltrim((defined('BASE_URL') ? BASE_URL : '') . '/assets/img/og-cover.jpg', '/'))); ?>",
+        "publisher": {
+            "@type": "Organization",
+            "@id": "<?= $siteDomain; ?>#localbusiness"
+        }
+    }
+    </script>
+<?php endif; ?>
