@@ -125,7 +125,9 @@
                         </a>
                     </div>
                 </div>
+
             </div>
+            
             <div class="location-slider-wrap">
                 <h4>Popular Tourist Places in Sikkim</h4>
                 <div class="location-slider-area">
@@ -134,7 +136,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img1.jpg" alt="Gangtok city view with Himalayan mountains in Sikkim" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/sikkim/lachung.jpg" alt="Gangtok city view with Himalayan mountains in Sikkim" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Gangtok - Capital of Sikkim</a></h6>
@@ -144,7 +146,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img2.jpg" alt="Tsomgo Lake near Nathula Pass in East Sikkim" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/sikkim/destination-dt-location-img2.jpg" alt="Tsomgo Lake near Nathula Pass in East Sikkim" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Tsomgo Lake near Nathula Pass</a></h6>
@@ -154,7 +156,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img3.jpg" alt="Yumthang Valley covered in flowers during spring" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/sikkim/lachung.jpg" alt="Yumthang Valley covered in flowers during spring" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Lachung Village, North Sikkim</a></h6>
@@ -164,7 +166,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img4.jpg" alt="Snowfall in Lachung village North Sikkim" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/sikkim/destination/sikkim/-dt-location-img4.jpg" alt="Snowfall in Lachung village North Sikkim" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Yumthang Valley - Valley of Flowers</a></h6>
@@ -174,7 +176,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img5.jpg" alt="Kanchenjunga mountain view from Pelling in West Sikkim, India" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/sikkim/destination-dt-location-img5.jpg" alt="Kanchenjunga mountain view from Pelling in West Sikkim, India" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Pelling - Kanchenjunga Viewpoint</a></h6>
@@ -184,7 +186,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img6.jpg" alt="Buddha Park in Ravangla, South Sikkim with Himalayan mountain backdrop" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/sikkim/destination-dt-location-img6.jpg" alt="Buddha Park in Ravangla, South Sikkim with Himalayan mountain backdrop" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Ravangla Buddha Park</a></h6>
@@ -194,7 +196,7 @@
                             <div class="swiper-slide">
                                 <div class="location-card">
                                     <div class="location-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/innerpages/destination-dt-location-img7.jpg" alt="Zuluk village on the historic Silk Route in East Sikkim, India" loading="lazy">
+                                        <img src="<?= BASE_URL ?>/assets/img/sikkim/destination-dt-location-img7.jpg" alt="Zuluk village on the historic Silk Route in East Sikkim, India" loading="lazy">
                                     </div>
                                     <div class="location-content">
                                         <h6><a href="https://www.google.com/maps">Zuluk Silk Route Village</a></h6>

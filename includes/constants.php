@@ -10,6 +10,6 @@ $officeNumber = '+917029019681';
 $officeNumberLabel = '+91 70290 19681';
 
 $emailAddress = 'turbohillcabs@gmail.com';
-$emailAddressLabel = 'turbohillcabs@gmail.com';
+$emailAddressLabel = 'Click to email us';
 
 ?>
