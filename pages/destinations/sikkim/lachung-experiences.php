@@ -10,9 +10,9 @@
         "slider_details" => [
             "slider_heading" =>  'Sikkim Zero-Point Package',
             "slider_images" => [
-                'assets/img/sikkim/sikkimi-zeropoint.jpg',
-                'assets/img/sikkim/awesome-place.jpg',
-                'assets/img/sikkim/zero-point-bannnr.jpg',
+                'assets/img/innerpages/breadcrumb-bg3.jpg',
+                'assets/img/innerpages/breadcrumb-bg4.jpg',
+                'assets/img/innerpages/experience-breadcrumb-bg.jpg',
             ]
         ],
         // Page Headings and Sub-Headings
