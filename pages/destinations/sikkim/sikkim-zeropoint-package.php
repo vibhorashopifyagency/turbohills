@@ -6,7 +6,7 @@
     
     // All data Group
     $data = [
-        // Slider Details and images
+        // Slider Details and images (keep images unchanged for visual continuity)
         "slider_details" => [
             "slider_heading" =>  'Sikkim Zero-Point Package',
             "slider_images" => [
@@ -15,70 +15,81 @@
                 'assets/img/sikkim/zero-point-bannnr.jpg',
             ]
         ],
-        // Page Headings and Sub-Headings
+
+        // Page Headings and Sub-Headings (SEO focused)
         "headings" => [
-            "heading1" => "This is Heading",
-            "subheading" => "This is Sub-Heading",
+            "heading1" => "Sikkim Zero-Point Tour from Bagdogra",
+            "subheading" => "High-altitude Snow Experience — Yumthang, Gurudongmar & Zero Point",
         ],
-        // heading of our tours
+
+        // Tour headings and strong on-page copy for search engines and users
         "tour_headings" => [
-            "activity_content_heading" => 'Ride Safey',
-            "activity_body_content" => 'Experience the breathtaking beauty of the ocean like never before! With <span>35% OFF</span> on scuba diving experiences across all destinations',
-            "location_slider_wrap" => 'Touring Places',
-            "highlights_tour" => 'Highlights of our Tour',
-            "Additional_Info" => 'Additional Info of our Tour',
-            "package_info_heading" => 'Overview Packages',
-            "package_info_message" => 'Paris, the City of Lights, and the surrounding Île-de-France region offer a perfect blend of history, culture, luxury, and romance. Whether you€re exploring iconic landmarks, indulging in French cuisine, or enjoying the charming countryside, this region has something for every traveler.'
+            "activity_content_heading" => 'Sikkim Zero-Point Adventure',
+            "activity_body_content" => 'Discover North Sikkim on a carefully planned 4–6 day itinerary from Bagdogra. Visit Yumthang Valley (Valley of Flowers), Yume Samdong (Zero Point), Gurudongmar Lake and charming mountain villages of Lachen & Lachung. Perfect for first-time visitors, nature lovers and photographers.',
+            "location_slider_wrap" => 'Top Stops on This Route',
+            "highlights_tour" => 'Highlights — Sikkim Zero-Point Tour',
+            "Additional_Info" => 'Practical Info & Travel Tips',
+            "package_info_heading" => 'Package Overview & Quick Facts',
+            "package_info_message" => 'This Zero-Point tour includes private transfers from Bagdogra, certified local guides, comfortable mountain accommodation, permits and local support. Designed for acclimatisation and maximum scenic exposure while keeping safety first.'
         ],
-        "package_info_list" => [
-            "rating_stars" => '55 star hotel',
-            "breakfast_and_dinner" => 'Breakfast Lunch Dinner',
-            "transportation" => 'taxi and bus',
-            "group_size" => '20-25',
-            "language" => 'english hindi',
-            "guide" => 'local guide',
-            "age_range" => '18 to 60',
-            "season" => 'winter summer',
-            "category" => 'Adventure',
-        ],
-        // Features List
+
+        // Key package attributes designed to answer common search intent
+            "package_info_list" => [
+            	"rating_stars" => '3★ / 4★ mountain lodges and homestays',
+            	"breakfast_and_dinner" => 'Breakfast & dinner included as per itinerary',
+            	"transportation" => 'Private SUV with experienced driver (Bagdogra → North Sikkim)',
+            	"group_size" => 'Private or small groups (2–12 travellers)',
+            	"language" => 'English, Hindi & local Sikkimese guides',
+            	"guide" => 'Certified local guide with permit assistance',
+            	"age_range" => 'All ages (recommended 8–65; consult for seniors)',
+            	"season" => 'Best: Mar–Jun & Oct–Dec; winter access may vary',
+            	"category" => 'Adventure • Nature • Photography',
+            ],
+
+        // Features List with SEO-friendly headings and clear bullets (inclusions/exclusions)
         "features" => [
-            "title" => "What's Included & Excluded",
+            "title" => "What's Included & Not Included",
 
             "included" => [
-                "title" => "Included in the Package",
+                "title" => "Included",
                 "items" => [
-                    "Accommodation (Hotel, Resort, Villa, Camping, etc.)",
-                    "Meals (Breakfast, Lunch, Dinner - specify type)",
-                    "Guided Tours & Excursions",
-                    "Entry Tickets to Attractions",
-                    "Adventure Activities & Travel Insurance"
+                    "Airport/railway pickup & drop (Bagdogra/NJP)",
+                    "All inter-city transfers in a private SUV",
+                    "2-3 nights mountain accommodation (as per itinerary)",
+                    "Breakfast and dinner as per day-wise plan",
+                    "Certified local guide & permit handling",
+                    "All sightseeing as per itinerary (Yumthang, Zero Point, Gurudongmar Lake)",
+                    "Emergency assistance and local support"
                 ]
             ],
+
             "excluded" => [
-                "title" => "Not Included in the Package",
+                "title" => "Not Included",
                 "items" => [
-                    "Visa Fees & Processing",
-                    "Personal Expenses (Shopping, Souvenirs, Tips, etc.)",
-                    "Optional Excursions & Activities",
-                    "Meals Not Mentioned in Itinerary"
+                    "Flight or train tickets to Bagdogra/NJP",
+                    "Personal travel insurance (recommended)",
+                    "Lunches, personal expenses, tips and porterage",
+                    "Optional activities not listed in itinerary",
+                    "Government fees not mentioned explicitly (if any)"
                 ]
             ]
         ],
-        // Tour Highlights
+
+        // Tour Highlights focused on search queries and user intent
         "tour_highlights" => [
             "items" => [
-                "Zero Point - Experience snow covered Himalayan landscape.",
-                "Yumthang Valley - Valley of Flowers of Sikkim.",
-                "Gurudongmar Lake - One of the highest lakes in the world.",
-                "Lachen & Lachung - Traditional mountain villages stay.",
-                "Scenic mountain drive with waterfalls & rivers.",
-                "Local Sikkimese food & culture experience."
+                "Yume Samdong (Zero Point) — Snow fields and panoramic Himalayan views.",
+                "Yumthang Valley — Blooming meadows, seasonal rhododendrons and alpine scenery.",
+                "Gurudongmar Lake — High-altitude crystal-clear glacial lake (subject to local permits).",
+                "Lachen & Lachung — Traditional Sikkimese villages and authentic local culture.",
+                "Scenic mountain drives with waterfalls, terraced fields and river valleys.",
+                "Photography-ready viewpoints and sunrise/sunset panoramas."
             ]
         ],
-        // Locations Slider
+
+        // Locations Slider — MUST keep the image_and_names entries unchanged for layout
         "location_slider" => [
-            "heading" => 'Location Slider',
+            "heading" => 'Top Stops — Zero Point & North Sikkim',
             "image_and_names" => [
                 ['name' => 'Lachung', 'image' => '/assets/img/sikkim/lachung.jpg'],
                 ['name' => 'Yumthang Valley', 'image' => '/assets/img/sikkim/Yumthang-valley-Sikkim.jpg'],
@@ -87,54 +98,60 @@
                 ['name' => 'Lachen', 'image' => '/assets/img/sikkim/Lachen-Sikkim-768x512.jpg']
             ]
         ],
-        // Additional Info
+
+        // Additional Info — answers common local-search queries (AEO friendly)
         "additional_info" => [
-            "title" => "Additional Information",
+            "title" => "Important Travel Information",
             "items" => [
                 [
-                    "highlight" => "Free Cancellation",
-                    "description" => "Some tours offer free cancellation up to 24-48 hours before departure."
+                    "highlight" => "Permits & ID",
+                    "description" => "Inner-line permits for North Sikkim are handled by us; carry original photo ID (Aadhaar/Passport)."
                 ],
                 [
-                    "highlight" => "Health & Travel Requirements",
-                    "description" => "COVID-19 regulations, vaccinations, or travel restrictions may apply."
+                    "highlight" => "Altitude & Health",
+                    "description" => "Zero Point and Gurudongmar are high-altitude locations. Allow time for acclimatisation; inform us of medical conditions in advance."
                 ],
                 [
-                    "highlight" => "Minimum Participants",
-                    "description" => "Tour requires minimum 4 travelers to operate."
-                ]
-            ]
-        ],
-        // FAQs
-        "faq" => [
-            "title" => "Frequently Asked Questions",
-            "items" => [
-                [
-                    "question" => "What are the must-visit places in Sikkim?",
-                    "answer" => "Top attractions include Tsomgo Lake, Nathula Pass, Baba Mandir, Yumthang Valley and Gangtok MG Marg."
+                    "highlight" => "Weather & Packing",
+                    "description" => "Pack warm layers, sturdy shoes, sunscreen and sunglasses; weather can change rapidly at high altitudes."
                 ],
                 [
-                    "question" => "Are entry permits included?",
-                    "answer" => "Yes, all required local permits are arranged by us. Only ID proof is required from traveler."
-                ],
-                [
-                    "question" => "What hotels are provided?",
-                    "answer" => "We provide 3★ / 4★ category hotels depending on package selected."
-                ],
-                [
-                    "question" => "Is the booking refundable?",
-                    "answer" => "Yes, free cancellation available before 7 days of travel date."
-                ],
-                [
-                    "question" => "What documents should I carry?",
-                    "answer" => "Carry original Aadhaar/Passport and 2 passport photos for permits."
+                    "highlight" => "Cancellation & Flexibility",
+                    "description" => "Flexible cancellation policies vary by package; check booking terms. Weather or road conditions may require itinerary adjustments."
                 ]
             ]
         ],
 
-        // Single Feature List
+        // SEO-friendly FAQs that match voice search and featured snippet intent
+        "faq" => [
+            "title" => "Frequently Asked Questions",
+            "items" => [
+                [
+                    "question" => "How do I reach Sikkim Zero Point from Bagdogra?",
+                    "answer" => "Most travellers fly to Bagdogra (IXB) or arrive at New Jalpaiguri (NJP). We provide private transfers from Bagdogra/NJP to North Sikkim with overnight stops for acclimatisation."
+                ],
+                [
+                    "question" => "Do I need permits to visit Zero Point and Gurudongmar Lake?",
+                    "answer" => "Yes. Inner-line permits are required for several North Sikkim destinations; we arrange these permits for all travellers upon receiving ID details."
+                ],
+                [
+                    "question" => "Is the Zero-Point tour suitable for families and seniors?",
+                    "answer" => "Yes — with reasonable fitness and after consulting about altitude concerns. We recommend slower pacing and private transfers for families and senior travellers."
+                ],
+                [
+                    "question" => "What is the best time to visit Zero Point?",
+                    "answer" => "The best months are March–June and October–December for clear skies and possible snow. Winter months are cold and roads may be affected by snow."
+                ],
+                [
+                    "question" => "Can the itinerary be customised?",
+                    "answer" => "Yes. We offer bespoke itineraries, upgrades to higher-standard accommodation, and private-guide options on request."
+                ]
+            ]
+        ],
+
+        // Single Feature List (quick CTA / SEO snippet)
         "single_feature_list" =>[
-            "single_feature" => "single_feature"
+            "single_feature" => "Book your Sikkim Zero-Point tour now — personalised itineraries, local permits handled."
         ] 
     ];
     

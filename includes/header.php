@@ -48,7 +48,7 @@
     <meta property="og:url" content="<?= htmlspecialchars($canonical); ?>">
     <meta property="og:site_name" content="Turbo Hills">
 
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="Turbo Hills — Best Sikkim Tours from Bagdogra Airport">
     <meta name="twitter:title" content="<?= htmlspecialchars($pageTitle); ?>">
     <meta name="twitter:description" content="<?= htmlspecialchars($metaDescription); ?>">
 
