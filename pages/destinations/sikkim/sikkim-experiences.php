@@ -3,6 +3,86 @@
 
     // Header and constants
     include __DIR__ . '/../../../includes/header_constants.php';
+
+    // Output structured data (JSON-LD) for Sikkim hub
+    $ld_graph = [];
+    $page_url = '';
+    $request_path = '';
+    if (isset($_SERVER['HTTP_HOST'])) {
+        $scheme = (!empty($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : 'https');
+        $request_path = strtok(($_SERVER['REQUEST_URI'] ?? ''), '?');
+        $page_url = $scheme . '://' . $_SERVER['HTTP_HOST'] . $request_path;
+    }
+
+    $canonical_url = (defined('BASE_URL') && !empty($request_path)) ? rtrim(BASE_URL, '/') . $request_path : $page_url;
+    $org_id = (defined('BASE_URL') ? rtrim(BASE_URL, '/') : '') . '#organization';
+    $website_id = (defined('BASE_URL') ? rtrim(BASE_URL, '/') : '') . '#website';
+    $page_id = ($canonical_url ?: $page_url) . '#webpage';
+    $destination_id = ($canonical_url ?: $page_url) . '#destination';
+
+    $ld_graph[] = [
+        "@type" => "Organization",
+        "@id" => $org_id,
+        "name" => "Turbo Hills",
+        "url" => (defined('BASE_URL') ? rtrim(BASE_URL, '/') : "https://turbohills.com")
+    ];
+
+    $ld_graph[] = [
+        "@type" => "WebSite",
+        "@id" => $website_id,
+        "name" => "Turbo Hills",
+        "url" => (defined('BASE_URL') ? rtrim(BASE_URL, '/') : "https://turbohills.com"),
+        "publisher" => ["@id" => $org_id]
+    ];
+
+    $ld_graph[] = [
+        "@type" => "TouristDestination",
+        "@id" => $destination_id,
+        "name" => "Sikkim",
+        "description" => "Sikkim travel experiences, Himalayan landscapes, monasteries, alpine lakes and cultural routes.",
+        "url" => ($canonical_url ?: $page_url),
+        "containedInPlace" => [
+            "@type" => "Place",
+            "name" => "India"
+        ]
+    ];
+
+    $ld_graph[] = [
+        "@type" => "BreadcrumbList",
+        "@id" => ($canonical_url ?: $page_url) . '#breadcrumb',
+        "itemListElement" => [
+            [
+                "@type" => "ListItem",
+                "position" => 1,
+                "name" => "Home",
+                "item" => (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/' : '/')
+            ],
+            [
+                "@type" => "ListItem",
+                "position" => 2,
+                "name" => "Sikkim",
+                "item" => ($canonical_url ?: $page_url)
+            ]
+        ]
+    ];
+
+    $ld_graph[] = [
+        "@type" => "WebPage",
+        "@id" => $page_id,
+        "name" => "Sikkim Travel Experiences",
+        "description" => "Explore Sikkim: monasteries, mountain lakes, trekking gateways and Himalayan viewpoints.",
+        "url" => ($canonical_url ?: $page_url),
+        "publisher" => ["@id" => $org_id],
+        "about" => ["@id" => $destination_id],
+        "isPartOf" => ["@id" => $website_id]
+    ];
+
+    $ld = [
+        "@context" => "https://schema.org",
+        "@graph" => $ld_graph
+    ];
+
+    echo '<script type="application/ld+json">' . json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . '</script>';
 ?>
 
     <!-- Destination Details Gallery Section Start-->

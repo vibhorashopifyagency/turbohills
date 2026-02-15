@@ -2,73 +2,138 @@
         $pageTitle = 'North Bengal Tour Packages from Bagdogra & NJP | TurboHills';
         $metaDescription = 'Book customized North Bengal tour packages with TurboHills. Explore Darjeeling, Mirik, Kurseong, Lava, Lolegaon, Sandakphu, and offbeat stays with cab pickup from Bagdogra Airport and NJP.';
     $pageType = 'north-bengal-experiences';
-        $pageSchema = <<<SCHEMA
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://turbohills.com/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "North Bengal Destinations",
-            "item": "https://turbohills.com/pages/destinations/north-bengal/north-bengal-experiences.php"
-        }
-    ]
-}
-</script>
-SCHEMA;
-        $pageSchema2 = <<<SCHEMA
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What are the best places to visit in North Bengal?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Top places include Darjeeling, Mirik, Kurseong, Lava, Lolegaon, Sandakphu, Phalut, Samsing, Suntalekhola, and Jhalong-Buxa."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How many days are ideal for a North Bengal trip?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A 4 to 7 day itinerary is ideal. Short trips can cover Darjeeling-Mirik while longer trips include Lava, Lolegaon, Rishyap, Takdah, and Latpanchar."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How do I reach North Bengal from Bagdogra Airport or NJP?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Most travelers start from Bagdogra Airport (IXB) or NJP Railway Station. TurboHills provides pickup and drop cabs, route planning, and day-wise transfers."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Do you offer customized North Bengal tour packages?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. TurboHills offers custom North Bengal packages based on budget, trip duration, hotel preference, and travel style."
-            }
-        }
-    ]
-}
-</script>
-SCHEMA;
 
     // Header and constants
     include __DIR__ . '/../../../includes/header_constants.php';
+
+    // Output structured data (JSON-LD) for North Bengal hub
+    $ld_graph = [];
+    $page_url = '';
+    $request_path = '';
+    if (isset($_SERVER['HTTP_HOST'])) {
+        $scheme = (!empty($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : 'https');
+        $request_path = strtok(($_SERVER['REQUEST_URI'] ?? ''), '?');
+        $page_url = $scheme . '://' . $_SERVER['HTTP_HOST'] . $request_path;
+    }
+
+    $canonical_url = (defined('BASE_URL') && !empty($request_path)) ? rtrim(BASE_URL, '/') . $request_path : $page_url;
+    $org_id = (defined('BASE_URL') ? rtrim(BASE_URL, '/') : '') . '#organization';
+    $website_id = (defined('BASE_URL') ? rtrim(BASE_URL, '/') : '') . '#website';
+    $page_id = ($canonical_url ?: $page_url) . '#webpage';
+    $destination_id = ($canonical_url ?: $page_url) . '#destination';
+    $faq_id = ($canonical_url ?: $page_url) . '#faq';
+
+    $ld_graph[] = [
+        "@type" => "Organization",
+        "@id" => $org_id,
+        "name" => "Turbo Hills",
+        "url" => (defined('BASE_URL') ? rtrim(BASE_URL, '/') : "https://turbohills.com")
+    ];
+
+    $ld_graph[] = [
+        "@type" => "WebSite",
+        "@id" => $website_id,
+        "name" => "Turbo Hills",
+        "url" => (defined('BASE_URL') ? rtrim(BASE_URL, '/') : "https://turbohills.com"),
+        "publisher" => ["@id" => $org_id]
+    ];
+
+    $ld_graph[] = [
+        "@type" => "TouristDestination",
+        "@id" => $destination_id,
+        "name" => "North Bengal",
+        "description" => "North Bengal travel experiences, tea gardens, hill stations, forest villages, and trekking routes.",
+        "url" => ($canonical_url ?: $page_url),
+        "containedInPlace" => [
+            "@type" => "Place",
+            "name" => "West Bengal, India"
+        ]
+    ];
+
+    $ld_graph[] = [
+        "@type" => "BreadcrumbList",
+        "@id" => ($canonical_url ?: $page_url) . '#breadcrumb',
+        "itemListElement" => [
+            [
+                "@type" => "ListItem",
+                "position" => 1,
+                "name" => "Home",
+                "item" => (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/' : '/')
+            ],
+            [
+                "@type" => "ListItem",
+                "position" => 2,
+                "name" => "North Bengal",
+                "item" => ($canonical_url ?: $page_url)
+            ]
+        ]
+    ];
+
+    $ld_graph[] = [
+        "@type" => "WebPage",
+        "@id" => $page_id,
+        "name" => $pageTitle,
+        "description" => $metaDescription,
+        "url" => ($canonical_url ?: $page_url),
+        "publisher" => ["@id" => $org_id],
+        "about" => ["@id" => $destination_id],
+        "isPartOf" => ["@id" => $website_id]
+    ];
+
+    $faq_entities = [
+        [
+            "@type" => "Question",
+            "name" => "What are the best places to visit in North Bengal?",
+            "acceptedAnswer" => [
+                "@type" => "Answer",
+                "text" => "Top places include Darjeeling, Mirik, Kurseong, Lava, Lolegaon, Sandakphu, Phalut, Samsing, Suntalekhola, and Jhalong-Buxa."
+            ]
+        ],
+        [
+            "@type" => "Question",
+            "name" => "How many days are ideal for a North Bengal trip?",
+            "acceptedAnswer" => [
+                "@type" => "Answer",
+                "text" => "A 4 to 7 day itinerary is ideal. Short trips can cover Darjeeling-Mirik while longer trips include Lava, Lolegaon, Rishyap, Takdah, and Latpanchar."
+            ]
+        ],
+        [
+            "@type" => "Question",
+            "name" => "How do I reach North Bengal from Bagdogra Airport or NJP?",
+            "acceptedAnswer" => [
+                "@type" => "Answer",
+                "text" => "Most travelers start from Bagdogra Airport (IXB) or NJP Railway Station. TurboHills provides pickup and drop cabs, route planning, and day-wise transfers."
+            ]
+        ],
+        [
+            "@type" => "Question",
+            "name" => "Do you offer customized North Bengal tour packages?",
+            "acceptedAnswer" => [
+                "@type" => "Answer",
+                "text" => "Yes. TurboHills offers custom North Bengal packages based on budget, trip duration, hotel preference, and travel style."
+            ]
+        ]
+    ];
+
+    $ld_graph[] = [
+        "@type" => "FAQPage",
+        "@id" => $faq_id,
+        "mainEntity" => $faq_entities
+    ];
+
+    foreach ($ld_graph as $idx => $node) {
+        if (!empty($node['@type']) && $node['@type'] === 'WebPage' && !empty($node['@id']) && $node['@id'] === $page_id) {
+            $ld_graph[$idx]['mainEntity'] = $faq_entities;
+            break;
+        }
+    }
+
+    $ld = [
+        "@context" => "https://schema.org",
+        "@graph" => $ld_graph
+    ];
+
+    echo '<script type="application/ld+json">' . json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . '</script>';
 ?>
 
     <!-- Destination Details Gallery Section Start-->
