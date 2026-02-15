@@ -163,7 +163,7 @@
             <div class="main-menu">
                 <div class="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">
                     <a href="<?= BASE_URL ?>/" class="mobile-logo-wrap">
-                        <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="" loading="lazy">
                     </a>
                     <div class="menu-close-btn">
                         <i class="bi bi-x"></i>
