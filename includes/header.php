@@ -58,8 +58,29 @@
     <link rel="alternate" hreflang="en" href="https://turbohills.com<?= strtok($_SERVER['REQUEST_URI'], '?'); ?>">
     <!-- Favicons and touch icons could go here -->
 
+    <!-- Swiper slider CSS -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/swiper-bundle.min.css">
+
+
+    <link rel="preload" href="<?= BASE_URL ?>/assets/css/bootstrap.min.css?v=1.0.3" as="style">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/bootstrap.min.css?v=1.0.3">
+    <!-- Nice Select CSS -->
+    <link href="<?= BASE_URL ?>/assets/css/nice-select.css" rel="stylesheet">
+    
+    <!-- Slick slider CSS -->
+    <!-- <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick-theme.css"> -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/daterangepicker.css">
+    
+    <!--  Style CSS  -->
+    <link rel="preload" href="<?= BASE_URL ?>/assets/css/style.min.css?v=1.0.3" as="style">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.min.css?v=1.0.3">
+    <!-- Favicon -->
+    <link rel="icon" href="<?= BASE_URL ?>/assets/img/fav-icon.svg" type="image/svg+xml" sizes="20x20">
+
+
     <!-- Bootstrap CSS -->
-    <link href="<?= BASE_URL ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+    
     <link href="<?= BASE_URL ?>/assets/css/jquery-ui.css" rel="stylesheet">
     <!-- Bootstrap Icon CSS -->
     <link href="<?= BASE_URL ?>/assets/css/bootstrap-icons.css" rel="stylesheet">
@@ -67,21 +88,8 @@
     <link href="<?= BASE_URL ?>/assets/css/animate.min.css" rel="stylesheet">
     <!-- FancyBox CSS -->
     <link href="<?= BASE_URL ?>/assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <!-- Nice Select CSS -->
-    <link href="<?= BASE_URL ?>/assets/css/nice-select.css" rel="stylesheet">
-    <!-- Swiper slider CSS -->
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/swiper-bundle.min.css">
-    <!-- Slick slider CSS -->
-    <!-- <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/slick-theme.css"> -->
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/daterangepicker.css">
     <!-- BoxIcon  CSS -->
     <link href="<?= BASE_URL ?>/assets/css/boxicons.min.css" rel="stylesheet">
-    <!--  Style CSS  -->
-    <link rel="preload" href="<?= BASE_URL ?>/assets/css/style.css?v=1.0.3" as="style">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css?v=1.0.3">
-    <!-- Favicon -->
-    <link rel="icon" href="<?= BASE_URL ?>/assets/img/fav-icon.svg" type="image/svg+xml" sizes="20x20">
 
     <?php
         // Main structured data

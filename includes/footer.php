@@ -204,16 +204,15 @@ if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
 
 
 <!--  Main jQuery  -->
-<script data-cfasync="false" src="https://demo.egenslab.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="<?= BASE_URL ?>/assets/js/jquery-3.7.1.min.js"></script>
 <script src="<?= BASE_URL ?>/assets/js/jquery-ui.js"></script>
 <script src="<?= BASE_URL ?>/assets/js/moment.min.js" defer></script>
 <!-- Popper and Bootstrap JS -->
-<script src="<?= BASE_URL ?>/assets/js/bootstrap.min.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/bootstrap.min.js" defer></script>
 <script src="<?= BASE_URL ?>/assets/js/popper.min.js" defer></script>
 <!-- Swiper slider JS -->
 <script src="<?= BASE_URL ?>/assets/js/swiper-bundle.min.js"></script>
-<script src="<?= BASE_URL ?>/assets/js/slick.js" defer></script>
+<!-- <script src="<?= BASE_URL ?>/assets/js/slick.js" defer></script> -->
 <!-- Waypoints JS -->
 <script src="<?= BASE_URL ?>/assets/js/waypoints.min.js" defer></script>
 <!-- Counterup JS -->
@@ -225,15 +224,14 @@ if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
 <script src="<?= BASE_URL ?>/assets/js/gsap.min.js" defer></script>
 <script src="<?= BASE_URL ?>/assets/js/ScrollTrigger.min.js" defer></script>
 <script src="<?= BASE_URL ?>/assets/js/jquery.fancybox.min.js" defer></script>
+<script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js" defer></script>
 <!-- Custom JS -->
 <?php if (basename($_SERVER['PHP_SELF']) === '/' || basename($_SERVER['PHP_SELF']) === 'index.php' || basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
-    <script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js" defer></script>
     <!-- Nice Select JS -->
     <script src="<?= BASE_URL ?>/assets/js/jquery.nice-select.min.js" defer></script>
     <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js" defer></script>
 <?php endif; ?>
 <script src="<?= BASE_URL ?>/assets/js/custom.js" defer></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"70834e4b23964a2eaf7cf4ec0e5e9a84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 
 </html>
