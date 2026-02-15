@@ -87,6 +87,17 @@
                 [ 'question' => 'Is Darjeeling good for families?', 'answer' => 'Yes — it offers easy sightseeing, tea-garden visits and gentle walks suitable for families.' ]
             ]
         ],
+        "inspiration_details" => [
+            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Darjeeling • North Bengal"],
+            "intro" => "Typical stops around Darjeeling include Himalayan viewpoints, tea-estate roads, and heritage hill-walks.",
+            "heading" => "Sample photo stops & short experiences",
+            "sections" => [
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with mountain and valley panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Heritage", "description" => "Local markets, monastery visits, and tea-town heritage walks.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Heritage"], "tags" => ["title" => "Popular around Darjeeling", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Heritage Walks", "url" => "#culture-heritage"], ["label" => "Tea Gardens", "url" => "#short-scenic-drives"], ["label" => "Darjeeling", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to tea estates, sunrise points, and nearby valleys.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+            ],
+            "page_tags" => [["label" => "Darjeeling", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
+        ],
         "single_feature_list" => [
             "single_feature" => 'Book Darjeeling stays with AI-curated itineraries for personalized, calm travel.'
         ]

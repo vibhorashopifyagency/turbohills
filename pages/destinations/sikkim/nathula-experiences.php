@@ -137,6 +137,18 @@
             ]
         ],
 
+        "inspiration_details" => [
+            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Nathula • Sikkim"],
+            "intro" => "Typical stops around Nathula include high-pass viewpoints, border route drives, and mountain photo halts.",
+            "heading" => "Sample photo stops & short experiences",
+            "sections" => [
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with pass and mountain panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Local route history, monastery influences, and cultural touchpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Nathula", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Pass Routes", "url" => "#culture-heritage"], ["label" => "Mountain Drives", "url" => "#short-scenic-drives"], ["label" => "Nathula", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drive-and-stop circuits for high-road viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+            ],
+            "page_tags" => [["label" => "Nathula", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
+        ],
+
         // Single Feature List
         "single_feature_list" =>[
             "single_feature" => "Permit-assisted day trips from Gangtok with cultural insights."

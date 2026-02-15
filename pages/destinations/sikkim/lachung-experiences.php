@@ -139,6 +139,18 @@
             ]
         ],
 
+        "inspiration_details" => [
+            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Lachung • Sikkim"],
+            "intro" => "Typical stops around Lachung include high-valley viewpoints, monastery visits, and alpine route drives.",
+            "heading" => "Sample photo stops & short experiences",
+            "sections" => [
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with alpine valley panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery visits and local village interactions.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachung", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Lachung", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby valleys and viewpoint bends.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+            ],
+            "page_tags" => [["label" => "Lachung", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
+        ],
+
         // Single Feature List
         "single_feature_list" =>[
             "single_feature" => "Book your Lachung escape now — permits handled, private transfers and local guides included."

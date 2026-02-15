@@ -72,6 +72,51 @@
                 [ 'question' => 'Is birding possible?', 'answer' => 'Yes — the riverside habitat is good for local birds.' ]
             ]
         ],
+        "inspiration_details" => [
+            "quote" => [
+                "text" => "The best views come after the simplest walks.",
+                "name" => "TurboHills Team",
+                "location" => "Suntalekhola • North Bengal"
+            ],
+            "intro" => "Typical stops around Suntalekhola include riverside viewpoints, forest-edge walks, and village photo points for relaxed slow travel.",
+            "heading" => "Sample photo stops & short experiences",
+            "sections" => [
+                [
+                    "id" => "scenic-viewpoints",
+                    "title" => "1. Scenic Viewpoints",
+                    "description" => "Easy-access viewpoints with valley, river, and forest panoramas.",
+                    "images" => [
+                        ["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7],
+                        ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]
+                    ]
+                ],
+                [
+                    "id" => "culture-heritage",
+                    "title" => "2. Local Culture & Village Life",
+                    "description" => "Short community interactions, local food stops, and heritage-style hill experiences.",
+                    "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"],
+                    "tags" => [
+                        "title" => "Popular around Suntalekhola",
+                        "items" => [
+                            ["label" => "Viewpoints", "url" => "#scenic-viewpoints"],
+                            ["label" => "Village Walks", "url" => "#culture-heritage"],
+                            ["label" => "Nature Photography", "url" => "#short-scenic-drives"],
+                            ["label" => "Suntalekhola", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]
+                        ]
+                    ]
+                ],
+                [
+                    "id" => "short-scenic-drives",
+                    "title" => "3. Short Scenic Drives",
+                    "description" => "Comfortable drives to nearby tea gardens, riverside points, and forest stretches.",
+                    "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]
+                ]
+            ],
+            "page_tags" => [
+                ["label" => "Suntalekhola", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')],
+                ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]
+            ]
+        ],
         "single_feature_list" => [
             "single_feature" => 'Book Suntalekhola for riverside stays, easy walks and calm Dooars birdlife.'
         ]

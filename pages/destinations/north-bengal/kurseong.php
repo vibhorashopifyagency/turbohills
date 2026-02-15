@@ -68,6 +68,17 @@
                 [ 'question' => 'Is Kurseong crowded?', 'answer' => 'Usually less crowded than larger hill towns, making it ideal for peaceful stays.' ]
             ]
         ],
+        "inspiration_details" => [
+            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Kurseong • North Bengal"],
+            "intro" => "Typical stops around Kurseong include tea slopes, forest roads, and calm town viewpoints.",
+            "heading" => "Sample photo stops & short experiences",
+            "sections" => [
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with tea-garden and valley panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Heritage", "description" => "Town walks, monastery corners, and local tea-culture stories.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Heritage"], "tags" => ["title" => "Popular around Kurseong", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Heritage Walks", "url" => "#culture-heritage"], ["label" => "Tea Gardens", "url" => "#short-scenic-drives"], ["label" => "Kurseong", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby viewpoints and hill villages.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+            ],
+            "page_tags" => [["label" => "Kurseong", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
+        ],
         "single_feature_list" => [
             "single_feature" => 'Book Kurseong stays with AI-curated local walks and tea experiences.'
         ]

@@ -83,6 +83,17 @@
                 [ 'question' => 'What fitness level is needed?', 'answer' => 'A moderate to high fitness level is advised for multi-day high-ridge trekking.' ]
             ]
         ],
+        "inspiration_details" => [
+            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Phalut • North Bengal"],
+            "intro" => "Typical stops around Phalut include high-ridge viewpoints, trekking pauses, and mountain camp moments.",
+            "heading" => "Sample photo stops & short experiences",
+            "sections" => [
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access ridge viewpoints with wide Himalayan panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Trek Life", "description" => "Trail culture, mountain shelters, and local route stories.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Trek culture"], "tags" => ["title" => "Popular around Phalut", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Trail Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Phalut", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-walk combinations for nearby ridge and valley views.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+            ],
+            "page_tags" => [["label" => "Phalut", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
+        ],
         "single_feature_list" => [
             "single_feature" => 'Book Phalut treks with AI-curated pacing and experienced local guides.'
         ]

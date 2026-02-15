@@ -84,6 +84,11 @@
     <link href="<?= BASE_URL ?>/assets/css/jquery-ui.css" rel="stylesheet">
     <!-- Bootstrap Icon CSS -->
     <link href="<?= BASE_URL ?>/assets/css/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preload"
+        href="<?= BASE_URL ?>/assets/fonts/bootstrap-icons0107.woff2"
+        as="font"
+        type="font/woff2"
+        crossorigin>
     <!-- CSS -->
     <link href="<?= BASE_URL ?>/assets/css/animate.min.css" rel="stylesheet">
     <!-- FancyBox CSS -->

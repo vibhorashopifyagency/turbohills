@@ -141,6 +141,18 @@
             ]
         ],
 
+        "inspiration_details" => [
+            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Zuluk • Sikkim"],
+            "intro" => "Typical stops around Zuluk include zig-zag road viewpoints, old silk-route landscapes, and short mountain drives.",
+            "heading" => "Sample photo stops & short experiences",
+            "sections" => [
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with ridge and route panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Old trade-route stories and local mountain community life.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Zuluk", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Route Heritage", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Zuluk", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drive-and-stop routes along dramatic mountain bends.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+            ],
+            "page_tags" => [["label" => "Zuluk", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
+        ],
+
         // Single Feature List
         "single_feature_list" =>[
             "single_feature" => "Drive the Old Silk Route — private transfers and experienced drivers available."

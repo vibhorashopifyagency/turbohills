@@ -94,6 +94,17 @@
                 ]
             ]
         ],
+        "inspiration_details" => [
+            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "South Sikkim • Sikkim"],
+            "intro" => "Typical stops around South Sikkim include tea gardens, cultural monuments, and easy scenic drives.",
+            "heading" => "Sample photo stops & short experiences",
+            "sections" => [
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with valley and tea-estate panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Community sites, monastery routes, and local food experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around South Sikkim", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Tea Gardens", "url" => "#culture-heritage"], ["label" => "Local Culture", "url" => "#culture-heritage"], ["label" => "South Sikkim", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby tea slopes and heritage points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+            ],
+            "page_tags" => [["label" => "South Sikkim", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
+        ],
         "single_feature_list" => ["single_feature" => "South Sikkim combines tea-garden tranquillity, community experiences and easy-access viewpoints — perfect for short cultural retreats and family trips." ]
     ];
 
