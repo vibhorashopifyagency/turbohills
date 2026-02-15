@@ -19,7 +19,7 @@
             <ul class="contact-area">
                 <li class="single-contact">
                     <div class="icon">
-                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/whatsapp-icon2.svg" alt="" loading="lazy">
+                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/whatsapp-icon2.svg" alt="WhatsApp icon for TurboHills Sikkim travel support" loading="lazy">
                     </div>
                     <div class="content">
                         <span>WhatsApp</span>
@@ -28,7 +28,7 @@
                 </li>
                 <li class="single-contact">
                     <div class="icon">
-                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/mail-icon2.svg" alt="" loading="lazy">
+                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/mail-icon2.svg" alt="Email icon for TurboHills tour inquiries" loading="lazy">
                     </div>
                     <div class="content">
                         <span>Mail Us</span>
@@ -37,7 +37,7 @@
                 </li>
                 <li class="single-contact">
                     <div class="icon">
-                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/call-icon.svg" alt="" loading="lazy">
+                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/call-icon.svg" alt="Call icon for TurboHills Sikkim travel booking assistance" loading="lazy">
                     </div>
                     <div class="content">
                         <span>Call Us</span>
@@ -55,7 +55,7 @@
                 <div class="col-lg-3 col-sm-12 col-sm-6">
                     <div class="footer-logo-and-addition-info">
                         <a href="<?= BASE_URL ?>/" class="footer-logo">
-                            <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="" loading="lazy">
+                            <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="TurboHills logo - Sikkim and North Bengal travel agency" loading="lazy">
                         </a>
                         <div class="address-area">
                             <span>TurboHills Travel Agency</span>
@@ -173,10 +173,10 @@
                 <div class="payment-method-area">
                     <span>Accepted Payment Methods :</span>
                     <ul>
-                        <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/mastar-card-icon.svg" alt="" loading="lazy"></li>
-                        <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/visa-icon.svg" alt="" loading="lazy"></li>
+                        <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/mastar-card-icon.svg" alt="Mastercard accepted for TurboHills travel package payments" loading="lazy"></li>
+                        <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/visa-icon.svg" alt="Visa card accepted for TurboHills holiday bookings" loading="lazy"></li>
                         <!-- <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/paypal-icon.svg" alt="" loading="lazy"></li> -->
-                        <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/gpay-icon.svg" alt="" loading="lazy"></li>
+                        <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/gpay-icon.svg" alt="Google Pay accepted by TurboHills for secure online payment" loading="lazy"></li>
                     </ul>
                 </div>
             </div>
