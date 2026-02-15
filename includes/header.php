@@ -141,7 +141,7 @@
                     <div class="support-and-language-area">
                         <a href="#">Need Help?</a>
                     </div>
-                    <a href="tel:<?php echo $phone_number; ?>" class="primary-btn1 black-bg">
+                    <a href="tel:<?php echo $phoneNumber; ?>" class="primary-btn1 black-bg">
                         <span>
                             <?php echo $contact_person_black_svg; ?>
                             Contact Us

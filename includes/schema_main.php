@@ -9,7 +9,7 @@
     "logo": "<?= $siteDomain; ?>/<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png",
     "image": "<?= $siteDomain; ?>/<?= BASE_URL ?>/assets/img/Turbo-Hills-Logo.png",
     "description": "Turbo Hills is a trusted travel agency in Bagdogra providing Sikkim and North Bengal tour packages, cab services with permits, and customized itineraries for Indian and international travelers.",
-    "telephone": "<?= $phone_number; ?>",
+    "telephone": "<?= $phoneNumber; ?>",
     "priceRange": "₹₹",
 
     "address": {
