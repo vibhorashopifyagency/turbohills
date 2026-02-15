@@ -78,7 +78,8 @@
     <!-- BoxIcon  CSS -->
     <link href="<?= BASE_URL ?>/assets/css/boxicons.min.css" rel="stylesheet">
     <!--  Style CSS  -->
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
+    <link rel="preload" href="<?= BASE_URL ?>/assets/css/style.css?v=1.0.3" as="style">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css?v=1.0.3">
     <!-- Favicon -->
     <link rel="icon" href="<?= BASE_URL ?>/assets/img/fav-icon.svg" type="image/svg+xml" sizes="20x20">
 
