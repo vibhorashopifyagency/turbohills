@@ -187,45 +187,48 @@
                                 <div class="menu-row">
                                     <div class="menu-single-item">
                                         <div class="menu-title">
-                                            <h5>Sikkim Tour Packages</h5>
+                                            <h5>Top Destinations in Sikkim</h5>
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/east-sikkim-tour.php">East Sikkim Tour</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/west-sikkim-tour.php">West Sikkim Tour</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/north-sikkim-tour.php">North Sikkim Tour</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/south-sikkim-tour.php">South Sikkim Tour</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/gangtok-tour-packages.php">Gangtok Tour Packages</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/lachung-lachen-tour.php">Lachung & Lachen Tour</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/sikkim/yumthang-valley-tour.php">Yumthang Valley Tour</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/sikkim-experiences.php">All Sikkim Destinations</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/gangtok-experiences.php">Gangtok</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/pelling-experiences.php">Pelling</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/lachen-experiences.php">Lachen</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/lachung-experiences.php">Lachung</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/tsomgo-experiences.php">Tsomgo (Changu) Lake</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/nathula-experiences.php">Nathula Pass</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/gurudongmar-experiences.php">Gurudongmar Lake</a></li>
                                         </ul>
                                     </div>
                                     <div class="menu-single-item">
                                         <div class="menu-title">
-                                            <h5>North Bengal Tours</h5>
+                                            <h5>Our Choices in North Bengal</h5>
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/darjeeling-tour-packages.php">Darjeeling Tour</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/kalimpong-tour-packages.php">Kalimpong Tour</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/dooars-tour-packages.php">Dooars Tour</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/sandakphu-trek.php">Sandakphu Trek</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/mirik-tour.php">Mirik Tour</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/north-bengal/jaldapara-lataguri-tour.php">Jaldapara & Lataguri</a>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/north-bengal/north-bengal-experiences.php">All North Bengal Destinations</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/north-bengal/darjeeling.php">Darjeeling</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/north-bengal/sandakphu.php">Sandakphu</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/north-bengal/phalut.php">Phalut</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/north-bengal/kurseong.php">Kurseong</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/north-bengal/mirik.php">Mirik</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/north-bengal/lepchajagat.php">Lepchajagat</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="menu-single-item">
                                         <div class="menu-title">
-                                            <h5>Cab & Permit Services</h5>
+                                            <h5>Popular Sikkim Circuits</h5>
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="<?= BASE_URL ?>/destinations/cab-services/sikkim-tourist-cab.php">Sikkim Tourist Cab</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/cab-services/north-sikkim-cab.php">North Sikkim Cab</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/permit-services/north-sikkim-permit.php">North Sikkim Permit</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/permit-services/foreigners-permit-sikkim.php">Foreigner Permit (PAP)</a></li>
-                                            <li><a href="<?= BASE_URL ?>/destinations/cab-services/bagdogra-airport-transfer.php">Bagdogra Airport Pickup</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/north-sikkim-tours.php">North Sikkim Tours</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/south-sikkim-tours.php">South Sikkim Tours</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/sikkim-zeropoint-package.php">Sikkim Zero Point</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/rumtek-experiences.php">Rumtek Monastery</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/zuluk-experiences.php">Zuluk</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/yuksom-experiences.php">Yuksom</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -235,8 +238,15 @@
                         </div>
                     </li>
 
+                    <li>
+                        <a href="<?= BASE_URL ?>/pages/destinations/sikkim/sikkim-experiences.php">Sikkim</a>
+                    </li>
+                    <li>
+                        <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/north-bengal-experiences.php">North Bengal</a>
+                    </li>
+
                     <!-- TOUR TYPES -->
-                    <li class="menu-item-has-children">
+                    <!-- <li class="menu-item-has-children">
                         <a href="#" class="drop-down">
                             Tour Packages
                             <i class="bi bi-caret-down-fill"></i>
@@ -249,7 +259,7 @@
                             <li><a href="<?= BASE_URL ?>/destinations/tour-packages/luxury-tour-packages.php">Luxury Tours</a></li>
                             <li><a href="<?= BASE_URL ?>/destinations/tour-packages/custom-tour-packages.php">Customized Tours</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <!-- FAQ -->
                     <li>
                         <a href="<?= BASE_URL ?>/faq.php">FAQs</a>
