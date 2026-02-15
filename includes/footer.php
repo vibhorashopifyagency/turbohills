@@ -1,202 +1,239 @@
 <!-- home1 Footer Section Start-->
-    <footer class="footer-section">
-        <div class="container">
-            <div class="footer-contact-wrap">
-                <div class="inquiry-area">
-                    <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-                        <g>
-                            <path
-                                d="M35.8703 28.2548L33.7795 22.1697C34.7873 20.1094 35.3199 17.8181 35.3235 15.5126C35.3297 11.5039 33.7788 7.71355 30.9563 4.83988C28.1332 1.96565 24.3714 0.347686 20.3636 0.284193C16.2077 0.218522 12.3015 1.79929 9.36472 4.73596C6.53295 7.56766 4.96231 11.3008 4.9126 15.29C2.12162 17.3914 0.474267 20.6676 0.479681 24.167C0.482282 25.8045 0.850861 27.4323 1.54927 28.9043L0.109064 33.0955C-0.138507 33.816 0.0423371 34.5983 0.581071 35.1371C0.960196 35.5162 1.46005 35.7181 1.9741 35.7181C2.19038 35.7181 2.4092 35.6824 2.62259 35.6091L6.81385 34.1688C8.28584 34.8673 9.91365 35.2358 11.5512 35.2384H11.5687C15.1201 35.2383 18.4213 33.5485 20.515 30.6891C22.6938 30.6317 24.8495 30.1043 26.7983 29.1509L32.8835 31.2419C33.1314 31.3274 33.3918 31.3712 33.654 31.3715C34.2649 31.3715 34.8589 31.1316 35.3095 30.6809C35.9497 30.0407 36.1645 29.1111 35.8703 28.2548ZM11.5685 33.0956H11.5545C10.1051 33.0934 8.66574 32.7361 7.39231 32.0624C7.2628 31.9939 7.12062 31.9526 6.97456 31.9412C6.82849 31.9299 6.68164 31.9485 6.54308 31.9961L2.24537 33.4729L3.72214 29.1753C3.76974 29.0367 3.78843 28.8898 3.77703 28.7438C3.76564 28.5977 3.72442 28.4555 3.65591 28.326C2.98217 27.0525 2.62484 25.6132 2.62259 24.1637C2.61901 21.8322 3.52597 19.6224 5.11201 17.9676C5.63007 21.1258 7.13525 24.036 9.46836 26.3277C11.7842 28.6023 14.6953 30.0506 17.8363 30.5241C16.1778 32.1588 13.9421 33.0956 11.5685 33.0956ZM33.7942 29.1656C33.7332 29.2266 33.6609 29.2432 33.5796 29.2152L27.0653 26.9767C26.9268 26.9291 26.7799 26.9104 26.6339 26.9218C26.4878 26.9332 26.3456 26.9744 26.2162 27.043C24.3562 28.0269 22.2544 28.5488 20.1379 28.552H20.1176C13.0257 28.552 7.16774 22.791 7.05538 15.7008C6.99877 12.13 8.35707 8.77401 10.88 6.25112C13.4028 3.72824 16.7593 2.37044 20.3297 2.42669C27.4267 2.53926 33.1917 8.40803 33.1807 15.5092C33.1774 17.6258 32.6556 19.7276 31.6717 21.5875C31.6032 21.717 31.562 21.8592 31.5506 22.0052C31.5392 22.1513 31.5579 22.2981 31.6055 22.4367L33.8439 28.951C33.8718 29.0326 33.8551 29.1048 33.7942 29.1656Z"/>
-                            <path
-                                d="M26.5002 9.80957H13.7343C13.1426 9.80957 12.6629 10.2893 12.6629 10.881C12.6629 11.4727 13.1426 11.9524 13.7343 11.9524H26.5002C27.092 11.9524 27.5717 11.4727 27.5717 10.881C27.5717 10.2893 27.092 9.80957 26.5002 9.80957ZM26.5002 14.2161H13.7343C13.1426 14.2161 12.6629 14.6959 12.6629 15.2875C12.6629 15.8792 13.1426 16.359 13.7343 16.359H26.5002C27.092 16.359 27.5717 15.8792 27.5717 15.2875C27.5717 14.6959 27.092 14.2161 26.5002 14.2161ZM21.5862 18.6225H13.7342C13.1425 18.6225 12.6628 19.1023 12.6628 19.694C12.6628 20.2857 13.1426 20.7654 13.7342 20.7654H21.5862C22.1779 20.7654 22.6576 20.2856 22.6576 19.694C22.6576 19.1023 22.178 18.6225 21.5862 18.6225Z"/>
-                        </g>
-                    </svg>
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-contact-wrap">
+            <div class="inquiry-area">
+                <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path
+                            d="M35.8703 28.2548L33.7795 22.1697C34.7873 20.1094 35.3199 17.8181 35.3235 15.5126C35.3297 11.5039 33.7788 7.71355 30.9563 4.83988C28.1332 1.96565 24.3714 0.347686 20.3636 0.284193C16.2077 0.218522 12.3015 1.79929 9.36472 4.73596C6.53295 7.56766 4.96231 11.3008 4.9126 15.29C2.12162 17.3914 0.474267 20.6676 0.479681 24.167C0.482282 25.8045 0.850861 27.4323 1.54927 28.9043L0.109064 33.0955C-0.138507 33.816 0.0423371 34.5983 0.581071 35.1371C0.960196 35.5162 1.46005 35.7181 1.9741 35.7181C2.19038 35.7181 2.4092 35.6824 2.62259 35.6091L6.81385 34.1688C8.28584 34.8673 9.91365 35.2358 11.5512 35.2384H11.5687C15.1201 35.2383 18.4213 33.5485 20.515 30.6891C22.6938 30.6317 24.8495 30.1043 26.7983 29.1509L32.8835 31.2419C33.1314 31.3274 33.3918 31.3712 33.654 31.3715C34.2649 31.3715 34.8589 31.1316 35.3095 30.6809C35.9497 30.0407 36.1645 29.1111 35.8703 28.2548ZM11.5685 33.0956H11.5545C10.1051 33.0934 8.66574 32.7361 7.39231 32.0624C7.2628 31.9939 7.12062 31.9526 6.97456 31.9412C6.82849 31.9299 6.68164 31.9485 6.54308 31.9961L2.24537 33.4729L3.72214 29.1753C3.76974 29.0367 3.78843 28.8898 3.77703 28.7438C3.76564 28.5977 3.72442 28.4555 3.65591 28.326C2.98217 27.0525 2.62484 25.6132 2.62259 24.1637C2.61901 21.8322 3.52597 19.6224 5.11201 17.9676C5.63007 21.1258 7.13525 24.036 9.46836 26.3277C11.7842 28.6023 14.6953 30.0506 17.8363 30.5241C16.1778 32.1588 13.9421 33.0956 11.5685 33.0956ZM33.7942 29.1656C33.7332 29.2266 33.6609 29.2432 33.5796 29.2152L27.0653 26.9767C26.9268 26.9291 26.7799 26.9104 26.6339 26.9218C26.4878 26.9332 26.3456 26.9744 26.2162 27.043C24.3562 28.0269 22.2544 28.5488 20.1379 28.552H20.1176C13.0257 28.552 7.16774 22.791 7.05538 15.7008C6.99877 12.13 8.35707 8.77401 10.88 6.25112C13.4028 3.72824 16.7593 2.37044 20.3297 2.42669C27.4267 2.53926 33.1917 8.40803 33.1807 15.5092C33.1774 17.6258 32.6556 19.7276 31.6717 21.5875C31.6032 21.717 31.562 21.8592 31.5506 22.0052C31.5392 22.1513 31.5579 22.2981 31.6055 22.4367L33.8439 28.951C33.8718 29.0326 33.8551 29.1048 33.7942 29.1656Z" />
+                        <path
+                            d="M26.5002 9.80957H13.7343C13.1426 9.80957 12.6629 10.2893 12.6629 10.881C12.6629 11.4727 13.1426 11.9524 13.7343 11.9524H26.5002C27.092 11.9524 27.5717 11.4727 27.5717 10.881C27.5717 10.2893 27.092 9.80957 26.5002 9.80957ZM26.5002 14.2161H13.7343C13.1426 14.2161 12.6629 14.6959 12.6629 15.2875C12.6629 15.8792 13.1426 16.359 13.7343 16.359H26.5002C27.092 16.359 27.5717 15.8792 27.5717 15.2875C27.5717 14.6959 27.092 14.2161 26.5002 14.2161ZM21.5862 18.6225H13.7342C13.1425 18.6225 12.6628 19.1023 12.6628 19.694C12.6628 20.2857 13.1426 20.7654 13.7342 20.7654H21.5862C22.1779 20.7654 22.6576 20.2856 22.6576 19.694C22.6576 19.1023 22.178 18.6225 21.5862 18.6225Z" />
+                    </g>
+                </svg>
+                <div class="content">
+                    <h6>To More Inquiry</h6>
+                    <span>Don't hesitate Call to TurboHills.</span>
+                </div>
+            </div>
+            <ul class="contact-area">
+                <li class="single-contact">
+                    <div class="icon">
+                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/whatsapp-icon2.svg" alt="" loading="lazy">
+                    </div>
                     <div class="content">
-                        <h6>To More Inquiry</h6>
-                        <span>Don't hesitate Call  to TurboHills.</span>
+                        <span>WhatsApp</span>
+                        <a href="https://wa.me/<?php echo $whatsAppNumber; ?>"><?php echo $whatsAppNumberLabel; ?></a>
                     </div>
-                </div>
-                <ul class="contact-area">
-                    <li class="single-contact">
-                        <div class="icon">
-                            <img src="<?= BASE_URL ?>/assets/img/home1/icon/whatsapp-icon2.svg" alt="" loading="lazy">
-                        </div>
-                        <div class="content">
-                            <span>WhatsApp</span>
-                            <a href="https://wa.me/<?php echo $whatsAppNumber; ?>"><?php echo $whatsAppNumberLabel; ?></a>
-                        </div>
-                    </li>
-                    <li class="single-contact">
-                        <div class="icon">
-                            <img src="<?= BASE_URL ?>/assets/img/home1/icon/mail-icon2.svg" alt="" loading="lazy">
-                        </div>
-                        <div class="content">
-                            <span>Mail Us</span>
-                            <a href="mailto:<?php echo $emailAddress; ?>"><?php echo $emailAddressLabel; ?></a>
-                        </div>
-                    </li>
-                    <li class="single-contact">
-                        <div class="icon">
-                            <img src="<?= BASE_URL ?>/assets/img/home1/icon/call-icon.svg" alt="" loading="lazy">
-                        </div>
-                        <div class="content">
-                            <span>Call Us</span>
-                            <a href="tel:<?php echo $phoneNumber; ?>"><?php echo $phoneNumberLabel; ?></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <svg class="divider" width="1320" height="6" viewBox="0 0 1320 6" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM1315 3.5L1320 5.88675V0.113249L1315 2.5V3.5ZM4.5 3.5H1315.5V2.5H4.5V3.5Z"/>
-            </svg>
-            <div class="footer-menu-wrap">
-                <div class="row gy-md-4 gy-5">
-                    <div class="col-lg-4 col-sm-12 col-sm-6">
-                        <div class="footer-logo-and-addition-info">
-                            <a href="<?= BASE_URL ?>/" class="footer-logo">
-                                <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="" loading="lazy">
-                            </a>
-                            <div class="address-area">
-                                <span>TurboHills Travel Agency</span>
-                                <span class="footer-address">TurboHills — Bagdogra-based Sikkim specialists crafting bold, tailor-made Himalayan adventures. We handle permits, local guides, comfy transport and authentic homestays across Gangtok, Pelling, Lachen, Lachung and North Sikkim. Photo-ready viewpoints, offbeat villages and tea-garden retreats — book your next Sikkim story with confidence.</span>
-                            </div>
-                            <ul class="social-list">
-                                <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bx bxl-facebook"></i></a></li>
-                                <!-- <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li> -->
-                                <li><a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a></li>
-                                <li><a href="https://www.instagram.com/turbo_hills"><i class="bx bxl-instagram-alt"></i></a></li>
-                            </ul>
-                        </div>
+                </li>
+                <li class="single-contact">
+                    <div class="icon">
+                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/mail-icon2.svg" alt="" loading="lazy">
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 d-flex justify-content-md-center">
-                        <div class="footer-widget">
-                            <div class="widget-title">
-                                <h5>Top Destination</h5>
-                            </div>
-                            <ul class="widget-list">
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/gangtok-experiences.php">Gangtok</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/pelling-experiences.php">Pelling</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/sikkim-zeropoint-package.php">Sikkim Zero Point</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/lachen-experiences.php">Lachen</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/lachung-experiences.php">Lachung</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/yuksom-experiences.php">Yuksom</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/zuluk-experiences.php">Zuluk</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/tsomgo-experiences.php">Tsomgo (Changu) Lake</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/nathula-experiences.php">Nathula Pass</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/gurudongmar-experiences.php">Gurudongmar Lake</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/rumtek-experiences.php">Rumtek Monastery</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/north-sikkim-tours.php">North Sikkim Tours</a></li>
-                                <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/south-sikkim-tours.php">South Sikkim Tours</a></li>
-                            </ul>
-                        </div>
+                    <div class="content">
+                        <span>Mail Us</span>
+                        <a href="mailto:<?php echo $emailAddress; ?>"><?php echo $emailAddressLabel; ?></a>
                     </div>
-                    <!-- <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-md-end">
-                        <div class="footer-widget">
-                            <div class="widget-title">
-                                <h5>Popular Search</h5>
-                            </div>
-                            <ul class="widget-list">
-                                <li><a href="travel-package-02.html">Trekking & Hiking</a></li>
-                                <li><a href="travel-package-02.html">Mountain Viewpoints</a></li>
-                                <li><a href="travel-package-02.html">Monastery Trails</a></li>
-                                <li><a href="travel-package-02.html">Offbeat Villages</a></li>
-                                <li><a href="travel-package-02.html">Homestays & Community Stays</a></li>
-                                <li><a href="travel-package-02.html">Wildlife & National Parks</a></li>
-                                <li><a href="travel-package-02.html">Cultural & Heritage Tours</a></li>
-                                <li><a href="travel-package-02.html">High-altitude Lakes</a></li>
-                                <li><a href="travel-package-02.html">Adventure & River Activities</a></li>
-                                <li><a href="travel-package-02.html">Photography Tours</a></li>
-                                <li><a href="travel-package-02.html">Local Handloom & Crafts</a></li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <div class="col-lg-4 col-sm-6 d-flex justify-content-md-center">
-                        <div class="footer-widget">
-                            <div class="widget-title">
-                                <h5>Resources</h5>
-                            </div>
-                            <ul class="widget-list">
-                                <li><a href="<?= BASE_URL ?>/about.php">About TurboHills</a></li>
-                                <li><a href="<?= BASE_URL ?>/contact.php">Contact Us</a></li>
-                                <li><a href="<?= BASE_URL ?>/faq.php">FAQs</a></li>
-                                <li><a href="<?= BASE_URL ?>/terms-and-conditions.php">Terms & Condition</a></li>
-                                <li><a href="<?= BASE_URL ?>/privacy-policy.php">Privacy Policy</a></li>
-                                <li><a href="https://www.google.com/maps">Sitemap</a></li>
-                            </ul>
-                        </div>
+                </li>
+                <li class="single-contact">
+                    <div class="icon">
+                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/call-icon.svg" alt="" loading="lazy">
                     </div>
-                </div>
-            </div>
+                    <div class="content">
+                        <span>Call Us</span>
+                        <a href="tel:<?php echo $phoneNumber; ?>"><?php echo $phoneNumberLabel; ?></a>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="copyright-and-payment-method-area">
-                    <p> Copyright <?php echo date('Y'); ?> | All Right Reserved. Designed By: <a href="https://www.vibhora.com/">VIBHORA SHOPIFY AGENCY</a></p>
-                    <div class="payment-method-area">
-                        <span>Accepted Payment Methods :</span>
-                        <ul>
-                            <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/mastar-card-icon.svg" alt="" loading="lazy"></li>
-                            <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/visa-icon.svg" alt="" loading="lazy"></li>
-                            <!-- <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/paypal-icon.svg" alt="" loading="lazy"></li> -->
-                            <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/gpay-icon.svg" alt="" loading="lazy"></li>
+        <svg class="divider" width="1320" height="6" viewBox="0 0 1320 6" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM1315 3.5L1320 5.88675V0.113249L1315 2.5V3.5ZM4.5 3.5H1315.5V2.5H4.5V3.5Z" />
+        </svg>
+        <div class="footer-menu-wrap">
+            <div class="row gy-md-4 gy-5">
+                <div class="col-lg-3 col-sm-12 col-sm-6">
+                    <div class="footer-logo-and-addition-info">
+                        <a href="<?= BASE_URL ?>/" class="footer-logo">
+                            <img src="<?= BASE_URL ?>/assets/img/sikkim/Turbo-Hills-Logo_low.png" alt="" loading="lazy">
+                        </a>
+                        <div class="address-area">
+                            <span>TurboHills Travel Agency</span>
+                            <span class="footer-address">TurboHills — Bagdogra-based Sikkim specialists crafting bold, tailor-made Himalayan adventures. We handle permits, local guides, comfy transport and authentic homestays across Gangtok, Pelling, Lachen, Lachung and North Sikkim. Photo-ready viewpoints, offbeat villages and tea-garden retreats — book your next Sikkim story with confidence.</span>
+                        </div>
+                        <ul class="social-list">
+                            <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bx bxl-facebook"></i></a></li>
+                            <!-- <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li> -->
+                            <li><a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a></li>
+                            <li><a href="https://www.instagram.com/turbo_hills"><i class="bx bxl-instagram-alt"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-md-center">
+                    <div class="footer-widget">
+                        <div class="widget-title">
+                            <h5>Top Destinations in Sikkim</h5>
+                        </div>
+                        <ul class="widget-list">
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/gangtok-experiences.php">Gangtok</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/pelling-experiences.php">Pelling</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/sikkim-zeropoint-package.php">Sikkim Zero Point</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/lachen-experiences.php">Lachen</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/lachung-experiences.php">Lachung</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/yuksom-experiences.php">Yuksom</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/zuluk-experiences.php">Zuluk</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/tsomgo-experiences.php">Tsomgo (Changu) Lake</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/nathula-experiences.php">Nathula Pass</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/gurudongmar-experiences.php">Gurudongmar Lake</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/rumtek-experiences.php">Rumtek Monastery</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/north-sikkim-tours.php">North Sikkim Tours</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/south-sikkim-tours.php">South Sikkim Tours</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-md-end">
+                    <div class="footer-widget">
+                        <div class="widget-title">
+                            <h5>Our Choices in North Bengal</h5>
+                        </div>
+                        <ul class="widget-list">
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/darjeeling.php">Darjeeling</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/sandakphu.php">Sandakphu</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/phalut.php">Phalut</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/kurseong.php">Kurseong</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/mirik.php">Mirik</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/lepchajagat.php">Lepchajagat</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/takdah.php">Takdah</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/pankhabari-tea-gardens.php">Pankhabari Tea Gardens</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/rishyap.php">Rishyap</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/tinchuley.php">Tinchuley</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/lolegaon.php">Lolegaon</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/lava.php">Lava</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/latpanchar.php">Latpanchar</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/suntalekhola.php">Suntalekhola</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/samsing.php">Samsing</a>
+                            </li>
+                            <li>
+                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/jhalong-buxa.php">Jhalong & Buxa</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 d-flex justify-content-md-center">
+                    <div class="footer-widget">
+                        <div class="widget-title">
+                            <h5>Resources</h5>
+                        </div>
+                        <ul class="widget-list">
+                            <li><a href="<?= BASE_URL ?>/about.php">About TurboHills</a></li>
+                            <li><a href="<?= BASE_URL ?>/contact.php">Contact Us</a></li>
+                            <li><a href="<?= BASE_URL ?>/faq.php">FAQs</a></li>
+                            <li><a href="<?= BASE_URL ?>/terms-and-conditions.php">Terms & Condition</a></li>
+                            <li><a href="<?= BASE_URL ?>/privacy-policy.php">Privacy Policy</a></li>
+                            <li><a href="https://www.google.com/maps">Sitemap</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- home1 Footer Section End-->
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="copyright-and-payment-method-area">
+                <p> Copyright <?php echo date('Y'); ?> | All Right Reserved. Designed By: <a href="https://www.vibhora.com/">VIBHORA SHOPIFY AGENCY</a></p>
+                <div class="payment-method-area">
+                    <span>Accepted Payment Methods :</span>
+                    <ul>
+                        <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/mastar-card-icon.svg" alt="" loading="lazy"></li>
+                        <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/visa-icon.svg" alt="" loading="lazy"></li>
+                        <!-- <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/paypal-icon.svg" alt="" loading="lazy"></li> -->
+                        <li><img src="<?= BASE_URL ?>/assets/img/home1/icon/gpay-icon.svg" alt="" loading="lazy"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- home1 Footer Section End-->
 
-    <!-- Global Variables for JS -->
-    <script>
-        window.APP_CONFIG = {
-            whatsapp_number: '<?php echo $whatsAppNumber; ?>'
-        };
-    </script>
-    
-    <?php if (basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
-        <script src="<?= BASE_URL ?>/assets/js/contact-form.js" defer></script>
-    <?php endif; ?>
+<!-- Global Variables for JS -->
+<script>
+    window.APP_CONFIG = {
+        whatsapp_number: '<?php echo $whatsAppNumber; ?>'
+    };
+</script>
 
-    <?php
-        if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
-    ?>
-        <script src="<?= BASE_URL ?>/assets/js/lead-form.js" defer></script>
-    <?php endif; ?>
+<?php if (basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
+    <script src="<?= BASE_URL ?>/assets/js/contact-form.js" defer></script>
+<?php endif; ?>
+
+<?php
+if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
+?>
+    <script src="<?= BASE_URL ?>/assets/js/lead-form.js" defer></script>
+<?php endif; ?>
 
 
-    <!--  Main jQuery  -->
-    <script data-cfasync="false" src="https://demo.egenslab.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/jquery-3.7.1.min.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/jquery-ui.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/moment.min.js" defer></script>
-    <!-- Popper and Bootstrap JS -->
-    <script src="<?= BASE_URL ?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/popper.min.js" defer></script>
-    <!-- Swiper slider JS -->
-    <script src="<?= BASE_URL ?>/assets/js/swiper-bundle.min.js"></script>
-    <script src="<?= BASE_URL ?>/assets/js/slick.js" defer></script>
-    <!-- Waypoints JS -->
-    <script src="<?= BASE_URL ?>/assets/js/waypoints.min.js" defer></script>
-    <!-- Counterup JS -->
-    <script src="<?= BASE_URL ?>/assets/js/jquery.counterup.min.js" defer></script>
-    
-    <!-- Wow JS -->
-    <script src="<?= BASE_URL ?>/assets/js/wow.min.js" defer></script>
-    <!-- Gsap  JS -->
-    <script src="<?= BASE_URL ?>/assets/js/gsap.min.js" defer></script>
-    <script src="<?= BASE_URL ?>/assets/js/ScrollTrigger.min.js" defer></script>
-    <script src="<?= BASE_URL ?>/assets/js/jquery.fancybox.min.js" defer></script>
-    <!-- Custom JS -->
-    <?php if (basename($_SERVER['PHP_SELF']) === '/' || basename($_SERVER['PHP_SELF']) === 'index.php' || basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
-        <script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js" defer></script>
-        <!-- Nice Select JS -->
-        <script src="<?= BASE_URL ?>/assets/js/jquery.nice-select.min.js" defer></script>
-        <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js" defer></script>
-    <?php endif; ?>
-    <script src="<?= BASE_URL ?>/assets/js/custom.js" defer></script>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"70834e4b23964a2eaf7cf4ec0e5e9a84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<!--  Main jQuery  -->
+<script data-cfasync="false" src="https://demo.egenslab.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/jquery-3.7.1.min.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/jquery-ui.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/moment.min.js" defer></script>
+<!-- Popper and Bootstrap JS -->
+<script src="<?= BASE_URL ?>/assets/js/bootstrap.min.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/popper.min.js" defer></script>
+<!-- Swiper slider JS -->
+<script src="<?= BASE_URL ?>/assets/js/swiper-bundle.min.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/slick.js" defer></script>
+<!-- Waypoints JS -->
+<script src="<?= BASE_URL ?>/assets/js/waypoints.min.js" defer></script>
+<!-- Counterup JS -->
+<script src="<?= BASE_URL ?>/assets/js/jquery.counterup.min.js" defer></script>
+
+<!-- Wow JS -->
+<script src="<?= BASE_URL ?>/assets/js/wow.min.js" defer></script>
+<!-- Gsap  JS -->
+<script src="<?= BASE_URL ?>/assets/js/gsap.min.js" defer></script>
+<script src="<?= BASE_URL ?>/assets/js/ScrollTrigger.min.js" defer></script>
+<script src="<?= BASE_URL ?>/assets/js/jquery.fancybox.min.js" defer></script>
+<!-- Custom JS -->
+<?php if (basename($_SERVER['PHP_SELF']) === '/' || basename($_SERVER['PHP_SELF']) === 'index.php' || basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
+    <script src="<?= BASE_URL ?>/assets/js/daterangepicker.min.js" defer></script>
+    <!-- Nice Select JS -->
+    <script src="<?= BASE_URL ?>/assets/js/jquery.nice-select.min.js" defer></script>
+    <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js" defer></script>
+<?php endif; ?>
+<script src="<?= BASE_URL ?>/assets/js/custom.js" defer></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"70834e4b23964a2eaf7cf4ec0e5e9a84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 
 </html>

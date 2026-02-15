@@ -17,7 +17,7 @@
                             <div class="package-card">
                                 <div class="package-img-wrap">
                                     <a href="travel-package-details.html" class="package-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/home2/tour-package-img1.jpg" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home2/tour-package-img1.jpg" alt="" loading="lazy">
                                     </a>
                                     <div class="batch">
                                         <span>Sale on!</span>
@@ -121,17 +121,17 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <a href="travel-package-details.html" class="package-img">
-                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img2.jpg" alt="">
+                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img2.jpg" alt="" loading="lazy">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
                                                 <a href="travel-package-details.html" class="package-img">
-                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img10.jpg" alt="">
+                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img10.jpg" alt="" loading="lazy">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
                                                 <a href="travel-package-details.html" class="package-img">
-                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img11.jpg" alt="">
+                                                    <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img11.jpg" alt="" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>
@@ -238,7 +238,7 @@
                             <div class="package-card">
                                 <div class="package-img-wrap">
                                     <a href="travel-package-details.html" class="package-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/home2/tour-package-img2.jpg" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home2/tour-package-img2.jpg" alt="" loading="lazy">
                                     </a>
                                 </div>
                                 <div class="package-content">
@@ -336,7 +336,7 @@
                             <div class="package-card">
                                 <div class="package-img-wrap">
                                     <a href="travel-package-details.html" class="package-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img6.jpg" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img6.jpg" alt="" loading="lazy">
                                     </a>
                                     <div class="batch">
                                         <span>Hot Sale!</span>
@@ -437,7 +437,7 @@
                             <div class="package-card">
                                 <div class="package-img-wrap">
                                     <a href="travel-package-details.html" class="package-img">
-                                        <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img4.jpg" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/tour-package-img4.jpg" alt="" loading="lazy">
                                     </a>
                                 </div>
                                 <div class="package-content">
@@ -541,8 +541,8 @@
             </div>
         </div>
     </div>
-    <img src="<?= BASE_URL ?>/assets/img/home2/vector/home2-package-slider-vector1.svg" alt="" class="vector1">
-    <img src="<?= BASE_URL ?>/assets/img/home2/vector/home2-package-slider-vector2.svg" alt="" class="vector2">
-    <img src="<?= BASE_URL ?>/assets/img/home2/vector/home2-package-slider-vector3.svg" alt="" class="vector3">
+    <img src="<?= BASE_URL ?>/assets/img/home2/vector/home2-package-slider-vector1.svg" alt="" class="vector1" loading="lazy">
+    <img src="<?= BASE_URL ?>/assets/img/home2/vector/home2-package-slider-vector2.svg" alt="" class="vector2" loading="lazy">
+    <img src="<?= BASE_URL ?>/assets/img/home2/vector/home2-package-slider-vector3.svg" alt="" class="vector3" loading="lazy">
 </div>
 <!-- home2 package slider Section End-->

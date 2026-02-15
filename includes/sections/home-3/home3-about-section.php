@@ -20,19 +20,19 @@
                             <a href="#" class="single-rating">
                                 <strong>4.5</strong>
                                 <div class="tripadvisor-rating">
-                                    <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-logo.svg" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-logo.svg" alt="" loading="lazy">
                                     <div class="rating-area">
                                         <span>Reviews</span>
-                                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-start.svg" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/tripadvisor-start.svg" alt="" loading="lazy">
                                     </div>
                                 </div>
                             </a>
                             <a href="#" class="single-rating">
                                 <strong>4.5</strong>
                                 <div class="trustpilot-rating">
-                                    <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-logo.svg" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-logo.svg" alt="" loading="lazy">
                                     <div class="rating-area">
-                                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-star.svg" alt="">
+                                        <img src="<?= BASE_URL ?>/assets/img/home1/icon/trustpilot-star.svg" alt="" loading="lazy">
                                     </div>
                                 </div>
                             </a>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-lg-5 d-lg-block d-none wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="about-img">
-                        <img src="<?= BASE_URL ?>/assets/img/home3/about-img.png" alt="">
+                        <img src="<?= BASE_URL ?>/assets/img/home3/about-img.png" alt="" loading="lazy">
                     </div>
                 </div>
             </div>

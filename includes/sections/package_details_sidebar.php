@@ -76,9 +76,9 @@
             </ul>
             <div class="counter-area">
                 <ul class="counter-img-grp">
-                    <li><img src="<?= BASE_URL ?>/assets/img/home3/counter-people-img1.png" alt=""></li>
-                    <li><img src="<?= BASE_URL ?>/assets/img/home3/counter-people-img2.png" alt=""></li>
-                    <li><img src="<?= BASE_URL ?>/assets/img/home3/counter-people-img3.png" alt=""></li>
+                    <li><img src="<?= BASE_URL ?>/assets/img/home3/counter-people-img1.png" alt="" loading="lazy"></li>
+                    <li><img src="<?= BASE_URL ?>/assets/img/home3/counter-people-img2.png" alt="" loading="lazy"></li>
+                    <li><img src="<?= BASE_URL ?>/assets/img/home3/counter-people-img3.png" alt="" loading="lazy"></li>
                 </ul>
                 <h6> <strong><span class="counter">13</span>+</strong> Guide Await to Help You</h6>
             </div>

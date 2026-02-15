@@ -3,7 +3,7 @@
     <div class="container">
         <div class="banner-content">
             <div class="award-rating-area">
-                <img src="<?= BASE_URL ?>/assets/img/home2/travel-award.png" alt="">
+                <img src="<?= BASE_URL ?>/assets/img/home2/travel-award.png" alt="" loading="lazy">
                 <h4>North Bengal Trusted Travel Award</h4>
                 <div class="rating">
                     <span>(</span>

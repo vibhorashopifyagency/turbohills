@@ -222,27 +222,27 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="offer-sm-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img1.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img1.jpg" alt="" loading="lazy">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="offer-sm-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img2.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img2.jpg" alt="" loading="lazy">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="offer-sm-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img3.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img3.jpg" alt="" loading="lazy">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="offer-sm-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img1.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img1.jpg" alt="" loading="lazy">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="offer-sm-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img2.jpg" alt="">
+                                <img src="<?= BASE_URL ?>/assets/img/home6/home6-offer-sm-img2.jpg" alt="" loading="lazy">
                             </div>
                         </div>
                     </div>

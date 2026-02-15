@@ -12,7 +12,7 @@
                                 style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                                 <div class="single-activity">
                                     <div class="activity-img">
-                                        <img src="assets/img/home7/activity-tab-img1.jpg" alt="">
+                                        <img src="assets/img/home7/activity-tab-img1.jpg" alt="" loading="lazy">
                                     </div>
                                     <div class="activity-content">
                                         <h4><?php echo $data["tour_headings"]["activity_content_heading"] ?></h4>
@@ -215,7 +215,7 @@
                                                     data-bs-target="#packageLocationModal">
 
                                                     <img src="<?= BASE_URL . htmlspecialchars($location['image']) ?>"
-                                                        alt="<?= htmlspecialchars($location['name']) ?>">
+                                                        alt="<?= htmlspecialchars($location['name']) ?>" loading="lazy">
                                                 </a>
 
                                                 <div class="location-content">
