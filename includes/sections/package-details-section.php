@@ -332,7 +332,7 @@
                                                     $alt = $img['alt'] ?? '';
                                                 ?>
                                                     <div class="col-md-<?= htmlspecialchars((string) $col) ?>">
-                                                        <img src="<?= htmlspecialchars($img['src']) ?>" alt="<?= htmlspecialchars($alt) ?>">
+                                                        <img src="<?= BASE_URL . htmlspecialchars($img['src']) ?>" alt="<?= htmlspecialchars($alt) ?>">
                                                     </div>
                                                 <?php endforeach; ?>
                                             </div>
