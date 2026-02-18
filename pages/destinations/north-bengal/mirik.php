@@ -9,7 +9,7 @@
     $data = [
         "slider_details" => [
             "slider_heading" => 'Mirik — Lake & Tea Terrace Tranquillity',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ '/assets/img/north-bengal/mirik-top.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Mirik — Sumendu Lake and Quiet Stays',
