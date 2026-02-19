@@ -10,7 +10,7 @@
         "slider_details" => [
             "slider_heading" => 'Darjeeling — Sunrise, Tea & Quiet Strolls',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg1.jpg'
+                '/assets/img/darjeeling/train-darjeeling.webp'
             ]
         ],
         "headings" => [
@@ -69,8 +69,8 @@
         "location_slider" => [
             "heading" => 'Top Stops — Darjeeling Area',
             "image_and_names" => [
-                [ 'name' => 'Tiger Hill', 'image' => '/assets/img/north-bengal/darjeeling-tiger-hill.jpg' ],
-                [ 'name' => 'Observatory Hill', 'image' => '/assets/img/north-bengal/darjeeling-observatory.jpg' ]
+                [ 'name' => 'Tiger Hill', 'image' => '/assets/img/darjeeling/tigerhill.jpg' ],
+                [ 'name' => 'Observatory Hill', 'image' => '/assets/img/darjeeling/chatakpur.jpg' ]
             ]
         ],
         "additional_info" => [
@@ -92,9 +92,9 @@
             "intro" => "Typical stops around Darjeeling include Himalayan viewpoints, tea-estate roads, and heritage hill-walks.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with mountain and valley panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Heritage", "description" => "Local markets, monastery visits, and tea-town heritage walks.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Heritage"], "tags" => ["title" => "Popular around Darjeeling", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Heritage Walks", "url" => "#culture-heritage"], ["label" => "Tea Gardens", "url" => "#short-scenic-drives"], ["label" => "Darjeeling", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to tea estates, sunrise points, and nearby valleys.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with mountain and valley panoramas.", "images" => [["src" => "/assets/img/darjeeling/Darjeeling-Tea-Fields.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/darjeeling/darjeeling-view.webp", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Heritage", "description" => "Local markets, monastery visits, and tea-town heritage walks.", "image" => ["src" => "/assets/img/darjeeling/darjeeling-tempal.jpg", "alt" => "Heritage"], "tags" => ["title" => "Popular around Darjeeling", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Heritage Walks", "url" => "#culture-heritage"], ["label" => "Tea Gardens", "url" => "#short-scenic-drives"], ["label" => "Darjeeling", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to tea estates, sunrise points, and nearby valleys.", "image" => ["src" => "/assets/img/darjeeling/darjeeling-view.webp", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Darjeeling", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],
