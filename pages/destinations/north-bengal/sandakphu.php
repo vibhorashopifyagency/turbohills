@@ -4,13 +4,13 @@
     $metaDescription = 'Sandakphu offers a high ridge trek with panoramic Himalayan views, rhododendron forests and peaceful alpine meadows for trekkers seeking iconic summit landscapes.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/sandakphu.jpg' : '/assets/img/north-bengal/sandakphu.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sandakphu/Sandakphu-Phalut-trek-Indiahikes-26-scaled-1.webp' : '/assets/img/sandakphu/Sandakphu-Phalut-trek-Indiahikes-26-scaled-1.webp');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Sandakphu — Trekking Ridge & Peaks',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg2.jpg'
+                '/assets/img/sandakphu/Sandakphu-Phalut-trek-Indiahikes-26-scaled-1.webp'
             ]
         ],
         "headings" => [
@@ -69,8 +69,8 @@
         "location_slider" => [
             "heading" => 'Top Stops — Sandakphu Region',
             "image_and_names" => [
-                [ 'name' => 'Phalut', 'image' => '/assets/img/north-bengal/phalut.jpg' ],
-                [ 'name' => 'Gurdum', 'image' => '/assets/img/north-bengal/gurdum.jpg' ]
+                [ 'name' => 'Phalut', 'image' => '/assets/img/sandakphu/sandakphu-travel.png' ],
+                [ 'name' => 'Gurdum', 'image' => '/assets/img/sandakphu/Darjeeling_Sandakpu_Main.jpg' ]
             ]
         ],
         "additional_info" => [
@@ -100,15 +100,79 @@
             ]
         ],
         "inspiration_details" => [
-            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Sandakphu • North Bengal"],
-            "intro" => "Typical stops around Sandakphu include ridge viewpoints, trekking routes, and high-mountain photo halts.",
-            "heading" => "Sample photo stops & short experiences",
-            "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access ridge viewpoints with Himalayan panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Trek Life", "description" => "Trail culture, local shelters, and mountain route stories.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Trek culture"], "tags" => ["title" => "Popular around Sandakphu", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Trail Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Sandakphu", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-walk combinations for nearby ridge and valley points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+            "quote" => [
+                "text" => "The best views come after the simplest walks.",
+                "name" => "TurboHills Team",
+                "location" => "Sandakphu • North Bengal"
             ],
-            "page_tags" => [["label" => "Sandakphu", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
+
+            "intro" => "Typical stops around Sandakphu include ridge viewpoints, trekking routes, and high-mountain photo halts.",
+
+            "heading" => "Sample photo stops & short experiences",
+
+            "sections" => [
+                [
+                    "id" => "scenic-viewpoints",
+                    "title" => "1. Scenic Viewpoints",
+                    "description" => "Easy-access ridge viewpoints with Himalayan panoramas.",
+                    "images" => [
+                        [
+                            "src" => "/assets/img/sandakphu/sandakphu-1.jpg",
+                            "alt" => "Viewpoint",
+                            "col" => 7
+                        ],
+                        [
+                            "src" => "/assets/img/sandakphu/sadakphu-2.jpg",
+                            "alt" => "Landscape",
+                            "col" => 5
+                        ]
+                    ]
+                ],
+
+                [
+                    "id" => "culture-heritage",
+                    "title" => "2. Local Culture & Trek Life",
+                    "description" => "Trail culture, local shelters, and mountain route stories.",
+                    "image" => [
+                        "src" => "/assets/img/sandakphu/sandakphu-3.jpg",
+                        "alt" => "Trek culture"
+                    ],
+                    "tags" => [
+                        "title" => "Popular around Sandakphu",
+                        "items" => [
+                            ["label" => "Viewpoints", "url" => "#scenic-viewpoints"],
+                            ["label" => "Trail Walks", "url" => "#culture-heritage"],
+                            ["label" => "Nature Photography", "url" => "#short-scenic-drives"],
+                            [
+                                "label" => "Sandakphu",
+                                "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')
+                            ]
+                        ]
+                    ]
+                ],
+
+                [
+                    "id" => "short-scenic-drives",
+                    "title" => "3. Short Scenic Drives",
+                    "description" => "Drive-and-walk combinations for nearby ridge and valley points.",
+                    "image" => [
+                        "src" => "/assets/img/sandakphu/sandakphu-travel.png",
+                        "alt" => "Scenic drive"
+                    ]
+                ]
+
+            ],
+
+            "page_tags" => [
+                [
+                    "label" => "Sandakphu",
+                    "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')
+                ],
+                [
+                    "label" => "North Bengal",
+                    "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"
+                ]
+            ]
         ],
         "single_feature_list" => [
             "single_feature" => 'Book guided Sandakphu treks with AI-curated pace and local support.'
