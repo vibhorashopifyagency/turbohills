@@ -6,11 +6,11 @@
                 <div class="col-xl-6 col-lg-7 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="about-content">
                         <div class="section-title">
-                            <h2>Why We’re Best Agency</h2>
-                            <h4>Welcome to GoFly Travel Agency – Your Gateway to Unforgettable Journeys!</h4>
-                            <p>GoFly Travel Agency is a trusted name in the travel industry, offering seamless travel planning, personalized itineraries, and unforgettable adventures. With years of experience and a network of global partners, we ensure a hassle-free and memorable journey for every traveler.</p>
-                            <a href="about.html">
-                                About More GoFly
+                            <h2>Best Travel Agency for Sikkim & North Bengal Tour Packages</h2>
+                            <h4>Turbo Hills — Custom Trips from Bagdogra Airport & NJP</h4>
+                            <p>Turbo Hills plans personalized <strong>Sikkim tour packages</strong> and <strong>North Bengal tour packages</strong> with reliable cab pickup from <strong>Bagdogra (IXB)</strong> and <strong>NJP</strong>. From Darjeeling tea gardens and Sandakphu ridge views to Gangtok city experiences, Pelling monasteries and Lachung–Yumthang valley drives, we build itinerary-first trips with handpicked stays, local support, and transparent pricing — ideal for families, couples, and small groups.</p>
+                            <a href="<?= BASE_URL ?>/about.php">
+                                About Turbo Hills
                                 <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
                                 </svg>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-lg-5 d-lg-block d-none wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="about-img">
-                        <img src="<?= BASE_URL ?>/assets/img/home3/about-img.png" alt="" loading="lazy">
+                        <img src="<?= BASE_URL ?>/assets/img/home3/about-img.png" alt="Turbo Hills travel team planning Sikkim and North Bengal tour packages" loading="lazy">
                     </div>
                 </div>
             </div>

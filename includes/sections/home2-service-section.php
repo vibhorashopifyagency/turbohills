@@ -5,7 +5,7 @@
             <div class="row justify-content-center wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="col-lg-9">
                     <div class="section-title">
-                        <h2>GoFly – Your Journey, Our Priority!</h2>
+                        <h2>Turbo Hills — Sikkim & North Bengal Tour Packages (Bagdogra/NJP Pickup)</h2>
                         <svg height="6" viewBox="0 0 872 6" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM867 3.5L872 5.88675V0.113249L867 2.5V3.5ZM4.5 3.5H867.5V2.5H4.5V3.5Z" />
                         </svg>
@@ -25,8 +25,8 @@
                         </svg>
                     </div>
                     <div class="content">
-                        <h4>One Click Booking</h4>
-                        <p>You can hassle-free and fast tour & travel package booking by GoFly.</p>
+                        <h4>Easy Booking & Custom Itineraries</h4>
+                        <p>Tell us your dates and style — we plan a custom Sikkim/North Bengal itinerary with clear day-wise flow, hotels, and transfers.</p>
                     </div>
                 </li>
                 <li class="single-service">
@@ -37,8 +37,8 @@
                         </svg>
                     </div>
                     <div class="content">
-                        <h4>Deals & Discounts</h4>
-                        <p>Agencies have special discounts on flights, hotels, & packages.</p>
+                        <h4>Best Value Stays & Transparent Pricing</h4>
+                        <p>Handpicked hotels and local rates with no hidden surprises — ideal for family tours, couples, and small groups.</p>
                     </div>
                 </li>
                 <li class="single-service">
@@ -49,23 +49,23 @@
                         </svg>
                     </div>
                     <div class="content">
-                        <h4>Local Guidance</h4>
-                        <p>Travel agencies have experienced professionals guidance.</p>
+                        <h4>Local Guides, Permits & 24×7 Support</h4>
+                        <p>From Bagdogra/NJP pickup to permits for North Sikkim routes, our local team supports you throughout the trip.</p>
                     </div>
                 </li>
             </ul>
-            <div class="bottom-area d-flex justify-content-center wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <!-- <div class="bottom-area d-flex justify-content-center wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="batch">
-                    <span>Find Your Favourite Travel Package!</span>
+                    <span>Find Your Ideal Sikkim / North Bengal Package</span>
                 </div>
                 <div class="batch two">
-                    <a href="travel-package-01.html">Discover Today
+                    <a href="<?= BASE_URL ?>/pages/destinations/sikkim/sikkim-experiences.php">Explore Packages
                         <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
                         </svg>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
