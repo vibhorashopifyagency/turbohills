@@ -4,12 +4,12 @@
     $metaDescription = 'Lava is a gateway village to Neora Valley National Park with rhododendron forests, birdlife and calm lodges — ideal for nature walks, birding and soft treks.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/lava.jpg' : '/assets/img/north-bengal/lava.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/lava/780x439_durpin-monastery.jpg' : '/assets/img/lava/780x439_durpin-monastery.jpg');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Lava — Neora Valley Gateway',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ '/assets/img/lava/780x439_durpin-monastery.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Lava — Rhododendrons & Birdlife',
@@ -56,7 +56,10 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Lava Area',
-            "image_and_names" => [ [ 'name' => 'Neora Valley', 'image' => '/assets/img/north-bengal/neora-valley.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Lava Monastery', 'image' => '/assets/img/lava/download.jfif' ],
+                                   [ 'name' => 'Lepchajagat Nature Retreat', 'image' => '/assets/img/lava/lava.jpg' ],
+                                   [ 'name' => 'Pedong', 'image' => '/assets/img/lava/download (1).jfif' ]
+             ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -73,15 +76,81 @@
             ]
         ],
         "inspiration_details" => [
-            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Lava • North Bengal"],
+            "quote" => [
+                "text" => "The best views come after the simplest walks.",
+                "name" => "TurboHills Team",
+                "location" => "Lava • North Bengal"
+            ],
             "intro" => "Typical stops around Lava include pine-forest viewpoints, monastery corners, and short village drives.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with forest and mountain panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Monastery visits, local food stops, and community interactions.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Lava", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Lava", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby ridges, tea points, and valley edges.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                [
+                    "id" => "scenic-viewpoints",
+                    "title" => "1. Scenic Viewpoints",
+                    "description" => "Easy-access viewpoints with forest and mountain panoramas.",
+                    "images" => [
+                        [
+                            "src" => "/assets/img/lava/lava-2.jpg",
+                            "alt" => "Viewpoint",
+                            "col" => 7
+                        ],
+                        [
+                            "src" => "/assets/img/lava/Lava.webp",
+                            "alt" => "Landscape",
+                            "col" => 5
+                        ]
+                    ]
+                ],
+                [
+                    "id" => "culture-heritage",
+                    "title" => "2. Local Culture & Village Life",
+                    "description" => "Monastery visits, local food stops, and community interactions.",
+                    "image" => [
+                        "src" => "/assets/img/lava/Darjeeling_Dhir_Dham_Temple_Main.jpg",
+                        "alt" => "Village life"
+                    ],
+                    "tags" => [
+                        "title" => "Popular around Lava",
+                        "items" => [
+                            [
+                                "label" => "Viewpoints",
+                                "url" => "#scenic-viewpoints"
+                            ],
+                            [
+                                "label" => "Village Walks",
+                                "url" => "#culture-heritage"
+                            ],
+                            [
+                                "label" => "Nature Photography",
+                                "url" => "#short-scenic-drives"
+                            ],
+                            [
+                                "label" => "Lava",
+                                "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    "id" => "short-scenic-drives",
+                    "title" => "3. Short Scenic Drives",
+                    "description" => "Comfortable drives to nearby ridges, tea points, and valley edges.",
+                    "image" => [
+                        "src" => "/assets/img/lava/lava-4.jpg",
+                        "alt" => "Scenic drive"
+                    ]
+                ]
             ],
-            "page_tags" => [["label" => "Lava", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
+            "page_tags" => [
+                [
+                    "label" => "Lava",
+                    "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')
+                ],
+                [
+                    "label" => "North Bengal",
+                    "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"
+                ]
+            ]
         ],
         "single_feature_list" => [
             "single_feature" => 'Book Lava stays for guided Neora Valley walks, birding and peaceful forest mornings.'
