@@ -1,4 +1,50 @@
 <!-- home3 destination Section Start-->
+<?php
+    $home2_destination_slides = [
+        [
+            'title' => 'Darjeeling',
+            'url' => BASE_URL . '/pages/destinations/north-bengal/darjeeling.php',
+            'image' => BASE_URL . '/assets/img/home3/destination-img1.jpg',
+            'label' => 'Tours (12)'
+        ],
+        [
+            'title' => 'Gangtok',
+            'url' => BASE_URL . '/pages/destinations/sikkim/gangtok-experiences.php',
+            'image' => BASE_URL . '/assets/img/home3/destination-img2.jpg',
+            'label' => 'Tours (06)'
+        ],
+        [
+            'title' => 'Lachung',
+            'url' => BASE_URL . '/pages/destinations/sikkim/lachung-experiences.php',
+            'image' => BASE_URL . '/assets/img/home3/destination-img3.jpg',
+            'label' => 'Tours (16)'
+        ],
+        [
+            'title' => 'Pelling',
+            'url' => BASE_URL . '/pages/destinations/sikkim/pelling-experiences.php',
+            'image' => BASE_URL . '/assets/img/home3/destination-img4.jpg',
+            'label' => 'Tours (10)'
+        ],
+        [
+            'title' => 'Sandakphu',
+            'url' => BASE_URL . '/pages/destinations/north-bengal/sandakphu.php',
+            'image' => BASE_URL . '/assets/img/home3/destination-img5.jpg',
+            'label' => 'Tours (12)'
+        ],
+        [
+            'title' => 'Mirik',
+            'url' => BASE_URL . '/pages/destinations/north-bengal/mirik.php',
+            'image' => BASE_URL . '/assets/img/home3/destination-img6.jpg',
+            'label' => 'Tours (26)'
+        ],
+        [
+            'title' => 'Kurseong',
+            'url' => BASE_URL . '/pages/destinations/north-bengal/kurseong.php',
+            'image' => BASE_URL . '/assets/img/home3/destination-img7.jpg',
+            'label' => 'Tours (16)'
+        ],
+    ];
+?>
 <div class="home3-destination-section mb-100">
     <div class="container">
         <div class="row justify-content-center mb-50 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -56,125 +102,25 @@
         <div class="destination-slider-area">
             <div class="swiper home3-destination-slider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="destination-card2 two">
-                            <div class="destination-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img1.jpg" alt="" loading="lazy">
-                                <a href="destination-details.html" class="arrow">
-                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M1 13C5.94664 8.05336 13 1 13 1M13 1C10.1852 1.52778 6.69444 2.58333 3 1M13 1C12.4722 3.63889 11.4167 6.77778 13 11" stroke-width="1.5" stroke-linecap="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="destination-content">
-                                <h5><a href="destination-details.html">Great Wall of China</a></h5>
-                                <span>Tours (12)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="destination-card2 two">
-                            <div class="destination-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img2.jpg" alt="" loading="lazy">
-                                <a href="destination-details.html" class="arrow">
-                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M1 13C5.94664 8.05336 13 1 13 1M13 1C10.1852 1.52778 6.69444 2.58333 3 1M13 1C12.4722 3.63889 11.4167 6.77778 13 11" stroke-width="1.5" stroke-linecap="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="destination-content">
-                                <h5><a href="destination-details.html">Rome, Itlay</a></h5>
-                                <span>Tours (06)</span>
+                    <?php foreach ($home2_destination_slides as $slide): ?>
+                        <div class="swiper-slide">
+                            <div class="destination-card2 two">
+                                <div class="destination-img">
+                                    <img src="<?= $slide['image'] ?>" alt="<?= htmlspecialchars($slide['title'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy">
+                                    <a href="<?= $slide['url'] ?>" class="arrow">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1 13C5.94664 8.05336 13 1 13 1M13 1C10.1852 1.52778 6.69444 2.58333 3 1M13 1C12.4722 3.63889 11.4167 6.77778 13 11" stroke-width="1.5" stroke-linecap="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="destination-content">
+                                    <h5><a href="<?= $slide['url'] ?>"><?= $slide['title'] ?></a></h5>
+                                    <span><?= $slide['label'] ?></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="destination-card2 two">
-                            <div class="destination-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img3.jpg" alt="" loading="lazy">
-                                <a href="destination-details.html" class="arrow">
-                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M1 13C5.94664 8.05336 13 1 13 1M13 1C10.1852 1.52778 6.69444 2.58333 3 1M13 1C12.4722 3.63889 11.4167 6.77778 13 11" stroke-width="1.5" stroke-linecap="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="destination-content">
-                                <h5><a href="destination-details.html">Machu Picchu of Peru</a></h5>
-                                <span>Tours (16)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="destination-card2 two">
-                            <div class="destination-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img4.jpg" alt="" loading="lazy">
-                                <a href="destination-details.html" class="arrow">
-                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M1 13C5.94664 8.05336 13 1 13 1M13 1C10.1852 1.52778 6.69444 2.58333 3 1M13 1C12.4722 3.63889 11.4167 6.77778 13 11" stroke-width="1.5" stroke-linecap="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="destination-content">
-                                <h5><a href="destination-details.html">Great Temple Jordan</a></h5>
-                                <span>Tours (10)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="destination-card2 two">
-                            <div class="destination-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img5.jpg" alt="" loading="lazy">
-                                <a href="destination-details.html" class="arrow">
-                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M1 13C5.94664 8.05336 13 1 13 1M13 1C10.1852 1.52778 6.69444 2.58333 3 1M13 1C12.4722 3.63889 11.4167 6.77778 13 11" stroke-width="1.5" stroke-linecap="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="destination-content">
-                                <h5><a href="destination-details.html">Athens Greece</a></h5>
-                                <span>Tours (12)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="destination-card2 two">
-                            <div class="destination-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img6.jpg" alt="" loading="lazy">
-                                <a href="destination-details.html" class="arrow">
-                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M1 13C5.94664 8.05336 13 1 13 1M13 1C10.1852 1.52778 6.69444 2.58333 3 1M13 1C12.4722 3.63889 11.4167 6.77778 13 11" stroke-width="1.5" stroke-linecap="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="destination-content">
-                                <h5><a href="destination-details.html">Switzerland</a></h5>
-                                <span>Tours (26)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="destination-card2 two">
-                            <div class="destination-img">
-                                <img src="<?= BASE_URL ?>/assets/img/home3/destination-img7.jpg" alt="" loading="lazy">
-                                <a href="destination-details.html" class="arrow">
-                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M1 13C5.94664 8.05336 13 1 13 1M13 1C10.1852 1.52778 6.69444 2.58333 3 1M13 1C12.4722 3.63889 11.4167 6.77778 13 11" stroke-width="1.5" stroke-linecap="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="destination-content">
-                                <h5><a href="destination-details.html">Fatima, Portugal</a></h5>
-                                <span>Tours (16)</span>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
             <div class="slider-btn-grp two">

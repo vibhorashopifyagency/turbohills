@@ -1394,6 +1394,37 @@
     window.wow.init();
   });
 
+  // Destination grid tabs: reveal WOW items immediately (no scroll needed)
+  // Scope: only the destinations section that uses #pills-tab / #pills-tabContent.
+  $(document).on(
+    "shown.bs.tab",
+    '.destination-page #pills-tab [data-bs-toggle="pill"]',
+    function (e) {
+      const targetSelector =
+        e?.target?.getAttribute("data-bs-target") ||
+        e?.target?.getAttribute("href");
+      if (!targetSelector) return;
+
+      const targetPane = document.querySelector(targetSelector);
+      if (!targetPane) return;
+
+      targetPane.querySelectorAll(".wow").forEach((element) => {
+        element.style.visibility = "visible";
+        element.style.animationDelay = "0s";
+        element.style.webkitAnimationDelay = "0s";
+        element.style.transitionDelay = "0s";
+        element.setAttribute("data-wow-delay", "0ms");
+
+        element.classList.add("animated");
+        element.classList.remove("wow");
+      });
+
+      if (window.wow && typeof window.wow.sync === "function") {
+        window.wow.sync();
+      }
+    }
+  );
+
   // niceSelect
   if ($("select").length) {
     $("select").niceSelect();

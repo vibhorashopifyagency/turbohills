@@ -9,84 +9,74 @@
             </div>
         </div>
         <div class="row g-xl-4 g-lg-3 gy-4">
-            <div class="col-lg-5 col-md-7 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="destination-card2 four">
-                    <div class="destination-img">
-                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img1.jpg" alt="" loading="lazy">
-                    </div>
-                    <div class="destination-content-wrap">
-                        <div class="destination-content">
-                            <span>Tours (06)</span>
-                            <h5><a href="destination-details.html">Rome, Itlay</a></h5>
+            <?php
+            $home5_destinations = [
+                [
+                    'col' => 'col-lg-5 col-md-7',
+                    'delay' => '200ms',
+                    'label' => 'Explore',
+                    'title' => 'Darjeeling',
+                    'url' => BASE_URL . '/pages/destinations/north-bengal/darjeeling.php',
+                    'image' => BASE_URL . '/assets/img/darjeeling/train-darjeeling.webp',
+                ],
+                [
+                    'col' => 'col-lg-3 col-md-5',
+                    'delay' => '400ms',
+                    'label' => 'Explore',
+                    'title' => 'Gangtok',
+                    'url' => BASE_URL . '/pages/destinations/sikkim/gangtok-experiences.php',
+                    'image' => BASE_URL . '/assets/img/innerpages/breadcrumb-bg3.jpg',
+                ],
+                [
+                    'col' => 'col-lg-4 col-md-7',
+                    'delay' => '600ms',
+                    'label' => 'Explore',
+                    'title' => 'Pelling',
+                    'url' => BASE_URL . '/pages/destinations/sikkim/pelling-experiences.php',
+                    'image' => BASE_URL . '/assets/img/innerpages/breadcrumb-bg4.jpg',
+                ],
+                [
+                    'col' => 'col-lg-4 col-md-5',
+                    'delay' => '600ms',
+                    'label' => 'Explore',
+                    'title' => 'Sandakphu',
+                    'url' => BASE_URL . '/pages/destinations/north-bengal/sandakphu.php',
+                    'image' => BASE_URL . '/assets/img/sandakphu/Sandakphu-Phalut-trek-Indiahikes-26-scaled-1.webp',
+                ],
+                [
+                    'col' => 'col-lg-3 col-md-7',
+                    'delay' => '400ms',
+                    'label' => 'Explore',
+                    'title' => 'Lachung',
+                    'url' => BASE_URL . '/pages/destinations/sikkim/lachung-experiences.php',
+                    'image' => BASE_URL . '/assets/img/innerpages/experience-breadcrumb-bg.jpg',
+                ],
+                [
+                    'col' => 'col-lg-5 col-md-5',
+                    'delay' => '200ms',
+                    'label' => 'Explore',
+                    'title' => 'Sikkim',
+                    'url' => BASE_URL . '/pages/destinations/sikkim/sikkim-experiences.php',
+                    'image' => BASE_URL . '/assets/img/innerpages/sikkim-himalayan-mountains.jpg',
+                ],
+            ];
+            ?>
+
+            <?php foreach ($home5_destinations as $destination): ?>
+                <div class="<?= $destination['col'] ?> wow animate fadeInDown" data-wow-delay="<?= $destination['delay'] ?>" data-wow-duration="1500ms">
+                    <div class="destination-card2 four">
+                        <div class="destination-img">
+                            <img src="<?= $destination['image'] ?>" alt="<?= htmlspecialchars($destination['title'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy">
+                        </div>
+                        <div class="destination-content-wrap">
+                            <div class="destination-content">
+                                <span><?= $destination['label'] ?></span>
+                                <h5><a href="<?= $destination['url'] ?>"><?= $destination['title'] ?></a></h5>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-5 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                <div class="destination-card2 four">
-                    <div class="destination-img">
-                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img2.jpg" alt="" loading="lazy">
-                    </div>
-                    <div class="destination-content-wrap">
-                        <div class="destination-content">
-                            <span>Tours (12)</span>
-                            <h5><a href="destination-details.html">Great Wall of China</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-7 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
-                <div class="destination-card2 four">
-                    <div class="destination-img">
-                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img3.jpg" alt="" loading="lazy">
-                    </div>
-                    <div class="destination-content-wrap">
-                        <div class="destination-content">
-                            <span>Tours (18)</span>
-                            <h5><a href="destination-details.html">Great Temple Jordan</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-5 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
-                <div class="destination-card2 four">
-                    <div class="destination-img">
-                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img4.jpg" alt="" loading="lazy">
-                    </div>
-                    <div class="destination-content-wrap">
-                        <div class="destination-content">
-                            <span>Tours (14)</span>
-                            <h5><a href="destination-details.html">Swizerland</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-7 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                <div class="destination-card2 four">
-                    <div class="destination-img">
-                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img5.jpg" alt="" loading="lazy">
-                    </div>
-                    <div class="destination-content-wrap">
-                        <div class="destination-content">
-                            <span>Tours (07)</span>
-                            <h5><a href="destination-details.html">Santorini, Greece</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="destination-card2 four">
-                    <div class="destination-img">
-                        <img src="<?= BASE_URL ?>/assets/img/home5/destination-img6.jpg" alt="" loading="lazy">
-                    </div>
-                    <div class="destination-content-wrap">
-                        <div class="destination-content">
-                            <span>Tours (26)</span>
-                            <h5><a href="destination-details.html">Machu Picchu of Peru</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
     <img src="<?= BASE_URL ?>/assets/img/home3/vector/home3-travel-package-vector1.svg" alt="" class="vector1" loading="lazy">
