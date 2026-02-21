@@ -9,7 +9,7 @@
     $data = [
         "slider_details" => [
             "slider_heading" => 'Jhalong & Buxa — Forests & Wildlife',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg2.jpg' ]
+            "slider_images" => [ '/assets/img/jhalong-buxa/buxa-banner.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Jhalong / Buxa — Wildlife Fringe',
@@ -57,7 +57,7 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Jhalong & Buxa Area',
-            "image_and_names" => [ [ 'name' => 'Buxa Tiger Reserve', 'image' => '/assets/img/north-bengal/buxa-tiger-reserve.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Buxa Tiger Reserve', 'image' => '/assets/img/jhalong-buxa/buxa-tiger-reserve.webp' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -74,13 +74,43 @@
             ]
         ],
         "inspiration_details" => [
-            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Jhalong-Buxa • North Bengal"],
+            "quote" => [
+                "text" => "The best views come after the simplest walks.", 
+                "name" => "TurboHills Team", 
+                "location" => "Jhalong-Buxa • North Bengal"
+            ],
             "intro" => "Typical stops around Jhalong-Buxa include riverside points, forest drives, and short borderland cultural visits.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with river valley and forest panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops, and regional heritage insights.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Jhalong-Buxa", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Jhalong-Buxa", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to river crossings and nearby forest ranges.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                [
+                    "id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with river valley and forest panoramas.", 
+                    "images" => [
+                        ["src" => "/assets/img/jhalong-buxa/buxa-gate.webp", "alt" => "Viewpoint", "col" => 7],
+                        ["src" => "/assets/img/jhalong-buxa/buxa-stay.webp", "alt" => "Landscape", "col" => 5]
+                    ]
+                ],
+                [
+                    "id" => "culture-heritage", 
+                    "title" => "2. Local Culture & Village Life", 
+                    "description" => "Community interactions, local food stops, and regional heritage insights.", 
+                    "image" => [
+                        "src" => "/assets/img/jhalong-buxa/raino.webp", "alt" => "Village life"], 
+                        "tags" => ["title" => "Popular around Jhalong-Buxa", "items" => [
+                            ["label" => "Viewpoints", "url" => "#scenic-viewpoints"],
+                            ["label" => "Village Walks", "url" => "#culture-heritage"],
+                            ["label" => "Nature Photography", "url" => "#short-scenic-drives"],
+                            ["label" => "Jhalong-Buxa", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ? : '#')]
+                        ]
+                    ]
+                ],
+                [
+                    "id" => "short-scenic-drives", 
+                    "title" => "3. Short Scenic Drives", 
+                    "description" => "Comfortable drives to river crossings and nearby forest ranges.", 
+                    "image" => [
+                        "src" => "/assets/img/jhalong-buxa/jhalong.jpg", "alt" => "Scenic drive"
+                        ]
+                ]
             ],
             "page_tags" => [["label" => "Jhalong-Buxa", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

@@ -4,12 +4,12 @@
     $metaDescription = 'Kurseong offers colonial charm, tea gardens and forested walks — a calm stop between plains and higher Himalayan ridges for slow travel.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/kurseong.jpg' : '/assets/img/north-bengal/kurseong.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/kurseong/kurseong-banner-2.jpg' : '/assets/img/kurseong/kurseong-banner-2.jpg');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Kurseong — Tea Town Tranquillity',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ '/assets/img/kurseong/kurseong-banner-2.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Kurseong — Tea & Forests',
@@ -52,7 +52,7 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Kurseong Area',
-            "image_and_names" => [ [ 'name' => 'Elysia Park', 'image' => '/assets/img/north-bengal/kurseong-elysia.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Elysia Park', 'image' => '/assets/img/kurseong/kursion-tempal.avif' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -69,15 +69,76 @@
             ]
         ],
         "inspiration_details" => [
-            "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Kurseong • North Bengal"],
+            "quote" => [
+                "text" => "The best views come after the simplest walks.",
+                "name" => "TurboHills Team",
+                "location" => "Kurseong • North Bengal"
+            ],
+
             "intro" => "Typical stops around Kurseong include tea slopes, forest roads, and calm town viewpoints.",
             "heading" => "Sample photo stops & short experiences",
+
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with tea-garden and valley panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Heritage", "description" => "Town walks, monastery corners, and local tea-culture stories.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Heritage"], "tags" => ["title" => "Popular around Kurseong", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Heritage Walks", "url" => "#culture-heritage"], ["label" => "Tea Gardens", "url" => "#short-scenic-drives"], ["label" => "Kurseong", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby viewpoints and hill villages.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+
+                [
+                    "id" => "scenic-viewpoints",
+                    "title" => "1. Scenic Viewpoints",
+                    "description" => "Easy-access viewpoints with tea-garden and valley panoramas.",
+                    "images" => [
+                        [
+                            "src" => "/assets/img/kurseong/kursion-tempal.avif",
+                            "alt" => "Viewpoint",
+                            "col" => 7
+                        ],
+                        [
+                            "src" => "/assets/img/kurseong/dow hill.jpeg",
+                            "alt" => "Landscape",
+                            "col" => 5
+                        ]
+                    ]
+                ],
+                [
+                    "id" => "culture-heritage",
+                    "title" => "2. Local Culture & Heritage",
+                    "description" => "Town walks, monastery corners, and local tea-culture stories.",
+                    "image" => [
+                        "src" => "/assets/img/innerpages/inspiration-details4.jpg",
+                        "alt" => "Heritage"
+                    ],
+                    "tags" => [
+                        "title" => "Popular around Kurseong",
+                        "items" => [
+                            ["label" => "Viewpoints", "url" => "#scenic-viewpoints"],
+                            ["label" => "Heritage Walks", "url" => "#culture-heritage"],
+                            ["label" => "Tea Gardens", "url" => "#short-scenic-drives"],
+                            [
+                                "label" => "Kurseong",
+                                "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    "id" => "short-scenic-drives",
+                    "title" => "3. Short Scenic Drives",
+                    "description" => "Comfortable drives to nearby viewpoints and hill villages.",
+                    "image" => [
+                        "src" => "/assets/img/innerpages/inspiration-details5.jpg",
+                        "alt" => "Scenic drive"
+                    ]
+                ]
             ],
-            "page_tags" => [["label" => "Kurseong", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
+
+            "page_tags" => [
+                [
+                    "label" => "Kurseong",
+                    "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')
+                ],
+                [
+                    "label" => "North Bengal",
+                    "url" => "/pages/destinations/kurseong/kurseong-experiences.php"
+                ]
+            ]
         ],
         "single_feature_list" => [
             "single_feature" => 'Book Kurseong stays with AI-curated local walks and tea experiences.'
@@ -154,7 +215,7 @@
                 "@type" => "ListItem",
                 "position" => 2,
                 "name" => "North Bengal",
-                "item" => (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/pages/destinations/north-bengal/north-bengal-experiences.php' : '/pages/destinations/north-bengal/north-bengal-experiences.php')
+                "item" => (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/pages/destinations/kurseong/kurseong-experiences.php' : '/pages/destinations/kurseong/kurseong-experiences.php')
             ],
             [
                 "@type" => "ListItem",

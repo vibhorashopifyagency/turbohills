@@ -9,7 +9,7 @@
     $data = [
         "slider_details" => [
             "slider_heading" => 'Mirik — Lake & Tea Terrace Tranquillity',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ '/assets/img/north-bengal/mirik-top.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Mirik — Sumendu Lake and Quiet Stays',
@@ -56,7 +56,7 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Mirik Area',
-            "image_and_names" => [ [ 'name' => 'Sumendu Lake', 'image' => '/assets/img/north-bengal/mirik-lake.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Sumendu Lake', 'image' => '/assets/img/north-bengal/mirik-gopaldhara.jfif' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -77,9 +77,9 @@
             "intro" => "Typical stops around Mirik include lakeside viewpoints, orange orchards, and short pine-forest drives.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with lake and valley panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, market visits, and local tea-culture moments.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Mirik", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Mirik", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby tea areas and gentle hill bends.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with lake and valley panoramas.", "images" => [["src" => "/assets/img/north-bengal/mirik-tempal.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/north-bengal/fog-mirik.webp", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, market visits, and local tea-culture moments.", "image" => ["src" => "/assets/img/north-bengal/mirik-buddhas-tempal.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Mirik", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Mirik", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby tea areas and gentle hill bends.", "image" => ["src" => "/assets/img/north-bengal/Gopaldhara1.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Mirik", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],
