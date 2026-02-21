@@ -4,12 +4,12 @@
     $metaDescription = 'Lepchajagat is a peaceful ridge village with short forest trails, Kanchenjunga glimpses and a relaxed village atmosphere for quiet mountain breaks.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/lepchajagat.jpg' : '/assets/img/north-bengal/lepchajagat.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/lepchajagat/lepchajagat.jfif' : '/assets/img/lepchajagat/lepchajagat.jfif');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Lepchajagat — Ridge Village Retreat',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ 'assets/img/lepchajagat/lepchajagat.jfif' ]
         ],
         "headings" => [
             "heading1" => 'Lepchajagat — Forested Ridge',
@@ -56,7 +56,9 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Lepchajagat Area',
-            "image_and_names" => [ [ 'name' => 'Lepchajagat Ridge', 'image' => '/assets/img/north-bengal/lepchajagat.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Lepchajagat Ridge', 'image' => '/assets/img/lepchajagat/lepchajagat.jpg' ],
+                                   [ 'name' => 'Lepchajagat Ridge', 'image' => '/assets/img/lepchajagat/lepchajagat-1.jpg' ], 
+                                   [ 'name' => 'Lepchajagat Ridge', 'image' => '/assets/img/lepchajagat/lep4-1648469572.jpg' ]]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -77,9 +79,9 @@
             "intro" => "Typical stops around Lepchajagat include misty forest points, quiet village lanes, and sunrise decks.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with ridge and valley panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops, and heritage hamlet charm.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Lepchajagat", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Lepchajagat", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby viewpoints and tea routes.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with ridge and valley panoramas.", "images" => [["src" => "/assets/img/lepchajagat/IMG.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/lepchajagat/lepchajagat03.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops, and heritage hamlet charm.", "image" => ["src" => "/assets/img/lepchajagat/2.png", "alt" => "Village life"], "tags" => ["title" => "Popular around Lepchajagat", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Lepchajagat", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby viewpoints and tea routes.", "image" => ["src" => "/assets/img/lepchajagat/road-to-Lepchajagat-930x620.jpeg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Lepchajagat", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],
