@@ -4,13 +4,13 @@
     $metaDescription = 'Latpanchar is a remote mountain hamlet offering solitude, simple hikes and panoramic viewpoints — ideal for travellers seeking quiet, birdlife and fewer visitors.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/latpanchar.jpg' : '/assets/img/north-bengal/latpanchar.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') .  '/assets/img/latpanchar/latpanchar-5.jpg':  '/assets/img/latpanchar/latpanchar-5.jpg');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Latpanchar — Remote Mountain Hamlet',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg1.jpg'
+                '/assets/img/latpanchar/latpanchar-5.jpg'
             ]
         ],
         "headings" => [
@@ -67,7 +67,9 @@
         "location_slider" => [
             "heading" => 'Top Stops — Latpanchar Area',
             "image_and_names" => [
-                [ 'name' => 'Latpanchar Hamlet', 'image' => '/assets/img/north-bengal/latpanchar.jpg' ]
+                [ 'name' => 'Latpanchar Hamlet', 'image' => '/assets/img/latpanchar/latpanchar-3.webp' ],
+                [ 'name' => 'Latpanchar Hamlet', 'image' => '/assets/img/latpanchar/latpanchar-2.webp' ],
+                [ 'name' => 'Latpanchar Hamlet', 'image' => '/assets/img/latpanchar/latpanchar-4.jpg' ]
             ]
         ],
         "additional_info" => [
@@ -101,9 +103,9 @@
             "intro" => "Typical stops around Latpanchar include birding points, forest-edge roads, and short viewpoint halts.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with valley and forest panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Birding culture, community interactions, and local food stops.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Latpanchar", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Latpanchar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby ridges, tea pockets, and forest bends.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with valley and forest panoramas.", "images" => [["src" => "/assets/img/latpanchar/54ce7a46.avif", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/latpanchar/Bunkulung_pop_up.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Birding culture, community interactions, and local food stops.", "image" => ["src" => "/assets/img/latpanchar/Charcoal_pop_up.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Latpanchar", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Latpanchar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby ridges, tea pockets, and forest bends.", "image" => ["src" => "/assets/img/latpanchar/latpanchar-1.jfif", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Latpanchar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],
