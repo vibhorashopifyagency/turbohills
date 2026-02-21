@@ -310,6 +310,7 @@
                                     $section_images = (!empty($section['images']) && is_array($section['images'])) ? $section['images'] : [];
                                     $section_tags = (!empty($section['tags']) && is_array($section['tags'])) ? $section['tags'] : null;
                                 ?>
+                                
                                     <div class="single-location-details mb-60"<?= (!empty($section_id) ? ' id="' . htmlspecialchars($section_id) . '"' : '') ?>>
                                         <?php if ($section_title): ?>
                                             <h4><?= htmlspecialchars($section_title) ?></h4>
@@ -332,12 +333,12 @@
                                                     $alt = $img['alt'] ?? '';
                                                 ?>
                                                     <div class="col-md-<?= htmlspecialchars((string) $col) ?>">
-                                                        <img src="<?= htmlspecialchars($img['src']) ?>" alt="<?= htmlspecialchars($alt) ?>">
+                                                        <img src="<?= BASE_URL . htmlspecialchars($img['src']) ?>" alt="<?= htmlspecialchars($alt) ?>">
                                                     </div>
                                                 <?php endforeach; ?>
                                             </div>
                                         <?php elseif (!empty($section_image['src'])): ?>
-                                            <img src="<?= htmlspecialchars($section_image['src']) ?>" alt="<?= htmlspecialchars($section_image['alt'] ?? '') ?>">
+                                            <img src="<?= BASE_URL . htmlspecialchars($section_image['src']) ?>" alt="<?= htmlspecialchars($section_image['alt'] ?? '') ?>">
                                         <?php endif; ?>
 
                                         <?php if (!empty($section_tags) && !empty($section_tags['items']) && is_array($section_tags['items'])): ?>
