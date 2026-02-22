@@ -2376,8 +2376,12 @@
       $('a[href^="#"]')
         .not('[href$="#"]') // omit from selection
         .not('[href$="#0"]') // omit from selection
-        .on("click", function () {
+        .on("click", function (e) {
           var target = this.hash;
+          if (!target) return;
+
+          var $target = $(target);
+          if (!$target.length) return;
 
           // If fixed header position enabled.
           if ($("#tt-header").hasClass("tt-header-fixed")) {
@@ -2390,7 +2394,16 @@
           if ($(this).data("offset") != undefined)
             $offset = $(this).data("offset");
 
-          return false;
+          // Fallback to the actual site header if #tt-header isn't used.
+          if ((!$offset || $offset === 0) && $("header.header-area").length) {
+            $offset = $("header.header-area").outerHeight();
+          }
+
+          e.preventDefault();
+          $("html, body").animate(
+            { scrollTop: Math.max(0, $target.offset().top - $offset) },
+            600
+          );
         });
 
       // Show/hide magic cursor
@@ -2474,6 +2487,76 @@
     jQuery(".progress-wrap").on("click", function () {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
+    // Code for "Plan with us" button in gallery-section to scroll to lead form
+    jQuery(".plan-with-us-btn").on("click", function () {
+      function getSiteBasePath() {
+        const segments = window.location.pathname.split("/").filter(Boolean);
+        if (!segments.length) return "";
+
+        const first = segments[0];
+        const knownRootFolders = new Set([
+          "pages",
+          "assets",
+          "includes",
+          "reference_pages",
+        ]);
+
+        // If URL is like /about.php, the first segment is a file.
+        if (first.includes(".")) return "";
+
+        // If installed at domain root, first segment is likely a known folder.
+        if (knownRootFolders.has(first)) return "";
+
+        // Otherwise assume it's a project subdir like /arup/...
+        return "/" + first;
+      }
+
+      function isHomePage() {
+        const basePath = getSiteBasePath();
+        const path = window.location.pathname.replace(/\/+$/, "");
+        return (
+          path === "" ||
+          path === basePath ||
+          path === basePath + "/index.php" ||
+          path === basePath + "/index.html"
+        );
+      }
+
+      function scrollToLeadForm() {
+        const $target = jQuery("#lead-form");
+        if (!$target.length) return false;
+
+        const $header = jQuery("header.header-area");
+        const headerOffset = $header.length ? $header.outerHeight() : 0;
+        const top = Math.max(0, $target.offset().top - headerOffset);
+
+        jQuery("html, body").animate({ scrollTop: top }, 600);
+        return true;
+      }
+
+      if (isHomePage()) {
+        scrollToLeadForm();
+        return;
+      }
+
+      const basePath = getSiteBasePath();
+      const homeUrl = window.location.origin + basePath + "/#lead-form";
+      window.location.href = homeUrl;
+    });
+
+    // If landing on homepage with #lead-form in URL, auto-scroll with header offset.
+    if (window.location.hash === "#lead-form") {
+      setTimeout(function () {
+        const $target = jQuery("#lead-form");
+        if (!$target.length) return;
+
+        const $header = jQuery("header.header-area");
+        const headerOffset = $header.length ? $header.outerHeight() : 0;
+        const top = Math.max(0, $target.offset().top - headerOffset);
+
+        jQuery("html, body").stop(true).animate({ scrollTop: top }, 0);
+      }, 50);
+    }
   });
 
   //Scroll Down Button
