@@ -12,31 +12,31 @@
             
             <div class="modal-body">
                 <h4 class="modal-title" id="enquiryModalLabel">We’d Love to Hear From You!</h4>
-                <form class="enquiry-form-wrapper">
+                <form id="enquiry-form" class="enquiry-form-wrapper" action="#" onsubmit="return false;">
                     <div class="row g-4 mb-50">
                         <div class="col-md-6">
                             <div class="form-inner">
                                 <label>Full Name</label>
-                                <input type="text" placeholder="Your Name">
+                                <input id="enquiry_name" type="text" placeholder="Your Name">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-inner">
                                 <label>Email Address</label>
-                                <input type="email" placeholder="Email Address">
+                                <input id="enquiry_email" type="email" placeholder="Email Address">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-inner">
                                 <label>Number of People*</label>
-                                <input type="text" placeholder="Number of people">
+                                <input id="enquiry_people" type="text" placeholder="Number of people">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-inner">
                                 <label>Travel Date</label>
                                 <div class="date-field-area">
-                                    <input type="text" name="inOut" readonly="" value="Sep 12 - Sep 20">
+                                    <input id="enquiry_travel_date" type="text" name="inOut" readonly="" value="Sep 12 - Sep 20">
                                     <svg class="calender-icon" width="14" height="14" viewBox="0 0 14 14"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g>
@@ -50,14 +50,14 @@
                         <div class="col-lg-12">
                             <div class="form-inner">
                                 <label>Tour Details</label>
-                                <textarea placeholder="Write about tour info"></textarea>
+                                <textarea id="enquiry_details" placeholder="Write about tour info"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-inner2">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="formCheck2">
-                                    <label class="form-check-label" for="formCheck2">
+                                    <input class="form-check-input" type="checkbox" value="" id="enquiry_save_info">
+                                    <label class="form-check-label" for="enquiry_save_info">
                                         Save my email address & name when I comment further time.
                                     </label>
                                 </div>
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <div class="form-inner">
-                        <button type="submit" class="primary-btn1 black-bg">
+                        <button id="enquiry-submit" type="submit" class="primary-btn1 black-bg">
                             <span>
                                 Send Enquiry
                                 <?php echo $top_right_arrow; ?>
