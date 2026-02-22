@@ -53,16 +53,6 @@
                                 <textarea id="enquiry_details" placeholder="Write about tour info"></textarea>
                             </div>
                         </div>
-                        <div class="col-md-12">
-                            <div class="form-inner2">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="enquiry_save_info">
-                                    <label class="form-check-label" for="enquiry_save_info">
-                                        Save my email address & name when I comment further time.
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <div class="form-inner">
                         <button id="enquiry-submit" type="submit" class="primary-btn1 black-bg">
