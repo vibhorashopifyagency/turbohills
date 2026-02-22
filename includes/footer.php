@@ -231,7 +231,8 @@ if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
     <script src="<?= BASE_URL ?>/assets/js/jquery.nice-select.min.js" defer></script>
     <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js" defer></script>
 <?php endif; ?>
-<script src="<?= BASE_URL ?>/assets/js/custom.js" defer></script>
+<script src="<?= BASE_URL ?>/assets/js/custom.min.js" defer></script>
+<!-- <script src="<?= BASE_URL ?>/assets/js/custom.js" defer></script> -->
 </body>
 
 </html>

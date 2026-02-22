@@ -1,4 +1,4 @@
-<div class="filter-wrapper">
+<div id="lead-form" class="filter-wrapper">
     <div class="container">
         <ul class="filter-item-list">
             <li class="single-item active">

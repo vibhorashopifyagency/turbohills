@@ -1,21 +1,21 @@
 <!-- home2 gallery Section Start--> 
-<div class="home2-gallery-section mb-100"> 
+<div class="home2-gallery-section pt-100 mb-100"> 
     <div class="container">
         <div class="row gy-md-4 gy-5">
             <div class="col-lg-3 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="section-title">
-                    <h2>GoFly Gallery</h2>
-                    <p>We go beyond just booking trips—we create unforgettable travel experiences that match your dreams!</p>
-                    <a href="travel-package-02.html" class="primary-btn1 two black-bg">
+                    <h2>Turbo Hills Travel Gallery</h2>
+                    <p>Explore real moments from our Sikkim and North Bengal tours—Darjeeling sunsets, Gangtok city lights, mountain trails, lakes, monasteries, and cozy stays. Want a custom itinerary with Bagdogra/NJP pickup, local guides, permits, and transparent pricing? We’ll plan it end-to-end.</p>
+                    <a href="#" class="primary-btn1 two black-bg plan-with-us-btn">
                         <span>
-                            Book Your Trip
+                            Plan Your Trip with Turbo Hills
                             <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z"/>
                             </svg>
                         </span>
                         <span>
-                            Book Your Trip
+                            Plan Your Trip with Turbo Hills
                             <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.73535 1.14746C9.57033 1.97255 9.32924 3.26406 9.24902 4.66797C9.16817 6.08312 9.25559 7.5453 9.70214 8.73633C9.84754 9.12406 9.65129 9.55659 9.26367 9.70215C8.9001 9.83849 8.4969 9.67455 8.32812 9.33398L8.29785 9.26367L8.19921 8.98438C7.73487 7.5758 7.67054 5.98959 7.75097 4.58203C7.77875 4.09598 7.82525 3.62422 7.87988 3.17969L1.53027 9.53027C1.23738 9.82317 0.762615 9.82317 0.469722 9.53027C0.176829 9.23738 0.176829 8.76262 0.469722 8.46973L6.83593 2.10254C6.3319 2.16472 5.79596 2.21841 5.25 2.24902C3.8302 2.32862 2.2474 2.26906 0.958003 1.79102L0.704097 1.68945L0.635738 1.65527C0.303274 1.47099 0.157578 1.06102 0.310542 0.704102C0.463655 0.347333 0.860941 0.170391 1.22363 0.28418L1.29589 0.310547L1.48828 0.387695C2.47399 0.751207 3.79966 0.827571 5.16601 0.750977C6.60111 0.670504 7.97842 0.428235 8.86132 0.262695L9.95312 0.0585938L9.73535 1.14746Z"/>
@@ -30,12 +30,12 @@
                         <div class="col-md-7 mt-70">
                             <div class="single-img justify-content-md-end">
                                 <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img1-big.jpg">
-                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img1.jpg" alt="" loading="lazy">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img1.jpg" alt="Turbo Hills gallery photo from Sikkim and North Bengal tours" loading="lazy">
                                 </a>
                             </div>
                             <div class="single-img justify-content-md-end">
                                 <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img2-big.jpg">
-                                    <img src="<?= BASE_URL ?>/assets/img/sikkim/sikkim-hero-banner-2_low.jpg" alt="" loading="lazy">
+                                    <img src="<?= BASE_URL ?>/assets/img/sikkim/sikkim-hero-banner-2_low.jpg" alt="Sikkim tour package scenery - Turbo Hills travel gallery" loading="lazy">
                                 </a>
                             </div>
                             <div class="single-img justify-content-md-between">
@@ -48,29 +48,29 @@
                                     </div>
                                     <div class="content">
                                         <div class="number">
-                                            <h2 class="counter">26</h2>
+                                            <h2 class="counter">6</h2>
                                             <span>K+</span>
                                         </div>
                                         <span>Tour Completed</span>
                                     </div>
                                 </div>
                                 <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img3-big.jpg">
-                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img3.jpg" alt="" loading="lazy">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img3.jpg" alt="Darjeeling and Sikkim travel moments - Turbo Hills gallery" loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-5">
                             <div class="single-img grp-img">
                                 <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img4-big.jpg">
-                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img4.jpg" alt="" loading="lazy">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img4.jpg" alt="North Bengal sightseeing photo - Turbo Hills gallery" loading="lazy">
                                 </a>
                                 <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img5-big.jpg">
-                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img5.jpg" alt="" loading="lazy">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img5.jpg" alt="Sikkim itinerary highlight - Turbo Hills travel gallery" loading="lazy">
                                 </a>
                             </div>
                             <div class="single-img">
                                 <a data-fancybox="gallery-01" href="<?= BASE_URL ?>/assets/img/home2/gallery-img6-big.jpg">
-                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img6.jpg" alt="" loading="lazy">
+                                    <img src="<?= BASE_URL ?>/assets/img/home2/gallery-img6.jpg" alt="Himalayan tour experiences - Turbo Hills gallery" loading="lazy">
                                 </a>
                             </div>
                         </div>
