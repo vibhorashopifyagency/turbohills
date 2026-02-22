@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/lachung.jpg' : '/assets/img/sikkim/lachung.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/zuluk.jpg' : '/assets/img/sikkim/zuluk.jpg');
     
     // All data Group
     $data = [
@@ -14,9 +14,8 @@
         "slider_details" => [
             "slider_heading" =>  'Zuluk Experiences — Old Silk Route & Scenic Drives',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg3.jpg',
-                'assets/img/innerpages/breadcrumb-bg4.jpg',
-                'assets/img/innerpages/experience-breadcrumb-bg.jpg',
+                'assets/img/sikkim/zuluk.jpg',
+                'assets/img/sikkim/Gurudongmar-Lake-Sikkim.jpg',
             ]
         ],
         // Page Headings and Sub-Headings (SEO focused)

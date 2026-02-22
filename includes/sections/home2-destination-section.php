@@ -4,43 +4,43 @@
         [
             'title' => 'Darjeeling',
             'url' => BASE_URL . '/pages/destinations/north-bengal/darjeeling.php',
-            'image' => BASE_URL . '/assets/img/home3/destination-img1.jpg',
+            'image' => BASE_URL . '/assets/img/darjeeling/darjeeling-view.webp',
             'label' => 'Tours (12)'
-        ],
-        [
-            'title' => 'Gangtok',
-            'url' => BASE_URL . '/pages/destinations/sikkim/gangtok-experiences.php',
-            'image' => BASE_URL . '/assets/img/home3/destination-img2.jpg',
-            'label' => 'Tours (06)'
         ],
         [
             'title' => 'Lachung',
             'url' => BASE_URL . '/pages/destinations/sikkim/lachung-experiences.php',
-            'image' => BASE_URL . '/assets/img/home3/destination-img3.jpg',
+            'image' => BASE_URL . '/assets/img/sikkim/lachung.jpg',
             'label' => 'Tours (16)'
         ],
         [
             'title' => 'Pelling',
             'url' => BASE_URL . '/pages/destinations/sikkim/pelling-experiences.php',
-            'image' => BASE_URL . '/assets/img/home3/destination-img4.jpg',
+            'image' => BASE_URL . '/assets/img/sikkim/pelling-2.jpg',
             'label' => 'Tours (10)'
         ],
         [
             'title' => 'Sandakphu',
             'url' => BASE_URL . '/pages/destinations/north-bengal/sandakphu.php',
-            'image' => BASE_URL . '/assets/img/home3/destination-img5.jpg',
+            'image' => BASE_URL . '/assets/img/sandakphu/sandakphu.jpg',
             'label' => 'Tours (12)'
         ],
         [
             'title' => 'Mirik',
             'url' => BASE_URL . '/pages/destinations/north-bengal/mirik.php',
-            'image' => BASE_URL . '/assets/img/home3/destination-img6.jpg',
+            'image' => BASE_URL . '/assets/img/north-bengal/fog-mirik.webp',
             'label' => 'Tours (26)'
+        ],
+        [
+            'title' => 'Gangtok',
+            'url' => BASE_URL . '/pages/destinations/sikkim/gangtok-experiences.php',
+            'image' => BASE_URL . '/assets/img/sikkim/sikkim-hero-banner-1.jpg',
+            'label' => 'Tours (06)'
         ],
         [
             'title' => 'Kurseong',
             'url' => BASE_URL . '/pages/destinations/north-bengal/kurseong.php',
-            'image' => BASE_URL . '/assets/img/home3/destination-img7.jpg',
+            'image' => BASE_URL . '/assets/img/kurseong/kurseong-banner.webp',
             'label' => 'Tours (16)'
         ],
     ];
@@ -116,7 +116,7 @@
                                 </div>
                                 <div class="destination-content">
                                     <h5><a href="<?= $slide['url'] ?>"><?= $slide['title'] ?></a></h5>
-                                    <span><?= $slide['label'] ?></span>
+                                    <!-- <span><?= $slide['label'] ?></span> -->
                                 </div>
                             </div>
                         </div>
