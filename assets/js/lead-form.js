@@ -112,8 +112,7 @@
             email: document.getElementById('enquiry_email'),
             people: document.getElementById('enquiry_people'),
             travelDate: document.getElementById('enquiry_travel_date'),
-            details: document.getElementById('enquiry_details'),
-            saveInfo: document.getElementById('enquiry_save_info')
+            details: document.getElementById('enquiry_details')
         };
 
         function validateEnquiryForm() {
@@ -163,7 +162,6 @@
             msg += `*Email:* ${data.email}\n`;
             msg += `*Number of People:* ${data.people}\n`;
             msg += `*Travel Date:* ${data.travelDate}\n`;
-            msg += `*Save Info Consent:* ${data.saveInfo ? 'Yes' : 'No'}\n\n`;
             msg += '*Tour Details:*\n';
             msg += `${data.details}\n\n`;
             msg += 'Please connect with me for package details.';
@@ -179,8 +177,7 @@
                 email: fields.email.value.trim(),
                 people: fields.people.value.trim(),
                 travelDate: fields.travelDate.value.trim(),
-                details: fields.details.value.trim(),
-                saveInfo: !!fields.saveInfo?.checked
+                details: fields.details.value.trim()
             };
 
             openWhatsApp(formatEnquiryMessage(data));
