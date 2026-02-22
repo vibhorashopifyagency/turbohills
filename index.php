@@ -112,7 +112,7 @@
     // include __DIR__ . '/includes/sections/home-6/home6-service-section.php'; // Purple service section
     // include __DIR__ . '/includes/sections/home2-about-us.php'; // Trustpoint section
     // include __DIR__ . '/includes/sections/home-6/home6-offer-banner.php'; // Banner Slider
-    include __DIR__ . '/includes/sections/home-2/home2-testimonial-section.php'; // Testimonial Section
+    include __DIR__ . '/includes/sections/reviews.php'; // Testimonial Section
     include __DIR__ . '/includes/sections/counter-section.php'; // Counter Section
     include __DIR__ . '/includes/sections/home-2/home2-gallery-section.php'; // Gallery Section
     include __DIR__ . '/includes/sections/index-faq.php'; // Index FAQ Section

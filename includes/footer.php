@@ -202,7 +202,6 @@ if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
     <script src="<?= BASE_URL ?>/assets/js/lead-form.js" defer></script>
 <?php endif; ?>
 
-
 <!--  Main jQuery  -->
 <script src="<?= BASE_URL ?>/assets/js/jquery-3.7.1.min.js"></script>
 <script src="<?= BASE_URL ?>/assets/js/jquery-ui.js"></script>
@@ -212,7 +211,6 @@ if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
 <script src="<?= BASE_URL ?>/assets/js/popper.min.js" defer></script>
 <!-- Swiper slider JS -->
 <script src="<?= BASE_URL ?>/assets/js/swiper-bundle.min.js"></script>
-<!-- <script src="<?= BASE_URL ?>/assets/js/slick.js" defer></script> -->
 <!-- Waypoints JS -->
 <script src="<?= BASE_URL ?>/assets/js/waypoints.min.js" defer></script>
 <!-- Counterup JS -->
@@ -232,7 +230,6 @@ if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
     <script src="<?= BASE_URL ?>/assets/js/select-dropdown.js" defer></script>
 <?php endif; ?>
 <script src="<?= BASE_URL ?>/assets/js/custom.min.js" defer></script>
-<!-- <script src="<?= BASE_URL ?>/assets/js/custom.js" defer></script> -->
 </body>
 
 </html>
