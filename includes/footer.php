@@ -192,14 +192,10 @@
     };
 </script>
 
+<script src="<?= BASE_URL ?>/assets/js/lead-form.js" defer></script>
+
 <?php if (basename($_SERVER['PHP_SELF']) === 'contact.php') : ?>
     <script src="<?= BASE_URL ?>/assets/js/contact-form.js" defer></script>
-<?php endif; ?>
-
-<?php
-if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') :
-?>
-    <script src="<?= BASE_URL ?>/assets/js/lead-form.js" defer></script>
 <?php endif; ?>
 
 <!--  Main jQuery  -->
