@@ -164,7 +164,7 @@
             msg += `*Travel Date:* ${data.travelDate}\n`;
             msg += '*Tour Details:*\n';
             msg += `${data.details}\n\n`;
-            msg += 'Please connect with me for package details.';
+            msg += 'Please confirm availability.';
             return msg;
         }
 
