@@ -19,8 +19,9 @@
                                     <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img1.png" alt="" loading="lazy">
                                 </a>
                                 <ul class="social-list">
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/turbo_hills"><i class="bi bi-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="guide-info">
@@ -36,8 +37,9 @@
                                     <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img2.png" alt="" loading="lazy">
                                 </a>
                                 <ul class="social-list">
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/turbo_hills"><i class="bi bi-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="guide-info">
@@ -53,8 +55,9 @@
                                     <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img3.png" alt="" loading="lazy">
                                 </a>
                                 <ul class="social-list">
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/turbo_hills"><i class="bi bi-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="guide-info">
@@ -70,8 +73,9 @@
                                     <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img4.png" alt="" loading="lazy">
                                 </a>
                                 <ul class="social-list">
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/turbo_hills"><i class="bi bi-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="guide-info">
@@ -87,8 +91,9 @@
                                     <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img5.png" alt="" loading="lazy">
                                 </a>
                                 <ul class="social-list">
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/turbo_hills"><i class="bi bi-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="guide-info">
@@ -104,8 +109,9 @@
                                     <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img6.png" alt="" loading="lazy">
                                 </a>
                                 <ul class="social-list">
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/turbo_hills"><i class="bi bi-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="guide-info">
@@ -121,8 +127,9 @@
                                     <img src="<?= BASE_URL ?>/assets/img/home3/tour-guide-img7.png" alt="" loading="lazy">
                                 </a>
                                 <ul class="social-list">
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/turbo_hills"><i class="bi bi-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="guide-info">
