@@ -92,7 +92,7 @@
                 ]
             }
         }
-    </script>';
+    </script>'; 
     
     // Header and constants
     include __DIR__ . '/includes/header_constants.php';

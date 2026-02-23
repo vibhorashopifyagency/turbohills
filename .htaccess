@@ -4,7 +4,7 @@ DirectoryIndex index.php index.html
 Options -Indexes
 
 # Localhost (MAMP) setup where project is served at /arup/
-ErrorDocument 404 /turbohills/404.php
+# ErrorDocument 404 /turbohills/404.php
 
 # For production/staging where project is served at site root, use this instead:
-# ErrorDocument 404 /404.php
+ErrorDocument 404 /404.php
