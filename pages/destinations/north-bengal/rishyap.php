@@ -78,7 +78,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Rishyap • North Bengal"],
             "intro" => "Typical stops around Rishyap include ridge viewpoints, pine trails, and calm mountain village moments.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Rishyap viewpoints fit high-intent searches like best sunrise spots in Rishop and clear snow-peak photography points.", "images" => [["src" => "/assets/img/rishyap/darj_i00050e.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/rishyap/780x439_durpin-monastery.jpg", "alt" => "Landscape", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food and quiet hill-village life answer common AEO questions on what to do in Rishyap beyond sunrise viewpoints.", "image" => ["src" => "/assets/img/rishyap/rishop.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Rishyap", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Rishyap", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

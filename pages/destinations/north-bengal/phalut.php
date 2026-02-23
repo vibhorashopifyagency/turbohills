@@ -88,7 +88,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Phalut • North Bengal"],
             "intro" => "Typical stops around Phalut include high-ridge viewpoints, trekking pauses, and mountain camp moments.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These high-ridge viewpoints match top search intent like Phalut sunrise views, Himalayan panorama points and advanced trek photography locations.", "images" => [["src" => "/assets/img/phalut/Phalut.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/phalut/Phalut4.jpg", "alt" => "Landscape", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Local Culture & Trek Life", "description" => "Trail culture, mountain shelters and route stories answer common AEO queries on what life is like across the Sandakphu-Phalut trekking corridor.", "image" => ["src" => "/assets/img/phalut/_DSC0758.jpg", "alt" => "Trek culture"], "tags" => ["title" => "Popular around Phalut", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Trail Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Phalut", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

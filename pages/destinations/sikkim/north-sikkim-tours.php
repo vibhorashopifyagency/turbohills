@@ -141,7 +141,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "North Sikkim • Sikkim"],
             "intro" => "Typical stops across North Sikkim include alpine valleys, mountain lakes, and high-altitude drive routes.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These viewpoints match high-intent searches for North Sikkim snow views, alpine valleys and Gurudongmar-Yumthang photo circuits with practical stop planning.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery routes, local settlements and mountain culture interactions answer common traveller questions on what to do in North Sikkim beyond only high-altitude viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around North Sikkim", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "North Sikkim", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

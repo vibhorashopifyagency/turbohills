@@ -79,7 +79,7 @@
                 "location" => "Suntalekhola • North Bengal"
             ],
             "intro" => "Typical stops around Suntalekhola include riverside viewpoints, forest-edge walks, and village photo points for relaxed slow travel.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 [
                     "id" => "scenic-viewpoints",

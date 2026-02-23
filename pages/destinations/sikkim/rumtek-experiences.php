@@ -142,7 +142,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Rumtek • Sikkim"],
             "intro" => "Typical stops around Rumtek include monastery visits, hillside viewpoints, and short cultural drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy Rumtek viewpoint stops fit common searches such as best monastery viewpoints near Gangtok and short cultural photo circuits in East Sikkim.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery traditions, village life and spiritual heritage routes answer AEO-style questions about Rumtek history, rituals, and respectful visitor behavior.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Rumtek", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Local Culture", "url" => "#culture-heritage"], ["label" => "Rumtek", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

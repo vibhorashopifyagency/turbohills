@@ -142,7 +142,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Lachung • Sikkim"],
             "intro" => "Typical stops around Lachung include high-valley viewpoints, monastery visits, and alpine route drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Lachung viewpoints are ideal for travellers searching best photo points in North Sikkim, sunrise mountain views and Yumthang Valley panorama stops without difficult trekking.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Explore monastery visits and local village interactions that answer popular queries like what to do in Lachung besides sightseeing, local culture in North Sikkim and authentic Sikkim homestay experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachung", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Lachung", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

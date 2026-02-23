@@ -90,7 +90,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Darjeeling • North Bengal"],
             "intro" => "Typical stops around Darjeeling include Himalayan viewpoints, tea-estate roads, and heritage hill-walks.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Darjeeling viewpoints match top search intent like best sunrise points in Darjeeling, Kanchenjunga views and family-friendly photo stops.", "images" => [["src" => "/assets/img/darjeeling/Darjeeling-Tea-Fields.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/darjeeling/darjeeling-view.webp", "alt" => "Landscape", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Local Culture & Heritage", "description" => "Local markets, monastery visits and tea-town heritage walks answer common AEO questions on what to do in Darjeeling beyond viewpoints.", "image" => ["src" => "/assets/img/darjeeling/darjeeling-tempal.jpg", "alt" => "Heritage"], "tags" => ["title" => "Popular around Darjeeling", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Heritage Walks", "url" => "#culture-heritage"], ["label" => "Tea Gardens", "url" => "#short-scenic-drives"], ["label" => "Darjeeling", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

@@ -149,7 +149,7 @@
                 "location" => "Pelling • West Sikkim"
             ],
             "intro" => "Typical stops around Pelling include Pemayangtse Monastery, Rabdentse Ruins and nearby waterfalls. You can also connect Pelling with Yuksom for heritage + nature trails.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 [
                     "id" => "kanchenjunga-viewpoints",

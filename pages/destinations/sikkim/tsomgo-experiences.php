@@ -142,7 +142,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Tsomgo • Sikkim"],
             "intro" => "Typical stops around Tsomgo include alpine lake viewpoints, mountain passes, and short snow-season drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access viewpoints support top queries like best Tsomgo Lake photo spots, snow-season views and high-altitude panoramas on short day trips from Gangtok.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery influences and mountain-route culture stops add depth for travellers asking what to do near Tsomgo beyond the lake viewpoint itself.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Tsomgo", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Lake Stops", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Tsomgo", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

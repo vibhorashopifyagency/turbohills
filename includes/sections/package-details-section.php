@@ -295,11 +295,6 @@
                                     <span class="line-break"></span>
                                     <span class="line-break"></span>
                                     <h4><?= htmlspecialchars($inspiration['heading']) ?></h4>
-                                    <span class="line-break"></span>
-                                    <span class="line-break"></span>
-                                    <span class="line-break"></span>
-                                    <span class="line-break"></span>
-                                    <span class="line-break"></span>
                                 <?php endif; ?>
 
                                 <?php foreach ($sections as $section):

@@ -76,7 +76,7 @@
             ],
 
             "intro" => "Typical stops around Kurseong include tea slopes, forest roads, and calm town viewpoints.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
 
             "sections" => [
 

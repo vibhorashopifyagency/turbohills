@@ -108,7 +108,7 @@
 
             "intro" => "Typical stops around Sandakphu include ridge viewpoints, trekking routes, and high-mountain photo halts.",
 
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
 
             "sections" => [
                 [

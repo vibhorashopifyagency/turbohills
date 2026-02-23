@@ -1,7 +1,7 @@
 <?php
 
     $pageTitle = 'Lava — Gateway to Neora Valley & Rhododendron Forests';
-    $metaDescription = 'Lava is a gateway village to Neora Valley National Park with rhododendron forests, birdlife and calm lodges — ideal for nature walks, birding and soft treks.';
+    $metaDescription = 'Lava is a scenic gateway village to Neora Valley National Park in North Bengal, known for rhododendron forests, Himalayan birdlife, misty pine trails and calm eco-lodges — ideal for nature walks, birding tours, soft treks and peaceful mountain stays.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
     $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/lava/780x439_durpin-monastery.jpg' : '/assets/img/lava/780x439_durpin-monastery.jpg');
@@ -17,13 +17,13 @@
         ],
         "tour_headings" => [
             "activity_content_heading" => 'Lava Highlights',
-            "activity_body_content" => 'Explore rhododendron forests, birding trails and Neora Valley routes from Lava — a calm base for nature lovers, photographers and soft trekkers seeking quiet forest mornings.',
-            "assistant_snippet" => 'Lava: rhododendron forests, birding and access to Neora Valley.',
+            "activity_body_content" => 'Explore rhododendron forests, birding trails and Neora Valley routes from Lava — one of the most searched offbeat North Bengal destinations for travelers who want quiet mountain mornings and forest-based experiences. This route works well for couples, families and nature-focused groups looking for a balanced plan that includes short walks, viewpoint stops, monastery visits and local village interactions without heavy rush itineraries.',
+            "assistant_snippet" => 'Lava travel plan: Neora Valley access, rhododendron forests, guided birding trails, peaceful eco-stays and flexible short-trek options from North Bengal.',
             "location_slider_wrap" => 'Nearby',
             "highlights_tour" => 'Highlights — Lava',
             "Additional_Info" => 'Practical Travel Information',
             "package_info_heading" => 'Snapshot',
-            "package_info_message" => 'Ideal for birding, gentle treks and forest-stay experiences with local guides.'
+            "package_info_message" => 'Ideal for birding, gentle treks and forest-stay experiences with local guides, with flexible pacing for families, couples and slow-travel explorers.'
         ],
         "package_info_list" => [
             "rating_stars" => 'Forest lodges and eco-stays',
@@ -82,7 +82,7 @@
                 "location" => "Lava • North Bengal"
             ],
             "intro" => "Typical stops around Lava include pine-forest viewpoints, monastery corners, and short village drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 [
                     "id" => "scenic-viewpoints",

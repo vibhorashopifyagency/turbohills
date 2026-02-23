@@ -77,7 +77,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Lepchajagat • North Bengal"],
             "intro" => "Typical stops around Lepchajagat include misty forest points, quiet village lanes, and sunrise decks.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Lepchajagat viewpoints match common searches like best sunrise points near Darjeeling and quiet ridge photography spots.", "images" => [["src" => "/assets/img/lepchajagat/IMG.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/lepchajagat/lepchajagat03.jpg", "alt" => "Landscape", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops and hamlet charm answer popular AEO questions on what to do in Lepchajagat beyond viewpoint hopping.", "image" => ["src" => "/assets/img/lepchajagat/2.png", "alt" => "Village life"], "tags" => ["title" => "Popular around Lepchajagat", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Lepchajagat", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

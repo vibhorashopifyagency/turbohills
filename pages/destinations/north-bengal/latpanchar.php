@@ -101,7 +101,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Latpanchar • North Bengal"],
             "intro" => "Typical stops around Latpanchar include birding points, forest-edge roads, and short viewpoint halts.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Latpanchar viewpoints match high-intent searches like birding viewpoints near Mahananda belt and quiet valley panoramas in North Bengal.", "images" => [["src" => "/assets/img/latpanchar/54ce7a46.avif", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/latpanchar/Bunkulung_pop_up.jpg", "alt" => "Landscape", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Birding culture, community interactions and local food stops answer common AEO questions on what makes Latpanchar different from mainstream hill destinations.", "image" => ["src" => "/assets/img/latpanchar/Charcoal_pop_up.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Latpanchar", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Latpanchar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

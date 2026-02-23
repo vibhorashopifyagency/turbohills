@@ -140,7 +140,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Nathula • Sikkim"],
             "intro" => "Typical stops around Nathula include high-pass viewpoints, border route drives, and mountain photo halts.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These pass viewpoints are ideal for travellers searching best Nathula photo points, border mountain views and short-stop panoramas on a same-day Gangtok circuit.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Route history, monastery influences and regional narratives answer common AEO queries on Nathula significance, border heritage and local culture beyond the pass viewpoint itself.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Nathula", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Pass Routes", "url" => "#culture-heritage"], ["label" => "Mountain Drives", "url" => "#short-scenic-drives"], ["label" => "Nathula", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

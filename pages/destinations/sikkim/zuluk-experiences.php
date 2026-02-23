@@ -143,7 +143,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Zuluk • Sikkim"],
             "intro" => "Typical stops around Zuluk include zig-zag road viewpoints, old silk-route landscapes, and short mountain drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These viewpoint halts match top search intent such as best Zuluk zig-zag road views, Thambi-like sunrise frames and dramatic Old Silk Route panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Old trade-route stories and mountain community life answer AEO-style questions about Zuluk history, Silk Route relevance and local cultural context.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Zuluk", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Route Heritage", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Zuluk", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

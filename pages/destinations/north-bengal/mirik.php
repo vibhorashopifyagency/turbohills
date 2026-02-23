@@ -75,7 +75,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Mirik • North Bengal"],
             "intro" => "Typical stops around Mirik include lakeside viewpoints, orange orchards, and short pine-forest drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Mirik points match high-intent searches like best Sumendu Lake viewpoints and gentle photography spots for first-time hill travelers.", "images" => [["src" => "/assets/img/north-bengal/mirik-tempal.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/north-bengal/fog-mirik.webp", "alt" => "Landscape", "col" => 5]]],
                 ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, market visits and tea-culture moments answer common AEO questions on what to do in Mirik beyond lake boating.", "image" => ["src" => "/assets/img/north-bengal/mirik-buddhas-tempal.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Mirik", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Mirik", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],

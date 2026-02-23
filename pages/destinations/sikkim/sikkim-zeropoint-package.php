@@ -152,7 +152,7 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Zero Point • Sikkim"],
             "intro" => "Typical stops around Zero Point include high-altitude viewpoints, snowline photo points, and scenic mountain drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 [
                     "id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These stops match top search intent like best Zero Point snow viewpoints, high-altitude photo spots and North Sikkim panoramas without long trekking segments.", 

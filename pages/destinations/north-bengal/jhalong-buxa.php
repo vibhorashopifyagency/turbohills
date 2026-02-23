@@ -80,7 +80,7 @@
                 "location" => "Jhalong-Buxa • North Bengal"
             ],
             "intro" => "Typical stops around Jhalong-Buxa include riverside points, forest drives, and short borderland cultural visits.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 [
                     "id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access stops cover top search intent like best Jhalong river viewpoints, Buxa forest photo spots and relaxed nature sightseeing in North Bengal.", 
