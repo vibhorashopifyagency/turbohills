@@ -74,8 +74,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Preparation', 'description' => 'Remote terrain — arrange a guide and proper gear.' ],
-                [ 'highlight' => 'Safety', 'description' => 'Weather can change quickly; layer clothing and carry essentials.' ]
+                [ 'highlight' => 'Preparation', 'description' => 'Phalut involves remote high-ridge terrain, so pre-arranged guides and proper trekking gear are essential and frequently searched by first-time high-altitude trekkers.' ],
+                [ 'highlight' => 'Safety', 'description' => 'Mountain weather changes quickly around Phalut; use layered clothing, carry essentials and follow guide pacing to keep trek movement safe and comfortable.' ]
             ]
         ],
         "faq" => [
@@ -88,11 +88,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Phalut • North Bengal"],
             "intro" => "Typical stops around Phalut include high-ridge viewpoints, trekking pauses, and mountain camp moments.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access ridge viewpoints with wide Himalayan panoramas.", "images" => [["src" => "/assets/img/phalut/Phalut.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/phalut/Phalut4.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Trek Life", "description" => "Trail culture, mountain shelters, and local route stories.", "image" => ["src" => "/assets/img/phalut/_DSC0758.jpg", "alt" => "Trek culture"], "tags" => ["title" => "Popular around Phalut", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Trail Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Phalut", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-walk combinations for nearby ridge and valley views.", "image" => ["src" => "/assets/img/phalut/OIP (1).webp", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These high-ridge viewpoints match top search intent like Phalut sunrise views, Himalayan panorama points and advanced trek photography locations.", "images" => [["src" => "/assets/img/phalut/Phalut.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/phalut/Phalut4.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Trek Life", "description" => "Trail culture, mountain shelters and route stories answer common AEO queries on what life is like across the Sandakphu-Phalut trekking corridor.", "image" => ["src" => "/assets/img/phalut/_DSC0758.jpg", "alt" => "Trek culture"], "tags" => ["title" => "Popular around Phalut", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Trail Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Phalut", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-walk combinations support flexible access to ridge and valley frames for trekkers balancing scenery, weather windows and fatigue management.", "image" => ["src" => "/assets/img/phalut/OIP (1).webp", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Phalut", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

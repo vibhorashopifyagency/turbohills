@@ -61,8 +61,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Birding', 'description' => 'Bring binoculars and a field guide; local naturalists available.' ],
-                [ 'highlight' => 'Best Time', 'description' => 'Oct–Dec for clear skies; Mar–May for migratory birds.' ]
+                [ 'highlight' => 'Birding', 'description' => 'Tinchuley is often searched for birding-friendly village stays; bring binoculars and a field guide, and use local naturalists for better species spotting.' ],
+                [ 'highlight' => 'Best Time', 'description' => 'Oct–Dec gives clearer skies and ridge visibility, while Mar–May is preferred for active birdlife and comfortable outdoor walks.' ]
             ]
         ],
         "faq" => [
@@ -75,11 +75,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Tinchuley • North Bengal"],
             "intro" => "Typical stops around Tinchuley include ridge viewpoints, village orchards, and short tea-route drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with ridge and mountain panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Village interactions, orchard routes, and local food experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Tinchuley", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Tinchuley", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby tea gardens and sunrise points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Tinchuley viewpoints match popular search intent for ridge panoramas, sunrise frames and quiet photo spots near Darjeeling belt villages.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Village interactions, orchard routes and local food experiences answer AEO queries on what to do in Tinchuley beyond mountain viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Tinchuley", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Tinchuley", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to tea gardens and sunrise points support low-walk, family-friendly Tinchuley plans with flexible day scheduling.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Tinchuley", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

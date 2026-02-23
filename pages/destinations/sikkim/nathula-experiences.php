@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Nathula Pass Day Trip — Indo-China Border & Mountain Views';
-    $metaDescription = 'Visit Nathula Pass for high-altitude views, historic border routes and cultural insights. Permit required; day-trips from Gangtok available.';
+    $metaDescription = 'Plan Nathula Pass day trip from Gangtok with Turbo Hills. We handle permit documentation, Tsomgo Lake + Baba Mandir routing, private cab transfer, ID guidance, and weather-aware scheduling for this high-altitude Indo-China border excursion.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -26,8 +26,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Nathula Pass — What to Expect',
-            "activity_body_content" => 'Nathula Pass lies on the historic Indo-China border and is visited for its striking mountain vistas, historic roads and frontier character. Access to Nathula is heavily regulated and requires permits, often arranged through tour operators; visiting windows and timings can change based on security and diplomatic considerations. We plan Nathula as a guided day trip from Gangtok with permit handling, ID checks and clear timing instructions to ensure a smooth visit.',
-            "assistant_snippet" => 'Nathula Pass day trips with permit handling — guided visits from Gangtok with strict permit procedures.',
+            "activity_body_content" => 'Nathula Pass is one of the most requested day trips from Gangtok, known for its strategic Indo-China border location, high-altitude views and iconic mountain roads. Because entry is controlled, travelers often search for Nathula permit process, documents required for Nathula, and Tsomgo-Nathula one-day itinerary. Our trip planning addresses these directly: permit paperwork support, ID validation guidance, early departure timing, private vehicle arrangement, and route combination with Tsomgo Lake and Baba Mandir when conditions allow. Since access depends on weather, security windows and administrative approvals, we keep itinerary buffers and real-time updates so your experience remains smooth and realistic. This is the best approach for families, couples and senior travelers who want a clear, compliant and comfortable Nathula day tour.',
+            "assistant_snippet" => 'Nathula Pass visit guide: apply permits in advance, carry valid original ID, start early from Gangtok, and combine Tsomgo + Baba Mandir when route access is open.',
             "location_slider_wrap" => 'Nearby Highlights',
             "highlights_tour" => 'Highlights — Nathula Pass',
             "Additional_Info" => 'Permits & Travel Notes',
@@ -90,15 +90,15 @@
             "items" => [
                 [
                     "highlight" => "Permits",
-                    "description" => "Nathula requires official permits; foreign nationals must allow extra processing time."
+                    "description" => "Nathula Pass entry is strictly permit-controlled under defense and local authority guidelines, and permit slots are limited on popular dates. As frequently searched by travellers, early booking with valid ID details is the safest way to avoid last-minute availability issues."
                 ],
                 [
                     "highlight" => "Altitude",
-                    "description" => "High altitude; brief acclimatisation recommended."
+                    "description" => "Nathula is a high-altitude border pass where weather and oxygen can change quickly. A short acclimatisation stay in Gangtok, proper hydration and layered warm clothing are recommended, especially for families, seniors and first-time Himalayan travellers."
                 ],
                 [
                     "highlight" => "Timing",
-                    "description" => "Permit windows and local closures can affect trip timing."
+                    "description" => "Nathula visit timing depends on permit windows, weather advisories and occasional security closures. Keep itinerary flexibility and start early from Gangtok to manage checkpoint queues, maximize viewing time and reduce return delays."
                 ]
             ]
         ],
@@ -140,11 +140,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Nathula • Sikkim"],
             "intro" => "Typical stops around Nathula include high-pass viewpoints, border route drives, and mountain photo halts.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with pass and mountain panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Local route history, monastery influences, and cultural touchpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Nathula", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Pass Routes", "url" => "#culture-heritage"], ["label" => "Mountain Drives", "url" => "#short-scenic-drives"], ["label" => "Nathula", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drive-and-stop circuits for high-road viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These pass viewpoints are ideal for travellers searching best Nathula photo points, border mountain views and short-stop panoramas on a same-day Gangtok circuit.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Route history, monastery influences and regional narratives answer common AEO queries on Nathula significance, border heritage and local culture beyond the pass viewpoint itself.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Nathula", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Pass Routes", "url" => "#culture-heritage"], ["label" => "Mountain Drives", "url" => "#short-scenic-drives"], ["label" => "Nathula", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Private drive-and-stop planning keeps this high-road trip family-friendly with weather-aware pacing, matching popular queries about Nathula road comfort and day-trip feasibility.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Nathula", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

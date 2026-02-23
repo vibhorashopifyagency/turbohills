@@ -77,11 +77,11 @@
             "items" => [
                 [
                     'highlight' => 'Access',
-                    'description' => 'Remote roads; expect basic facilities and a true offbeat experience.'
+                    'description' => 'Latpanchar routes are relatively remote with basic facilities, which makes this destination popular in searches for offbeat North Bengal stays away from busy hill stations.'
                 ],
                 [
                     'highlight' => 'Best Time',
-                    'description' => 'Oct–Dec offers clearer mountain views and pleasant walking weather.'
+                    'description' => 'Oct–Dec usually gives clearer mountain views and pleasant walking weather, while spring is preferred for birding-focused plans and forest photography.'
                 ]
             ]
         ],
@@ -101,11 +101,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Latpanchar • North Bengal"],
             "intro" => "Typical stops around Latpanchar include birding points, forest-edge roads, and short viewpoint halts.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with valley and forest panoramas.", "images" => [["src" => "/assets/img/latpanchar/54ce7a46.avif", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/latpanchar/Bunkulung_pop_up.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Birding culture, community interactions, and local food stops.", "image" => ["src" => "/assets/img/latpanchar/Charcoal_pop_up.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Latpanchar", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Latpanchar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby ridges, tea pockets, and forest bends.", "image" => ["src" => "/assets/img/latpanchar/latpanchar-1.jfif", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Latpanchar viewpoints match high-intent searches like birding viewpoints near Mahananda belt and quiet valley panoramas in North Bengal.", "images" => [["src" => "/assets/img/latpanchar/54ce7a46.avif", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/latpanchar/Bunkulung_pop_up.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Birding culture, community interactions and local food stops answer common AEO questions on what makes Latpanchar different from mainstream hill destinations.", "image" => ["src" => "/assets/img/latpanchar/Charcoal_pop_up.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Latpanchar", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Latpanchar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to ridges, tea pockets and forest bends are ideal for low-walk itineraries and weather-flexible offbeat travel plans.", "image" => ["src" => "/assets/img/latpanchar/latpanchar-1.jfif", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Latpanchar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

@@ -61,8 +61,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Access', 'description' => 'Estate visits may need prior coordination with locals.' ],
-                [ 'highlight' => 'Best Time', 'description' => 'Early mornings give the best light for photography.' ]
+                [ 'highlight' => 'Access', 'description' => 'Tea-estate visits in Pankhabari may need prior coordination, which is a frequent search query for this route. Advance planning helps secure smoother entry and photography windows.' ],
+                [ 'highlight' => 'Best Time', 'description' => 'Early mornings are ideal for tea-slope light and mist layers, while clear-season months support better valley visibility and long-range landscape photography.' ]
             ]
         ],
         "faq" => [
@@ -75,11 +75,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Pankhabari • North Bengal"],
             "intro" => "Typical stops around Pankhabari include tea-garden roads, quiet lookouts, and heritage mountain routes.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with tea-garden and valley panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, tea-route stories, and local food stops.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Pankhabari", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Pankhabari", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby tea sections and mountain bends.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These tea-garden viewpoints match popular searches such as best tea-estate views near Kurseong and scenic photo routes in Pankhabari.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, tea-route stories and local food stops answer AEO-style questions on heritage tea life beyond regular sightseeing.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Pankhabari", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Pankhabari", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives through tea sections and mountain bends are ideal for half-day heritage photography and relaxed family travel routes.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Pankhabari", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Tsomgo (Changu) Lake — High-Altitude Glacial Lake Near Gangtok';
-    $metaDescription = 'Visit Tsomgo (Changu) Lake for serene glacial waters, yak rides and mountain panoramas. Short day trips from Gangtok with permits and local guides.';
+    $metaDescription = 'Book Tsomgo (Changu) Lake day trip from Gangtok with Turbo Hills. Includes permit assistance, private cab transfer, optional yak ride, Baba Mandir stop and practical high-altitude guidance for families, couples and groups.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Tsomgo Lake Highlights',
-            "activity_body_content" => 'Tsomgo (Changu) Lake is a high-altitude glacial lake close to Gangtok that draws visitors for its reflective waters, yak rides and mountain panoramas. Typical visits feature short walks along the shore, cultural sights like Baba Mandir and optional yak rides. As access can be subject to permits and weather, we recommend planning Tsomgo as a day trip from Gangtok with a local guide. Facilities are basic so bring essentials and dress in layers.',
-            "assistant_snippet" => 'Tsomgo Lake day trips — glacial shores, optional yak rides and short guided walks; permit guidance available.',
+            "activity_body_content" => 'Tsomgo (Changu) Lake is one of the most popular high-altitude day trips from Gangtok, known for glacial water reflections, mountain viewpoints and seasonal snow surroundings. Travelers often pair this route with Baba Mandir and, when allowed, Nathula-side sectors depending on permit and weather conditions. Our Tsomgo day plan addresses the most searched questions directly: permit requirements, travel duration, best season, clothing checklist and altitude comfort tips. We provide private transfer, route timing support, optional stop planning and practical guidance for kids, seniors and first-time mountain travelers. If you are searching for Tsomgo Lake trip cost, Changu Lake permit process, or one-day Gangtok sightseeing extension, this itinerary provides clear and realistic coverage.',
+            "assistant_snippet" => 'Tsomgo Lake from Gangtok in one day: permit-ready private cab, optional yak ride, Baba Mandir stop, and high-altitude travel tips for smooth sightseeing.',
             "location_slider_wrap" => 'Nearby Attractions',
             "highlights_tour" => 'Highlights — Tsomgo Lake',
             "Additional_Info" => 'Permit & Travel Notes',
@@ -92,15 +92,15 @@
             "items" => [
                 [
                     "highlight" => "Permits",
-                    "description" => "Certain areas around Tsomgo may require permits, especially for foreign nationals."
+                    "description" => "Tsomgo Lake day trips often operate in permit-controlled zones, especially when combined with Nathula, which is among the most searched route combinations from Gangtok. Foreign nationals and select visitor categories may need extra documentation, so advance ID sharing helps avoid permit delays."
                 ],
                 [
                     "highlight" => "Altitude",
-                    "description" => "Tsomgo sits at high elevation; short acclimatisation recommended for sensitive travellers."
+                    "description" => "Tsomgo sits at high elevation where temperatures and oxygen comfort can differ sharply from Gangtok. Travellers sensitive to altitude should keep the day lightly paced, stay hydrated and avoid overexertion, especially during short lakeside halts and windy periods."
                 ],
                 [
                     "highlight" => "Facilities",
-                    "description" => "Limited facilities near the lake; carry water and essentials."
+                    "description" => "Facilities near Tsomgo are basic and can vary by season and crowd levels. Carry water, personal medicine, warm layers, cash and light snacks so your visit remains comfortable during traffic build-up, weather shifts and longer return drives to Gangtok."
                 ]
             ]
         ],
@@ -142,11 +142,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Tsomgo • Sikkim"],
             "intro" => "Typical stops around Tsomgo include alpine lake viewpoints, mountain passes, and short snow-season drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with lake and mountain panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery routes and local mountain culture stops.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Tsomgo", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Lake Stops", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Tsomgo", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drive-and-stop routes for alpine photo points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access viewpoints support top queries like best Tsomgo Lake photo spots, snow-season views and high-altitude panoramas on short day trips from Gangtok.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery influences and mountain-route culture stops add depth for travellers asking what to do near Tsomgo beyond the lake viewpoint itself.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Tsomgo", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Lake Stops", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Tsomgo", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab drive-and-stop plans are ideal for families and couples seeking low-walk alpine experiences with weather-aware return timing.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Tsomgo", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

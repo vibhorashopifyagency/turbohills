@@ -57,8 +57,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Pace', 'description' => 'Ideal for slow mornings and short strolls.' ],
-                [ 'highlight' => 'Ideal Stay', 'description' => '1–2 nights works well for a relaxed tea-and-forest experience.' ]
+                [ 'highlight' => 'Pace', 'description' => 'Kurseong is ideal for slow mornings and short strolls, making it a frequently searched option for peaceful hill stays near Darjeeling without heavy crowds.' ],
+                [ 'highlight' => 'Ideal Stay', 'description' => 'A 1–2 night Kurseong stay works well for tea-estate visits, forest walks, heritage corners and relaxed mountain downtime with minimal travel fatigue.' ]
             ]
         ],
         "faq" => [
@@ -76,14 +76,14 @@
             ],
 
             "intro" => "Typical stops around Kurseong include tea slopes, forest roads, and calm town viewpoints.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
 
             "sections" => [
 
                 [
                     "id" => "scenic-viewpoints",
                     "title" => "1. Scenic Viewpoints",
-                    "description" => "Easy-access viewpoints with tea-garden and valley panoramas.",
+                    "description" => "These easy-access Kurseong viewpoints are suitable for travellers searching valley panoramas, tea-garden landscapes and short photo stops without strenuous hiking.",
                     "images" => [
                         [
                             "src" => "/assets/img/kurseong/kursion-tempal.avif",
@@ -100,7 +100,7 @@
                 [
                     "id" => "culture-heritage",
                     "title" => "2. Local Culture & Heritage",
-                    "description" => "Town walks, monastery corners, and local tea-culture stories.",
+                    "description" => "Town walks, monastery corners and local tea-culture stories answer common AEO queries on what to do in Kurseong apart from scenic viewpoints.",
                     "image" => [
                         "src" => "/assets/img/innerpages/inspiration-details4.jpg",
                         "alt" => "Heritage"
@@ -121,7 +121,7 @@
                 [
                     "id" => "short-scenic-drives",
                     "title" => "3. Short Scenic Drives",
-                    "description" => "Comfortable drives to nearby viewpoints and hill villages.",
+                    "description" => "Comfortable private drives connect nearby viewpoints and hill villages, ideal for family-friendly Kurseong itineraries with flexible pacing.",
                     "image" => [
                         "src" => "/assets/img/innerpages/inspiration-details5.jpg",
                         "alt" => "Scenic drive"

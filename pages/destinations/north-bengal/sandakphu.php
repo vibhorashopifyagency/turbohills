@@ -78,11 +78,11 @@
             "items" => [
                 [
                     'highlight' => 'Fitness',
-                    'description' => 'Moderate to strenuous trekking; acclimatise and travel with an experienced guide.'
+                    'description' => 'Sandakphu trekking is moderate to strenuous and is frequently searched by beginners asking about difficulty. Acclimatisation, pacing and an experienced guide are strongly recommended for safety and completion comfort.'
                 ],
                 [
                     'highlight' => 'Best Season',
-                    'description' => 'Apr–May for blooms and Oct–Nov for clear mountain panoramas.'
+                    'description' => 'Apr–May is preferred for rhododendron blooms, while Oct–Nov offers clearer mountain panoramas and better visibility of the Sleeping Buddha range.'
                 ]
             ]
         ],
@@ -108,13 +108,13 @@
 
             "intro" => "Typical stops around Sandakphu include ridge viewpoints, trekking routes, and high-mountain photo halts.",
 
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
 
             "sections" => [
                 [
                     "id" => "scenic-viewpoints",
                     "title" => "1. Scenic Viewpoints",
-                    "description" => "Easy-access ridge viewpoints with Himalayan panoramas.",
+                    "description" => "These ridge viewpoints align with top search intent like best Sandakphu sunrise points, Sleeping Buddha views and high-altitude Himalayan photography locations.",
                     "images" => [
                         [
                             "src" => "/assets/img/sandakphu/sandakphu-1.jpg",
@@ -132,7 +132,7 @@
                 [
                     "id" => "culture-heritage",
                     "title" => "2. Local Culture & Trek Life",
-                    "description" => "Trail culture, local shelters, and mountain route stories.",
+                    "description" => "Trail culture, local shelters and mountain-route stories answer AEO queries on Sandakphu trek life, stopover patterns and local route heritage.",
                     "image" => [
                         "src" => "/assets/img/sandakphu/sandakphu-3.jpg",
                         "alt" => "Trek culture"
@@ -154,7 +154,7 @@
                 [
                     "id" => "short-scenic-drives",
                     "title" => "3. Short Scenic Drives",
-                    "description" => "Drive-and-walk combinations for nearby ridge and valley points.",
+                    "description" => "Drive-and-walk combinations help manage altitude and fatigue while still covering key ridge and valley viewpoints on flexible Sandakphu plans.",
                     "image" => [
                         "src" => "/assets/img/sandakphu/sandakphu-travel.png",
                         "alt" => "Scenic drive"

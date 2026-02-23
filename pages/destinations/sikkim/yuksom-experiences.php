@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Yuksom Experiences — West Sikkim Trek & Culture';
-    $metaDescription = 'Explore Yuksom — gateway to Dzongri and trekking routes, cultural heritage and scenic trails. Private transfers from Bagdogra and local guides.';
+    $metaDescription = 'Book Yuksom tour and trekking gateway package from Bagdogra/NJP with Turbo Hills. Ideal for Dzongri and Goechala trail starters, monastery heritage walks, village stays, local guides, permit advice and custom West Sikkim itineraries.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Yuksom Highlights — Trek Starts & Heritage',
-            "activity_body_content" => 'Yuksom is an iconic gateway to trekking regions such as Dzongri and Goecha La, with a compact historic town rooted in Sikkimese culture. As a launch point for treks, Yuksom offers homestays, local monasteries and short nature walks, making it ideal for both trekkers and travellers seeking cultural immersion. We arrange transfers, guide support and optional guided day-walks; permit advice is provided when trekking routes require authorization.',
-            "assistant_snippet" => 'Yuksom: gateway to Dzongri treks and cultural homestays; transfers and trekking guidance available.',
+            "activity_body_content" => 'Yuksom is the classic trekking gateway in West Sikkim and a high-intent search destination for travelers planning Dzongri and Goechala route access. Beyond trekking logistics, Yuksom offers rich monastery heritage, local village culture and peaceful mountain stays that suit both active trekkers and slow-travel visitors. Our Yuksom package focuses on what travelers need most: transfer planning from Bagdogra/NJP, trek-readiness guidance, route permit support, local guide coordination and realistic acclimatization flow. If you are searching for Yuksom trek base details, best time for Dzongri route, or non-trek experiences in West Sikkim, this itinerary gives clear options for both categories. We combine practical logistics with cultural depth so travelers can start adventure routes confidently or enjoy heritage-based stays without rushing.',
+            "assistant_snippet" => 'Yuksom travel plan: ideal base for Dzongri/Goechala starts with transfer support, permit guidance, local stays and optional culture-focused non-trek experiences.',
             "location_slider_wrap" => 'Top Stops Around Yuksom',
             "highlights_tour" => 'Highlights — Yuksom & Trekking Routes',
             "Additional_Info" => 'Practical Travel Information',
@@ -95,15 +95,15 @@
             "items" => [
                 [
                     "highlight" => "Trek Difficulty",
-                    "description" => "Choose treks according to fitness; higher trails require acclimatisation and experience."
+                    "description" => "Yuksom is the gateway to beginner and advanced Himalayan trails, so route choice should match fitness and trek experience. This addresses frequent searches like which Yuksom trek is best for beginners and how difficult Dzongri or Goecha La routes are."
                 ],
                 [
                     "highlight" => "Permits",
-                    "description" => "Some trekking regions require permits; we can assist with arrangements."
+                    "description" => "Many routes from Yuksom require forest or protected-area permits and timely document checks. We assist with compliance and local logistics so departures are not delayed at checkpoints and your itinerary stays smooth and regulation-ready."
                 ],
                 [
                     "highlight" => "Packing",
-                    "description" => "Bring trekking boots, warm layers and rain protection for higher trails."
+                    "description" => "Pack trekking boots, layered thermals, rain protection, quick-dry clothing, sun gear and a daypack with water plus essentials. West Sikkim weather shifts quickly, so proper layering is critical for safe movement and comfort on trail and village routes."
                 ]
             ]
         ],
@@ -145,11 +145,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Yuksom • Sikkim"],
             "intro" => "Typical stops around Yuksom include heritage monasteries, forest trails, and calm village experiences.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with valley and mountain panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Historic monasteries, local stories, and village interactions.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Yuksom", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Yuksom", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby viewpoints and forest routes.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These viewpoints work well for travellers searching easy photo points near Yuksom and mountain panoramas without committing to long high-altitude treks.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Historic monasteries, village stories and local interactions answer popular AEO queries on Yuksom heritage, spiritual history and community-led mountain experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Yuksom", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Yuksom", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable short drives connect forests, village edges and viewpoints, suitable for non-trekkers who still want meaningful West Sikkim landscape coverage.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Yuksom", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

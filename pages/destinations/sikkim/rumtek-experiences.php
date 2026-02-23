@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Rumtek Monastery — Cultural & Buddhist Heritage Near Gangtok';
-    $metaDescription = 'Visit Rumtek Monastery for vibrant Tibetan Buddhist ceremonies, colourful murals and cultural immersion. Guided visits from Gangtok.';
+    $metaDescription = 'Plan Rumtek Monastery tour from Gangtok with Turbo Hills. Explore Tibetan Buddhist heritage, monastery rituals, prayer halls, murals and peaceful cultural walks with local guide support and private transfer options.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -26,8 +26,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Rumtek — What To Expect',
-            "activity_body_content" => 'Rumtek Monastery is one of Sikkim’s most significant Buddhist monasteries offering cultural ceremonies and quiet reflection.',
-            "assistant_snippet" => 'Visit Rumtek for vibrant Buddhist festivals, artwork and a peaceful monastery visit near Gangtok.',
+            "activity_body_content" => 'Rumtek Monastery is one of the most important Buddhist heritage sites in Sikkim and a highly searched cultural excursion from Gangtok. Visitors come for its spiritual atmosphere, Tibetan architecture, monastic learning tradition, ceremonial spaces and fine mural art. Our Rumtek experience is designed as a meaningful culture-first half-day or full-day trip with private transfer, local interpretation, and practical guidance on monastery etiquette, photography rules and festival timing. If you are searching for Rumtek Monastery timings, how to reach Rumtek from Gangtok, or what to see inside Rumtek complex, this itinerary provides clear, answer-led planning. It works especially well when combined with Gangtok local sightseeing for travelers who prefer slower, reflective and heritage-rich experiences over long road circuits.',
+            "assistant_snippet" => 'Rumtek Monastery visit from Gangtok: private cab transfer, culture-focused guided walk, etiquette briefing and best-time planning for ceremonies and photography.',
             "location_slider_wrap" => 'Nearby Cultural Highlights',
             "highlights_tour" => 'Highlights — Rumtek',
             "Additional_Info" => 'Visiting & Conduct Notes',
@@ -92,15 +92,15 @@
             "items" => [
                 [
                     "highlight" => "Dress Code",
-                    "description" => "Respectful clothing recommended inside monastery grounds."
+                    "description" => "Rumtek is an active monastic and spiritual site, so modest dress is expected throughout the complex. This also addresses a common visitor query about Rumtek entry rules: keep shoulders and knees covered and follow onsite guidance respectfully."
                 ],
                 [
                     "highlight" => "Photography",
-                    "description" => "Photography may be restricted during ceremonies; follow monk guidance."
+                    "description" => "Photography is allowed in many open areas, but prayer halls, ritual sessions and restricted spaces may prohibit recording. Ask guides or monastery staff first, especially during ceremonies, to avoid disrupting spiritual practices and local etiquette."
                 ],
                 [
                     "highlight" => "Festivals",
-                    "description" => "Festival dates vary; check local calendars for special events."
+                    "description" => "Rumtek festival dates follow the Tibetan Buddhist calendar and vary year to year. Visiting during major events offers richer cultural immersion, but transport and stays should be booked early because festival periods attract higher pilgrim and tourist movement."
                 ]
             ]
         ],
@@ -142,11 +142,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Rumtek • Sikkim"],
             "intro" => "Typical stops around Rumtek include monastery visits, hillside viewpoints, and short cultural drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with valley and monastery panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery traditions, village life, and spiritual heritage routes.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Rumtek", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Local Culture", "url" => "#culture-heritage"], ["label" => "Rumtek", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby monasteries and hill viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy Rumtek viewpoint stops fit common searches such as best monastery viewpoints near Gangtok and short cultural photo circuits in East Sikkim.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery traditions, village life and spiritual heritage routes answer AEO-style questions about Rumtek history, rituals, and respectful visitor behavior.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Rumtek", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Local Culture", "url" => "#culture-heritage"], ["label" => "Rumtek", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private drives connect Rumtek with nearby monasteries and hill viewpoints, suitable for families wanting low-walk cultural sightseeing around Gangtok.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Rumtek", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

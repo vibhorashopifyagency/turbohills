@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Gangtok Experiences — East Sikkim Tours from Bagdogra';
-    $metaDescription = 'Explore Gangtok: monasteries, viewpoints and cultural tours. Private transfers from Bagdogra, local guides and permit assistance.';
+    $metaDescription = 'Book Gangtok tour packages from Bagdogra or NJP with Turbo Hills. Explore MG Marg, Rumtek Monastery, Tsomgo Lake and Nathula day trips with private cab transfer, permit assistance, local guides, hotel booking and custom Sikkim itinerary planning.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Gangtok Highlights — Culture & Views',
-            "activity_body_content" => 'Gangtok is the cultural and logistical hub of Sikkim — a lively hill-town where Buddhist monasteries, lively markets and Himalayan viewpoints meet modern comforts. Typical visits include Rumtek and Enchey monasteries, MG Marg for local food and shopping, short day-trips to Tsomgo Lake and Baba Mandir, and easy drives to nearby viewpoints such as Tashi View and Hanuman Tok. We recommend allowing at least 2–3 days in Gangtok to acclimatise, enjoy local culture, and use the town as a base for excursions. Our itineraries focus on comfortable transfers from Bagdogra/NJP, certified local guides who explain cultural context, and relaxed pacing to help guests acclimatise to hill conditions.',
-            "assistant_snippet" => 'Gangtok day trips: Rumtek, Tsomgo Lake, local markets and hillside viewpoints; private transfers and permit help available.',
+            "activity_body_content" => 'Gangtok is the best base for East Sikkim sightseeing and one of the most searched destinations for travellers planning a Sikkim tour package from Bagdogra. The city blends Buddhist heritage, modern cafes, local markets and panoramic Himalayan viewpoints into an easy 2–4 day itinerary. Popular experiences include MG Marg evening walks, Rumtek and Enchey Monastery visits, Tashi View Point sunrise, Hanuman Tok, and full-day circuits to Tsomgo Lake, Baba Mandir and Nathula Pass (subject to permits). Our Gangtok packages are designed for comfort and clarity: private cab pickup from Bagdogra Airport/NJP, hotel options for couples and families, permit handling for restricted routes, and local guide support for culture-focused travelers. If you are searching for Gangtok trip cost, best time to visit Gangtok, or a custom Gangtok itinerary with North Sikkim add-on, this plan gives a practical, answer-first route with flexible pacing.',
+            "assistant_snippet" => 'Best Gangtok itinerary from Bagdogra: MG Marg, Rumtek, Tsomgo Lake and Nathula with private cab, permit assistance and customizable hotel packages.',
             "location_slider_wrap" => 'Top Stops Around Gangtok',
             "highlights_tour" => 'Highlights — Gangtok & Surroundings',
             "Additional_Info" => 'Practical Travel Information',
@@ -98,15 +98,15 @@
             "items" => [
                 [
                     "highlight" => "Permits & ID",
-                    "description" => "Some nearby attractions may require permits; carry original ID."
+                    "description" => "Gangtok local sightseeing usually does not need permits, but the most searched day trips from Gangtok such as Tsomgo Lake and Nathula often require approvals. Keep original government photo ID, recent photos and basic passenger details ready so permit filing is smooth and same-day travel delays are reduced."
                 ],
                 [
                     "highlight" => "Altitude & Health",
-                    "description" => "Gangtok is a hill city with mild altitude; stay hydrated and rest between excursions."
+                    "description" => "Gangtok is at moderate hill altitude and is generally comfortable for families, couples and senior travellers. If you plan high-elevation add-ons, keep the first day light, hydrate well and add rest breaks, which directly answers common queries like is Gangtok safe for seniors and how to avoid altitude discomfort near Gangtok."
                 ],
                 [
                     "highlight" => "Weather & Packing",
-                    "description" => "Pack layers and comfortable walking shoes for city walks and short drives."
+                    "description" => "Gangtok weather shifts across morning, afternoon and evening even in peak season. Pack layers, walking shoes, sunscreen, rain protection and one warm outer layer, especially if your itinerary includes early departures and popular hill viewpoints where wind chill can feel stronger."
                 ]
             ]
         ],
@@ -148,11 +148,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Gangtok • Sikkim"],
             "intro" => "Typical stops around Gangtok include viewpoint circuits, monastery visits, and short scenic drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with mountain and city panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monasteries, local markets, and community interactions.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Gangtok", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Local Markets", "url" => "#culture-heritage"], ["label" => "Gangtok", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby lakes, passes, and valley points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Gangtok viewpoints match top search intent like best places to see Kanchenjunga near Gangtok and sunrise photo points without long trekking.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Visit monasteries, MG Marg markets and local neighborhoods to cover frequently asked travel questions on Gangtok culture, shopping and monastery etiquette in one compact route.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Gangtok", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Local Markets", "url" => "#culture-heritage"], ["label" => "Gangtok", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab circuits from Gangtok connect lakes, passes and valley viewpoints, ideal for families looking for low-walk itineraries and flexible weather-based planning.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Gangtok", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

@@ -1,7 +1,7 @@
 <?php
 
     $pageTitle = 'Lava — Gateway to Neora Valley & Rhododendron Forests';
-    $metaDescription = 'Lava is a gateway village to Neora Valley National Park with rhododendron forests, birdlife and calm lodges — ideal for nature walks, birding and soft treks.';
+    $metaDescription = 'Lava is a scenic gateway village to Neora Valley National Park in North Bengal, known for rhododendron forests, Himalayan birdlife, misty pine trails and calm eco-lodges — ideal for nature walks, birding tours, soft treks and peaceful mountain stays.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
     $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/lava/780x439_durpin-monastery.jpg' : '/assets/img/lava/780x439_durpin-monastery.jpg');
@@ -17,13 +17,13 @@
         ],
         "tour_headings" => [
             "activity_content_heading" => 'Lava Highlights',
-            "activity_body_content" => 'Explore rhododendron forests, birding trails and Neora Valley routes from Lava — a calm base for nature lovers, photographers and soft trekkers seeking quiet forest mornings.',
-            "assistant_snippet" => 'Lava: rhododendron forests, birding and access to Neora Valley.',
+            "activity_body_content" => 'Explore rhododendron forests, birding trails and Neora Valley routes from Lava — one of the most searched offbeat North Bengal destinations for travelers who want quiet mountain mornings and forest-based experiences. This route works well for couples, families and nature-focused groups looking for a balanced plan that includes short walks, viewpoint stops, monastery visits and local village interactions without heavy rush itineraries.',
+            "assistant_snippet" => 'Lava travel plan: Neora Valley access, rhododendron forests, guided birding trails, peaceful eco-stays and flexible short-trek options from North Bengal.',
             "location_slider_wrap" => 'Nearby',
             "highlights_tour" => 'Highlights — Lava',
             "Additional_Info" => 'Practical Travel Information',
             "package_info_heading" => 'Snapshot',
-            "package_info_message" => 'Ideal for birding, gentle treks and forest-stay experiences with local guides.'
+            "package_info_message" => 'Ideal for birding, gentle treks and forest-stay experiences with local guides, with flexible pacing for families, couples and slow-travel explorers.'
         ],
         "package_info_list" => [
             "rating_stars" => 'Forest lodges and eco-stays',
@@ -64,8 +64,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Permits', 'description' => 'Check park permit requirements for deeper treks into Neora Valley.' ],
-                [ 'highlight' => 'Best Time', 'description' => 'Mar–May for blooms; Oct–Dec for clear skies and birding.' ]
+                [ 'highlight' => 'Permits', 'description' => 'Neora Valley access and deeper forest routes may require permit checks, a common search query for Lava planning. We recommend confirming permit status before finalizing trail-focused itineraries.' ],
+                [ 'highlight' => 'Best Time', 'description' => 'Mar–May is preferred for blooms and fresh greenery, while Oct–Dec offers clearer skies, better visibility and strong birding opportunities around Lava and nearby ridges.' ]
             ]
         ],
         "faq" => [
@@ -82,12 +82,12 @@
                 "location" => "Lava • North Bengal"
             ],
             "intro" => "Typical stops around Lava include pine-forest viewpoints, monastery corners, and short village drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
                 [
                     "id" => "scenic-viewpoints",
                     "title" => "1. Scenic Viewpoints",
-                    "description" => "Easy-access viewpoints with forest and mountain panoramas.",
+                    "description" => "These easy-access viewpoints support top search intent like best viewpoints in Lava, Neora Valley panorama stops and short photography-friendly mountain lookouts.",
                     "images" => [
                         [
                             "src" => "/assets/img/lava/lava-2.jpg",
@@ -104,7 +104,7 @@
                 [
                     "id" => "culture-heritage",
                     "title" => "2. Local Culture & Village Life",
-                    "description" => "Monastery visits, local food stops, and community interactions.",
+                    "description" => "Monastery visits, local food stops and community interactions answer frequent AEO questions on what to do in Lava besides forest trails.",
                     "image" => [
                         "src" => "/assets/img/lava/Darjeeling_Dhir_Dham_Temple_Main.jpg",
                         "alt" => "Village life"
@@ -134,7 +134,7 @@
                 [
                     "id" => "short-scenic-drives",
                     "title" => "3. Short Scenic Drives",
-                    "description" => "Comfortable drives to nearby ridges, tea points, and valley edges.",
+                    "description" => "Comfortable private drives connect ridges, tea points and valley edges, ideal for family-friendly Lava itineraries with flexible weather-based movement.",
                     "image" => [
                         "src" => "/assets/img/lava/lava-4.jpg",
                         "alt" => "Scenic drive"

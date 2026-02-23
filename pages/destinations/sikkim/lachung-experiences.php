@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Lachung Experiences — North Sikkim Tours from Bagdogra';
-    $metaDescription = 'Explore Lachung & Yumthang Valley with guided North Sikkim tours from Bagdogra. Private transfers, permits handled and local guides.';
+    $metaDescription = 'Book Lachung and Yumthang Valley tour from Bagdogra/NJP with Turbo Hills. Get private cab transfers, North Sikkim permits, homestay or hotel options, Zero Point extension, local guide support and customized family or couple itineraries.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Lachung Experiences — Valley of Flowers & Mountain Culture',
-            "activity_body_content" => 'Visit Lachung and Yumthang Valley on a carefully curated 2–4 day northern Sikkim escape from Bagdogra. Enjoy seasonal blooms, pristine alpine views and authentic village stays — ideal for nature lovers and photographers.',
-            "assistant_snippet" => 'Visit Lachung & Yumthang Valley from Bagdogra — private transfers, permits handled and guided mountain stays.',
+            "activity_body_content" => 'Lachung and Yumthang Valley are among the most searched North Sikkim experiences for travelers looking for snow views, rhododendron blooms, river valleys and authentic mountain stays. This route is best planned as a 2–4 day circuit from Gangtok/Bagdogra with permit formalities, early departures and weather-aware pacing. Our package covers exactly what most guests ask for: Bagdogra/NJP pickup, private SUV transfer, permit handling, comfortable lodging in Lachung, and optional extension to Yume Samdong (Zero Point) based on road and climate conditions. Whether you are planning a family trip, honeymoon, or photography tour, we build a practical itinerary that balances scenic coverage and comfort. If your query is “best time for Yumthang Valley,” “Lachung package cost,” or “Zero Point trip from Gangtok,” this plan is optimized for answer-first travel decisions.',
+            "assistant_snippet" => 'Lachung Yumthang package from Bagdogra: private cab, permit support, mountain stays, and optional Zero Point visit with flexible weather-based routing.',
             "location_slider_wrap" => 'Top Stops Around Lachung',
             "highlights_tour" => 'Highlights — Lachung & Yumthang',
             "Additional_Info" => 'Practical Travel Information',
@@ -100,15 +100,15 @@
             "items" => [
                 [
                     "highlight" => "Permits & ID",
-                    "description" => "Inner-line permits for certain North Sikkim areas are arranged by us; carry original photo ID (Aadhaar/Passport)."
+                    "description" => "Lachung and Yumthang Valley routes in North Sikkim require inner-line permits, one of the most searched concerns for travellers planning a Lachung package from Gangtok, NJP or Bagdogra. We handle complete permit formalities, document checks and local coordination, but guests must submit ID details early and carry original Aadhaar or passport during travel for checkpoint verification."
                 ],
                 [
                     "highlight" => "Altitude & Health",
-                    "description" => "Lachung and surrounding valleys are high-altitude; allow time for acclimatisation and inform us of health concerns in advance."
+                    "description" => "Lachung is a high-altitude destination and onward trips to Yumthang Valley and Zero Point gain more elevation, which is why queries like ‘is Lachung safe for family trip’ and ‘how to avoid altitude sickness in North Sikkim’ are very common. We recommend gradual ascent, hydration, light meals, and controlled pacing with rest halts; please share respiratory or cardiac history in advance so your itinerary can be customised for safer acclimatisation."
                 ],
                 [
                     "highlight" => "Weather & Packing",
-                    "description" => "Pack warm layers, sturdy footwear, sunscreen and sunglasses. Weather can change quickly in mountain regions."
+                    "description" => "Weather in Lachung and Yumthang changes quickly across seasons, and most searched travel questions usually include ‘best time to visit Lachung,’ ‘will there be snow in Zero Point,’ and ‘what to pack for Yumthang Valley trip.’ Carry thermal layers, windproof jacket, gloves, woollen cap, waterproof trekking shoes, sunscreen and UV sunglasses so you stay comfortable during early departures, valley sightseeing and cold evening mountain stays."
                 ]
             ]
         ],
@@ -142,11 +142,11 @@
         "inspiration_details" => [
             "quote" => ["text" => "The best views come after the simplest walks.", "name" => "TurboHills Team", "location" => "Lachung • Sikkim"],
             "intro" => "Typical stops around Lachung include high-valley viewpoints, monastery visits, and alpine route drives.",
-            "heading" => "Sample photo stops & short experiences",
+            "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with alpine valley panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery visits and local village interactions.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachung", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Lachung", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby valleys and viewpoint bends.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Lachung viewpoints are ideal for travellers searching best photo points in North Sikkim, sunrise mountain views and Yumthang Valley panorama stops without difficult trekking.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Explore monastery visits and local village interactions that answer popular queries like what to do in Lachung besides sightseeing, local culture in North Sikkim and authentic Sikkim homestay experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachung", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Lachung", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab drives connect Lachung with Yumthang and nearby bends, matching high-intent searches for family-friendly North Sikkim routes, low-walk itineraries and weather-safe sightseeing plans.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Lachung", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

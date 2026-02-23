@@ -39,7 +39,7 @@
         "@type" => "TouristDestination",
         "@id" => $destination_id,
         "name" => "Sikkim",
-        "description" => "Sikkim travel experiences, Himalayan landscapes, monasteries, alpine lakes and cultural routes.",
+        "description" => "Sikkim tour experiences from Bagdogra and NJP including Gangtok, Pelling, Lachung, Lachen, Tsomgo, Nathula, Zuluk and North Sikkim routes with permits, private cabs, local guides and customizable itineraries.",
         "url" => ($canonical_url ?: $page_url),
         "containedInPlace" => [
             "@type" => "Place",
@@ -70,7 +70,7 @@
         "@type" => "WebPage",
         "@id" => $page_id,
         "name" => "Sikkim Travel Experiences",
-        "description" => "Explore Sikkim: monasteries, mountain lakes, trekking gateways and Himalayan viewpoints.",
+        "description" => "Compare Sikkim destination tours by region, season and altitude: Gangtok city breaks, West Sikkim heritage routes, North Sikkim adventure circuits, and East Sikkim offbeat drives with answer-first planning support.",
         "url" => ($canonical_url ?: $page_url),
         "publisher" => ["@id" => $org_id],
         "about" => ["@id" => $destination_id],
