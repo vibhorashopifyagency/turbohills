@@ -64,8 +64,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Access', 'description' => 'Short hill drives from nearby towns; expect narrow roads.' ],
-                [ 'highlight' => 'Best Time', 'description' => 'Oct–Dec for crisp sunrise views; Mar–May for pleasant days.' ]
+                [ 'highlight' => 'Access', 'description' => 'Rishyap is reached through short hill drives from nearby hubs, with narrow mountain roads that are manageable with experienced local drivers and flexible timing.' ],
+                [ 'highlight' => 'Best Time', 'description' => 'Oct–Dec is preferred for crisp sunrise and long-range mountain visibility, while Mar–May offers pleasant weather for easy village and forest-edge walks.' ]
             ]
         ],
         "faq" => [
@@ -80,9 +80,9 @@
             "intro" => "Typical stops around Rishyap include ridge viewpoints, pine trails, and calm mountain village moments.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with ridge and snow-peak panoramas.", "images" => [["src" => "/assets/img/rishyap/darj_i00050e.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/rishyap/780x439_durpin-monastery.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food, and quiet hill-village experiences.", "image" => ["src" => "/assets/img/rishyap/rishop.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Rishyap", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Rishyap", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby forest viewpoints and village routes.", "image" => ["src" => "/assets/img/rishyap/Rishyap-10378.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Rishyap viewpoints fit high-intent searches like best sunrise spots in Rishop and clear snow-peak photography points.", "images" => [["src" => "/assets/img/rishyap/darj_i00050e.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/rishyap/780x439_durpin-monastery.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food and quiet hill-village life answer common AEO questions on what to do in Rishyap beyond sunrise viewpoints.", "image" => ["src" => "/assets/img/rishyap/rishop.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Rishyap", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Rishyap", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to forest viewpoints and village routes are suitable for low-walk itineraries and relaxed family travel pacing.", "image" => ["src" => "/assets/img/rishyap/Rishyap-10378.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Rishyap", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

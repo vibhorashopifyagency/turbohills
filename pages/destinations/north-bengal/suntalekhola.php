@@ -61,8 +61,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Accessibility', 'description' => 'Good for families; short walks and easy terrain.' ],
-                [ 'highlight' => 'Best Time', 'description' => 'Oct–Dec for pleasant weather and clear river views.' ]
+                [ 'highlight' => 'Accessibility', 'description' => 'Suntalekhola is widely preferred for family-friendly nature breaks with short walks, easy terrain and relaxed riverside pacing suitable for mixed age groups.' ],
+                [ 'highlight' => 'Best Time', 'description' => 'Oct–Dec typically offers pleasant weather and clearer river views, while shoulder seasons are good for greenery, soft light and slower nature itineraries.' ]
             ]
         ],
         "faq" => [
@@ -84,7 +84,7 @@
                 [
                     "id" => "scenic-viewpoints",
                     "title" => "1. Scenic Viewpoints",
-                    "description" => "Easy-access viewpoints with valley, river, and forest panoramas.",
+                    "description" => "These easy-access points cover top search intent like best riverside viewpoints in Suntalekhola and short nature photography stops in the Dooars belt.",
                     "images" => [
                         ["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7],
                         ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]
@@ -93,7 +93,7 @@
                 [
                     "id" => "culture-heritage",
                     "title" => "2. Local Culture & Village Life",
-                    "description" => "Short community interactions, local food stops, and heritage-style hill experiences.",
+                    "description" => "Short community interactions, local food stops and hill experiences answer AEO-style queries on what to do in Suntalekhola beyond picnic spots.",
                     "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"],
                     "tags" => [
                         "title" => "Popular around Suntalekhola",
@@ -108,7 +108,7 @@
                 [
                     "id" => "short-scenic-drives",
                     "title" => "3. Short Scenic Drives",
-                    "description" => "Comfortable drives to nearby tea gardens, riverside points, and forest stretches.",
+                    "description" => "Comfortable drives to tea gardens, riverside points and forest stretches are ideal for low-walk family itineraries with flexible day planning.",
                     "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]
                 ]
             ],

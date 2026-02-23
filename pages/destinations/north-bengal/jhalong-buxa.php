@@ -62,8 +62,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Permits', 'description' => 'Check entry and safari permits for Buxa; we can arrange permits in advance.' ],
-                [ 'highlight' => 'Best Time', 'description' => 'Nov-May offers clearer weather and better wildlife visibility.' ]
+                [ 'highlight' => 'Permits', 'description' => 'Buxa entry and safari plans may require permit checks, one of the most searched queries for this circuit. We coordinate permit guidance and pre-trip documentation to reduce last-minute delays.' ],
+                [ 'highlight' => 'Best Time', 'description' => 'Nov–May is typically preferred for clearer weather, better road comfort and stronger wildlife or birding visibility across Jhalong river stretches and Buxa forest zones.' ]
             ]
         ],
         "faq" => [
@@ -83,7 +83,7 @@
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
                 [
-                    "id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with river valley and forest panoramas.", 
+                    "id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access stops cover top search intent like best Jhalong river viewpoints, Buxa forest photo spots and relaxed nature sightseeing in North Bengal.", 
                     "images" => [
                         ["src" => "/assets/img/jhalong-buxa/buxa-gate.webp", "alt" => "Viewpoint", "col" => 7],
                         ["src" => "/assets/img/jhalong-buxa/buxa-stay.webp", "alt" => "Landscape", "col" => 5]
@@ -92,7 +92,7 @@
                 [
                     "id" => "culture-heritage", 
                     "title" => "2. Local Culture & Village Life", 
-                    "description" => "Community interactions, local food stops, and regional heritage insights.", 
+                    "description" => "Community interactions, local food stops and regional heritage insights answer common AEO queries on village life near Jhalong and Buxa beyond safari routes.", 
                     "image" => [
                         "src" => "/assets/img/jhalong-buxa/raino.webp", "alt" => "Village life"], 
                         "tags" => ["title" => "Popular around Jhalong-Buxa", "items" => [
@@ -106,7 +106,7 @@
                 [
                     "id" => "short-scenic-drives", 
                     "title" => "3. Short Scenic Drives", 
-                    "description" => "Comfortable drives to river crossings and nearby forest ranges.", 
+                    "description" => "Comfortable drive-and-stop plans connect river crossings and forest ranges, ideal for families and couples seeking offbeat yet practical North Bengal itineraries.", 
                     "image" => [
                         "src" => "/assets/img/jhalong-buxa/jhalong.jpg", "alt" => "Scenic drive"
                         ]

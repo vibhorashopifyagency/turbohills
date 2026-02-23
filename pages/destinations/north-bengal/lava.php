@@ -64,8 +64,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Permits', 'description' => 'Check park permit requirements for deeper treks into Neora Valley.' ],
-                [ 'highlight' => 'Best Time', 'description' => 'Mar–May for blooms; Oct–Dec for clear skies and birding.' ]
+                [ 'highlight' => 'Permits', 'description' => 'Neora Valley access and deeper forest routes may require permit checks, a common search query for Lava planning. We recommend confirming permit status before finalizing trail-focused itineraries.' ],
+                [ 'highlight' => 'Best Time', 'description' => 'Mar–May is preferred for blooms and fresh greenery, while Oct–Dec offers clearer skies, better visibility and strong birding opportunities around Lava and nearby ridges.' ]
             ]
         ],
         "faq" => [
@@ -87,7 +87,7 @@
                 [
                     "id" => "scenic-viewpoints",
                     "title" => "1. Scenic Viewpoints",
-                    "description" => "Easy-access viewpoints with forest and mountain panoramas.",
+                    "description" => "These easy-access viewpoints support top search intent like best viewpoints in Lava, Neora Valley panorama stops and short photography-friendly mountain lookouts.",
                     "images" => [
                         [
                             "src" => "/assets/img/lava/lava-2.jpg",
@@ -104,7 +104,7 @@
                 [
                     "id" => "culture-heritage",
                     "title" => "2. Local Culture & Village Life",
-                    "description" => "Monastery visits, local food stops, and community interactions.",
+                    "description" => "Monastery visits, local food stops and community interactions answer frequent AEO questions on what to do in Lava besides forest trails.",
                     "image" => [
                         "src" => "/assets/img/lava/Darjeeling_Dhir_Dham_Temple_Main.jpg",
                         "alt" => "Village life"
@@ -134,7 +134,7 @@
                 [
                     "id" => "short-scenic-drives",
                     "title" => "3. Short Scenic Drives",
-                    "description" => "Comfortable drives to nearby ridges, tea points, and valley edges.",
+                    "description" => "Comfortable private drives connect ridges, tea points and valley edges, ideal for family-friendly Lava itineraries with flexible weather-based movement.",
                     "image" => [
                         "src" => "/assets/img/lava/lava-4.jpg",
                         "alt" => "Scenic drive"

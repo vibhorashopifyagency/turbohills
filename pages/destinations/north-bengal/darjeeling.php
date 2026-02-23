@@ -76,8 +76,8 @@
         "additional_info" => [
             "title" => 'Important Travel Information',
             "items" => [
-                [ 'highlight' => 'Best Time', 'description' => 'Oct–Dec and Mar–May for clear skies and pleasant temperatures.' ],
-                [ 'highlight' => 'Ideal Stay', 'description' => '2–3 nights allows sunrise, tea-estate visits and a relaxed toy-train experience.' ]
+                [ 'highlight' => 'Best Time', 'description' => 'Darjeeling is most searched during Oct–Dec and Mar–May for clear Kanchenjunga views, pleasant weather and comfortable local sightseeing with minimal weather disruption.' ],
+                [ 'highlight' => 'Ideal Stay', 'description' => 'A 2–3 night Darjeeling itinerary is ideal for Tiger Hill sunrise, tea-estate visits, toy-train experiences and relaxed market walks without rushing your plan.' ]
             ]
         ],
         "faq" => [
@@ -92,9 +92,9 @@
             "intro" => "Typical stops around Darjeeling include Himalayan viewpoints, tea-estate roads, and heritage hill-walks.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with mountain and valley panoramas.", "images" => [["src" => "/assets/img/darjeeling/Darjeeling-Tea-Fields.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/darjeeling/darjeeling-view.webp", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Heritage", "description" => "Local markets, monastery visits, and tea-town heritage walks.", "image" => ["src" => "/assets/img/darjeeling/darjeeling-tempal.jpg", "alt" => "Heritage"], "tags" => ["title" => "Popular around Darjeeling", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Heritage Walks", "url" => "#culture-heritage"], ["label" => "Tea Gardens", "url" => "#short-scenic-drives"], ["label" => "Darjeeling", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to tea estates, sunrise points, and nearby valleys.", "image" => ["src" => "/assets/img/darjeeling/darjeeling-view.webp", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Darjeeling viewpoints match top search intent like best sunrise points in Darjeeling, Kanchenjunga views and family-friendly photo stops.", "images" => [["src" => "/assets/img/darjeeling/Darjeeling-Tea-Fields.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/darjeeling/darjeeling-view.webp", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Heritage", "description" => "Local markets, monastery visits and tea-town heritage walks answer common AEO questions on what to do in Darjeeling beyond viewpoints.", "image" => ["src" => "/assets/img/darjeeling/darjeeling-tempal.jpg", "alt" => "Heritage"], "tags" => ["title" => "Popular around Darjeeling", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Heritage Walks", "url" => "#culture-heritage"], ["label" => "Tea Gardens", "url" => "#short-scenic-drives"], ["label" => "Darjeeling", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab drives connect tea estates, sunrise points and nearby valleys for low-walk Darjeeling itineraries with flexible pacing.", "image" => ["src" => "/assets/img/darjeeling/darjeeling-view.webp", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Darjeeling", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

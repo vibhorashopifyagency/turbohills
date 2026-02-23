@@ -63,8 +63,8 @@
         "additional_info" => [
             "title" => 'Travel Notes',
             "items" => [
-                [ 'highlight' => 'Suitability', 'description' => 'Great for travellers seeking short, peaceful walks and homestays.' ],
-                [ 'highlight' => 'Ideal Stay', 'description' => '1–2 nights is ideal to enjoy quiet mornings and forest trails.' ]
+                [ 'highlight' => 'Suitability', 'description' => 'Lepchajagat is ideal for travellers searching peaceful hill stays near Darjeeling with short nature walks, low traffic and homestay-style comfort.' ],
+                [ 'highlight' => 'Ideal Stay', 'description' => 'A 1–2 night stay is usually enough for sunrise viewpoints, quiet forest trails and slow village experiences without itinerary pressure.' ]
             ]
         ],
         "faq" => [
@@ -79,9 +79,9 @@
             "intro" => "Typical stops around Lepchajagat include misty forest points, quiet village lanes, and sunrise decks.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with ridge and valley panoramas.", "images" => [["src" => "/assets/img/lepchajagat/IMG.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/lepchajagat/lepchajagat03.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops, and heritage hamlet charm.", "image" => ["src" => "/assets/img/lepchajagat/2.png", "alt" => "Village life"], "tags" => ["title" => "Popular around Lepchajagat", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Lepchajagat", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby viewpoints and tea routes.", "image" => ["src" => "/assets/img/lepchajagat/road-to-Lepchajagat-930x620.jpeg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Lepchajagat viewpoints match common searches like best sunrise points near Darjeeling and quiet ridge photography spots.", "images" => [["src" => "/assets/img/lepchajagat/IMG.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/lepchajagat/lepchajagat03.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops and hamlet charm answer popular AEO questions on what to do in Lepchajagat beyond viewpoint hopping.", "image" => ["src" => "/assets/img/lepchajagat/2.png", "alt" => "Village life"], "tags" => ["title" => "Popular around Lepchajagat", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Lepchajagat", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby viewpoints and tea routes are ideal for couples and families seeking low-walk offbeat itineraries.", "image" => ["src" => "/assets/img/lepchajagat/road-to-Lepchajagat-930x620.jpeg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Lepchajagat", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],
