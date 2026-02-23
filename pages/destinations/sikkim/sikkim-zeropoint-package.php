@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Sikkim Zero Point Tour from Bagdogra — Yumthang, Gurudongmar & Yume Samdong';
-    $metaDescription = 'Sikkim Zero Point tour (4-6 days) from Bagdogra: Yumthang Valley, Yume Samdong (Zero Point) and Gurudongmar Lake. Private transfers, permits and guided photography trips.';
+    $metaDescription = 'Book Sikkim Zero Point package from Bagdogra/NJP with Turbo Hills. Cover Yumthang Valley, Yume Samdong (Zero Point), Lachung, Lachen and Gurudongmar Lake with permits, private SUV transfer, local guide support and acclimatization-friendly itinerary.';
     
     // All data Group
     $data = [
@@ -25,7 +25,7 @@
         // Tour headings and strong on-page copy for search engines and users
         "tour_headings" => [
             "activity_content_heading" => 'Sikkim Zero-Point Adventure',
-            "activity_body_content" => 'Discover North Sikkim on a carefully planned 4–6 day itinerary from Bagdogra. Visit Yumthang Valley (Valley of Flowers), Yume Samdong (Zero Point), Gurudongmar Lake and charming mountain villages of Lachen & Lachung. Perfect for first-time visitors, nature lovers and photographers.',
+            "activity_body_content" => 'The Sikkim Zero Point package is one of the most searched North Sikkim trips for travelers who want snow landscapes, high-altitude valleys and iconic Himalayan road journeys in one itinerary. This 4–6 day route usually includes Lachung, Yumthang Valley, Yume Samdong (Zero Point), Lachen and Gurudongmar Lake, with trip flow adjusted around weather and permit windows. Our planning model is practical and AEO-focused: Bagdogra/NJP pickup, permit paperwork support, altitude-aware night halts, private SUV movement, and day-wise timing clarity so guests know what is realistic each day. Whether you are searching for Zero Point package cost, best month for Yumthang snow, or family suitability for North Sikkim, this itinerary answers those needs with transparent inclusions and on-ground support throughout the route.',
             "location_slider_wrap" => 'Top Stops on This Route',
             "highlights_tour" => 'Highlights — Sikkim Zero-Point Tour',
             "Additional_Info" => 'Practical Info & Travel Tips',
@@ -105,19 +105,19 @@
             "items" => [
                 [
                     "highlight" => "Permits & ID",
-                    "description" => "Inner-line permits for North Sikkim are handled by us; carry original photo ID (Aadhaar/Passport)."
+                    "description" => "Zero Point and North Sikkim routes require inner-line permits with strict ID verification, one of the most searched concerns for travellers planning a Zero Point package from Gangtok, Bagdogra or NJP. We manage permit formalities, while guests must submit details early and carry original Aadhaar or passport for checkpoints."
                 ],
                 [
                     "highlight" => "Altitude & Health",
-                    "description" => "Zero Point and Gurudongmar are high-altitude locations. Allow time for acclimatisation; inform us of medical conditions in advance."
+                    "description" => "Zero Point and Gurudongmar are high-altitude destinations where oxygen levels are lower and weather can shift rapidly. Add acclimatisation halts, keep arrival days light, and share health history early so itinerary pacing, halt points and contingency plans can be adjusted safely."
                 ],
                 [
                     "highlight" => "Weather & Packing",
-                    "description" => "Pack warm layers, sturdy shoes, sunscreen and sunglasses; weather can change rapidly at high altitudes."
+                    "description" => "Packing for Zero Point should include thermals, insulated jackets, gloves, woollen cap, waterproof trekking shoes, sunscreen and UV sunglasses. Since weather shifts rapidly in North Sikkim, layered clothing is essential for early departures, windy passes and changing road conditions."
                 ],
                 [
                     "highlight" => "Cancellation & Flexibility",
-                    "description" => "Flexible cancellation policies vary by package; check booking terms. Weather or road conditions may require itinerary adjustments."
+                    "description" => "Trip operations depend on permits, weather alerts and real-time road status, so flexibility is a core part of high-altitude planning. Cancellation terms vary by package category, and routes may be revised for safety while preserving key sightseeing goals wherever possible."
                 ]
             ]
         ],
@@ -155,13 +155,13 @@
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
                 [
-                    "id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with snow and mountain panoramas.", 
+                    "id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These stops match top search intent like best Zero Point snow viewpoints, high-altitude photo spots and North Sikkim panoramas without long trekking segments.", 
                 "images" => [
                     ["src" =>"/assets/img/sikkim/pelling-1.jpg", "alt" => "Viewpoint", "col" => 7],  
                     ["src" =>"/assets/img/sikkim/pelling-2.jpg", "alt" => "Mountains", "col" => 5]]
                     ],
                 [
-                    "id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Local route traditions and regional mountain culture stops.", 
+                    "id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Local route traditions and regional mountain culture stops answer common AEO questions about North Sikkim lifestyle, village interactions and the people behind the high-altitude travel corridors.", 
                     "image" => ["src" => "/assets/img/sikkim/pelling-5.jpg", "alt" => "Culture"], 
                     "tags" => [
                         "title" => "Popular around Zero Point", 
@@ -176,7 +176,7 @@
                 [
                     "id" => "short-scenic-drives", 
                     "title" => "3. Short Scenic Drives", 
-                    "description" => "Comfortable drive-and-stop routes with high-altitude photo points.", 
+                    "description" => "Private drive-and-stop routing is ideal for families and couples searching manageable Zero Point itineraries with weather-safe pacing, scenic halts and smoother long-distance mountain transfers.", 
                     "image" => ["src" => "/assets/img/sikkim/pelling-5.jpg", "alt" => "Scenic drive"]
                     ]
             ],

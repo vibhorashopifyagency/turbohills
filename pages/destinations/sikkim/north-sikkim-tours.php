@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'North Sikkim Tours — Lachen, Lachung, Gurudongmar & More';
-    $metaDescription = 'North Sikkim tours cover Lachen, Lachung, Gurudongmar Lake and high-altitude wonders. Multi-day itineraries with permit handling and expert guides.';
+    $metaDescription = 'Book North Sikkim tour packages from Bagdogra/NJP covering Lachen, Lachung, Yumthang Valley, Zero Point and Gurudongmar Lake. Get permit assistance, private SUV transfer, acclimatization-focused itinerary, local stays and expert trip coordination by Turbo Hills.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'North Sikkim — Highlights',
-            "activity_body_content" => 'North Sikkim is a high-altitude region of extraordinary alpine landscapes, sacred lakes and remote Tibetan-influenced villages. Typical multi-day tours include staged travel through Lachen and Lachung, visits to Yumthang Valley (Valley of Flowers), Yume Samdong (Zero Point) and Gurudongmar Lake. These itineraries emphasise acclimatisation, permit formalities and reliable transport so guests can focus on scenery and cultural encounters. North Sikkim is best for travellers seeking wilderness beauty, photography and off-the-beaten-path experiences.',
-            "assistant_snippet" => 'North Sikkim multi-day tours: Lachen, Lachung, Yumthang, Zero Point and Gurudongmar with permit handling and staged acclimatisation.',
+            "activity_body_content" => 'North Sikkim is the signature high-altitude circuit for travelers searching complete Sikkim adventure packages with snow valleys, glacial lakes and remote Himalayan villages. A practical North Sikkim itinerary usually combines Lachen, Lachung, Yumthang Valley, Yume Samdong (Zero Point) and Gurudongmar Lake over multiple days with staged acclimatization. Our tours are built for real mountain conditions: permit processing, route sequencing, buffer timing for weather changes, experienced SUV drivers and accommodation planning across altitude zones. This helps answer the most common traveler questions upfront — “How many days for North Sikkim?”, “Is North Sikkim safe for family?”, “What is the best season?”, and “How does permit approval work?”. From Bagdogra/NJP pickup to final drop, we focus on clear logistics and reliable support so guests can enjoy the landscape without trip uncertainty.',
+            "assistant_snippet" => 'Best North Sikkim package route: Bagdogra to Gangtok, then Lachen-Lachung-Yumthang-Zero Point-Gurudongmar with permits, acclimatization breaks and private SUV support.',
             "location_slider_wrap" => 'Key Stops in North Sikkim',
             "highlights_tour" => 'Highlights — North Sikkim',
             "Additional_Info" => 'Permits, Acclimatisation & Logistics',
@@ -91,15 +91,15 @@
             "items" => [
                 [
                     "highlight" => "Acclimatisation",
-                    "description" => "Multiple acclimatisation days recommended for high-altitude sections."
+                    "description" => "North Sikkim itineraries should always follow step-by-step altitude gain with rest halts and overnight breaks. This is a top search concern for travellers combining Lachen, Lachung, Gurudongmar and Zero Point, and proper acclimatisation greatly improves safety and comfort."
                 ],
                 [
                     "highlight" => "Permits",
-                    "description" => "We handle permits and clearances for restricted areas."
+                    "description" => "Most North Sikkim circuits need protected-area permits, vehicle approvals and checkpoint clearances. We manage documentation and route compliance end to end after receiving passenger details in the required format and timeline."
                 ],
                 [
                     "highlight" => "Safety",
-                    "description" => "Medical checks and travel insurance advised for high-altitude tours."
+                    "description" => "Roads are remote and altitude levels are high, so pre-trip health checks and travel insurance are strongly recommended. Carry personal medicines, keep emergency contacts handy, and follow guide-driver instructions on pace, halts and weather diversions."
                 ]
             ]
         ],
@@ -143,9 +143,9 @@
             "intro" => "Typical stops across North Sikkim include alpine valleys, mountain lakes, and high-altitude drive routes.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with dramatic Himalayan panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery routes, local settlements, and mountain culture insights.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around North Sikkim", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "North Sikkim", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drive-and-stop circuits to lakes, valleys, and snow points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These viewpoints match high-intent searches for North Sikkim snow views, alpine valleys and Gurudongmar-Yumthang photo circuits with practical stop planning.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery routes, local settlements and mountain culture interactions answer common traveller questions on what to do in North Sikkim beyond only high-altitude viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around North Sikkim", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "North Sikkim", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-stop route design keeps this multi-day region accessible for families and small groups seeking flexible, weather-safe movement between lakes, valleys and snow points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "North Sikkim", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

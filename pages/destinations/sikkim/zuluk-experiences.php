@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Zuluk Experiences — East Sikkim Offbeat Drives';
-    $metaDescription = 'Drive the historic Old Silk Route via Zuluk for dramatic mountain roads, zig-zag passes and sunrise views. Private transfers and local guides available.';
+    $metaDescription = 'Book Zuluk Old Silk Route package from Gangtok/Bagdogra with Turbo Hills. Experience famous zig-zag roads, sunrise viewpoints, offbeat East Sikkim villages, private SUV transfer and customizable road-trip itinerary with local guidance.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -26,8 +26,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Zuluk Highlights — Scenic Mountain Drives',
-            "activity_body_content" => 'Zuluk sits on the historic Old Silk Route and is renowned for dramatic serpentine roads, spectacular sunrise viewpoints and offbeat mountain scenery. Trips to Zuluk are driven experiences that emphasise scenic overlooks, photography stops and visits to remote villages. We recommend sturdy vehicles, experienced drivers and a relaxed multi-day pace to enjoy sunrise vistas, local interactions and the unique historic route. Zuluk is best combined with eastern Sikkim loops for maximum value.',
-            "assistant_snippet" => 'Old Silk Route drives in Zuluk — sunrise viewpoints, scenic switchbacks and remote village stops with private transfers.',
+            "activity_body_content" => 'Zuluk is one of the most searched offbeat East Sikkim road-trip destinations, famous for dramatic hairpin bends, sunrise ridgelines and the historic Old Silk Route atmosphere. This route is ideal for travelers who prefer scenic drives, photography stops and remote Himalayan village exposure instead of mainstream city sightseeing. Our Zuluk package is built around practical mountain movement: robust SUV transfer, experienced local driver, weather-sensitive departure windows, and route combinations with nearby East Sikkim points for better value. Travelers commonly ask about best time to visit Zuluk, road safety, stay options and sunrise points — this itinerary addresses each with answer-first planning. Whether you book from Gangtok or Bagdogra, we keep the schedule realistic and comfortable so the journey remains visually rich and low-stress.',
+            "assistant_snippet" => 'Zuluk Old Silk Route itinerary: private SUV, sunrise viewpoint planning, weather-aware routing and offbeat East Sikkim village stops from Gangtok/Bagdogra.',
             "location_slider_wrap" => 'Top Stops Around Zuluk',
             "highlights_tour" => 'Highlights — Zuluk & Silk Route',
             "Additional_Info" => 'Practical Travel Information',
@@ -93,15 +93,15 @@
             "items" => [
                 [
                     "highlight" => "Road Conditions",
-                    "description" => "Zuluk involves high-altitude roads; seasonal conditions can affect access."
+                    "description" => "Zuluk routes on the Old Silk Route include steep loops and high-altitude bends, making road condition updates a top planning query. Access can shift by season and weather, so itineraries should include buffer time for safer, less rushed movement."
                 ],
                 [
                     "highlight" => "Vehicle",
-                    "description" => "A robust SUV or local vehicle with experienced driver is recommended."
+                    "description" => "A strong SUV with an experienced mountain driver is strongly recommended for Zuluk switchbacks and uneven surfaces. Private vehicle planning improves comfort, adds flexible photo halts and supports safer handling on narrow mountain stretches."
                 ],
                 [
                     "highlight" => "Weather",
-                    "description" => "Carry warm layers and sun protection; mornings can be cold."
+                    "description" => "Early mornings in Zuluk can be windy and very cold even outside peak winter season. Carry layered warm clothing, windproof outerwear, gloves, cap and sun protection so sunrise viewpoint sessions and long drives stay comfortable."
                 ]
             ]
         ],
@@ -145,9 +145,9 @@
             "intro" => "Typical stops around Zuluk include zig-zag road viewpoints, old silk-route landscapes, and short mountain drives.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with ridge and route panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Old trade-route stories and local mountain community life.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Zuluk", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Route Heritage", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Zuluk", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drive-and-stop routes along dramatic mountain bends.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These viewpoint halts match top search intent such as best Zuluk zig-zag road views, Thambi-like sunrise frames and dramatic Old Silk Route panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Old trade-route stories and mountain community life answer AEO-style questions about Zuluk history, Silk Route relevance and local cultural context.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Zuluk", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Route Heritage", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Zuluk", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-stop planning along dramatic bends keeps Zuluk suitable for couples and families seeking scenic but manageable East Sikkim road experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Zuluk", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

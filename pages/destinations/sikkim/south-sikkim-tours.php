@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'South Sikkim Tours — Namchi, Ravangla & Tea Gardens';
-    $metaDescription = 'South Sikkim tours cover Namchi, Ravangla and Temi Tea Garden — cultural trails, panoramic viewpoints and easy treks. Day trips and short itineraries available.';
+    $metaDescription = 'Book South Sikkim tour package from Bagdogra or Gangtok covering Namchi, Ravangla and Temi Tea Garden. Ideal for family-friendly short trips with monastery visits, tea estate views, private cab transfer and customizable cultural itineraries.';
     // OpenGraph / Social
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -22,8 +22,8 @@
         ],
         "tour_headings" => [
             "activity_content_heading" => 'South Sikkim Highlights',
-            "activity_body_content" => 'South Sikkim offers gentle walks, panoramic viewpoints and cultural experiences — ideal for relaxing short trips.',
-            "assistant_snippet" => 'Explore Namchi, Ravangla and Temi Tea Garden on short South Sikkim tours with local guides.',
+            "activity_body_content" => 'South Sikkim is a top choice for travelers searching relaxed Sikkim itineraries with lower altitude comfort, cultural landmarks and scenic tea estate landscapes. The route commonly includes Namchi, Ravangla and Temi Tea Garden, with optional monastery circuits, short village walks and viewpoint stops. Unlike high-altitude North Sikkim routes, South Sikkim works very well for families with kids, senior travelers and short-stay visitors who want smooth roads and meaningful experiences in 2–4 days. Our package includes private transfer options from Bagdogra/Gangtok, curated sightseeing order, local guide support and flexible pacing based on traveler profile. If your search intent is “easy Sikkim trip,” “South Sikkim package cost,” or “Namchi Ravangla itinerary,” this plan gives practical, answer-first clarity.',
+            "assistant_snippet" => 'Best South Sikkim route for families: Namchi, Ravangla and Temi Tea Garden with private transfer, easy-paced sightseeing and customizable short-stay itinerary.',
             "location_slider_wrap" => 'Top Stops — South Sikkim',
             "highlights_tour" => 'Highlights — South Sikkim',
             "Additional_Info" => 'Travel Notes',
@@ -78,8 +78,8 @@
         "additional_info" => [
             "title" => "Important Travel Information",
             "items" => [
-                ["highlight" => "Weather", "description" => "Lower altitude; pleasant most of the year."],
-                ["highlight" => "Transport", "description" => "Well-connected by road from Gangtok and Siliguri."]
+                ["highlight" => "Weather", "description" => "South Sikkim stays at lower altitude than North Sikkim, making it a popular choice for families and seniors searching for easier Sikkim itineraries. Spring and autumn offer clearer mountain views, while monsoon months are greener with occasional rain-led route delays."],
+                ["highlight" => "Transport", "description" => "South Sikkim is road-connected from Gangtok, Namchi and Siliguri/Bagdogra, and private cabs remain the most searched and practical option for multi-stop sightseeing. This allows flexible pacing across Ravangla, Temi, monasteries and viewpoint circuits in one day plan."]
             ]
         ],
         "faq" => [
@@ -99,9 +99,9 @@
             "intro" => "Typical stops around South Sikkim include tea gardens, cultural monuments, and easy scenic drives.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with valley and tea-estate panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Community sites, monastery routes, and local food experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around South Sikkim", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Tea Gardens", "url" => "#culture-heritage"], ["label" => "Local Culture", "url" => "#culture-heritage"], ["label" => "South Sikkim", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby tea slopes and heritage points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access viewpoints support high-intent searches like best South Sikkim viewpoints, tea-estate panoramas and family-friendly photo stops with minimal walking.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Community sites, monastery circuits and local food experiences answer common travel queries on what to do in South Sikkim beyond sightseeing and tea gardens.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around South Sikkim", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Tea Gardens", "url" => "#culture-heritage"], ["label" => "Local Culture", "url" => "#culture-heritage"], ["label" => "South Sikkim", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private drives connect tea slopes, monasteries and heritage points, ideal for couples and family groups seeking relaxed South Sikkim day plans.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "South Sikkim", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

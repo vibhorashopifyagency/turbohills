@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Lachen Experiences — North Sikkim Tours from Bagdogra';
-    $metaDescription = 'Visit Lachen and nearby high-altitude attractions. Private transfers from Bagdogra, local guides and permit assistance.';
+    $metaDescription = 'Book Lachen tour package from Bagdogra/NJP for North Sikkim with Turbo Hills. Includes private SUV transfer, permit assistance, Gurudongmar route planning, acclimatization support, local stays and custom itinerary for families, couples and groups.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -27,8 +27,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Lachen Highlights — High-Altitude Landscapes',
-            "activity_body_content" => 'Lachen serves as the gateway to North Sikkim’s high-altitude lakes and remote villages. From Lachen travellers access Gurudongmar Lake, remote alpine roads and traditional mountain hospitality. Our itineraries prioritise acclimatisation, safe driving practices and permit handling so guests can enjoy scenic drives, homestays and short guided walks while minimising altitude risk. Expect robust vehicles, experienced drivers and local guides who manage logistics for high-altitude visits.',
-            "assistant_snippet" => 'Lachen gateway to Gurudongmar — acclimatisation-focused itineraries, permit handling and robust transfers.',
+            "activity_body_content" => 'Lachen is the operational gateway to Gurudongmar Lake and one of the most important stops in any North Sikkim package. Travelers searching for Lachen trip plan, Bagdogra to Lachen cab, or Gurudongmar permit itinerary usually need reliable logistics more than rushed sightseeing. Our Lachen experiences are built around practical mountain travel: gradual altitude gain, stop planning, weather-aware movement, permit paperwork, and trusted local drivers for long-distance roads. Beyond transit value, Lachen offers authentic village life, monastery visits, and calm mountain evenings that make the journey culturally rich as well. This package works well for couples, small groups and families who want a structured but flexible North Sikkim plan with clear inclusions, real transfer timings and on-ground coordination from Bagdogra/NJP.',
+            "assistant_snippet" => 'Lachen tour planning made simple: private transfer from Bagdogra, permit support, acclimatization-first schedule and seamless connection to Gurudongmar routes.',
             "location_slider_wrap" => 'Top Stops Around Lachen',
             "highlights_tour" => 'Highlights — Lachen & Surroundings',
             "Additional_Info" => 'Practical Travel Information',
@@ -96,15 +96,15 @@
             "items" => [
                 [
                     "highlight" => "High Altitude",
-                    "description" => "Gurudongmar and Zero Point are high-altitude sites; acclimatise and inform us about medical conditions."
+                    "description" => "Lachen-based circuits to Gurudongmar Lake and Zero Point involve very high altitude, one of the most searched concerns for North Sikkim travellers. Add acclimatisation time, keep the first day light and maintain gradual pacing so your body adjusts better during long mountain drives."
                 ],
                 [
                     "highlight" => "Permits",
-                    "description" => "Inner-line permits required for some areas; we arrange permits for travellers."
+                    "description" => "North Sikkim travel from Lachen needs restricted-area permits, ID verification and checkpoint compliance. We handle permit coordination end to end, while guests should submit accurate details early and carry original government ID for smooth route clearance."
                 ],
                 [
                     "highlight" => "Weather",
-                    "description" => "Carry warm layers; roads can be affected in winter months."
+                    "description" => "Weather around Lachen can shift quickly with cold winds, snowfall and sudden road changes. Carry thermals, gloves, insulated outerwear and waterproof shoes, and keep schedule flexibility because route conditions may vary by season and altitude."
                 ]
             ]
         ],
@@ -148,9 +148,9 @@
             "intro" => "Typical stops around Lachen include high-altitude valley viewpoints, monastery touches, and scenic drives.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with alpine and mountain panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery routes, village interactions, and mountain stories.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachen", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Lachen", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby valleys and high-road photo points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These Lachen viewpoints answer common search questions like best photo spots near Gurudongmar route and where to see high-altitude Himalayan panoramas without long treks.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Explore monastery routes, local village interactions and mountain-route stories that add context to popular Lachen itineraries beyond just lake and snow viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachen", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Lachen", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Private-cab drive-and-stop routes from Lachen are ideal for travellers seeking family-friendly North Sikkim movement with controlled pacing and reliable photography halts.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Lachen", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

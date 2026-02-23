@@ -2,7 +2,7 @@
 
     // Variables
     $pageTitle = 'Gurudongmar Lake — Sacred High-Altitude Lake in North Sikkim';
-    $metaDescription = 'Experience Gurudongmar Lake — one of the highest lakes in India with surreal turquoise waters, high-altitude panoramas and cultural significance.';
+    $metaDescription = 'Plan Gurudongmar Lake tour from Gangtok or Bagdogra with Turbo Hills. Get North Sikkim permit support, Lachen stay planning, acclimatization-focused itinerary, private SUV transfer and expert guidance for one of India’s highest sacred lakes.';
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
@@ -26,8 +26,8 @@
         // tour headings and on-page SEO copy
         "tour_headings" => [
             "activity_content_heading" => 'Gurudongmar Highlights',
-            "activity_body_content" => 'Gurudongmar lake is a remote high-altitude lake with spiritual importance and stunning turquoise waters — visits require acclimatisation and permit assistance.',
-            "assistant_snippet" => 'Visit Gurudongmar Lake with acclimatisation and permit assistance for a high-altitude sacred lake experience.',
+            "activity_body_content" => 'Gurudongmar Lake is one of the highest and most spiritually significant lakes in India, making it a top search destination for North Sikkim high-altitude tours. Most travelers reach Gurudongmar via Lachen with staged acclimatization, because the route climbs quickly and weather conditions can change without notice. Our Gurudongmar itinerary focuses on safety and comfort first: permit documentation, route timing, experienced mountain drivers, oxygen-aware pacing, and practical pre-departure guidance for food, hydration and clothing. This experience is ideal for travelers searching for Gurudongmar Lake permit process, Lachen to Gurudongmar route plan, and best season for North Sikkim photography. You get clear trip planning from Bagdogra/NJP to Lachen, realistic drive durations, and local support so the journey remains memorable without avoidable risk.',
+            "assistant_snippet" => 'How to visit Gurudongmar safely: travel via Lachen, complete permit formalities, acclimatize properly, and use experienced North Sikkim drivers with weather-aware planning.',
             "location_slider_wrap" => 'Nearby — North Sikkim Highlights',
             "highlights_tour" => 'Highlights — Gurudongmar Lake',
             "Additional_Info" => 'Permit & Acclimatisation Notes',
@@ -92,15 +92,15 @@
             "items" => [
                 [
                     "highlight" => "Acclimatisation",
-                    "description" => "Plan for proper acclimatisation before attempting high-altitude visits."
+                    "description" => "Gurudongmar trips involve extreme altitude, so acclimatisation is the top priority and a highly searched planning concern. Staged overnight halts, gradual ascent and controlled departure timing help reduce altitude stress during long North Sikkim driving sectors."
                 ],
                 [
                     "highlight" => "Permits",
-                    "description" => "Gurudongmar visits require permits and coordination with local authorities."
+                    "description" => "Gurudongmar access requires restricted permits, checkpoint documentation and route clearance based on weather and local authority advisories. We coordinate permits and logistics, while travellers must provide accurate details and carry valid original IDs for verification."
                 ],
                 [
                     "highlight" => "Health",
-                    "description" => "Carry medication and consult a physician if you have health concerns."
+                    "description" => "At this altitude, breathing comfort, hydration and fatigue management become critical. Carry prescribed medicines, consult a physician for cardiac or respiratory history, and follow guide advice on pace, rest and exposure time near the lake."
                 ]
             ]
         ],
@@ -144,9 +144,9 @@
             "intro" => "Typical stops around Gurudongmar include high-altitude lake viewpoints and dramatic mountain drives.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with high-altitude lake and mountain panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery traditions and local mountain-route stories.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Gurudongmar", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Gurudongmar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drive-and-stop routes with panoramic photo points.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These high-altitude viewpoint halts cover top travel intent such as Gurudongmar sunrise photos, lake reflection frames and best mountain angles on clear-weather days.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Along the route, monastery influences and local mountain narratives help answer what makes Gurudongmar spiritually important beyond its dramatic alpine landscape.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Gurudongmar", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Gurudongmar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-stop route design focuses on safer pacing, photo halts and weather-led decisions, matching common queries about Gurudongmar road conditions and travel comfort.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Gurudongmar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],
