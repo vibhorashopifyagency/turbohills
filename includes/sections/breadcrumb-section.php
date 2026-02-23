@@ -98,9 +98,9 @@
                         </svg>
                     </div>
                     <ul class="social-list">
-                        <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a></li>
-                        <li><a href="https://www.instagram.com/turbo_hills"><i class="bx bxl-instagram-alt"></i></a></li>
+                        <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/turbo_hills"><i class="bi bi-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>

@@ -93,8 +93,6 @@
     <link href="<?= BASE_URL ?>/assets/css/animate.min.css" rel="stylesheet">
     <!-- FancyBox CSS -->
     <link href="<?= BASE_URL ?>/assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <!-- BoxIcon  CSS -->
-    <link href="<?= BASE_URL ?>/assets/css/boxicons.min.css" rel="stylesheet">
 
     <?php
         // Main structured data

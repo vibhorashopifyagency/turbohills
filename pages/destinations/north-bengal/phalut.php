@@ -4,12 +4,12 @@
     $metaDescription = 'Phalut is a remote summit beyond Sandakphu offering alpine vistas, quiet treks and offbeat wilderness for travellers seeking solitude and wide mountain panoramas.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/phalut.jpg' : '/assets/img/north-bengal/phalut.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/phalut/Sandakphu.jpg' : '/assets/img/phalut/Sandakphu.jpg');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Phalut — Offbeat Summit Experience',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg2.jpg' ]
+            "slider_images" => [ '/assets/img/phalut/Sandakphu.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Phalut — Quiet High-Altitude Views',
@@ -66,7 +66,9 @@
         "location_slider" => [
             "heading" => 'Top Stops',
             "image_and_names" => [
-                [ 'name' => 'Sandakphu', 'image' => '/assets/img/north-bengal/sandakphu.jpg' ]
+                [ 'name' => 'Phalut', 'image' => '/assets/img/phalut/jammu.jpg' ],
+                [ 'name' => 'Phalut', 'image' => '/assets/img/phalut/OIP.webp' ],
+                [ 'name' => 'Phalut', 'image' => '/assets/img/phalut/sandakphu_980.jpg' ]
             ]
         ],
         "additional_info" => [
@@ -88,9 +90,9 @@
             "intro" => "Typical stops around Phalut include high-ridge viewpoints, trekking pauses, and mountain camp moments.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access ridge viewpoints with wide Himalayan panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Trek Life", "description" => "Trail culture, mountain shelters, and local route stories.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Trek culture"], "tags" => ["title" => "Popular around Phalut", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Trail Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Phalut", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-walk combinations for nearby ridge and valley views.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access ridge viewpoints with wide Himalayan panoramas.", "images" => [["src" => "/assets/img/phalut/Phalut.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/phalut/Phalut4.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Trek Life", "description" => "Trail culture, mountain shelters, and local route stories.", "image" => ["src" => "/assets/img/phalut/_DSC0758.jpg", "alt" => "Trek culture"], "tags" => ["title" => "Popular around Phalut", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Trail Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Phalut", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-walk combinations for nearby ridge and valley views.", "image" => ["src" => "/assets/img/phalut/OIP (1).webp", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Phalut", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

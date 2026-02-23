@@ -62,10 +62,10 @@
                             <span class="footer-address">TurboHills — Bagdogra-based Sikkim specialists crafting bold, tailor-made Himalayan adventures. We handle permits, local guides, comfy transport and authentic homestays across Gangtok, Pelling, Lachen, Lachung and North Sikkim. Photo-ready viewpoints, offbeat villages and tea-garden retreats — book your next Sikkim story with confidence.</span>
                         </div>
                         <ul class="social-list">
-                            <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bx bxl-facebook"></i></a></li>
-                            <!-- <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li> -->
-                            <li><a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a></li>
-                            <li><a href="https://www.instagram.com/turbo_hills"><i class="bx bxl-instagram-alt"></i></a></li>
+                            <li><a href="https://www.facebook.com/share/17rhgoMu6L/"><i class="bi bi-facebook"></i></a></li>
+                            <!-- <li><a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a></li> -->
+                            <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                            <li><a href="https://www.instagram.com/turbo_hills"><i class="bi bi-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
