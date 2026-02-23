@@ -8,3 +8,4 @@ Options -Indexes
 
 # For production/staging where project is served at site root, use this instead:
 ErrorDocument 404 /404.php
+
