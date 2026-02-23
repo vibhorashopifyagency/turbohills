@@ -4,12 +4,13 @@
     $metaDescription = 'Rishyap is a peaceful ridge village known for dramatic Kanchenjunga viewpoints, sunrise vistas and simple homestays for slow, mindful stays.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/rishyap.jpg' : '/assets/img/north-bengal/rishyap.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/rishyap/rishyap_2.webp' : '/assets/img/rishyap/rishyap_2.webp');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Rishyap — Ridge Sunrise & Solitude',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ '/assets/img/rishyap/rishyap_2.webp' ]
+                               
         ],
         "headings" => [
             "heading1" => 'Rishyap — Small Ridge Village',
@@ -56,7 +57,9 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Rishyap Area',
-            "image_and_names" => [ [ 'name' => 'Rishyap Ridge', 'image' => '/assets/img/north-bengal/rishyap.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Rishyap Ridge', 'image' => '/assets/img/rishyap/rishyap_1.webp' ],
+                                   [ 'name' => 'Rishyap Ridge', 'image' => '/assets/img/rishyap/darj_i000248.jpg' ],
+                                   [ 'name' => 'Rishyap Ridge', 'image' => '/assets/img/rishyap/village-path-in-rishop.jpg' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -77,9 +80,9 @@
             "intro" => "Typical stops around Rishyap include ridge viewpoints, pine trails, and calm mountain village moments.",
             "heading" => "Sample photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with ridge and snow-peak panoramas.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food, and quiet hill-village experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Rishyap", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Rishyap", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby forest viewpoints and village routes.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "Easy-access viewpoints with ridge and snow-peak panoramas.", "images" => [["src" => "/assets/img/rishyap/darj_i00050e.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/rishyap/780x439_durpin-monastery.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food, and quiet hill-village experiences.", "image" => ["src" => "/assets/img/rishyap/rishop.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Rishyap", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Rishyap", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to nearby forest viewpoints and village routes.", "image" => ["src" => "/assets/img/rishyap/Rishyap-10378.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Rishyap", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],
