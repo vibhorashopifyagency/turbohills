@@ -4,12 +4,12 @@
     $metaDescription = 'Tinchuley is a pine-fringed village known for excellent birding, tea-walks and simple trails — a calm retreat for nature lovers and photographers.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/tinchuley.jpg' : '/assets/img/north-bengal/tinchuley.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/tinchuley/IMG_9986.jpg' : '/assets/img/tinchuley/IMG_9986.jpg');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Tinchuley — Pine Trails & Birding',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ '/assets/img/tinchuley/IMG_9986.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Tinchuley — Birding & Pine Walks',
@@ -56,7 +56,9 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Tinchuley Area',
-            "image_and_names" => [ [ 'name' => 'Tinchuley Ridge', 'image' => '/assets/img/north-bengal/tinchuley.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Tinchuley Ridge', 'image' => '/assets/img/tinchuley/tinchuly.webp' ],
+                                   [ 'name' => 'Tinchuley Ridge', 'image' => '/assets/img/tinchuley/tinchuley (1).jpg' ],
+                                   [ 'name' => 'Tinchuley Ridge', 'image' => '/assets/img/tinchuley/1587890934_dsc_0048_1-1140x760.jpg' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -77,9 +79,9 @@
             "intro" => "Typical stops around Tinchuley include ridge viewpoints, village orchards, and short tea-route drives.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Tinchuley viewpoints match popular search intent for ridge panoramas, sunrise frames and quiet photo spots near Darjeeling belt villages.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Village interactions, orchard routes and local food experiences answer AEO queries on what to do in Tinchuley beyond mountain viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Tinchuley", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Tinchuley", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to tea gardens and sunrise points support low-walk, family-friendly Tinchuley plans with flexible day scheduling.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Tinchuley viewpoints match popular search intent for ridge panoramas, sunrise frames and quiet photo spots near Darjeeling belt villages.", "images" => [["src" => "/assets/img/tinchuley/Tinchuley (2).jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/tinchuley/tinchuley-village.webp", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Village interactions, orchard routes and local food experiences answer AEO queries on what to do in Tinchuley beyond mountain viewpoints.", "image" => ["src" => "/assets/img/tinchuley/caption.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Tinchuley", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Tinchuley", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to tea gardens and sunrise points support low-walk, family-friendly Tinchuley plans with flexible day scheduling.", "image" => ["src" => "/assets/img/tinchuley/Darjeeling-train.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Tinchuley", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],
