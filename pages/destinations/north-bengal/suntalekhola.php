@@ -4,12 +4,12 @@
     $metaDescription = 'Suntalekhola is a peaceful riverside meadow area with easy nature trails, birdlife and family-friendly picnic spots in the Dooars region.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/suntalekhola.jpg' : '/assets/img/north-bengal/suntalekhola.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/suntalekhola/Suntalekhola.jpg' : '/assets/img/suntalekhola/Suntalekhola.jpg');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Suntalekhola — Riverside Trails & Birding',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ '/assets/img/suntalekhola/Suntalekhola.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Suntalekhola — River Meadows',
@@ -56,7 +56,9 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Suntalekhola Area',
-            "image_and_names" => [ [ 'name' => 'Suntalekhola Meadows', 'image' => '/assets/img/north-bengal/suntalekhola.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Suntalekhola', 'image' => '/assets/img/suntalekhola/2-1720780471287.jpg' ],
+                                   [ 'name' => 'Suntalekhola', 'image' => '/assets/img/suntalekhola/suntalekhola_800.jpg' ],
+                                   [ 'name' => 'Suntalekhola', 'image' => '/assets/img/suntalekhola/suntalekhola_river.jpg' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -86,15 +88,15 @@
                     "title" => "1. Scenic Viewpoints",
                     "description" => "These easy-access points cover top search intent like best riverside viewpoints in Suntalekhola and short nature photography stops in the Dooars belt.",
                     "images" => [
-                        ["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7],
-                        ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]
+                        ["src" => "/assets/img/suntalekhola/caption.jpg", "alt" => "Viewpoint", "col" => 7],
+                        ["src" => "/assets/img/suntalekhola/371d0d1b7e7de62405093f97eb7e0d9f.webp", "alt" => "Landscape", "col" => 5]
                     ]
                 ],
                 [
                     "id" => "culture-heritage",
                     "title" => "2. Local Culture & Village Life",
                     "description" => "Short community interactions, local food stops and hill experiences answer AEO-style queries on what to do in Suntalekhola beyond picnic spots.",
-                    "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"],
+                    "image" => ["src" => "/assets/img/suntalekhola/SuntalekholaHomestay.jpg", "alt" => "Village life"],
                     "tags" => [
                         "title" => "Popular around Suntalekhola",
                         "items" => [
@@ -109,7 +111,7 @@
                     "id" => "short-scenic-drives",
                     "title" => "3. Short Scenic Drives",
                     "description" => "Comfortable drives to tea gardens, riverside points and forest stretches are ideal for low-walk family itineraries with flexible day planning.",
-                    "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]
+                    "image" => ["src" => "/assets/img/suntalekhola/Samsing-3-1-768x490.jpg", "alt" => "Scenic drive"]
                 ]
             ],
             "page_tags" => [

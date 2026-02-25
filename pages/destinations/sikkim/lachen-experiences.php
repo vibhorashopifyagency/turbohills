@@ -14,9 +14,9 @@
         "slider_details" => [
             "slider_heading" =>  'Lachen Experiences — Gateway to North Sikkim',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg3.jpg',
-                'assets/img/innerpages/breadcrumb-bg4.jpg',
-                'assets/img/innerpages/experience-breadcrumb-bg.jpg',
+                'assets/img/lachen-experiences/lachen-2.jpg',
+                'assets/img/lachen-experiences/r-1_1685620578-6920e.jpg',
+                'assets/img/lachen-experiences/lachung-1-1.jpg',
             ]
         ],
         // Page Headings and Sub-Headings (SEO focused)
@@ -148,9 +148,9 @@
             "intro" => "Typical stops around Lachen include high-altitude valley viewpoints, monastery touches, and scenic drives.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These Lachen viewpoints answer common search questions like best photo spots near Gurudongmar route and where to see high-altitude Himalayan panoramas without long treks.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Explore monastery routes, local village interactions and mountain-route stories that add context to popular Lachen itineraries beyond just lake and snow viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachen", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Lachen", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Private-cab drive-and-stop routes from Lachen are ideal for travellers seeking family-friendly North Sikkim movement with controlled pacing and reliable photography halts.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These Lachen viewpoints answer common search questions like best photo spots near Gurudongmar route and where to see high-altitude Himalayan panoramas without long treks.", "images" => [["src" => "/assets/img/lachen-experiences/Lachen-in-Winter.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/lachen-experiences/m_Lachen_1_l_563_1000.avif", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Explore monastery routes, local village interactions and mountain-route stories that add context to popular Lachen itineraries beyond just lake and snow viewpoints.", "image" => ["src" => "/assets/img/lachen-experiences/top-lachen-des.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachen", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Lachen", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Private-cab drive-and-stop routes from Lachen are ideal for travellers seeking family-friendly North Sikkim movement with controlled pacing and reliable photography halts.", "image" => ["src" => "/assets/img/lachen-experiences/lachen-3 (1).webp", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Lachen", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

@@ -14,9 +14,9 @@
         "slider_details" => [
             "slider_heading" =>  'Yuksom Experiences — Trekking & Heritage',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg3.jpg',
-                'assets/img/innerpages/breadcrumb-bg4.jpg',
-                'assets/img/innerpages/experience-breadcrumb-bg.jpg',
+                'assets/img/yuksom-experiences/yuksom-67.jpeg',
+                'assets/img/yuksom-experiences/yuksom-4.jpg',
+                'assets/img/yuksom-experiences/Yuksom-and-Around1_FI.jpg',
             ]
         ],
         // Page Headings and Sub-Headings (SEO focused)
@@ -147,9 +147,9 @@
             "intro" => "Typical stops around Yuksom include heritage monasteries, forest trails, and calm village experiences.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These viewpoints work well for travellers searching easy photo points near Yuksom and mountain panoramas without committing to long high-altitude treks.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Historic monasteries, village stories and local interactions answer popular AEO queries on Yuksom heritage, spiritual history and community-led mountain experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Yuksom", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Yuksom", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable short drives connect forests, village edges and viewpoints, suitable for non-trekkers who still want meaningful West Sikkim landscape coverage.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These viewpoints work well for travellers searching easy photo points near Yuksom and mountain panoramas without committing to long high-altitude treks.", "images" => [["src" => "/assets/img/yuksom-experiences/Yuksom-Dzongri-Goechala-Trek-Sikkim-Adventure-Sindbad-007.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/yuksom-experiences/yuksom-67.jpeg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Historic monasteries, village stories and local interactions answer popular AEO queries on Yuksom heritage, spiritual history and community-led mountain experiences.", "image" => ["src" => "/assets/img/yuksom-experiences/limboo-homestay.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Yuksom", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Yuksom", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable short drives connect forests, village edges and viewpoints, suitable for non-trekkers who still want meaningful West Sikkim landscape coverage.", "image" => ["src" => "/assets/img/yuksom-experiences/Goechala-trek-Yuksom-Sikkim.webp", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Yuksom", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],
