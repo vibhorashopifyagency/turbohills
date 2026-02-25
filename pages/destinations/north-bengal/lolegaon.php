@@ -4,12 +4,12 @@
     $metaDescription = 'Lolegaon is a small, peaceful village offering forested trails, panoramic viewpoints and a slow pace perfect for short escapes and mindful retreats.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/lolegaon.jpg' : '/assets/img/north-bengal/lolegaon.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/lolegaon/Way-to-Lolegaon-through-the-Misty-Pine-Trees-768x476.jpg' : '/assets/img/lolegaon/Way-to-Lolegaon-through-the-Misty-Pine-Trees-768x476.jpg');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Lolegaon — Forest Trails & Panoramas',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ '/assets/img/lolegaon/Way-to-Lolegaon-through-the-Misty-Pine-Trees-768x476.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Lolegaon — Hamlet on the Ridge',
@@ -56,7 +56,9 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Lolegaon Area',
-            "image_and_names" => [ [ 'name' => 'Lolegaon Viewpoint', 'image' => '/assets/img/north-bengal/lolegaon.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Lolegaon ', 'image' => '/assets/img/lolegaon/Canopy_Walk-1755001697703 - Copy.webp' ],
+                                   [ 'name' => 'Lolegaon ', 'image' => '/assets/img/lolegaon/Changey-Falls-768x341 - Copy.jpg' ],
+                                   [ 'name' => 'Lolegaon ', 'image' => '/assets/img/lolegaon/Lolegaon-Valley-Retreat-1-768x512 - Copy.jpg' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -77,9 +79,9 @@
             "intro" => "Typical stops around Lolegaon include canopy-view trails, forest villages, and sunrise points.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Lolegaon viewpoints suit travellers searching best ridge panoramas and short photo stops in quiet North Bengal hill zones.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops and village life answer common AEO queries on what to do in Lolegaon besides scenic viewpoints.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Lolegaon", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Lolegaon", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to pine belts and forest viewpoints are ideal for relaxed low-walk itineraries with flexible timing.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Lolegaon viewpoints suit travellers searching best ridge panoramas and short photo stops in quiet North Bengal hill zones.", "images" => [["src" => "/assets/img/lolegaon/zfd3lqdj80091.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/lolegaon/resort-tree-fern-7-768x432 - Copy.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops and village life answer common AEO queries on what to do in Lolegaon besides scenic viewpoints.", "image" => ["src" => "/assets/img/lolegaon/lord-buddha-statue-park - Copy.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Lolegaon", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Lolegaon", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to pine belts and forest viewpoints are ideal for relaxed low-walk itineraries with flexible timing.", "image" => ["src" => "/assets/img/lolegaon/Lolegaon-The-Untouched-Stillness - Copy.webp", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Lolegaon", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

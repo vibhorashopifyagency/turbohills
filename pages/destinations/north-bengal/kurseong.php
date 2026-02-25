@@ -52,7 +52,9 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Kurseong Area',
-            "image_and_names" => [ [ 'name' => 'Elysia Park', 'image' => '/assets/img/kurseong/kursion-tempal.avif' ] ]
+            "image_and_names" => [ [ 'name' => 'Elysia Park', 'image' => '/assets/img/kurseong/kursion-tempal.avif' ],
+                                   [ 'name' => 'Elysia Park', 'image' => '/assets/img/kurseong/kursiong.png' ],
+                                   [ 'name' => 'Elysia Park', 'image' => '/assets/img/kurseong/One-the-way-to-Kurseong-Rohini.jpg' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -102,7 +104,7 @@
                     "title" => "2. Local Culture & Heritage",
                     "description" => "Town walks, monastery corners and local tea-culture stories answer common AEO queries on what to do in Kurseong apart from scenic viewpoints.",
                     "image" => [
-                        "src" => "/assets/img/innerpages/inspiration-details4.jpg",
+                        "src" => "/assets/img/kurseong/maxresdefault.jpg",
                         "alt" => "Heritage"
                     ],
                     "tags" => [
@@ -123,7 +125,7 @@
                     "title" => "3. Short Scenic Drives",
                     "description" => "Comfortable private drives connect nearby viewpoints and hill villages, ideal for family-friendly Kurseong itineraries with flexible pacing.",
                     "image" => [
-                        "src" => "/assets/img/innerpages/inspiration-details5.jpg",
+                        "src" => "/assets/img/kurseong/kurseong-darjeeling-west-bengal-2-attr-hero.jpg",
                         "alt" => "Scenic drive"
                     ]
                 ]

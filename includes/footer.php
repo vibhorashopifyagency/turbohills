@@ -119,9 +119,6 @@
                                 <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/takdah.php">Takdah</a>
                             </li>
                             <li>
-                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/pankhabari-tea-gardens.php">Pankhabari Tea Gardens</a>
-                            </li>
-                            <li>
                                 <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/rishyap.php">Rishyap</a>
                             </li>
                             <li>
