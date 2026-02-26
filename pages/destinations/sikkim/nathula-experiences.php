@@ -14,8 +14,8 @@
         "slider_details" => [
             "slider_heading" =>  'Nathula Pass — Himalayan Border Route',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg4.jpg',
-                'assets/img/innerpages/breadcrumb-bg3.jpg'
+                'assets/img/sikkim/nathu-la-gangtok-sikkim-1.jpg',
+                'assets/img/sikkim/nathula--12.jpg'
             ]
         ],
         // Page Headings and Sub-Headings (SEO focused)
@@ -79,9 +79,10 @@
         "location_slider" => [
             "heading" => 'Nearby — Nathula & Surroundings',
             "image_and_names" => [
-                ['name' => 'Nathula', 'image' => '/assets/img/sikkim/nathula.jpg'],
-                ['name' => 'Tsomgo Lake', 'image' => '/assets/img/sikkim/tsomgo-lake.jpg'],
-                ['name' => 'Gangtok', 'image' => '/assets/img/sikkim/gangtok.jpg']
+                ['name' => 'Nathula', 'image' => '/assets/img/sikkim/gangtok-sikkim-2-nathula.jpg'],
+                ['name' => 'Tsomgo Lake', 'image' => '/assets/img/sikkim/Nathula-Pass.jpg'],
+                ['name' => 'Gangtok', 'image' => '/assets/img/sikkim/silk-route.jpeg'],
+                ['name' => 'Gangtok', 'image' => '/assets/img/sikkim/Nathu la Gangtok.jpg']
             ]
         ],
         // Additional Info — answers local-search intent
@@ -142,9 +143,9 @@
             "intro" => "Typical stops around Nathula include high-pass viewpoints, border route drives, and mountain photo halts.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These pass viewpoints are ideal for travellers searching best Nathula photo points, border mountain views and short-stop panoramas on a same-day Gangtok circuit.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Route history, monastery influences and regional narratives answer common AEO queries on Nathula significance, border heritage and local culture beyond the pass viewpoint itself.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Nathula", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Pass Routes", "url" => "#culture-heritage"], ["label" => "Mountain Drives", "url" => "#short-scenic-drives"], ["label" => "Nathula", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Private drive-and-stop planning keeps this high-road trip family-friendly with weather-aware pacing, matching popular queries about Nathula road comfort and day-trip feasibility.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These pass viewpoints are ideal for travellers searching best Nathula photo points, border mountain views and short-stop panoramas on a same-day Gangtok circuit.", "images" => [["src" => "/assets/img/sikkim/Nathula_Pass.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/sikkim/nathula-1.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Route history, monastery influences and regional narratives answer common AEO queries on Nathula significance, border heritage and local culture beyond the pass viewpoint itself.", "image" => ["src" => "/assets/img/sikkim/pass-of-listening-ears.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Nathula", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Pass Routes", "url" => "#culture-heritage"], ["label" => "Mountain Drives", "url" => "#short-scenic-drives"], ["label" => "Nathula", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Private drive-and-stop planning keeps this high-road trip family-friendly with weather-aware pacing, matching popular queries about Nathula road comfort and day-trip feasibility.", "image" => ["src" => "/assets/img/sikkim/nathula-house.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Nathula", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],
