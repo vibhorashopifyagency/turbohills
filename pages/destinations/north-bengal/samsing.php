@@ -4,12 +4,12 @@
     $metaDescription = 'Samsing is an offbeat Dooars village with tea gardens, river flats and quiet walking trails — ideal for travellers seeking low-key nature experiences and slow village days.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/samsing.jpg' : '/assets/img/north-bengal/samsing.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/samsing/samsing_800.jpg' : '/assets/img/samsing/samsing_800.jpg');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Samsing — Tea Gardens & Quiet River Trails',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg2.jpg' ]
+            "slider_images" => [ '/assets/img/samsing/samsing_800.jpg' ]
         ],
         "headings" => [
             "heading1" => 'Samsing — Offbeat Dooars Village',
@@ -56,7 +56,9 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Samsing Area',
-            "image_and_names" => [ [ 'name' => 'Samsing Tea Slopes', 'image' => '/assets/img/north-bengal/samsing.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Samsing Tea Slopes', 'image' => '/assets/img/samsing/Samsing-.jpg' ],
+                                   [ 'name' => 'Samsing Tea Slopes', 'image' => '/assets/img/samsing/dooars-priya-travels.jpg' ],
+                                   [ 'name' => 'Samsing Tea Slopes', 'image' => '/assets/img/samsing/rocky-island-village.webp' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -77,9 +79,9 @@
             "intro" => "Typical stops around Samsing include tea slopes, orange valley stretches, and riverside picnic points.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access stops match popular searches like best Samsing viewpoints, tea-and-forest panoramas and offbeat Dooars photography points.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, farm routes and local meal experiences answer common AEO questions on what to do in Samsing apart from sightseeing.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Samsing", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Samsing", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to riverside and tea sections are suitable for family-friendly offbeat itineraries with flexible weather and pace planning.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access stops match popular searches like best Samsing viewpoints, tea-and-forest panoramas and offbeat Dooars photography points.", "images" => [["src" => "/assets/img/samsing/samsing_trip_kol.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/samsing/samsing-5.jpg", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, farm routes and local meal experiences answer common AEO questions on what to do in Samsing apart from sightseeing.", "image" => ["src" => "/assets/img/samsing/331778046.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Samsing", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Samsing", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to riverside and tea sections are suitable for family-friendly offbeat itineraries with flexible weather and pace planning.", "image" => ["src" => "/assets/img/samsing/Suntalekholabridge.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Samsing", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

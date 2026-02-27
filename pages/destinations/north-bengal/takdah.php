@@ -4,12 +4,12 @@
     $metaDescription = 'Takdah is a quiet, little-known hill village with old tea terraces and peaceful mornings — perfect for travellers seeking offbeat views, tea-walks and slow stays.';
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/north-bengal/takdah.jpg' : '/assets/img/north-bengal/takdah.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/takdah/takdah-2.avif' : '/assets/img/takdah/takdah-2.avif');
 
     $data = [
         "slider_details" => [
             "slider_heading" => 'Takdah — Quiet Tea Village',
-            "slider_images" => [ 'assets/img/innerpages/breadcrumb-bg1.jpg' ]
+            "slider_images" => [ '/assets/img/takdah/takdah-2.avif' ]
         ],
         "headings" => [
             "heading1" => 'Takdah — Tea Terraces & Peace',
@@ -56,7 +56,9 @@
         ],
         "location_slider" => [
             "heading" => 'Top Stops — Takdah Area',
-            "image_and_names" => [ [ 'name' => 'Takdah Terrace', 'image' => '/assets/img/north-bengal/takdah.jpg' ] ]
+            "image_and_names" => [ [ 'name' => 'Takdah', 'image' => '/assets/img/takdah/images.jfif' ],
+                                   [ 'name' => 'Takdah', 'image' => '/assets/img/takdah/peshok-tea-garden2.jpg' ],
+                                   [ 'name' => 'Takdah', 'image' => '/assets/img/takdah/Takdah-6-1024x576.jpg' ] ]
         ],
         "additional_info" => [
             "title" => 'Travel Notes',
@@ -77,9 +79,9 @@
             "intro" => "Typical stops around Takdah include tea estate viewpoints, colonial-era corners, and short village drives.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Takdah viewpoints match common searches for tea-estate panoramas, sunrise hill frames and quiet photography spots near Darjeeling.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Landscape", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops and old-world hill character answer AEO queries on what makes Takdah unique among North Bengal tea regions.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Takdah", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Takdah", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to tea gardens, viewpoints and forest roads support relaxed, family-friendly Takdah itineraries with flexible pacing.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Takdah viewpoints match common searches for tea-estate panoramas, sunrise hill frames and quiet photography spots near Darjeeling.", "images" => [["src" => "/assets/img/takdah/images (1).jfif", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/takdah/darjeeling-hotels-571h51qjdk.avif", "alt" => "Landscape", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Local Culture & Village Life", "description" => "Community interactions, local food stops and old-world hill character answer AEO queries on what makes Takdah unique among North Bengal tea regions.", "image" => ["src" => "/assets/img/takdah/20220430_112439-PS.jpg", "alt" => "Village life"], "tags" => ["title" => "Popular around Takdah", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Nature Photography", "url" => "#short-scenic-drives"], ["label" => "Takdah", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable drives to tea gardens, viewpoints and forest roads support relaxed, family-friendly Takdah itineraries with flexible pacing.", "image" => ["src" => "/assets/img/takdah/Takdah-3.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Takdah", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "North Bengal", "url" => "/pages/destinations/north-bengal/north-bengal-experiences.php"]]
         ],

@@ -86,8 +86,8 @@
                             <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/nathula-experiences.php">Nathula Pass</a></li>
                             <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/gurudongmar-experiences.php">Gurudongmar Lake</a></li>
                             <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/rumtek-experiences.php">Rumtek Monastery</a></li>
-                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/north-sikkim-tours.php">North Sikkim Tours</a></li>
-                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/south-sikkim-tours.php">South Sikkim Tours</a></li>
+                            <!-- <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/north-sikkim-tours.php">North Sikkim Tours</a></li>
+                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/south-sikkim-tours.php">South Sikkim Tours</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -117,9 +117,6 @@
                             </li>
                             <li>
                                 <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/takdah.php">Takdah</a>
-                            </li>
-                            <li>
-                                <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/pankhabari-tea-gardens.php">Pankhabari Tea Gardens</a>
                             </li>
                             <li>
                                 <a href="<?= BASE_URL ?>/pages/destinations/north-bengal/rishyap.php">Rishyap</a>

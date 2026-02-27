@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/lachung.jpg' : '/assets/img/sikkim/lachung.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/pelling-experiences/gangtok-pelling-tour-bannnr.jpg' : '/assets/img/pelling-experiences/gangtok-pelling-tour-bannnr.jpg');
     
     // All data Group
     $data = [
@@ -14,9 +14,9 @@
         "slider_details" => [
             "slider_heading" =>  'Pelling Experiences — Himalayan Views & Monasteries',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg3.jpg',
-                'assets/img/innerpages/breadcrumb-bg4.jpg',
-                'assets/img/innerpages/experience-breadcrumb-bg.jpg',
+                'assets/img/pelling-experiences/gangtok-pelling-tour-bannnr.jpg',
+                'assets/img/pelling-experiences/gangtok-pelling-image.webp',
+                'assets/img/pelling-experiences/gangtok-ravangla-pelling-6n-7d.jpg',
             ]
         ],
         // Page Headings and Sub-Headings (SEO focused)
@@ -156,15 +156,15 @@
                     "title" => "1. Kanchenjunga Viewpoints",
                     "description" => "These sunrise points are designed for travellers searching best Kanchenjunga views from Pelling, clear-weather mountain photography and short-access panorama stops.",
                     "images" => [
-                        ["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7],
-                        ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]
+                        ["src" => "/assets/img/pelling-experiences/E9IFodAVkAQdIwh.jpg", "alt" => "Viewpoint", "col" => 7],
+                        ["src" => "/assets/img/pelling-experiences/723415851Gangtok_National_Park_Main.jpg", "alt" => "Mountains", "col" => 5]
                     ]
                 ],
                 [
                     "id" => "monasteries-heritage",
                     "title" => "2. Monasteries & Heritage",
                     "description" => "Quiet monastery visits, local history and guided heritage walks answer common AEO questions on what to do in Pelling beyond viewpoints and how to explore West Sikkim culture in one route.",
-                    "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Monastery"],
+                    "image" => ["src" => "/assets/img/pelling-experiences/pelling-2.jpg", "alt" => "Monastery"],
                     "tags" => [
                         "title" => "Popular around Pelling",
                         "items" => [
@@ -179,7 +179,7 @@
                     "id" => "short-scenic-drives",
                     "title" => "3. Short Scenic Drives",
                     "description" => "Private local drives connect viewpoints, lakes and village photo stops, ideal for families and couples seeking low-walk itineraries with flexible pacing and weather-aware adjustments.",
-                    "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]
+                    "image" => ["src" => "/assets/img/pelling-experiences/pelling.webp", "alt" => "Scenic drive"]
                 ]
             ],
             "page_tags" => [
