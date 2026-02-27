@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/lachung.jpg' : '/assets/img/sikkim/lachung.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . 'assets/img/gangtok-experiences/gangtok-bnnr.jpg' : 'assets/img/gangtok-experiences/gangtok-bnnr.jpg');
     
     // All data Group
     $data = [
@@ -14,9 +14,9 @@
         "slider_details" => [
             "slider_heading" =>  'Gangtok Experiences — City & Cultural Tours',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg3.jpg',
-                'assets/img/innerpages/breadcrumb-bg4.jpg',
-                'assets/img/innerpages/experience-breadcrumb-bg.jpg',
+                'assets/img/gangtok-experiences/gangtok-bnnr.jpg',
+                'assets/img/gangtok-experiences/gangtok-local-sightseeing.jpg',
+                'assets/img/gangtok-experiences/sikkim-gangtok.webp',
             ]
         ],
         // Page Headings and Sub-Headings (SEO focused)
@@ -85,11 +85,11 @@
         "location_slider" => [
             "heading" => 'Top Stops — Gangtok & Nearby',
             "image_and_names" => [
-                ['name' => 'Gangtok', 'image' => '/assets/img/sikkim/lachung.jpg'],
-                ['name' => 'Rumtek Monastery', 'image' => '/assets/img/sikkim/Yumthang-valley-Sikkim.jpg'],
-                ['name' => 'Tsomgo Lake', 'image' => '/assets/img/sikkim/Yume-Samdong.jpg'],
-                ['name' => 'Nathula Pass', 'image' => '/assets/img/sikkim/Gurudongmar-Lake-Sikkim.jpg'],
-                ['name' => 'Lachen', 'image' => '/assets/img/sikkim/Lachen-Sikkim-768x512.jpg']
+                ['name' => 'Gangtok', 'image' => '/assets/img/gangtok-experiences/Paragliding-in-Sikkim-Like.jpg'],
+                ['name' => 'Rumtek Monastery', 'image' => '/assets/img/gangtok-experiences/gangtok-visit-changu-lake.jpg.imgw.1280.1280.jpg'],
+                ['name' => 'Tsomgo Lake', 'image' => '/assets/img/gangtok-experiences/gangtok-ropeway.webp'],
+                ['name' => 'Nathula Pass', 'image' => '/assets/img/gangtok-experiences/8th-image-1.jpg']
+               
             ]
         ],
         // Additional Info — answers local-search intent
@@ -150,9 +150,9 @@
             "intro" => "Typical stops around Gangtok include viewpoint circuits, monastery visits, and short scenic drives.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Gangtok viewpoints match top search intent like best places to see Kanchenjunga near Gangtok and sunrise photo points without long trekking.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Visit monasteries, MG Marg markets and local neighborhoods to cover frequently asked travel questions on Gangtok culture, shopping and monastery etiquette in one compact route.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Gangtok", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Local Markets", "url" => "#culture-heritage"], ["label" => "Gangtok", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab circuits from Gangtok connect lakes, passes and valley viewpoints, ideal for families looking for low-walk itineraries and flexible weather-based planning.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Gangtok viewpoints match top search intent like best places to see Kanchenjunga near Gangtok and sunrise photo points without long trekking.", "images" => [["src" => "/assets/img/gangtok-experiences/namchi.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/gangtok-experiences/gangtok5.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Visit monasteries, MG Marg markets and local neighborhoods to cover frequently asked travel questions on Gangtok culture, shopping and monastery etiquette in one compact route.", "image" => ["src" => "/assets/img/gangtok-experiences/gangtok.avif", "alt" => "Culture"], "tags" => ["title" => "Popular around Gangtok", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Local Markets", "url" => "#culture-heritage"], ["label" => "Gangtok", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab circuits from Gangtok connect lakes, passes and valley viewpoints, ideal for families looking for low-walk itineraries and flexible weather-based planning.", "image" => ["src" => "/assets/img/gangtok-experiences/caption.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Gangtok", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

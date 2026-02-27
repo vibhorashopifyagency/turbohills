@@ -14,8 +14,8 @@
         "slider_details" => [
             "slider_heading" =>  'Gurudongmar Lake — High-Altitude Pilgrimage & Photography',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg1.jpg',
-                'assets/img/innerpages/experience-breadcrumb-bg.jpg'
+                'assets/img/sikkim/gurudongmar.jpg',
+                'assets/img/sikkim/Lake-Gurudongmar.jpg'
             ]
         ],
         // Page Headings and Sub-Headings (SEO focused)
@@ -81,9 +81,9 @@
         "location_slider" => [
             "heading" => 'North Sikkim — Key Stops',
             "image_and_names" => [
-                ['name' => 'Gurudongmar Lake', 'image' => '/assets/img/sikkim/gurudongmar.jpg'],
-                ['name' => 'Lachung', 'image' => '/assets/img/sikkim/lachung.jpg'],
-                ['name' => 'Lachen', 'image' => '/assets/img/sikkim/Lachen-Sikkim-768x512.jpg']
+                ['name' => 'Gurudongmar ', 'image' => '/assets/img/sikkim/gurudongmar-lake1.jpg'],
+                ['name' => 'Gurudongmar', 'image' => '/assets/img/sikkim/Gurudongmar-Lake-In-March.jpg'],
+                ['name' => 'Gurudongmar', 'image' => '/assets/img/sikkim/Gurudongmar-Lake-1.jpg.webp']
             ]
         ],
         // Additional Info — answers local-search intent
@@ -144,9 +144,9 @@
             "intro" => "Typical stops around Gurudongmar include high-altitude lake viewpoints and dramatic mountain drives.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These high-altitude viewpoint halts cover top travel intent such as Gurudongmar sunrise photos, lake reflection frames and best mountain angles on clear-weather days.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Along the route, monastery influences and local mountain narratives help answer what makes Gurudongmar spiritually important beyond its dramatic alpine landscape.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Gurudongmar", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Gurudongmar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-stop route design focuses on safer pacing, photo halts and weather-led decisions, matching common queries about Gurudongmar road conditions and travel comfort.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These high-altitude viewpoint halts cover top travel intent such as Gurudongmar sunrise photos, lake reflection frames and best mountain angles on clear-weather days.", "images" => [["src" => "/assets/img/sikkim/gurudongmar-56.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/sikkim/frozon_gurudongmar.webp", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Along the route, monastery influences and local mountain narratives help answer what makes Gurudongmar spiritually important beyond its dramatic alpine landscape.", "image" => ["src" => "/assets/img/sikkim/gurudongmar0-68.webp", "alt" => "Culture"], "tags" => ["title" => "Popular around Gurudongmar", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Gurudongmar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Drive-and-stop route design focuses on safer pacing, photo halts and weather-led decisions, matching common queries about Gurudongmar road conditions and travel comfort.", "image" => ["src" => "/assets/img/sikkim/gurudongmar-69.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Gurudongmar", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

@@ -177,7 +177,7 @@
                     "id" => "short-scenic-drives", 
                     "title" => "3. Short Scenic Drives", 
                     "description" => "Private drive-and-stop routing is ideal for families and couples searching manageable Zero Point itineraries with weather-safe pacing, scenic halts and smoother long-distance mountain transfers.", 
-                    "image" => ["src" => "/assets/img/sikkim/pelling-5.jpg", "alt" => "Scenic drive"]
+                    "image" => ["src" => "/assets/img/sikkim/Zero-Point-Sikkim-Og_26th_nov.webp", "alt" => "Scenic drive"]
                     ]
             ],
                 "page_tags" => [["label" => "Zero Point", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], 

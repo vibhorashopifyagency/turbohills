@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . '/assets/img/sikkim/tsomgo-lake.jpg' : '/assets/img/sikkim/tsomgo-lake.jpg');
+    $ogImage = (defined('BASE_URL') ? rtrim(BASE_URL, '/') . 'assets/img/sikkim/tsomg-o-new.jpg' : 'assets/img/sikkim/tsomg-o-new.jpg');
     
     // All data Group
     $data = [
@@ -14,9 +14,9 @@
         "slider_details" => [
             "slider_heading" =>  'Tsomgo Lake — Changu Experience & Yak Rides',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg2.jpg',
-                'assets/img/innerpages/experience-breadcrumb-bg.jpg',
-                'assets/img/innerpages/breadcrumb-bg4.jpg',
+                'assets/img/sikkim/tsomg-o-new.jpg',
+                'assets/img/sikkim/Tsomgo-Lake-Sikkim-.webp',
+                'assets/img/sikkim/tsomg-o-new.jpg',
             ]
         ],
         // Page Headings and Sub-Headings (SEO focused)
@@ -80,10 +80,10 @@
         "location_slider" => [
             "heading" => 'Nearby — Tsomgo Lake & Surroundings',
             "image_and_names" => [
-                ['name' => 'Tsomgo Lake', 'image' => '/assets/img/sikkim/tsomgo-lake.jpg'],
-                ['name' => 'Nathula Pass', 'image' => '/assets/img/sikkim/nathula.jpg'],
-                ['name' => 'Baba Mandir', 'image' => '/assets/img/sikkim/baba-mandir.jpg'],
-                ['name' => 'Gangtok', 'image' => '/assets/img/sikkim/gangtok.jpg']
+                ['name' => 'Tsomgo Lake', 'image' => '/assets/img/sikkim/yak-tsomgo-lake-changu-lake-sikkim.jpg'],
+                ['name' => 'Nathula Pass', 'image' => '/assets/img/sikkim/tsomgo-lake-featured-750x500.jpg'],
+                ['name' => 'Baba Mandir', 'image' => '/assets/img/sikkim/tsomgo-3.jpg'],
+                ['name' => 'Gangtok', 'image' => '/assets/img/sikkim/tsomg-lake-2.jpg']
             ]
         ],
         // Additional Info — answers local-search intent
@@ -144,9 +144,9 @@
             "intro" => "Typical stops around Tsomgo include alpine lake viewpoints, mountain passes, and short snow-season drives.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access viewpoints support top queries like best Tsomgo Lake photo spots, snow-season views and high-altitude panoramas on short day trips from Gangtok.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery influences and mountain-route culture stops add depth for travellers asking what to do near Tsomgo beyond the lake viewpoint itself.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Tsomgo", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Lake Stops", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Tsomgo", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab drive-and-stop plans are ideal for families and couples seeking low-walk alpine experiences with weather-aware return timing.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access viewpoints support top queries like best Tsomgo Lake photo spots, snow-season views and high-altitude panoramas on short day trips from Gangtok.", "images" => [["src" => "/assets/img/sikkim/t.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/sikkim/Shivs-jpg.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Monastery influences and mountain-route culture stops add depth for travellers asking what to do near Tsomgo beyond the lake viewpoint itself.", "image" => ["src" => "/assets/img/sikkim/nathulanewoctbr.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Tsomgo", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Lake Stops", "url" => "#culture-heritage"], ["label" => "Mountain Routes", "url" => "#short-scenic-drives"], ["label" => "Tsomgo", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab drive-and-stop plans are ideal for families and couples seeking low-walk alpine experiences with weather-aware return timing.", "image" => ["src" => "/assets/img/sikkim/Changu-Lake-In-July-Cover-Photo-840x425.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Tsomgo", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],

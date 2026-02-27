@@ -6,7 +6,7 @@
     // OpenGraph / Social (header may use these variables)
     $ogTitle = $pageTitle;
     $ogDescription = $metaDescription;
-    $ogImage = '/assets/img/sikkim/lachung.jpg';
+    $ogImage = 'assets/img/lachung-experiences/Img_9288_202305031055_Lachung.jpg';
     
     // All data Group
     $data = [
@@ -14,9 +14,9 @@
         "slider_details" => [
             "slider_heading" =>  'Lachung Experiences — Yumthang Valley',
             "slider_images" => [
-                'assets/img/innerpages/breadcrumb-bg3.jpg',
-                'assets/img/innerpages/breadcrumb-bg4.jpg',
-                'assets/img/innerpages/experience-breadcrumb-bg.jpg',
+                'assets/img/lachung-experiences/Img_9288_202305031055_Lachung.jpg',
+                'assets/img/lachung-experiences/Img_1849_202317031022_Lachen.jpg',
+                'assets/img/lachung-experiences/Sikkim-Visiting-Lachung-02-1024x560.jpg',
             ]
         ],
         // Page Headings and Sub-Headings (SEO focused)
@@ -144,9 +144,9 @@
             "intro" => "Typical stops around Lachung include high-valley viewpoints, monastery visits, and alpine route drives.",
             "heading" => "Photo stops & short experiences",
             "sections" => [
-                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Lachung viewpoints are ideal for travellers searching best photo points in North Sikkim, sunrise mountain views and Yumthang Valley panorama stops without difficult trekking.", "images" => [["src" => "/assets/img/innerpages/inspiration-details2.jpg", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/innerpages/inspiration-details3.jpg", "alt" => "Mountains", "col" => 5]]],
-                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Explore monastery visits and local village interactions that answer popular queries like what to do in Lachung besides sightseeing, local culture in North Sikkim and authentic Sikkim homestay experiences.", "image" => ["src" => "/assets/img/innerpages/inspiration-details4.jpg", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachung", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Lachung", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
-                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab drives connect Lachung with Yumthang and nearby bends, matching high-intent searches for family-friendly North Sikkim routes, low-walk itineraries and weather-safe sightseeing plans.", "image" => ["src" => "/assets/img/innerpages/inspiration-details5.jpg", "alt" => "Scenic drive"]]
+                ["id" => "scenic-viewpoints", "title" => "1. Scenic Viewpoints", "description" => "These easy-access Lachung viewpoints are ideal for travellers searching best photo points in North Sikkim, sunrise mountain views and Yumthang Valley panorama stops without difficult trekking.", "images" => [["src" => "/assets/img/lachung-experiences/221144.webp", "alt" => "Viewpoint", "col" => 7], ["src" => "/assets/img/lachung-experiences/148776735Lachung_Monastery.jpg", "alt" => "Mountains", "col" => 5]]],
+                ["id" => "culture-heritage", "title" => "2. Culture & Heritage", "description" => "Explore monastery visits and local village interactions that answer popular queries like what to do in Lachung besides sightseeing, local culture in North Sikkim and authentic Sikkim homestay experiences.", "image" => ["src" => "/assets/img/lachung-experiences/gangtok-lachen-lachung-tour2.webp", "alt" => "Culture"], "tags" => ["title" => "Popular around Lachung", "items" => [["label" => "Viewpoints", "url" => "#scenic-viewpoints"], ["label" => "Monastery Visits", "url" => "#culture-heritage"], ["label" => "Village Walks", "url" => "#culture-heritage"], ["label" => "Lachung", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')]]]],
+                ["id" => "short-scenic-drives", "title" => "3. Short Scenic Drives", "description" => "Comfortable private-cab drives connect Lachung with Yumthang and nearby bends, matching high-intent searches for family-friendly North Sikkim routes, low-walk itineraries and weather-safe sightseeing plans.", "image" => ["src" => "/assets/img/lachung-experiences/khecheopalri-lake.jpg", "alt" => "Scenic drive"]]
             ],
             "page_tags" => [["label" => "Lachung", "url" => (strtok($_SERVER['REQUEST_URI'] ?? '', '?') ?: '#')], ["label" => "Sikkim", "url" => "/pages/destinations/sikkim/sikkim-experiences.php"]]
         ],
