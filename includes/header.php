@@ -226,8 +226,8 @@
                                         </div>
                                         <i class="bi bi-plus dropdown-icon"></i>
                                         <ul>
-                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/north-sikkim-tours.php">North Sikkim Tours</a></li>
-                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/south-sikkim-tours.php">South Sikkim Tours</a></li>
+                                            <!-- <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/north-sikkim-tours.php">North Sikkim Tours</a></li>
+                                            <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/south-sikkim-tours.php">South Sikkim Tours</a></li> -->
                                             <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/sikkim-zeropoint-package.php">Sikkim Zero Point</a></li>
                                             <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/rumtek-experiences.php">Rumtek Monastery</a></li>
                                             <li><a href="<?= BASE_URL ?>/pages/destinations/sikkim/zuluk-experiences.php">Zuluk</a></li>
