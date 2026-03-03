@@ -20,7 +20,7 @@
                         <div class="swiper-slide">
                             <div class="destination-card2 three">
                                 <div class="destination-img">
-                                    <img src="<?= BASE_URL ?>/assets/img/guides/guide2.jpg" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/guides/guide4.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@
                         <div class="swiper-slide">
                             <div class="destination-card2 three">
                                 <div class="destination-img">
-                                    <img src="<?= BASE_URL ?>/assets/img/guides/guide4.jpg" alt="">
+                                    <img src="<?= BASE_URL ?>/assets/img/guides/guide2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
