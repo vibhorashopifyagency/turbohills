@@ -30,9 +30,7 @@
                                 'duration' => '07 Days',
                                 'badge' => 'Hot Sale!',
                                 'images' => [
-                                    BASE_URL . '/assets/img/innerpages/breadcrumb-bg3.jpg',
-                                    BASE_URL . '/assets/img/innerpages/breadcrumb-bg4.jpg',
-                                    BASE_URL . '/assets/img/innerpages/experience-breadcrumb-bg.jpg'
+                                    BASE_URL . '/assets/img/gangtok-experiences/gangtok-bnnr.jpg', 
                                 ]
                             ],
                             [
@@ -42,9 +40,7 @@
                                 'duration' => '03 Days/02 Nights',
                                 'badge' => '',
                                 'images' => [
-                                    BASE_URL . '/assets/img/innerpages/breadcrumb-bg3.jpg',
-                                    BASE_URL . '/assets/img/innerpages/breadcrumb-bg4.jpg',
-                                    BASE_URL . '/assets/img/innerpages/experience-breadcrumb-bg.jpg'
+                                    BASE_URL . '/assets/img/pelling-experiences/gangtok-pelling-tour-bannnr.jpg',
                                 ]
                             ],
                             [
@@ -62,9 +58,7 @@
                                 'duration' => '03 Days/02 Nights',
                                 'badge' => '',
                                 'images' => [
-                                    BASE_URL . '/assets/img/innerpages/breadcrumb-bg3.jpg',
-                                    BASE_URL . '/assets/img/innerpages/breadcrumb-bg4.jpg',
-                                    BASE_URL . '/assets/img/innerpages/experience-breadcrumb-bg.jpg'
+                                    BASE_URL . '/assets/img/lachung-experiences/Img_9288_202305031055_Lachung.jpg',
                                 ]
                             ],
                         ];
