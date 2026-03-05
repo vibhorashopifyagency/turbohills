@@ -1,0 +1,90 @@
+# robots.txt for turbohills.com and turbohills.in
+
+# -------------------------------------------------------
+# Allow all standard search engine crawlers
+# -------------------------------------------------------
+User-agent: *
+Allow: /
+
+# Block access to internal includes and config
+Disallow: /includes/
+Disallow: /reference_pages/
+
+# -------------------------------------------------------
+# Google — main crawler + AI training crawler
+# -------------------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/img/
+
+# Google-Extended: opt-in to allow Gemini / AI Overviews training
+User-agent: Google-Extended
+Allow: /
+
+# -------------------------------------------------------
+# Bing / Microsoft
+# -------------------------------------------------------
+User-agent: Bingbot
+Allow: /
+
+User-agent: MicrosoftPreview
+Allow: /
+
+# -------------------------------------------------------
+# OpenAI — GPT browsing and training
+# -------------------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# -------------------------------------------------------
+# Anthropic (Claude)
+# -------------------------------------------------------
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# -------------------------------------------------------
+# Meta (Llama / Meta AI)
+# -------------------------------------------------------
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# -------------------------------------------------------
+# Apple
+# -------------------------------------------------------
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# -------------------------------------------------------
+# Perplexity AI
+# -------------------------------------------------------
+User-agent: PerplexityBot
+Allow: /
+
+# -------------------------------------------------------
+# You.com
+# -------------------------------------------------------
+User-agent: YouBot
+Allow: /
+
+# -------------------------------------------------------
+# Sitemaps — both domains point to the same sitemap.php
+# -------------------------------------------------------
+Sitemap: https://turbohills.com/sitemap.xml
+Sitemap: https://turbohills.in/sitemap.xml
