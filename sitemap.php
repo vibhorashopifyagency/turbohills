@@ -65,19 +65,26 @@ $pages = [
     ['/pages/destinations/north-bengal/jhalong-buxa.php',     '0.7', 'monthly'],
 ];
 
-// Use the git last-modified date of this file as a rough last-mod proxy,
-// or fall back to today's date.
-$today = date('Y-m-d');
+// Map the web root to the filesystem
+$docRoot = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+
+// Helper: get actual file last-modified date, fallback to today
+function pageLastMod(string $docRoot, string $path): string {
+    // Homepage maps to index.php
+    $filePath = $docRoot . ($path === '/' ? '/index.php' : $path);
+    return file_exists($filePath) ? date('Y-m-d', filemtime($filePath)) : date('Y-m-d');
+}
 
 header('Content-Type: application/xml; charset=utf-8');
 echo '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL;
+echo '<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>' . PHP_EOL;
 ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <?php foreach ($pages as [$path, $priority, $changefreq]): ?>
     <url>
         <loc><?= htmlspecialchars($base . $path, ENT_XML1, 'UTF-8') ?></loc>
-        <lastmod><?= $today ?></lastmod>
+        <lastmod><?= pageLastMod($docRoot, $path) ?></lastmod>
         <xhtml:link rel="alternate" hreflang="en-IN" href="<?= htmlspecialchars('https://turbohills.in'  . $path, ENT_XML1, 'UTF-8') ?>"/>
         <xhtml:link rel="alternate" hreflang="en"    href="<?= htmlspecialchars('https://turbohills.com' . $path, ENT_XML1, 'UTF-8') ?>"/>
     </url>
