@@ -3,6 +3,12 @@ DirectoryIndex index.php index.html
 # Basic hardening
 Options -Indexes
 
+# Serve sitemap.php as sitemap.xml
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^sitemap\.xml$ sitemap.php [L]
+</IfModule>
+
 # Localhost (MAMP) setup where project is served at /arup/
 # ErrorDocument 404 /turbohills/404.php
 
