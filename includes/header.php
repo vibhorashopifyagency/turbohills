@@ -36,6 +36,27 @@
 <html lang="en-IN">
 
 <head>
+    <?php if (in_array($host, ['turbohills.com', 'www.turbohills.com'])): ?>
+        <!-- Google tag (gtag.js) — turbohills.com -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E9BLY4C9PT"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-E9BLY4C9PT');
+        </script>
+    <?php elseif (in_array($host, ['turbohills.in', 'www.turbohills.in'])): ?>
+        <!-- Google tag (gtag.js) — turbohills.in -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9K09ZFJFQ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-H9K09ZFJFQ');
+        </script>
+    <?php endif; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
