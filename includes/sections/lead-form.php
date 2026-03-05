@@ -28,6 +28,7 @@
                     <select id="pickup_location" name="from_location" required>
                         <option value="">Pickup Location</option>
                         <option value="Bagdogra Airport (IXB)">Bagdogra Airport (IXB)</option>
+                        <option value="NJP">NJP Railway Station</option>
                         <option value="Siliguri">Siliguri</option>
                         <option value="Gangtok">Gangtok</option>
                         <option value="Pelling">Pelling</option>
@@ -42,6 +43,7 @@
                     <?php echo $location_svg; ?>
                     <select id="dropoff_location" name="to_location" required>
                         <option value="">Dropoff / Destination</option>
+                        <option value="NJP">NJP Railway Station</option>
                         <option value="Gangtok">Gangtok</option>
                         <option value="Lachung">Lachung</option>
                         <option value="Lachen">Lachen</option>
@@ -49,6 +51,7 @@
                         <option value="Yuksom">Yuksom</option>
                         <option value="Zuluk">Zuluk</option>
                         <option value="North Sikkim (Lachen/Lachung)">North Sikkim (Lachen/Lachung)</option>
+                        <option value="Bagdogra Airport (IXB)">Bagdogra Airport (IXB)</option>
                         <option value="Other">Other</option>
                     </select>
                 </div>
@@ -81,7 +84,8 @@
                     <select id="choose_model" name="cab_model" required>
                         <option value="">Cab Model</option>
                         <option value="Innova Crysta">Innova Crysta</option>
-                        <option value="Maruti Suzuki Swift Dezire">Maruti Suzuki Swift Dezire</option>
+                        <option value="Maruti Suzuki Swift Dzire">Maruti Suzuki Swift Dzire</option>
+                        <option value="Ertiga">Ertiga</option>
                     </select>
                 </div>
 

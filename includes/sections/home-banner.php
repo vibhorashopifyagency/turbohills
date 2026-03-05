@@ -26,8 +26,8 @@
                     <div class="banner-content-wrap">
                         <div class="container">
                             <div class="banner-content">
-                                <h2>Your Gateway To The World.</h2>
-                                <p>Ideal for explorers seeking seamless booking and expert travel support every step of the way.</p>
+                                <h2>Explore Northeast India with Expert Guides</h2>
+                                <p>Discover Sikkim, Darjeeling, and beyond with tailored tour packages — from misty hill stations to vibrant Buddhist monasteries.</p>
                             </div>
                         </div>
                     </div>      
@@ -42,8 +42,8 @@
                     <div class="banner-content-wrap">
                         <div class="container">
                             <div class="banner-content">
-                                <h2>Plan Your Trip, Your Way.</h2>
-                                <p>Perfect for customized travel experiences — tailored flights, stays, and tours just for you.</p>
+                                <h2>Book Sikkim Tour Packages from Bagdogra</h2>
+                                <p>Find the best Sikkim and Northeast India travel packages with trusted local guides, comfortable stays, and unforgettable experiences.</p>
                             </div>
                         </div>
                     </div>      
