@@ -156,7 +156,7 @@
                             <li><a href="<?= BASE_URL ?>/faq.php">FAQs</a></li>
                             <li><a href="<?= BASE_URL ?>/terms-and-conditions.php">Terms & Condition</a></li>
                             <li><a href="<?= BASE_URL ?>/privacy-policy.php">Privacy Policy</a></li>
-                            <li><a href="https://www.google.com/maps">Sitemap</a></li>
+                            <li><a href="<?= BASE_URL ?>/sitemap.xml">Sitemap</a></li>
                         </ul>
                     </div>
                 </div>
