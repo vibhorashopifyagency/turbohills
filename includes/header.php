@@ -97,8 +97,11 @@
     <link rel="preload" href="<?= BASE_URL ?>/assets/css/style.min.css?v=1.0.3" as="style">
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.min.css?v=1.0.3">
     <!-- Favicon -->
-    <link rel="icon" href="<?= BASE_URL ?>/assets/img/fav-icon.svg" type="image/svg+xml" sizes="20x20">
-
+    <!-- <link rel="icon" href="<?= BASE_URL ?>/assets/img/fav-icon.svg" type="image/svg+xml" sizes="20x20"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= BASE_URL ?>/assets/img//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= BASE_URL ?>/assets/img//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= BASE_URL ?>/assets/img//favicon-16x16.png">
+    <link rel="manifest" href="<?= BASE_URL ?>/assets/img/site.webmanifest">
 
     <!-- Bootstrap CSS -->
     
