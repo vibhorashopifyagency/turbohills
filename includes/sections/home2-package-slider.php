@@ -16,12 +16,14 @@
                         <?php
                         $home2_packages = [
                             [
-                                'title' => 'Darjeeling',
-                                'url' => BASE_URL . '/pages/destinations/north-bengal/darjeeling.php',
-                                'location' => 'West Bengal, India',
-                                'duration' => '05 Days',
-                                'badge' => 'Sale on!',
-                                'images' => [BASE_URL . '/assets/img/darjeeling/train-darjeeling.webp']
+                                'title' => 'Lachung',
+                                'url' => BASE_URL . '/pages/destinations/sikkim/lachung-experiences.php',
+                                'location' => 'Sikkim, India',
+                                'duration' => '03 Days/02 Nights',
+                                'badge' => '',
+                                'images' => [
+                                    BASE_URL . '/assets/img/lachung-experiences/Img_9288_202305031055_Lachung.jpg',
+                                ]
                             ],
                             [
                                 'title' => 'Gangtok',
@@ -52,15 +54,13 @@
                                 'images' => [BASE_URL . '/assets/img/sandakphu/Sandakphu-Phalut-trek-Indiahikes-26-scaled-1.webp']
                             ],
                             [
-                                'title' => 'Lachung',
-                                'url' => BASE_URL . '/pages/destinations/sikkim/lachung-experiences.php',
-                                'location' => 'Sikkim, India',
-                                'duration' => '03 Days/02 Nights',
-                                'badge' => '',
-                                'images' => [
-                                    BASE_URL . '/assets/img/lachung-experiences/Img_9288_202305031055_Lachung.jpg',
-                                ]
-                            ],
+                                'title' => 'Darjeeling',
+                                'url' => BASE_URL . '/pages/destinations/north-bengal/darjeeling.php',
+                                'location' => 'West Bengal, India',
+                                'duration' => '05 Days',
+                                'badge' => 'Sale on!',
+                                'images' => [BASE_URL . '/assets/img/darjeeling/train-darjeeling.webp']
+                            ]
                         ];
                         ?>
 

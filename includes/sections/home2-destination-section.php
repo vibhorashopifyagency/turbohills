@@ -2,12 +2,6 @@
 <?php
     $home2_destination_slides = [
         [
-            'title' => 'Darjeeling',
-            'url' => BASE_URL . '/pages/destinations/north-bengal/darjeeling.php',
-            'image' => BASE_URL . '/assets/img/darjeeling/darjeeling-view.webp',
-            'label' => 'Tours (12)'
-        ],
-        [
             'title' => 'Lachung',
             'url' => BASE_URL . '/pages/destinations/sikkim/lachung-experiences.php',
             'image' => BASE_URL . '/assets/img/sikkim/lachung.jpg',
@@ -18,6 +12,12 @@
             'url' => BASE_URL . '/pages/destinations/sikkim/pelling-experiences.php',
             'image' => BASE_URL . '/assets/img/sikkim/pelling-2.jpg',
             'label' => 'Tours (10)'
+        ],
+        [
+            'title' => 'Gangtok',
+            'url' => BASE_URL . '/pages/destinations/sikkim/gangtok-experiences.php',
+            'image' => BASE_URL . '/assets/img/sikkim/sikkim-hero-banner-1.jpg',
+            'label' => 'Tours (06)'
         ],
         [
             'title' => 'Sandakphu',
@@ -32,10 +32,10 @@
             'label' => 'Tours (26)'
         ],
         [
-            'title' => 'Gangtok',
-            'url' => BASE_URL . '/pages/destinations/sikkim/gangtok-experiences.php',
-            'image' => BASE_URL . '/assets/img/sikkim/sikkim-hero-banner-1.jpg',
-            'label' => 'Tours (06)'
+            'title' => 'Darjeeling',
+            'url' => BASE_URL . '/pages/destinations/north-bengal/darjeeling.php',
+            'image' => BASE_URL . '/assets/img/darjeeling/darjeeling-view.webp',
+            'label' => 'Tours (12)'
         ],
         [
             'title' => 'Kurseong',

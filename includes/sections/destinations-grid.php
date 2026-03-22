@@ -3,10 +3,10 @@
     <div class="container">
         <ul class="nav nav-pills mb-60" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-europe-tab" data-bs-toggle="pill" data-bs-target="#pills-europe" type="button" role="tab" aria-controls="pills-europe" aria-selected="true">North Bengal</button>
+                <button class="nav-link active" id="pills-asia-tab" data-bs-toggle="pill" data-bs-target="#pills-asia" type="button" role="tab" aria-controls="pills-asia" aria-selected="false">Sikkim</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-asia-tab" data-bs-toggle="pill" data-bs-target="#pills-asia" type="button" role="tab" aria-controls="pills-asia" aria-selected="false">Sikkim</button>
+                <button class="nav-link" id="pills-europe-tab" data-bs-toggle="pill" data-bs-target="#pills-europe" type="button" role="tab" aria-controls="pills-europe" aria-selected="true">North Bengal</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-middle-east-tab" data-bs-toggle="pill" data-bs-target="#pills-middle-east" type="button" role="tab" aria-controls="pills-middle-east" aria-selected="false">Experiences</button>
@@ -50,7 +50,7 @@
             'Lava' => 'assets/img/lava/lava.jpg',
             'Lolegaon' => 'assets/img/lava/lava-4.jpg',
             'Sandakphu' => 'assets/img/sandakphu/sandakphu.jpg',
-            'Takdah' => 'assets/img/darjeeling/Darjeeling-Tea-Fields.jpg',
+            'Takdah' => 'assets/img/darjeeling/lamahatta.jpg',
             'Tinchuley' => 'assets/img/darjeeling/Darjeeling-Tea-Fields.jpg',
             'Lepchajagat' => 'assets/img/lepchajagat/road-to-Lepchajagat-930x620.jpeg',
             'Rishyap' => 'assets/img/lava/lava-2.jpg',
@@ -82,20 +82,6 @@
         ];
 
         $destination_grid_tabs = [
-            'pills-europe' => [
-                ['title' => 'Darjeeling', 'url' => BASE_URL . '/pages/destinations/north-bengal/darjeeling.php'],
-                ['title' => 'Mirik', 'url' => BASE_URL . '/pages/destinations/north-bengal/mirik.php'],
-                ['title' => 'Kurseong', 'url' => BASE_URL . '/pages/destinations/north-bengal/kurseong.php'],
-                ['title' => 'Lava', 'url' => BASE_URL . '/pages/destinations/north-bengal/lava.php'],
-                ['title' => 'Lolegaon', 'url' => BASE_URL . '/pages/destinations/north-bengal/lolegaon.php'],
-                ['title' => 'Sandakphu', 'url' => BASE_URL . '/pages/destinations/north-bengal/sandakphu.php'],
-                ['title' => 'Takdah', 'url' => BASE_URL . '/pages/destinations/north-bengal/takdah.php'],
-                ['title' => 'Tinchuley', 'url' => BASE_URL . '/pages/destinations/north-bengal/tinchuley.php'],
-                ['title' => 'Lepchajagat', 'url' => BASE_URL . '/pages/destinations/north-bengal/lepchajagat.php'],
-                ['title' => 'Rishyap', 'url' => BASE_URL . '/pages/destinations/north-bengal/rishyap.php'],
-                ['title' => 'Latpanchar', 'url' => BASE_URL . '/pages/destinations/north-bengal/latpanchar.php'],
-                ['title' => 'Suntalekhola', 'url' => BASE_URL . '/pages/destinations/north-bengal/suntalekhola.php'],
-            ],
             'pills-asia' => [
                 ['title' => 'Gangtok', 'url' => BASE_URL . '/pages/destinations/sikkim/gangtok-experiences.php'],
                 ['title' => 'Pelling', 'url' => BASE_URL . '/pages/destinations/sikkim/pelling-experiences.php'],
@@ -110,6 +96,20 @@
                 ['title' => 'Nathula Pass', 'url' => BASE_URL . '/pages/destinations/sikkim/nathula-experiences.php'],
                 ['title' => 'North Sikkim Tours', 'url' => BASE_URL . '/pages/destinations/sikkim/north-sikkim-tours.php'],
                 ['title' => 'South Sikkim Tours', 'url' => BASE_URL . '/pages/destinations/sikkim/south-sikkim-tours.php'],
+            ],
+            'pills-europe' => [
+                ['title' => 'Darjeeling', 'url' => BASE_URL . '/pages/destinations/north-bengal/darjeeling.php'],
+                ['title' => 'Mirik', 'url' => BASE_URL . '/pages/destinations/north-bengal/mirik.php'],
+                ['title' => 'Kurseong', 'url' => BASE_URL . '/pages/destinations/north-bengal/kurseong.php'],
+                ['title' => 'Lava', 'url' => BASE_URL . '/pages/destinations/north-bengal/lava.php'],
+                ['title' => 'Lolegaon', 'url' => BASE_URL . '/pages/destinations/north-bengal/lolegaon.php'],
+                ['title' => 'Sandakphu', 'url' => BASE_URL . '/pages/destinations/north-bengal/sandakphu.php'],
+                ['title' => 'Takdah', 'url' => BASE_URL . '/pages/destinations/north-bengal/takdah.php'],
+                ['title' => 'Tinchuley', 'url' => BASE_URL . '/pages/destinations/north-bengal/tinchuley.php'],
+                ['title' => 'Lepchajagat', 'url' => BASE_URL . '/pages/destinations/north-bengal/lepchajagat.php'],
+                ['title' => 'Rishyap', 'url' => BASE_URL . '/pages/destinations/north-bengal/rishyap.php'],
+                ['title' => 'Latpanchar', 'url' => BASE_URL . '/pages/destinations/north-bengal/latpanchar.php'],
+                ['title' => 'Suntalekhola', 'url' => BASE_URL . '/pages/destinations/north-bengal/suntalekhola.php'],
             ],
             'pills-middle-east' => [
                 ['title' => 'North Bengal Experiences', 'url' => BASE_URL . '/pages/destinations/north-bengal/north-bengal-experiences.php'],
@@ -173,7 +173,7 @@
 
         <div class="tab-content" id="pills-tabContent">
             <?php foreach ($destination_grid_tabs as $tab_id => $destinations): ?>
-                <div class="tab-pane fade <?= ($tab_id === 'pills-europe') ? 'show active' : '' ?>" id="<?= $tab_id ?>" role="tabpanel" aria-labelledby="<?= $tab_id ?>-tab">
+                <div class="tab-pane fade <?= ($tab_id === 'pills-asia') ? 'show active' : '' ?>" id="<?= $tab_id ?>" role="tabpanel" aria-labelledby="<?= $tab_id ?>-tab">
                     <div class="row gy-md-5 gy-4">
                         <?php foreach ($destinations as $index => $destination): ?>
                             <?php

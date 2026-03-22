@@ -60,7 +60,7 @@
                     <?php echo $category_svg; ?>
                     <select id="passengers" name="passengers" required>
                         <option value="">Passengers</option>
-                        <?php for ($i = 1; $i <= 8; $i++): ?>
+                        <?php for ($i = 1; $i <= 25; $i++): ?>
                             <option value="<?php echo $i; ?>"><?php echo $i; ?><?php echo $i === 1 ? ' passenger' : ' passengers'; ?></option>
                         <?php endfor; ?>
                     </select>
